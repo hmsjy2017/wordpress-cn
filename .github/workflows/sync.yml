@@ -21,6 +21,7 @@ jobs:
         unzip latest-zh_CN.zip
         mv ./wordpress/* ./
         rm -rf wordpress latest-zh_CN.zip*
+        date > update-date.txt
         
     - name: Upload
       run: |
