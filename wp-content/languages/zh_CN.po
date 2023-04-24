@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-22 17:37:32+0000\n"
+"PO-Revision-Date: 2023-04-23 22:48:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +26,7 @@ msgstr "Noto Serif:400,400i,700,700i"
 #, gp-priority: high
 msgctxt "Comment number declension: on or off"
 msgid "off"
-msgstr "off"
+msgstr "关 / 关闭"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -284,6 +284,38 @@ msgstr "1月"
 #, gp-priority: high
 msgid "Uncategorized"
 msgstr "未分类"
+
+#: wp-includes/block-template-utils.php:178
+msgid "Displays when a visitor views a non-existent page, such as a dead link or a mistyped URL."
+msgstr "当访客查看不存在的页面（例如失效链接或者输入有误的 URL）时显示。"
+
+#: wp-includes/block-template-utils.php:174
+msgid "Displays your site's Privacy Policy page."
+msgstr "显示站点的隐私政策页面。"
+
+#: wp-includes/block-template-utils.php:170
+msgid "Displays when a visitor performs a search on your website."
+msgstr "当访客在您网站上执行搜索时显示。"
+
+#: wp-includes/block-template-utils.php:166
+msgid "Displays when a visitor views the dedicated page that exists for any media attachment."
+msgstr "当访客查看存在的媒体附件的专用页面时显示。"
+
+#: wp-includes/block-template-utils.php:162
+msgid "Displays a post tag archive. This template will serve as a fallback when a more specific template (e.g., Tag: Pizza) cannot be found."
+msgstr "显示文章标签存档。 此模板将作为备用模板，在找不到具体的标签（例如，标签：披萨）模板时使用。"
+
+#: wp-includes/block-template-utils.php:158
+msgid "Displays a post archive when a specific date is visited (e.g., example.com/2023/)."
+msgstr "显示特定日期的文章存档（例如，example.com/2023/）。"
+
+#: wp-includes/block-template-utils.php:154
+msgid "Displays a custom taxonomy archive. Like categories and tags, taxonomies have terms which you use to classify things. For example: a taxonomy named \"Art\" can have multiple terms, such as \"Modern\" and \"18th Century.\" This template will serve as a fallback when a more specific template (e.g, Taxonomy: Art) cannot be found."
+msgstr "显示一个自定义的分类法档案。像类别和标签一样，分类法有你用来对事物进行分类的术语。例如：一个名为 \"艺术 \"的分类法可以有多个术语，如 \"现代 \"和 \"18世纪\"。当找不到更具体的模板（如Taxonomy: Art）时，这个模板将作为一个后备模板。"
+
+#: wp-includes/block-template-utils.php:138
+msgid "Display all static pages unless a custom template has been applied or a dedicated template exists."
+msgstr "显示所有的静态页面，除非已经应用了自定义模板或存在专用模板。"
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block description"
@@ -3492,7 +3524,7 @@ msgstr "（首页链接，在新标签页中打开）"
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize,
 #. lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
-#: wp-includes/blocks.php:1218
+#: wp-includes/blocks.php:1222
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "区块“%1$s”正在 %4$s 下的 %3$s 文件中声明 %2$s 支持。现在，%2$s 支持被声明在 %5$s 下。"
 
@@ -10621,7 +10653,7 @@ msgstr "您好，%s"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-nav-menu-location-control.php:86
-#: wp-admin/nav-menus.php:811
+#: wp-admin/nav-menus.php:814
 msgid "Edit selected menu"
 msgstr "编辑选中的菜单"
 
@@ -11765,7 +11797,7 @@ msgstr "隐藏密码"
 msgid "Show password"
 msgstr "显示密码"
 
-#: wp-includes/class-wp-customize-nav-menus.php:513 wp-admin/nav-menus.php:1011
+#: wp-includes/class-wp-customize-nav-menus.php:513 wp-admin/nav-menus.php:1014
 msgid "Menu Name"
 msgstr "菜单名称"
 
@@ -12189,44 +12221,44 @@ msgid "This panel is used for managing navigation menus for content you have alr
 msgstr "这个面板被用来管理您的站点上已发布内容的导航菜单。您可以创建菜单及添加项目到已存在的内容，如页面、文章、分类、标签、格式及自定义链接。"
 
 #. translators: 1: Item name, 2: Item position, 3: Parent item name.
-#: wp-includes/class-wp-customize-nav-menus.php:568 wp-admin/nav-menus.php:513
+#: wp-includes/class-wp-customize-nav-menus.php:568 wp-admin/nav-menus.php:516
 msgid "%1$s. Sub item number %2$d under %3$s."
 msgstr "%1$s。%3$s菜单中的第%2$d项。"
 
 #. translators: 1: Item name, 2: Item position, 3: Total number of items.
-#: wp-includes/class-wp-customize-nav-menus.php:566 wp-admin/nav-menus.php:511
+#: wp-includes/class-wp-customize-nav-menus.php:566 wp-admin/nav-menus.php:514
 msgid "%1$s. Menu item %2$d of %3$d."
 msgstr "%1$s。%3$s个菜单项之%2$s。"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:564 wp-admin/nav-menus.php:509
+#: wp-includes/class-wp-customize-nav-menus.php:564 wp-admin/nav-menus.php:512
 msgid "Out from under %s"
 msgstr "%s之外"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:562 wp-admin/nav-menus.php:507
+#: wp-includes/class-wp-customize-nav-menus.php:562 wp-admin/nav-menus.php:510
 msgid "Under %s"
 msgstr "%s下"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:560 wp-admin/nav-menus.php:505
+#: wp-includes/class-wp-customize-nav-menus.php:560 wp-admin/nav-menus.php:508
 msgid "Move out from under %s"
 msgstr "从%s移出"
 
 #. translators: %s: Previous item name.
-#: wp-includes/class-wp-customize-nav-menus.php:558 wp-admin/nav-menus.php:503
+#: wp-includes/class-wp-customize-nav-menus.php:558 wp-admin/nav-menus.php:506
 msgid "Move under %s"
 msgstr "移至%s下"
 
-#: wp-includes/class-wp-customize-nav-menus.php:556 wp-admin/nav-menus.php:501
+#: wp-includes/class-wp-customize-nav-menus.php:556 wp-admin/nav-menus.php:504
 msgid "Move to the top"
 msgstr "移动至顶端"
 
-#: wp-includes/class-wp-customize-nav-menus.php:555 wp-admin/nav-menus.php:500
+#: wp-includes/class-wp-customize-nav-menus.php:555 wp-admin/nav-menus.php:503
 msgid "Move down one"
 msgstr "下移一项"
 
-#: wp-includes/class-wp-customize-nav-menus.php:554 wp-admin/nav-menus.php:499
+#: wp-includes/class-wp-customize-nav-menus.php:554 wp-admin/nav-menus.php:502
 msgid "Move up one"
 msgstr "上移一项"
 
@@ -12256,19 +12288,19 @@ msgstr "%s（待定）"
 msgid "%s (Invalid)"
 msgstr "%s（无效）"
 
-#: wp-includes/class-wp-customize-nav-menus.php:522 wp-admin/nav-menus.php:524
+#: wp-includes/class-wp-customize-nav-menus.php:522 wp-admin/nav-menus.php:527
 msgid "Menu item is now a sub-item"
 msgstr "菜单项已是子项目"
 
-#: wp-includes/class-wp-customize-nav-menus.php:521 wp-admin/nav-menus.php:523
+#: wp-includes/class-wp-customize-nav-menus.php:521 wp-admin/nav-menus.php:526
 msgid "Menu item moved out of submenu"
 msgstr "菜单项已移动至子菜单外"
 
-#: wp-includes/class-wp-customize-nav-menus.php:520 wp-admin/nav-menus.php:521
+#: wp-includes/class-wp-customize-nav-menus.php:520 wp-admin/nav-menus.php:524
 msgid "Menu item moved down"
 msgstr "菜单项已下移"
 
-#: wp-includes/class-wp-customize-nav-menus.php:519 wp-admin/nav-menus.php:520
+#: wp-includes/class-wp-customize-nav-menus.php:519 wp-admin/nav-menus.php:523
 msgid "Menu item moved up"
 msgstr "菜单项已上移"
 
@@ -12284,7 +12316,7 @@ msgstr "菜单已创建"
 msgid "Menu item deleted"
 msgstr "菜单项已删除"
 
-#: wp-includes/class-wp-customize-nav-menus.php:515 wp-admin/nav-menus.php:518
+#: wp-includes/class-wp-customize-nav-menus.php:515 wp-admin/nav-menus.php:521
 msgid "Menu item added"
 msgstr "菜单项已添加"
 
@@ -12296,7 +12328,7 @@ msgid "Home"
 msgstr "首页"
 
 #: wp-includes/customize/class-wp-customize-new-menu-control.php:59
-#: wp-admin/nav-menus.php:1014 wp-admin/nav-menus.php:1179
+#: wp-admin/nav-menus.php:1017 wp-admin/nav-menus.php:1182
 msgid "Create Menu"
 msgstr "创建菜单"
 
@@ -12339,7 +12371,7 @@ msgid "Navigation Label"
 msgstr "导航标签"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-auto-add-control.php:46
-#: wp-admin/nav-menus.php:1106
+#: wp-admin/nav-menus.php:1109
 msgid "Automatically add new top-level pages to this menu"
 msgstr "自动将新的顶级页面添加至此菜单"
 
@@ -12349,7 +12381,7 @@ msgid "Menu Location"
 msgstr "菜单位置"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1106
-#: wp-admin/nav-menus.php:1173
+#: wp-admin/nav-menus.php:1176
 msgid "Delete Menu"
 msgstr "删除菜单"
 
@@ -15015,7 +15047,7 @@ msgstr "自定义：%s"
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:190 wp-admin/export.php:223
 #: wp-admin/export.php:228 wp-admin/export.php:275 wp-admin/export.php:280
 #: wp-admin/export.php:320 wp-admin/export.php:325
-#: wp-admin/includes/template.php:746 wp-admin/nav-menus.php:896
+#: wp-admin/includes/template.php:746 wp-admin/nav-menus.php:899
 #: wp-admin/options-privacy.php:296 wp-admin/options-reading.php:121
 #: wp-admin/options-reading.php:138 wp-admin/widgets-form.php:317
 msgid "&mdash; Select &mdash;"
@@ -16269,7 +16301,7 @@ msgstr "《%s》 有 1 条评论"
 #: wp-includes/class-wp-customize-nav-menus.php:673
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:113
 #: wp-includes/js/dist/block-library.js:30361 wp-admin/menu.php:228
-#: wp-admin/nav-menus.php:694
+#: wp-admin/nav-menus.php:32 wp-admin/nav-menus.php:697
 msgid "Menus"
 msgstr "菜单"
 
@@ -18386,7 +18418,7 @@ msgstr "新建页面"
 #: wp-includes/media.php:4585 wp-includes/js/dist/block-editor.js:50925
 #: wp-includes/js/dist/block-library.js:56830
 #: wp-includes/js/dist/editor.js:5967 wp-admin/includes/template.php:2052
-#: wp-admin/nav-menus.php:936 wp-admin/plugin-editor.php:238
+#: wp-admin/nav-menus.php:939 wp-admin/plugin-editor.php:238
 #: wp-admin/theme-editor.php:244
 msgid "Select"
 msgstr "选择"
@@ -18815,7 +18847,7 @@ msgstr "内容"
 #: wp-admin/includes/media.php:1733 wp-admin/includes/media.php:2272
 #: wp-admin/includes/meta-boxes.php:166 wp-admin/includes/meta-boxes.php:224
 #: wp-admin/includes/template.php:510 wp-admin/includes/template.php:759
-#: wp-admin/includes/template.php:895 wp-admin/nav-menus.php:1154
+#: wp-admin/includes/template.php:895 wp-admin/nav-menus.php:1157
 #: wp-admin/options-general.php:149 wp-admin/user-edit.php:540
 #: wp-admin/user-edit.php:655 wp-admin/widgets-form.php:337
 #: wp-admin/widgets-form.php:340 wp-admin/widgets-form.php:558
