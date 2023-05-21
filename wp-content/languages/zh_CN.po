@@ -10272,7 +10272,7 @@ msgstr "文章属性"
 msgid "Attachment Attributes"
 msgstr "附件属性"
 
-#: wp-includes/post.php:171 wp-includes/post.php:172 wp-admin/about.php:201
+#: wp-includes/post.php:171 wp-includes/post.php:172 wp-admin/about.php:227
 msgid "Custom CSS"
 msgstr "自定义CSS"
 
