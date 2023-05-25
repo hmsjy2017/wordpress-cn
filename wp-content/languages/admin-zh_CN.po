@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-26 03:34:37+0000\n"
+"PO-Revision-Date: 2023-05-24 10:05:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,6 +70,54 @@ msgstr "<a href=\"https://cn.wordpress.org/support/forums/\">支持论坛</a>"
 msgid "<a href=\"https://wordpress.org/documentation/article/appearance-widgets-screen-classic-editor/\">Documentation on Widgets</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/appearance-widgets-screen/\">小工具文档</a>"
 
+#: wp-admin/users.php:63
+msgid "<strong>View</strong> takes you to a public author archive which lists all the posts published by the user."
+msgstr "<strong>视图</strong> 带您前往一个公开的作者归档页面，其中列出了由此用户发表的全部文章。"
+
+#: wp-admin/upload.php:337
+msgid "<strong>Download file</strong> downloads the original media file to your device."
+msgstr "<strong>下载文件</strong> 将下载原始媒体文件到您的设备上。"
+
+#: wp-admin/site-editor.php:32
+msgctxt "site editor title tag"
+msgid "Editor"
+msgstr "编辑器"
+
+#: wp-admin/plugins.php:583 wp-admin/themes.php:202
+#: wp-admin/update-core.php:1011 wp-admin/network/themes.php:319
+msgid "<a href=\"https://wordpress.org/documentation/article/plugins-themes-auto-updates/\">Documentation on Auto-updates</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/plugins-themes-auto-updates/\">关于自动更新的文档</a>"
+
+#: wp-admin/options-general.php:424
+msgid "<a href=\"https://wordpress.org/documentation/article/customize-date-and-time-format/\">Documentation on date and time formatting</a>."
+msgstr "<a href=\"https://wordpress.org/documentation/article/customize-date-and-time-format/\">关于日期和时间格式的文档</a>。"
+
+#: wp-admin/options-general.php:46 wp-admin/network/settings.php:56
+msgid "You can set the language, and WordPress will automatically download and install the translation files (available if your filesystem is writable)."
+msgstr "您可以设置语言，WordPress 将会自动下载并安装翻译文件（如果您的文件系统可写）。"
+
+#: wp-admin/options-general.php:43
+msgid "If you want site visitors to be able to register themselves, check the membership box. If you want the site administrator to register every new user, leave the box unchecked. In either case, you can set a default user role for all new users."
+msgstr "如果您希望站点的访问者能够自行注册账号，请勾选“成员资格”复选框。如果您希望站点管理员来注册每一个新用户，请将此复选框留空。无论是哪种情况，您都可以为所有新用户设置默认的用户角色。"
+
+#. translators: 1: http://, 2: https:
+#: wp-admin/options-general.php:39
+msgid "Both WordPress URL and site URL can start with either %1$s or %2$s. A URL starting with %2$s requires an SSL certificate, so be sure that you have one before changing to %2$s. With %2$s, a padlock will appear next to the address in the browser address bar. Both %2$s and the padlock signal that your site meets some basic security requirements, which can build trust with your visitors and with search engines."
+msgstr "WordPress URL 和站点 URL 都可以以 %1$s 或 %2$s 开头。以 %2$s 开头的 URL 要求 SSL 证书，请确保您在将开头变更为 %2$s 之前，已经安装了对应该地址的 SSL 证书。以 %2$s 开头的 URL，会在浏览器地址栏靠近地址的地方显示一个锁头图标。%2$s 和锁头图标都表明您的站点已经满足了一些基本的安全要求，意味着您的访客和搜索引擎都可以与您的站点建立可信连接。"
+
+#. translators: %s: Documentation URL.
+#: wp-admin/options-general.php:34
+msgid "Though the terms refer to two different concepts, in practice, they can be the same address or different. For example, you can have the core WordPress installation files in the root directory (<code>https://example.com</code>), in which case the two URLs would be the same. Or the <a href=\"%s\">WordPress files can be in a subdirectory</a> (<code>https://example.com/wordpress</code>). In that case, the WordPress URL and the site URL would be different."
+msgstr "尽管这两个项目代表了两个不同的概念，但在实践中它们可以是同一个地址也可以是不同的地址。例如，您可以将 WordPress 核心安装文件放在根目录中（<code>https://example.com</code>），在这种情况下两个 URL 将会保持一致。或者<a href=\"%s\">WordPress 也可以在子目录中</a>（<code>https://example.com/wordpress</code>）。在这种情况下，WordPress URL 和站点 URL 将会不同。"
+
+#: wp-admin/options-general.php:31
+msgid "Two terms you will want to know are the WordPress URL and the site URL. The WordPress URL is where the core WordPress installation files are, and the site URL is the address a visitor uses in the browser to go to your site."
+msgstr "您需要了解的两个概念是 WordPress URL 与站点 URL。WordPress URL 是 WordPress 核心安装文件的位置，而站点 URL 是当访客访问您站点时候使用的地址。"
+
+#: wp-admin/options-discussion.php:324
+msgid "RoboHash (Generated)"
+msgstr "RoboHash（自动生成）"
+
 #: wp-admin/menu.php:206
 msgctxt "site editor menu item"
 msgid "Editor"
@@ -79,6 +127,36 @@ msgstr "编辑"
 #: wp-admin/includes/meta-boxes.php:847
 msgid "Allow <a href=\"%s\">trackbacks and pingbacks</a>"
 msgstr "允许<a href=\"%s\">Trackback和Pingback</a>"
+
+#: wp-admin/includes/meta-boxes.php:824
+msgid "https://wordpress.org/documentation/article/assign-custom-fields/"
+msgstr "https://wordpress.org/documentation/article/assign-custom-fields/"
+
+#: wp-admin/includes/meta-boxes.php:749
+msgid "https://wordpress.org/documentation/article/what-is-an-excerpt-classic-editor/"
+msgstr "https://wordpress.org/documentation/article/what-is-an-excerpt-classic-editor/"
+
+#. translators: %s: The function name.
+#: wp-admin/includes/file.php:2660
+msgid "%s expects a non-empty string."
+msgstr "%s 必须是一个非空的字符串。"
+
+#: wp-admin/includes/file.php:1989
+msgid "The destination directory already exists and could not be removed."
+msgstr "目标目录已经存在且无法移除。"
+
+#: wp-admin/includes/file.php:1986
+msgid "The destination folder already exists."
+msgstr "目标目录已存在。"
+
+#: wp-admin/includes/file.php:1981
+msgid "The source and destination are the same."
+msgstr "来源和目标相同。"
+
+#: wp-admin/includes/file.php:326 wp-admin/plugin-editor.php:299
+#: wp-admin/setup-config.php:474 wp-admin/theme-editor.php:329
+msgid "https://wordpress.org/documentation/article/changing-file-permissions/"
+msgstr "https://wordpress.org/documentation/article/changing-file-permissions/"
 
 #: wp-admin/about.php:140
 msgid "Manage your menu in more ways with the Navigation block"
