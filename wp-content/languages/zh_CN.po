@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-09 10:10:43+0000\n"
+"PO-Revision-Date: 2023-08-10 09:40:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -378,6 +378,10 @@ msgstr "尾页"
 msgid "Page"
 msgstr "页面"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-navigation-fallback-controller.php:108
+msgid "No fallback menu found."
+msgstr "未找到回退菜单。"
+
 #: wp-includes/block-template-utils.php:169
 msgctxt "Template name"
 msgid "Search Results"
@@ -403,9 +407,37 @@ msgstr "当访客查看存在的媒体附件的专用页面时显示。"
 msgid "Displays a post archive when a specific date is visited (e.g., example.com/2023/)."
 msgstr "显示特定日期的文章存档（例如，example.com/2023/）。"
 
+#: wp-includes/block-template-utils.php:162
+msgid "Displays a post tag archive. This template will serve as a fallback when a more specific template (e.g. Tag: Pizza) cannot be found."
+msgstr "显示文章标签归档。 此模板将在找不到具体的标签（例如，标签：披萨）模板时作为回退使用。"
+
+#: wp-includes/block-template-utils.php:154
+msgid "Displays a custom taxonomy archive. Like categories and tags, taxonomies have terms which you use to classify things. For example: a taxonomy named \"Art\" can have multiple terms, such as \"Modern\" and \"18th Century.\" This template will serve as a fallback when a more specific template (e.g. Taxonomy: Art) cannot be found."
+msgstr "显示自定义分类法归档。 与分类和标签一样，分类法也有用于对事物进行分类的术语。 例如：名为”艺术“的分类法可以包含多个项目，比如“现代艺术”和“18 世纪艺术”。 此模板将在找不到更具体的模板（例如，分类法：艺术）时作为回退使用。"
+
 #: wp-includes/block-template-utils.php:138
 msgid "Display all static pages unless a custom template has been applied or a dedicated template exists."
 msgstr "显示所有的静态页面，除非已经应用了自定义模板或存在专用模板。"
+
+#: wp-includes/block-template-utils.php:150
+msgid "Displays a post category archive. This template will serve as a fallback when a more specific template (e.g. Category: Recipes) cannot be found."
+msgstr "显示文章分类归档。此模板将在找不到更具体的模板（例如，分类：食谱）时作为回退使用。"
+
+#: wp-includes/block-template-utils.php:146
+msgid "Displays a single author's post archive. This template will serve as a fallback when a more specific template (e.g. Author: Admin) cannot be found."
+msgstr "显示单个作者的文章归档。此模板将在找不到更具体的模板（例如，作者：管理员）时作为回退使用。"
+
+#: wp-includes/block-template-utils.php:142
+msgid "Displays any archive, including posts by a single author, category, tag, taxonomy, custom post type, and date. This template will serve as a fallback when more specific templates (e.g. Category or Tag) cannot be found."
+msgstr "显示任何归档，包括单个作者的文章、分类、标签、分类法、自定义文章类型和日期。 此模板将在找不到更具体的模板（例如，分类或标签）时作为回退使用。"
+
+#: wp-includes/block-template-utils.php:130
+msgid "Displays any single entry, such as a post or a page. This template will serve as a fallback when a more specific template (e.g. Single Post, Page, or Attachment) cannot be found."
+msgstr "显示任意单个条目，例如文章或页面。 此模板将在找不到更具体的模板（例如，单个文章、页面或附件）时作为回退使用。"
+
+#: wp-includes/block-template-utils.php:118
+msgid "Used as a fallback template for all pages when a more specific template is not defined."
+msgstr "用于未定义更具体的模板时所有页面的回退模板。"
 
 #: wp-includes/blocks/post-author-name/block.json
 msgctxt "block title"
@@ -416,6 +448,10 @@ msgstr "文章作者名称"
 msgctxt "block description"
 msgid "The author name."
 msgstr "作者名称。"
+
+#: wp-includes/js/dist/edit-site.js:13754 wp-admin/includes/theme.php:340
+msgid "Style Variations"
+msgstr "样式变体"
 
 #: wp-includes/js/dist/block-editor.js:40489
 #: wp-includes/js/dist/block-editor.js:57426 wp-admin/widgets-form.php:300
@@ -431,24 +467,153 @@ msgstr "请检查 PHP 扩展 %s 已安装并启用。"
 msgid "Invalid attribute name."
 msgstr "属性名称无效。"
 
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1535
+msgid "Unknown bookmark name."
+msgstr "未知书签名称。"
+
 #: wp-includes/media-template.php:564
 #: wp-admin/includes/class-wp-media-list-table.php:837
 #: wp-admin/includes/media.php:3357
 msgid "Download file"
 msgstr "下载文件"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php:150
+msgid "The category description, in human readable format."
+msgstr "采用人类可读的格式的分类描述。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2901
+msgid "Array of column names to be searched."
+msgstr "需要搜索的栏位名称组。"
+
+#: wp-includes/comment.php:3504
+msgid "Sorry, replies to unapproved comments are not allowed."
+msgstr "对不起，不允许回复待审阅的留言。"
+
+#. translators: %s: A list of placeholders found to be a problem.
+#: wp-includes/class-wpdb.php:1699
+msgid "Arguments cannot be prepared as both an Identifier and Value. Found the following conflicts: %s"
+msgstr "参数不能同时作为标识符和值。发现以下冲突：%s"
+
 #: wp-includes/class-wp-image-editor-imagick.php:559
 msgid "The image already has the requested size."
 msgstr "该图片已经具有了要求的尺寸。"
+
+#: wp-includes/block-patterns.php:135
+msgid "Different layouts containing video or audio."
+msgstr "包含视频或音频的不同布局。"
 
 #: wp-includes/block-patterns.php:106
 msgctxt "Block pattern category"
 msgid "Contact"
 msgstr "联系方式"
 
+#: wp-includes/admin-bar.php:193
+msgid "https://wordpress.org/documentation/"
+msgstr "https://wordpress.org/documentation/"
+
+#: wp-includes/block-patterns.php:114
+msgid "Introduce yourself."
+msgstr "自我介绍。"
+
+#: wp-includes/block-patterns.php:120
+msgctxt "Block pattern category"
+msgid "Portfolio"
+msgstr "作品集"
+
+#: wp-includes/block-patterns.php:92
+msgctxt "Block pattern category"
+msgid "Testimonials"
+msgstr "客户评价"
+
+#: wp-includes/block-patterns.php:79
+msgid "Sections whose purpose is to trigger a specific action."
+msgstr "用于触发特定操作的部分。"
+
+#: wp-includes/block-patterns.php:100
+msgid "Briefly describe what your business does and how you can help."
+msgstr "简要描述您的业务内容，以及您可以提供哪些帮助。"
+
+#. translators: %s is either the post title or post ID to describe the link for
+#. screen readers.
+#: wp-includes/blocks/read-more.php:32
+msgid ": %s"
+msgstr "：%s"
+
+#: wp-includes/class-wp-customize-manager.php:5698
+msgid "https://wordpress.org/documentation/article/css/"
+msgstr "https://wordpress.org/documentation/article/css/"
+
 #: wp-includes/block-patterns.php:128
 msgid "Different layouts for displaying images."
 msgstr "用于显示图片的不同排版布局。"
+
+#: wp-includes/block-patterns.php:99
+msgctxt "Block pattern category"
+msgid "Services"
+msgstr "服务项目"
+
+#: wp-includes/block-patterns.php:58
+msgid "Patterns containing mostly text."
+msgstr "主要包含文本的样板。"
+
+#: wp-includes/block-patterns.php:78
+msgctxt "Block pattern category"
+msgid "Call to Action"
+msgstr "行动号召"
+
+#: wp-includes/block-patterns.php:65 wp-includes/block-patterns.php:142
+msgid "Display your latest posts in lists, grids or other layouts."
+msgstr "以列表、网格或其他布局显示您的最新文章。"
+
+#: wp-includes/block-patterns.php:86
+msgid "A variety of designs to display your team members."
+msgstr "展示您团队成员的多种设计。"
+
+#: wp-includes/block-patterns.php:72
+msgid "A set of high quality curated patterns."
+msgstr "一套精心挑选的高质量样板。"
+
+#: wp-includes/block-patterns.php:44
+msgid "Patterns that contain buttons and call to actions."
+msgstr "包含按钮和号召性用语的样板。"
+
+#: wp-includes/block-patterns.php:51
+msgid "Multi-column patterns with more complex layouts."
+msgstr "具有更多复杂布局的多列样板。"
+
+#: wp-includes/block-patterns.php:93
+msgid "Share reviews and feedback about your brand/business."
+msgstr "分享有关您品牌或业务的评论和反馈。"
+
+#: wp-includes/block-patterns.php:149
+msgid "A variety of footer designs displaying information and site navigation."
+msgstr "显示站点信息和站点导航的多种页脚设计。"
+
+#: wp-includes/block-patterns.php:156
+msgid "A variety of header designs displaying your site title and navigation."
+msgstr "显示站点标题和站点导航的多种页眉设计。"
+
+#. translators: %d is the post ID.
+#: wp-includes/blocks/post-featured-image.php:39
+msgid "Untitled post %d"
+msgstr "未命名文章 %d"
+
+#. translators: %s is post ID to describe the link for screen readers.
+#: wp-includes/blocks/read-more.php:26
+msgid "untitled post %s"
+msgstr "未命名文章（文章 ID 为 %s）"
+
+#: wp-includes/blocks/tag-cloud.php:31
+msgid "There&#8217;s no content to show here yet."
+msgstr "此处尚没有可显示的内容。"
+
+#: wp-includes/block-patterns.php:121
+msgid "Showcase your latest work."
+msgstr "展示您的最新作品。"
+
+#: wp-includes/block-patterns.php:107
+msgid "Display your contact information."
+msgstr "显示您的联系信息。"
 
 #. translators: %s: plugins_loaded
 #: wp-includes/class-wp-user-query.php:788
@@ -928,6 +1093,11 @@ msgstr "评论者名称"
 msgctxt "block description"
 msgid "Displays the name of the author of the comment."
 msgstr "显示评论者的名称。"
+
+#: wp-includes/blocks/avatar/block.json
+msgctxt "block description"
+msgid "Add a user’s avatar."
+msgstr "添加一个用户的头像。"
 
 #: wp-includes/js/dist/block-library.js:8456 wp-admin/includes/upgrade.php:256
 msgid "A WordPress Commenter"
@@ -2292,6 +2462,11 @@ msgstr "嵌入 %s"
 msgid "PDF embed"
 msgstr "PDF 已嵌入"
 
+#: wp-includes/block-patterns.php:134
+msgctxt "Block pattern category"
+msgid "Media"
+msgstr "媒体"
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1468
 msgid "The date the comment was published, as GMT."
 msgstr "评论发表的 GMT 日期。"
@@ -2425,6 +2600,11 @@ msgstr "描述"
 msgctxt "block title"
 msgid "Site Tagline"
 msgstr "站点副标题"
+
+#: wp-includes/blocks/site-tagline/block.json
+msgctxt "block description"
+msgid "Describe in a few words what the site is about. The tagline can be used in search results or when sharing on social networks even if it’s not displayed in the theme design."
+msgstr "用几句话描述此站点的内容。副标题可以出现在搜索结果中或在社交网络上分享时使用，即使它没有显示在主题设计中。"
 
 #: wp-includes/blocks/site-logo/block.json
 msgctxt "block title"
@@ -3906,6 +4086,16 @@ msgstr "无效的个人数据请求。"
 #: wp-includes/class-wp-fatal-error-handler.php:202
 msgid "Learn more about troubleshooting WordPress."
 msgstr "了解有关对WordPress进行故障排除的更多信息。"
+
+#. translators: Documentation about troubleshooting.
+#: wp-includes/class-wp-fatal-error-handler.php:201
+msgid "https://wordpress.org/documentation/article/faq-troubleshooting/"
+msgstr "https://wordpress.org/documentation/article/faq-troubleshooting/"
+
+#. translators: Documentation explaining HTTPS and why it should be used.
+#: wp-includes/functions.php:8303
+msgid "https://wordpress.org/documentation/article/why-should-i-use-https/"
+msgstr "https://wordpress.org/documentation/article/why-should-i-use-https/"
 
 #: wp-includes/user.php:4574
 msgid "Invalid request status."
@@ -10974,7 +11164,7 @@ msgstr "路由必须被指明。"
 #: wp-includes/script-loader.php:1276 wp-includes/js/dist/block-library.js:5912
 #: wp-includes/js/dist/editor.js:10713
 msgid "(Untitled)"
-msgstr "未命名"
+msgstr "(未命名)"
 
 #. translators: 1: Site name, 2: Separator (raquo), 3: Term name, 4: Taxonomy
 #. singular name.
