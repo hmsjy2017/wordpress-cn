@@ -191,101 +191,101 @@ msgstr "表格按描述排序。"
 msgid "Table ordered hierarchically."
 msgstr "表格按层次排序。"
 
-#: wp-admin/includes/class-wp-site-health.php:2798
+#: wp-admin/includes/class-wp-site-health.php:2790
 msgid "Available disk space"
 msgstr "可用磁盘空间"
 
-#: wp-admin/includes/class-wp-site-health.php:2794
+#: wp-admin/includes/class-wp-site-health.php:2786
 msgid "Plugin and theme temporary backup directory access"
 msgstr "插件和主题临时备份目录访问"
 
 #. translators: 1: wp-content/upgrade, 2: wp-content.
-#: wp-admin/includes/class-wp-site-health.php:2111
+#: wp-admin/includes/class-wp-site-health.php:2103
 msgid "The %1$s directory does not exist, and the server does not have write permissions in %2$s to create it. This directory is used for plugin and theme updates. Please make sure the server has write permissions in %2$s."
 msgstr "%1$s 目录不存在，服务器在 %2$s 中没有创建该目录的写入权限。该目录用于插件和主题更新。请确保服务器在 %2$s 中具有写入权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2108
+#: wp-admin/includes/class-wp-site-health.php:2100
 msgid "The upgrade directory cannot be created"
 msgstr "无法创建升级目录"
 
 #. translators: %s: wp-content/upgrade
-#: wp-admin/includes/class-wp-site-health.php:2100
+#: wp-admin/includes/class-wp-site-health.php:2092
 msgid "The %s directory exists but is not writable. This directory is used for plugin and theme updates. Please make sure the server has write permissions to this directory."
 msgstr "%s 目录存在但不可写。该目录用于插件和主题更新。请确保服务器对此目录有写权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2097
+#: wp-admin/includes/class-wp-site-health.php:2089
 msgid "The upgrade directory exists but is not writable"
 msgstr "升级目录存在但不可写"
 
 #. translators: %s: wp-content/upgrade-temp-backup
-#: wp-admin/includes/class-wp-site-health.php:2089
+#: wp-admin/includes/class-wp-site-health.php:2081
 msgid "The %s directory exists but is not writable. This directory is used to improve the stability of plugin and theme updates. Please make sure the server has write permissions to this directory."
 msgstr "%s目录存在但不可写。该目录用于提高插件和主题更新的稳定性。请确保服务器对此目录有写权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2086
+#: wp-admin/includes/class-wp-site-health.php:2078
 msgid "The temporary backup directory exists but is not writable"
 msgstr "临时备份目录存在但不可写"
 
 #. translators: %s: wp-content/upgrade-temp-backup/themes
-#: wp-admin/includes/class-wp-site-health.php:2078
+#: wp-admin/includes/class-wp-site-health.php:2070
 msgid "The %s directory exists but is not writable. This directory is used to improve the stability of theme updates. Please make sure the server has write permissions to this directory."
 msgstr "%s目录存在但不可写。该目录用于提高主题更新的稳定性。请确保服务器对此目录有写权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2075
+#: wp-admin/includes/class-wp-site-health.php:2067
 msgid "Theme temporary backup directory exists but is not writable"
 msgstr "主题临时备份目录存在但不可写"
 
 #. translators: %s: wp-content/upgrade-temp-backup/plugins
-#: wp-admin/includes/class-wp-site-health.php:2067
+#: wp-admin/includes/class-wp-site-health.php:2059
 msgid "The %s directory exists but is not writable. This directory is used to improve the stability of plugin updates. Please make sure the server has write permissions to this directory."
 msgstr "%s目录存在但不可写。该目录用于提高插件更新的稳定性。请确保服务器对此目录有写权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2064
+#: wp-admin/includes/class-wp-site-health.php:2056
 msgid "Plugin temporary backup directory exists but is not writable"
 msgstr "插件临时备份目录存在但不可写"
 
 #. translators: 1: wp-content/upgrade-temp-backup/plugins, 2:
 #. wp-content/upgrade-temp-backup/themes.
-#: wp-admin/includes/class-wp-site-health.php:2055
+#: wp-admin/includes/class-wp-site-health.php:2047
 msgid "The %1$s and %2$s directories exist but are not writable. These directories are used to improve the stability of plugin updates. Please make sure the server has write permissions to these directories."
 msgstr "%1$s和%2$s目录存在，但不可写。这些目录用于提高插件更新的稳定性。请确保服务器对这些目录有写权限。"
 
-#: wp-admin/includes/class-wp-site-health.php:2052
+#: wp-admin/includes/class-wp-site-health.php:2044
 msgid "Plugin and theme temporary backup directories exist but are not writable"
 msgstr "插件和主题临时备份目录存在但不可写"
 
 #. translators: %s: wp-content
-#: wp-admin/includes/class-wp-site-health.php:2034
+#: wp-admin/includes/class-wp-site-health.php:2026
 msgid "The %s directory cannot be located."
 msgstr "找不到%s目录。"
 
 #. translators: %s: wp-content/upgrade-temp-backup
-#: wp-admin/includes/class-wp-site-health.php:2005
+#: wp-admin/includes/class-wp-site-health.php:1997
 msgid "The %s directory used to improve the stability of plugin and theme updates is writable."
 msgstr "用于提高插件和主题更新稳定性的%s目录是可写的。"
 
-#: wp-admin/includes/class-wp-site-health.php:1997
+#: wp-admin/includes/class-wp-site-health.php:1989
 msgid "Plugin and theme temporary backup directory is writable"
 msgstr "插件和主题临时备份目录可写"
 
-#: wp-admin/includes/class-wp-site-health.php:1977
+#: wp-admin/includes/class-wp-site-health.php:1963
 msgid "Could not determine available disk space for updates."
 msgstr "无法确定可用于更新的磁盘空间。"
 
-#: wp-admin/includes/class-wp-site-health.php:1972
+#: wp-admin/includes/class-wp-site-health.php:1966
 msgid "Available disk space is critically low, less than 20 MB available. Proceed with caution, updates may fail."
 msgstr "可用磁盘空间非常低，可用空间不足 20 MB。请谨慎操作，更新可能会失败。"
 
-#: wp-admin/includes/class-wp-site-health.php:1967
+#: wp-admin/includes/class-wp-site-health.php:1969
 msgid "Available disk space is low, less than 100 MB available."
 msgstr "可用磁盘空间较低，可用空间不足 100 MB。"
 
 #. translators: %s: Available disk space in MB or GB.
-#: wp-admin/includes/class-wp-site-health.php:1959
+#: wp-admin/includes/class-wp-site-health.php:1955
 msgid "%s available disk space was detected, update routines can be performed safely."
 msgstr "检测到%s可用磁盘空间，可以安全地执行更新例程。"
 
-#: wp-admin/includes/class-wp-site-health.php:1951
+#: wp-admin/includes/class-wp-site-health.php:1947
 msgid "Disk space available to safely perform updates"
 msgstr "可用于安全执行更新的磁盘空间"
 
@@ -514,131 +514,131 @@ msgid "Be the future of WordPress"
 msgstr "成为 WordPress 的未来"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:252
+#: wp-admin/about.php:283
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive events</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "<a href=\"%1$s\">学习 WordPress</a> 是为 WordPress 新用户和经验丰富的用户提供的免费资源。Learn 包含有关使用 WordPress 中的各种功能的操作视频、用于深入探索主题的<a href=\"%2$s\">互动活动</a>以及用于深入了解 WordPress 特定领域的课程计划。"
 
-#: wp-admin/about.php:228
+#: wp-admin/about.php:259
 msgid "Create unique patterns to jumpstart template creation with a new modal enabling access to pattern selection."
 msgstr "创建独特的模式，通过允许访问模式选择的新模式快速启动模板创建。"
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:258
 msgid "Build templates with Patterns"
 msgstr "使用模式构建模板"
 
-#: wp-admin/about.php:217
+#: wp-admin/about.php:248
 msgid "Drag and drop to every content layer and delete any block you would like in the updated List View."
 msgstr "拖放到每个内容层，然后在更新的列表视图中删除您想要的任何区块。"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:247
 msgid "List View improvements"
 msgstr "列表视图改进"
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:236
 msgid "A revamped top toolbar offers parent selectors for nested blocks, options when selecting multiple blocks, and a new interface embedded into the title bar with new functionality in mind."
 msgstr "改进后的顶部工具栏提供了嵌套块的父选择器、选择多个区块时的选项以及嵌入到标题栏中的新界面，并考虑了新功能。"
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:235
 msgid "Rediscover the Top Toolbar"
 msgstr "重新发现顶部工具栏"
 
-#: wp-admin/about.php:191
+#: wp-admin/about.php:222
 msgid "Distraction-free designing is now available in the Site Editor."
 msgstr "站点编辑器中现在提供无干扰设计。"
 
-#: wp-admin/about.php:190
+#: wp-admin/about.php:221
 msgid "Build your site distraction-free"
 msgstr "不受干扰地构建您的网站"
 
-#: wp-admin/about.php:181
+#: wp-admin/about.php:212
 msgid "Specify your aspect ratios and ensure design integrity, especially when using images in patterns."
 msgstr "指定纵横比并确保设计完整性，尤其是在图案中使用图像时。"
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:211
 msgid "Set aspect ratio on images"
 msgstr "设置图像的纵横比"
 
-#: wp-admin/about.php:171
+#: wp-admin/about.php:202
 msgid "Experience block themes before you switch and preview the Site Editor, with options to customize directly before committing to a new theme."
 msgstr "在切换和预览站点编辑器之前体验区块主题，并提供在提交新主题之前直接自定义的选项。"
 
-#: wp-admin/about.php:170
+#: wp-admin/about.php:201
 msgid "Preview block themes"
 msgstr "预览区块主题"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:187
 msgid "Incorporating more than 50 accessibility improvements across the platform, WordPress 6.3 is more accessible than ever. Improved labeling, optimized tab and arrow-key navigation, revised heading hierarchy, and new controls in the admin image editor allow those using assistive technologies to navigate more easily."
 msgstr "WordPress 6.3 在整个平台上融入了 50 多项可访问性改进，比以往任何时候都更容易访问。改进的标签、优化的选项卡和箭头键导航、修订的标题层次结构以及管理图像编辑器中的新控件使使用辅助技术的用户可以更轻松地导航。"
 
-#: wp-admin/about.php:155
+#: wp-admin/about.php:186
 msgid "Accessibility remains a core focus"
 msgstr "无障碍仍然是核心焦点"
 
-#: wp-admin/about.php:146
+#: wp-admin/about.php:177
 msgid "WordPress 6.3 has 170+ performance updates, including defer and async support for the Scripts API and fetchpriority support for images. These improvements can improve your website&#8217;s load time as perceived by visitors, along with block template resolution, image lazy-loading, and the emoji loader."
 msgstr "WordPress 6.3 具有 170 多项性能更新，包括对脚本 API 的延迟和异步支持以及对图像的 fetchpriority 支持。这些改进可以缩短访问者感知到的网站加载时间，以及区块模板分辨率、图像延迟加载和表情符号加载器。"
 
-#: wp-admin/about.php:145
+#: wp-admin/about.php:176
 msgid "Performance gets a boost"
 msgstr "性能得到提升"
 
-#: wp-admin/about.php:131
+#: wp-admin/about.php:162
 msgid "Use the block to avoid spoiling a surprise, create an interactive Q&A section, or hide a long paragraph under a heading."
 msgstr "使用该区块可以避免破坏惊喜，创建交互式问答部分，或在标题下隐藏长段落。"
 
-#: wp-admin/about.php:130
+#: wp-admin/about.php:161
 msgid "Show or hide content with the Details block"
 msgstr "使用详细信息区块显示或隐藏内容"
 
-#: wp-admin/about.php:124
+#: wp-admin/about.php:155
 msgid "Footnotes add convenient annotations throughout your content. Now you can add and link footnotes for any paragraph."
 msgstr "脚注在整个内容中添加方便的注释。现在您可以为任何段落添加和链接脚注。"
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:154
 msgid "Annotate with the Footnotes block"
 msgstr "使用脚注区块进行注释"
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:148
 msgid "You can now see how your site looked at a specific time. Visualize these revisions in a timeline and access a one-click option to restore prior styles."
 msgstr "您现在可以查看您的网站在特定时间的外观。在时间轴中可视化这些修订并访问一键选项来恢复以前的样式。"
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:147
 msgid "Track design changes with Style Revisions"
 msgstr "通过样式修订跟踪设计变更"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:133
 msgid "New design controls bring more versatility for fine-tuning designs, starting with the ability to customize your caption&#8217;s styles from the Styles Interface without coding. You can manage your duotone filters in Styles for supported blocks and pick from the options provided by your theme or disable them entirely. The Cover block gets added settings for text color, layout controls, and border options, making this powerful block even more handy."
 msgstr "新的设计控件为微调设计带来了更多的多功能性，首先是无需编码即可从样式界面自定义标题样式的能力。您可以在支持的块的样式中管理双色调过滤器，并从主题提供的选项中进行选择或完全禁用它们。封面区块添加了文本颜色、布局控件和边框选项的设置，使这个功能强大的区块更加方便。"
 
-#: wp-admin/about.php:101
+#: wp-admin/about.php:132
 msgid "Sharpen your designs with new tools"
 msgstr "使用新工具锐化您的设计"
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:126
 msgid "Switch to a specific template or open your editor preferences with a new tool that helps you quickly navigate expanded functionality. With simple keyboard shortcuts (⌘+k on Mac or Ctrl+k on Windows), clicking the sidebar search icon in Site View, or clicking the Title Bar, get where you need to go and do what you need to do in seconds."
 msgstr "切换到特定模板或使用新工具打开编辑器首选项，帮助您快速导航扩展功能。使用简单的键盘快捷键（Mac 上的 ⌘+k 或 Windows 上的 Ctrl+k），单击站点视图中的侧边栏搜索图标，或单击标题栏，即可在几秒钟内到达您需要去的地方并完成您需要做的事情。"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:125
 msgid "Work faster with the Command Palette"
 msgstr "使用命令面板更快地工作"
 
-#: wp-admin/about.php:78
+#: wp-admin/about.php:109
 msgid "Arrange blocks in unlimited ways and save them as Patterns for use throughout your site. You can even specify whether to sync your patterns (previously referred to as “reusable blocks”) so that one change applies to all parts of your site. Or, utilize patterns as a starting point with the ability to customize each instance."
 msgstr "排列区块不再受到限制，并可以将多个区块存储为可在网站中重复使用的区块版面配置。您甚至可以指定是否同步您的模式（以前​​称为“可重用块”），以便一项更改适用于站点的所有部分。或者，利用模式作为起点，并能够自定义每个实例。"
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:108
 msgid "Create and sync patterns"
 msgstr "创建并同步模式"
 
-#: wp-admin/about.php:71
+#: wp-admin/about.php:102
 msgid "WordPress 6.3 brings your content, templates, and patterns together in the Site Editor for the first time. Add pages, browse style variations, create synced patterns, and enjoy fine-tuned control over your navigation menus. No more time wasted switching across different site areas—now you can focus on what matters most. Creation to completion, all in one place."
 msgstr "WordPress 6.3 首次将您的内容、模板和模式整合到站点编辑器中。添加页面、浏览样式变化、创建同步模式，并享受对导航菜单的微调控制。不再浪费时间在不同的站点区域之间切换 - 现在您可以专注于最重要的事情。从创作到完成，一切都在一处完成。"
 
-#: wp-admin/about.php:70
+#: wp-admin/about.php:101
 msgid "Do everything in the Site Editor"
 msgstr "在站点编辑器中执行所有操作"
 
-#: wp-admin/about.php:58
+#: wp-admin/about.php:89
 msgid "Create beautiful and compelling websites more efficiently than ever. Whether you want to build an entire site without coding or are a developer looking to customize every detail, WordPress 6.3 has something for you."
 msgstr "比以往更高效地创建美观且引人注目的网站。无论您是想在无需编码的情况下构建整个网站，还是希望自定义每个细节的开发人员，WordPress 6.3 都能满足您的需求。"
 
@@ -790,12 +790,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">定制器文档</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:377
+#: wp-admin/about.php:408
 msgid "https://wordpress.org/download/"
 msgstr "https://cn.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:374
+#: wp-admin/about.php:405
 msgid "This is the final release of WordPress %s"
 msgstr "这是 WordPress %s 的最终版本"
 
@@ -912,150 +912,150 @@ msgstr "您的站点正在运行过时版本的PHP （%s），其很快将不被
 msgid "Your site is running on an outdated version of PHP (%s), which does not receive security updates and soon will not be supported by WordPress. Ensure that PHP is updated on your server as soon as possible. Otherwise you will not be able to upgrade WordPress."
 msgstr "您的站点正在运行过时版本的 PHP （%s），其无法接收安全更新，而且很快将不被 WordPress 所支持。请确保尽快更新您服务器上的 PHP。否则您将无法升级 WordPress。"
 
-#: wp-admin/includes/class-wp-site-health.php:2851
+#: wp-admin/includes/class-wp-site-health.php:2843
 msgid "Persistent object cache"
 msgstr "持久对象缓存"
 
-#: wp-admin/includes/class-wp-site-health.php:2844
+#: wp-admin/includes/class-wp-site-health.php:2836
 msgid "Page cache"
 msgstr "页面缓存"
 
-#: wp-admin/includes/class-wp-site-health.php:2696
+#: wp-admin/includes/class-wp-site-health.php:2688
 msgid "You should use a persistent object cache"
 msgstr "您应该使用持久对象缓存"
 
 #. translators: Available object caching services.
-#: wp-admin/includes/class-wp-site-health.php:2675
+#: wp-admin/includes/class-wp-site-health.php:2667
 msgid "Your host appears to support the following object caching services: %s."
 msgstr "您的主机似乎支持下列对象缓存服务：%s。"
 
-#: wp-admin/includes/class-wp-site-health.php:2670
+#: wp-admin/includes/class-wp-site-health.php:2662
 msgid "Your hosting provider can tell you if a persistent object cache can be enabled on your site."
 msgstr "您的主机提供商可以告诉您是否可以在您的站点上启用持久对象存储。"
 
-#: wp-admin/includes/class-wp-site-health.php:2663
+#: wp-admin/includes/class-wp-site-health.php:2655
 msgid "A persistent object cache is not required"
 msgstr "持久对象缓存不是必须的"
 
-#: wp-admin/includes/class-wp-site-health.php:2652
+#: wp-admin/includes/class-wp-site-health.php:2644
 msgid "Learn more about persistent object caching."
 msgstr "了解有关持久对象缓存的更多信息。"
 
-#: wp-admin/includes/class-wp-site-health.php:2647
+#: wp-admin/includes/class-wp-site-health.php:2639
 msgid "A persistent object cache makes your site&#8217;s database more efficient, resulting in faster load times because WordPress can retrieve your site&#8217;s content and settings much more quickly."
 msgstr "持久对象存储可以提升您的站点数据库的执行效率，通过让 WordPress 更快地获取您站点的内容和设置以实现更短的加载时间。"
 
-#: wp-admin/includes/class-wp-site-health.php:2644
+#: wp-admin/includes/class-wp-site-health.php:2636
 msgid "A persistent object cache is being used"
 msgstr "正在使用一个持久对象缓存"
 
 #. translators: Localized Support reference.
-#: wp-admin/includes/class-wp-site-health.php:2634
+#: wp-admin/includes/class-wp-site-health.php:2626
 msgid "https://wordpress.org/documentation/article/optimization/#persistent-object-cache"
 msgstr "https://wordpress.org/documentation/article/optimization/#persistent-object-cache"
 
-#: wp-admin/includes/class-wp-site-health.php:2609
+#: wp-admin/includes/class-wp-site-health.php:2601
 msgid "A page cache plugin was not detected."
 msgstr "未检测到页面缓存插件。"
 
-#: wp-admin/includes/class-wp-site-health.php:2606
+#: wp-admin/includes/class-wp-site-health.php:2598
 msgid "A page cache plugin was detected."
 msgstr "已检测到页面缓存插件。"
 
 #. translators: %d: Number of caching headers.
-#: wp-admin/includes/class-wp-site-health.php:2593
+#: wp-admin/includes/class-wp-site-health.php:2585
 msgid "There was %d client caching response header detected:"
 msgid_plural "There were %d client caching response headers detected:"
 msgstr[0] "检测到 %d 个客户端缓存响应标头："
 
-#: wp-admin/includes/class-wp-site-health.php:2588
+#: wp-admin/includes/class-wp-site-health.php:2580
 msgid "No client caching response headers were detected."
 msgstr "未检测到客户端缓存响应标头。"
 
 #. translators: 1: The response time in milliseconds, 2: The recommended
 #. threshold in milliseconds.
-#: wp-admin/includes/class-wp-site-health.php:2581
+#: wp-admin/includes/class-wp-site-health.php:2573
 msgid "Median server response time was %1$s milliseconds. It should be less than the recommended %2$s milliseconds threshold."
 msgstr "服务器响应时间的中位数是 %1$s 毫秒，其应当小于推荐的 %2$s 毫秒临界值。"
 
 #. translators: 1: The response time in milliseconds, 2: The recommended
 #. threshold in milliseconds.
-#: wp-admin/includes/class-wp-site-health.php:2574
+#: wp-admin/includes/class-wp-site-health.php:2566
 msgid "Median server response time was %1$s milliseconds. This is less than the recommended %2$s milliseconds threshold."
 msgstr "服务器响应时间的中位数是 %1$s 毫秒，小于推荐的 %2$s 毫秒临界值。"
 
-#: wp-admin/includes/class-wp-site-health.php:2567
+#: wp-admin/includes/class-wp-site-health.php:2559
 msgid "Server response time could not be determined. Verify that loopback requests are working."
 msgstr "无法确定服务器响应时间。请确认环回请求是否正常工作。"
 
-#: wp-admin/includes/class-wp-site-health.php:2560
+#: wp-admin/includes/class-wp-site-health.php:2552
 msgid "Page cache is detected but the server response time is still slow"
 msgstr "检测到页面缓存，但服务器响应时间仍然缓慢"
 
-#: wp-admin/includes/class-wp-site-health.php:2558
+#: wp-admin/includes/class-wp-site-health.php:2550
 msgid "Page cache is not detected and the server response time is slow"
 msgstr "未检测到页面缓存，且服务器响应时间缓慢"
 
-#: wp-admin/includes/class-wp-site-health.php:2554
+#: wp-admin/includes/class-wp-site-health.php:2546
 msgid "Page cache is detected and the server response time is good"
 msgstr "检测到页面缓存，并且服务器响应时间良好"
 
-#: wp-admin/includes/class-wp-site-health.php:2551
+#: wp-admin/includes/class-wp-site-health.php:2543
 msgid "Page cache is not detected but the server response time is OK"
 msgstr "未检测到页面缓存，但服务器响应时间正常"
 
 #. translators: 1: Error message, 2: Error code.
-#: wp-admin/includes/class-wp-site-health.php:2539
+#: wp-admin/includes/class-wp-site-health.php:2531
 msgid "Unable to detect page cache due to possible loopback request problem. Please verify that the loopback request test is passing. Error: %1$s (Code: %2$s)"
 msgstr "由于可能的环回请求问题，无法检测页面缓存的是否存在。请确认环回请求测试是否通过。错误：%1$s（代码： %2$s）"
 
-#: wp-admin/includes/class-wp-site-health.php:2535
+#: wp-admin/includes/class-wp-site-health.php:2527
 msgid "Unable to detect the presence of page cache"
 msgstr "无法检测到页面缓存的存在"
 
-#: wp-admin/includes/class-wp-site-health.php:2526
+#: wp-admin/includes/class-wp-site-health.php:2518
 msgid "Learn more about page cache"
 msgstr "了解有关页面缓存的更多信息"
 
-#: wp-admin/includes/class-wp-site-health.php:2525
+#: wp-admin/includes/class-wp-site-health.php:2517
 msgid "https://wordpress.org/documentation/article/optimization/#Caching"
 msgstr "https://wordpress.org/documentation/article/optimization/#Caching"
 
-#: wp-admin/includes/class-wp-site-health.php:2511
+#: wp-admin/includes/class-wp-site-health.php:2503
 msgid "Page cache is detected by looking for an active page cache plugin as well as making three requests to the homepage and looking for one or more of the following HTTP client caching response headers:"
 msgstr "页面缓存会通过查找已启用的页面缓存插件的同时向主页发起三次请求并查找一个或多个下列的 HTTP 客户端响应标头，来确定页面缓存的存在。"
 
-#: wp-admin/includes/class-wp-site-health.php:2510
+#: wp-admin/includes/class-wp-site-health.php:2502
 msgid "Page cache enhances the speed and performance of your site by saving and serving static pages instead of calling for a page every time a user visits."
 msgstr "页面缓存通过保存和提供静态页面使得用户访问时不需要每次都调用页面，进而改善了您站点的速度和性能。"
 
-#: wp-admin/includes/class-wp-site-health.php:2476
+#: wp-admin/includes/class-wp-site-health.php:2468
 msgid "If you are still seeing this warning after having tried the actions below, you may need to contact your hosting provider for further assistance."
 msgstr "如果在尝试了下面的操作之后您仍然看到了这些警告信息，您可能需要联系您的主机提供商以获取进一步的帮助。"
 
-#: wp-admin/includes/class-wp-site-health.php:2459
+#: wp-admin/includes/class-wp-site-health.php:2451
 msgid "The Authorization header is used by third-party applications you have approved for this site. Without this header, those apps cannot connect to your site."
 msgstr "授权标头被由您为此站点批准的第三方应用使用。如果没有此标头，这些应用程序将无法连接到您的站点。"
 
-#: wp-admin/includes/class-wp-site-health.php:2315
+#: wp-admin/includes/class-wp-site-health.php:2307
 msgid "When testing the REST API, an unexpected result was returned:"
 msgstr "当测试 REST API 时返回了预期之外的结果："
 
 #. translators: 1: The WordPress error code. 2: The WordPress error message.
 #. translators: 1: The WordPress error code. 2: The HTTP status code error
 #. message.
-#: wp-admin/includes/class-wp-site-health.php:2303
-#: wp-admin/includes/class-wp-site-health.php:2323
+#: wp-admin/includes/class-wp-site-health.php:2295
+#: wp-admin/includes/class-wp-site-health.php:2315
 msgid "REST API Response: (%1$s) %2$s"
 msgstr "REST API 响应：(%1$s) %2$s"
 
 #. translators: %s: The REST API URL.
-#: wp-admin/includes/class-wp-site-health.php:2298
-#: wp-admin/includes/class-wp-site-health.php:2318
+#: wp-admin/includes/class-wp-site-health.php:2290
+#: wp-admin/includes/class-wp-site-health.php:2310
 msgid "REST API Endpoint: %s"
 msgstr "REST API 端点：%s"
 
-#: wp-admin/includes/class-wp-site-health.php:2295
+#: wp-admin/includes/class-wp-site-health.php:2287
 msgid "When testing the REST API, an error was encountered:"
 msgstr "在测试 REST API 时，发生了一个错误："
 
@@ -1130,31 +1130,31 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "联系 WordPress 核心开发人员以确保您不会再遇到这个问题。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:371
+#: wp-admin/about.php:402
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）即将停止接收安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:368
+#: wp-admin/about.php:399
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）已不再受到支持，您的站点将不会再接收到任何的安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
-#: wp-admin/about.php:274
+#: wp-admin/about.php:305
 msgid "https://make.wordpress.org/core/2023/07/18/wordpress-6-3-field-guide/"
 msgstr "https://make.wordpress.org/core/2023/07/18/wordpress-6-3-field-guide/"
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:291
+#: wp-admin/about.php:322
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for more information on the included enhancements and issues fixed, installation information, developer notes and resources, release contributors, and the list of file changes in this release."
 msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>以进一步了解该版本所包含的改进、已修复的问题、安装信息、开发者笔记、资源、发布贡献者以及文件变更列表。"
 
 #. translators: %s: WordPress Field Guide link.
-#: wp-admin/about.php:273
+#: wp-admin/about.php:304
 msgid "Check out the latest version of the <a href=\"%s\">WordPress Field Guide</a>. It is overflowing with detailed developer notes to help you build with WordPress."
 msgstr "请查看最新版本的 <a href=\"%s\">WordPress 详解指南</a>。其中包含了详细的开发者注释，帮助您更高效的构建 WordPress 插件和主题。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:243
+#: wp-admin/about.php:274
 msgid "Learn more about WordPress %s"
 msgstr "了解 WordPress %s"
 
@@ -1883,7 +1883,7 @@ msgid "Cannot send password reset, permission denied."
 msgstr "无法发送密码重置邮件，权限不足。"
 
 #. translators: 1: post_max_size, 2: upload_max_filesize
-#: wp-admin/includes/class-wp-site-health.php:2419
+#: wp-admin/includes/class-wp-site-health.php:2411
 msgid "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
 msgstr "%1$s当前被配置为0，当尝试通过依赖各种上传方法的插件或主题功能上传文件时，这可能会导致一些问题。建议将此设置配置为固定值，最好与%2$s的值匹配，因为某些上传方法将数值“0”读取为无限制或禁用。"
 
@@ -2009,7 +2009,7 @@ msgstr "建议更新PHP版本"
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
 msgstr "您的网站似乎正在使用HTTP基本认证功能，该功能目前与应用程序密码功能不兼容。"
 
-#: wp-admin/includes/class-wp-site-health.php:2492
+#: wp-admin/includes/class-wp-site-health.php:2484
 msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 msgstr "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
 
@@ -2076,7 +2076,7 @@ msgstr "添加新的应用程序密码"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "此功能需要创建应用程序密码，但不需要更新用户信息。"
 
-#: wp-admin/about.php:312
+#: wp-admin/about.php:343
 msgid "Go to Updates"
 msgstr "转到“更新”页面"
 
@@ -2257,27 +2257,27 @@ msgstr "- %1$s（从版本 %2$s 更新至 %3$s）"
 msgid "Current Header Video"
 msgstr "当前头部视频"
 
-#: wp-admin/includes/class-wp-site-health.php:2833
+#: wp-admin/includes/class-wp-site-health.php:2825
 msgid "Authorization header"
 msgstr "授权标头"
 
-#: wp-admin/includes/class-wp-site-health.php:2493
+#: wp-admin/includes/class-wp-site-health.php:2485
 msgid "Learn how to configure the Authorization header."
 msgstr "了解如何配置授权标头。"
 
-#: wp-admin/includes/class-wp-site-health.php:2487
+#: wp-admin/includes/class-wp-site-health.php:2479
 msgid "Flush permalinks"
 msgstr "重新整理固定链接"
 
-#: wp-admin/includes/class-wp-site-health.php:2468
+#: wp-admin/includes/class-wp-site-health.php:2460
 msgid "The authorization header is invalid"
 msgstr "授权标头无效"
 
-#: wp-admin/includes/class-wp-site-health.php:2466
+#: wp-admin/includes/class-wp-site-health.php:2458
 msgid "The authorization header is missing"
 msgstr "授权标头丢失"
 
-#: wp-admin/includes/class-wp-site-health.php:2451
+#: wp-admin/includes/class-wp-site-health.php:2443
 msgid "The Authorization header is working as expected"
 msgstr "授权标头按预期正常运作"
 
@@ -2398,7 +2398,7 @@ msgid "You can choose whether or not your site will be crawled by robots, ping s
 msgstr "您可以决定是否让索引工具、搜索引擎爬虫、ping服务访问您的站点。如果您不希望它们访问您的站点，请选择“建议搜索引擎不索引本站点”，并点击下方的“保存更改”。"
 
 #. translators: 1: post_max_size, 2: upload_max_filesize
-#: wp-admin/includes/class-wp-site-health.php:2408
+#: wp-admin/includes/class-wp-site-health.php:2400
 msgid "The \"%1$s\" value is smaller than \"%2$s\""
 msgstr "\"%1$s\"的值小于\"%2$s\""
 
@@ -2427,27 +2427,27 @@ msgstr "此更新无法运作于您的 WordPress 和 PHP 版本。"
 msgid "Disallowed Comment Keys"
 msgstr "禁止使用的评论关键字"
 
-#: wp-admin/includes/class-wp-site-health.php:2790
+#: wp-admin/includes/class-wp-site-health.php:2782
 msgid "Plugin and theme auto-updates"
 msgstr "插件和主题自动更新"
 
-#: wp-admin/includes/class-wp-site-health.php:3122
+#: wp-admin/includes/class-wp-site-health.php:3114
 msgid "There appear to be no issues with plugin and theme auto-updates."
 msgstr "插件和主题自动更新一切如常。"
 
-#: wp-admin/includes/class-wp-site-health.php:3116
+#: wp-admin/includes/class-wp-site-health.php:3108
 msgid "Auto-updates for themes appear to be disabled. This will prevent your site from receiving new versions automatically when available."
 msgstr "主题的自动更新似乎被禁用。这将阻止您的站点在有可用更新时自动接收新版本。"
 
-#: wp-admin/includes/class-wp-site-health.php:3111
+#: wp-admin/includes/class-wp-site-health.php:3103
 msgid "Auto-updates for plugins appear to be disabled. This will prevent your site from receiving new versions automatically when available."
 msgstr "插件的自动更新似乎被禁用。这将阻止您的站点在有可用更新时自动接收新版本。"
 
-#: wp-admin/includes/class-wp-site-health.php:3106
+#: wp-admin/includes/class-wp-site-health.php:3098
 msgid "Auto-updates for plugins and themes appear to be disabled. This will prevent your site from receiving new versions automatically when available."
 msgstr "插件和主题的自动更新似乎被禁用。这将阻止您的站点在有可用更新时自动接收新版本。"
 
-#: wp-admin/includes/class-wp-site-health.php:3097
+#: wp-admin/includes/class-wp-site-health.php:3089
 msgid "Auto-updates for plugins and/or themes appear to be disabled, but settings are still set to be displayed. This could cause auto-updates to not work as expected."
 msgstr "插件和（或）主题的自动更新似乎已被禁用，但是界面依然被设置为显示更新。这可能导致自动更新无法如期进行。"
 
@@ -2477,26 +2477,26 @@ msgid "Sorry, you are not allowed to modify plugins."
 msgstr "抱歉，您不能修改插件。"
 
 #. translators: 1: post_max_size, 2: upload_max_filesize
-#: wp-admin/includes/class-wp-site-health.php:2429
+#: wp-admin/includes/class-wp-site-health.php:2421
 msgid "The setting for %1$s is smaller than %2$s, this could cause some problems when trying to upload files."
 msgstr "%1$s 的设置小于 %2$s，这可能会在尝试上传文件时出现一些问题。"
 
 #. translators: 1: file_uploads, 2: 0
-#: wp-admin/includes/class-wp-site-health.php:2394
+#: wp-admin/includes/class-wp-site-health.php:2386
 msgid "%1$s is set to %2$s. You won't be able to upload files on your site."
 msgstr "%1$s的值被设置为%2$s，因此您无法在这个网站上传文件。"
 
 #. translators: %s: ini_get()
-#: wp-admin/includes/class-wp-site-health.php:2382
+#: wp-admin/includes/class-wp-site-health.php:2374
 msgid "The %s function has been disabled, some media settings are unavailable because of this."
 msgstr "%s函数已被禁用，因此某些媒体设置不可用。"
 
 #. translators: 1: file_uploads, 2: php.ini
-#: wp-admin/includes/class-wp-site-health.php:2369
+#: wp-admin/includes/class-wp-site-health.php:2361
 msgid "The %1$s directive in %2$s determines if uploading files is allowed on your site."
 msgstr "%2$s中的%1$s指令决定了您的站点是否能上传文件。"
 
-#: wp-admin/includes/class-wp-site-health.php:2359
+#: wp-admin/includes/class-wp-site-health.php:2351
 msgid "Files can be uploaded"
 msgstr "文件可以上传"
 
@@ -2517,7 +2517,7 @@ msgid "Max size of post data allowed"
 msgstr "最大允许POST提交数据大小"
 
 #: wp-admin/includes/class-wp-debug-data.php:558
-#: wp-admin/includes/class-wp-site-health.php:2786
+#: wp-admin/includes/class-wp-site-health.php:2778
 msgid "File uploads"
 msgstr "文件上传"
 
@@ -2846,7 +2846,7 @@ msgctxt "comment"
 msgid "Not spam"
 msgstr "不是垃圾评论"
 
-#: wp-admin/includes/class-wp-site-health.php:2753
+#: wp-admin/includes/class-wp-site-health.php:2745
 msgid "PHP Sessions"
 msgstr "PHP会话"
 
@@ -3231,13 +3231,13 @@ msgstr "回收站中没有评论。"
 msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your %1$s file or by %2$s being defined as smaller than %3$s in %1$s."
 msgstr "文件是空的。请上传有内容的文件。这个错误也有可能是因为您的%1$s文件禁止了上传，或%1$s中%2$s的值小于%3$s的值。"
 
-#: wp-admin/includes/class-wp-site-health.php:3301
+#: wp-admin/includes/class-wp-site-health.php:3293
 #: wp-admin/js/site-health.js:340
 msgid "A test is unavailable"
 msgstr "测试不可用"
 
 #. translators: 1: The WordPress error message. 2: The WordPress error code.
-#: wp-admin/includes/class-wp-site-health.php:3173
+#: wp-admin/includes/class-wp-site-health.php:3165
 msgid "Error: %1$s (%2$s)"
 msgstr "错误：%1$s（%2$s）"
 
@@ -3319,7 +3319,7 @@ msgstr "删除请求"
 msgid "Table prefix"
 msgstr "数据表前缀"
 
-#: wp-admin/includes/class-wp-site-health.php:2749
+#: wp-admin/includes/class-wp-site-health.php:2741
 msgid "PHP Default Timezone"
 msgstr "PHP默认时区"
 
@@ -4023,12 +4023,12 @@ msgid "Sorry, you are not allowed to perform this action."
 msgstr "抱歉，您不能进行此操作。"
 
 #. translators: 1: Name of the constant used. 2: List of allowed hostnames.
-#: wp-admin/includes/class-wp-site-health.php:2226
+#: wp-admin/includes/class-wp-site-health.php:2218
 msgid "HTTP requests have been blocked by the %1$s constant, with some allowed hosts: %2$s."
 msgstr "HTTP请求已被%1$s常量阻止，并允许了一些主机：%2$s。"
 
 #. translators: %s: Name of the constant used.
-#: wp-admin/includes/class-wp-site-health.php:2211
+#: wp-admin/includes/class-wp-site-health.php:2203
 msgid "HTTP requests have been blocked by the %s constant, with no allowed hosts."
 msgstr "HTTP请求已被%s常量阻止，且没有允许的主机。"
 
@@ -4056,12 +4056,12 @@ msgstr "WordPress主机团队维护着一份必需和推荐的模组列表，列
 #: wp-admin/includes/class-wp-site-health.php:1213
 #: wp-admin/includes/class-wp-site-health.php:1306
 #: wp-admin/includes/class-wp-site-health.php:1761
-#: wp-admin/includes/class-wp-site-health.php:2137
-#: wp-admin/includes/class-wp-site-health.php:2180
-#: wp-admin/includes/class-wp-site-health.php:2251
-#: wp-admin/includes/class-wp-site-health.php:2362
-#: wp-admin/includes/class-wp-site-health.php:2516
-#: wp-admin/includes/class-wp-site-health.php:2641
+#: wp-admin/includes/class-wp-site-health.php:2129
+#: wp-admin/includes/class-wp-site-health.php:2172
+#: wp-admin/includes/class-wp-site-health.php:2243
+#: wp-admin/includes/class-wp-site-health.php:2354
+#: wp-admin/includes/class-wp-site-health.php:2508
+#: wp-admin/includes/class-wp-site-health.php:2633
 msgid "Performance"
 msgstr "性能"
 
@@ -4112,9 +4112,9 @@ msgstr[0] "您的站点有%d个未启用的插件。"
 #: wp-admin/includes/class-wp-site-health.php:1715
 #: wp-admin/includes/class-wp-site-health.php:1834
 #: wp-admin/includes/class-wp-site-health.php:1909
-#: wp-admin/includes/class-wp-site-health.php:1954
-#: wp-admin/includes/class-wp-site-health.php:2000
-#: wp-admin/includes/class-wp-site-health.php:2454
+#: wp-admin/includes/class-wp-site-health.php:1950
+#: wp-admin/includes/class-wp-site-health.php:1992
+#: wp-admin/includes/class-wp-site-health.php:2446
 msgid "Security"
 msgstr "安全"
 
@@ -4214,129 +4214,129 @@ msgstr "好样的！"
 msgid "Secondary menu"
 msgstr "次要菜单"
 
-#: wp-admin/includes/class-wp-site-health.php:3194
+#: wp-admin/includes/class-wp-site-health.php:3186
 msgid "The loopback request to your site completed successfully."
 msgstr "到您站点的环回请求成功完成。"
 
 #. translators: %d: The HTTP response code returned.
-#: wp-admin/includes/class-wp-site-health.php:3186
+#: wp-admin/includes/class-wp-site-health.php:3178
 msgid "The loopback request returned an unexpected http status code, %d, it was not possible to determine if this will prevent features from working as expected."
 msgstr "到您站点的环回请求返回了预期外的HTTP状态码%d，无法判断依赖此种请求的功能是否能正常工作。"
 
-#: wp-admin/includes/class-wp-site-health.php:3170
+#: wp-admin/includes/class-wp-site-health.php:3162
 msgid "The loopback request to your site failed, this means features relying on them are not currently working as expected."
 msgstr "到您站点的环回请求失败，这意味着依赖此种请求的功能将不能正常工作。"
 
-#: wp-admin/includes/class-wp-site-health.php:2962
+#: wp-admin/includes/class-wp-site-health.php:2954
 msgid "No scheduled events exist on this site."
 msgstr "此站点不存在计划事件。"
 
-#: wp-admin/includes/class-wp-site-health.php:2777
+#: wp-admin/includes/class-wp-site-health.php:2769
 msgid "REST API availability"
 msgstr "REST API可用性"
 
-#: wp-admin/includes/class-wp-site-health.php:2816
+#: wp-admin/includes/class-wp-site-health.php:2808
 msgid "Loopback request"
 msgstr "环回请求"
 
-#: wp-admin/includes/class-wp-site-health.php:2782
+#: wp-admin/includes/class-wp-site-health.php:2774
 msgid "Debugging enabled"
 msgstr "调试已启用"
 
-#: wp-admin/includes/class-wp-site-health.php:2773
+#: wp-admin/includes/class-wp-site-health.php:2765
 msgid "HTTP Requests"
 msgstr "HTTP请求"
 
-#: wp-admin/includes/class-wp-site-health.php:2769
+#: wp-admin/includes/class-wp-site-health.php:2761
 msgid "Scheduled events"
 msgstr "计划事件"
 
-#: wp-admin/includes/class-wp-site-health.php:2765
+#: wp-admin/includes/class-wp-site-health.php:2757
 msgid "Secure communication"
 msgstr "安全通信"
 
-#: wp-admin/includes/class-wp-site-health.php:2822
+#: wp-admin/includes/class-wp-site-health.php:2814
 msgid "HTTPS status"
 msgstr "HTTPS状态"
 
-#: wp-admin/includes/class-wp-site-health.php:2761
+#: wp-admin/includes/class-wp-site-health.php:2753
 msgid "MySQL utf8mb4 support"
 msgstr "MySQL utf8mb4支持"
 
-#: wp-admin/includes/class-wp-site-health.php:2745
+#: wp-admin/includes/class-wp-site-health.php:2737
 msgid "PHP Extensions"
 msgstr "PHP扩展"
 
-#: wp-admin/includes/class-wp-site-health.php:2757
+#: wp-admin/includes/class-wp-site-health.php:2749
 msgid "Database Server version"
 msgstr "数据库服务器版本"
 
-#: wp-admin/includes/class-wp-site-health.php:2741
+#: wp-admin/includes/class-wp-site-health.php:2733
 msgid "PHP Version"
 msgstr "PHP版本"
 
-#: wp-admin/includes/class-wp-site-health.php:2737
+#: wp-admin/includes/class-wp-site-health.php:2729
 msgid "Theme Versions"
 msgstr "主题版本"
 
-#: wp-admin/includes/class-wp-site-health.php:2733
+#: wp-admin/includes/class-wp-site-health.php:2725
 msgid "Plugin Versions"
 msgstr "插件版本"
 
-#: wp-admin/includes/class-wp-site-health.php:2729
+#: wp-admin/includes/class-wp-site-health.php:2721
 msgid "WordPress Version"
 msgstr "WordPress版本"
 
 #. translators: %s: The name of the query parameter being tested.
-#: wp-admin/includes/class-wp-site-health.php:2340
+#: wp-admin/includes/class-wp-site-health.php:2332
 msgid "The REST API did not process the %s query parameter correctly."
 msgstr "REST API未能正确处理%s请求参数。"
 
-#: wp-admin/includes/class-wp-site-health.php:2334
+#: wp-admin/includes/class-wp-site-health.php:2326
 msgid "The REST API did not behave correctly"
 msgstr "REST API行为不正确"
 
-#: wp-admin/includes/class-wp-site-health.php:2311
+#: wp-admin/includes/class-wp-site-health.php:2303
 msgid "The REST API encountered an unexpected result"
 msgstr "REST API遇到了预料之外的结果"
 
-#: wp-admin/includes/class-wp-site-health.php:2291
+#: wp-admin/includes/class-wp-site-health.php:2283
 msgid "The REST API encountered an error"
 msgstr "REST API遇到了错误"
 
-#: wp-admin/includes/class-wp-site-health.php:2256
+#: wp-admin/includes/class-wp-site-health.php:2248
 msgid "The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages."
 msgstr "REST API 是 WordPress 及其他应用与服务器通信的一种途径。例如，区块编辑器页面就依赖 REST API 来显示及保存您的页面和文章。"
 
-#: wp-admin/includes/class-wp-site-health.php:2248
+#: wp-admin/includes/class-wp-site-health.php:2240
 msgid "The REST API is available"
 msgstr "REST API可用"
 
-#: wp-admin/includes/class-wp-site-health.php:2220
+#: wp-admin/includes/class-wp-site-health.php:2212
 msgid "HTTP requests are partially blocked"
 msgstr "HTTP请求被部分阻止"
 
-#: wp-admin/includes/class-wp-site-health.php:2205
+#: wp-admin/includes/class-wp-site-health.php:2197
 msgid "HTTP requests are blocked"
 msgstr "HTTP请求被阻止"
 
-#: wp-admin/includes/class-wp-site-health.php:2185
+#: wp-admin/includes/class-wp-site-health.php:2177
 msgid "It is possible for site maintainers to block all, or some, communication to other sites and services. If set up incorrectly, this may prevent plugins and themes from working as intended."
 msgstr "站点维护者可以阻止全部或部分到其他站点和服务的连接。如果没有正确设置，这可能会让一些插件及主题停止工作。"
 
-#: wp-admin/includes/class-wp-site-health.php:2177
+#: wp-admin/includes/class-wp-site-health.php:2169
 msgid "HTTP requests seem to be working as expected"
 msgstr "HTTP请求似乎工作正常"
 
-#: wp-admin/includes/class-wp-site-health.php:2153
+#: wp-admin/includes/class-wp-site-health.php:2145
 msgid "Your site could not complete a loopback request"
 msgstr "您的站点不能完成环回请求"
 
-#: wp-admin/includes/class-wp-site-health.php:2142
+#: wp-admin/includes/class-wp-site-health.php:2134
 msgid "Loopback requests are used to run scheduled events, and are also used by the built-in editors for themes and plugins to verify code stability."
 msgstr "环回请求被用来运行计划事件，也被内建的主题及插件编辑器使用来确保代码稳定性。"
 
-#: wp-admin/includes/class-wp-site-health.php:2134
+#: wp-admin/includes/class-wp-site-health.php:2126
 msgid "Your site can perform loopback requests"
 msgstr "您的站点可以进行环回请求"
 
@@ -4971,7 +4971,7 @@ msgstr "WordPress.org可达"
 
 #: wp-admin/includes/class-wp-debug-data.php:419
 #: wp-admin/includes/class-wp-debug-data.php:425
-#: wp-admin/includes/class-wp-site-health.php:2804
+#: wp-admin/includes/class-wp-site-health.php:2796
 msgid "Communication with WordPress.org"
 msgstr "与WordPress.org通讯"
 
@@ -5335,7 +5335,7 @@ msgstr "未能安装"
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:294 wp-admin/includes/update.php:323
+#: wp-admin/about.php:325 wp-admin/includes/update.php:323
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -7685,7 +7685,7 @@ msgid "(Currently set to: %s)"
 msgstr "（当前设置为：%s）"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:342
+#: wp-admin/about.php:373
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本%s</strong>修正了一个安全问题。"
 
@@ -7697,15 +7697,15 @@ msgstr "https://cn.gravatar.com/"
 msgid "Profile Picture"
 msgstr "资料图片"
 
-#: wp-admin/about.php:339
+#: wp-admin/about.php:370
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:336
+#: wp-admin/about.php:367
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:333
+#: wp-admin/about.php:364
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
@@ -9505,7 +9505,7 @@ msgstr "正在更新%1$s（%2$s）的翻译…"
 msgid "Update Translations"
 msgstr "更新翻译"
 
-#: wp-admin/includes/class-wp-site-health.php:2810
+#: wp-admin/includes/class-wp-site-health.php:2802
 msgid "Background updates"
 msgstr "后台更新"
 
@@ -10273,7 +10273,7 @@ msgid "Search engine visibility"
 msgstr "对搜索引擎的可见性"
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1708 wp-admin/update-core.php:912
+#: wp-admin/includes/update-core.php:1712 wp-admin/update-core.php:912
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "欢迎使用WordPress %1$s。我们将带您到“关于WordPress”页面。如果没有自动跳转，请<a href=\"%2$s\">点击这里</a>。"
 
@@ -10997,45 +10997,46 @@ msgstr "输入此站点网络中已存在用户的电子邮箱地址以邀请他
 msgid "Show Toolbar when viewing site"
 msgstr "在浏览站点时显示工具栏"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:365
+#: wp-admin/about.php:65 wp-admin/about.php:396
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:359
+#: wp-admin/about.php:390
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:353
+#: wp-admin/about.php:384
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修补了安全漏洞、修正了%2$s个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:347
+#: wp-admin/about.php:53 wp-admin/about.php:378
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s版本</strong>修复了%2$s个问题。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:344
+#: wp-admin/about.php:375
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本%s</strong>修正了一些安全问题。"
 
-#: wp-admin/about.php:338
+#: wp-admin/about.php:369
 msgid "Maintenance and Security Release"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:335
+#: wp-admin/about.php:366
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:332
+#: wp-admin/about.php:48 wp-admin/about.php:363
 msgid "Maintenance Release"
 msgstr "维护更新"
 
@@ -11049,7 +11050,7 @@ msgid "This screen allows you to choose your permalink structure. You can choose
 msgstr "此界面可以让您选择您的固定链接结构。您可以选择常见的设置或建立自定义URL结构。"
 
 #. translators: 1: WordPress version, 2: URL to About screen.
-#: wp-admin/includes/update-core.php:1716 wp-admin/update-core.php:920
+#: wp-admin/includes/update-core.php:1720 wp-admin/update-core.php:920
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "欢迎使用WordPress %1$s。<a href=\"%2$s\">了解更多</a>。"
 
@@ -11313,15 +11314,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "由于当前多站点功能已经开启，您可以直接通过输入用户名或电子邮箱地址的方式将站点网络中的现有用户添加到站点中，然后为其指定用户角色。如需修改密码等其他信息，您需要拥有网络管理员的权限，访问“管理网络”>“所有用户”，然后将鼠标放置在用户名上方，点击出现的“编辑”链接。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:52
+#: wp-admin/about.php:83
 msgid "Welcome to WordPress %s"
 msgstr "欢迎使用 WordPress %s"
 
-#: wp-admin/about.php:319
+#: wp-admin/about.php:350
 msgid "Go to Dashboard &rarr; Home"
 msgstr "转到“仪表盘” &rarr; “首页”页面"
 
-#: wp-admin/about.php:312
+#: wp-admin/about.php:343
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "转到“仪表盘” &rarr; “更新”页面"
 
@@ -13038,7 +13039,7 @@ msgid "User already exists. Password inherited."
 msgstr "用户已存在。密码保持不变。"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:485
-#: wp-admin/includes/update-core.php:1702 wp-admin/update-core.php:908
+#: wp-admin/includes/update-core.php:1706 wp-admin/update-core.php:908
 msgid "WordPress updated successfully."
 msgstr "WordPress升级成功。"
 
@@ -13067,7 +13068,7 @@ msgstr "WordPress更新"
 msgid "Edit menu item"
 msgstr "编辑菜单项"
 
-#: wp-admin/about.php:319 wp-admin/includes/network.php:148
+#: wp-admin/about.php:350 wp-admin/includes/network.php:148
 msgid "Go to Dashboard"
 msgstr "转到“仪表盘”页面"
 
@@ -14263,7 +14264,7 @@ msgstr "更新到%s"
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
 msgstr "您在使用开发版本（%1$s）。太棒了，请<a href=\"%2$s\">保持更新</a>。"
 
-#: wp-admin/includes/update-core.php:1575
+#: wp-admin/includes/update-core.php:1579
 msgid "Upgrading database&#8230;"
 msgstr "正在升级数据库&#8230;"
 
@@ -15236,7 +15237,7 @@ msgid "Empty archive."
 msgstr "压缩文件为空。"
 
 #: wp-admin/includes/file.php:1778 wp-admin/includes/file.php:1908
-#: wp-admin/includes/file.php:1961 wp-admin/includes/update-core.php:1513
+#: wp-admin/includes/file.php:1961 wp-admin/includes/update-core.php:1517
 msgid "Could not copy file."
 msgstr "无法复制文件。"
 
@@ -15545,7 +15546,7 @@ msgid "The plugin is at the latest version."
 msgstr "插件已是最新版。"
 
 #: wp-admin/includes/class-wp-upgrader.php:207
-#: wp-admin/includes/update-core.php:1460
+#: wp-admin/includes/update-core.php:1464
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "正在停用维护模式&#8230;"
 
@@ -15582,7 +15583,7 @@ msgstr "下载失败。"
 msgid "Unable to locate needed folder (%s)."
 msgstr "无法找到所需目录（%s）。"
 
-#: wp-admin/includes/class-wp-site-health.php:2031
+#: wp-admin/includes/class-wp-site-health.php:2023
 msgid "Unable to locate WordPress content directory"
 msgstr "无法找到 WordPress 内容目录"
 
@@ -15603,7 +15604,7 @@ msgstr "无法找到 WordPress 根目录。"
 msgid "Filesystem error."
 msgstr "文件系统错误。"
 
-#: wp-admin/includes/class-wp-site-health.php:2022
+#: wp-admin/includes/class-wp-site-health.php:2014
 msgid "Could not access filesystem"
 msgstr "无法访问文件系统"
 
