@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-17 14:06:22+0000\n"
+"PO-Revision-Date: 2023-10-06 20:47:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,6 +36,23 @@ msgstr "1"
 msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Asia/Shanghai"
+
+#. translators: 1: Current PHP version, 2: PHP version required by the new
+#. plugin version.
+#: wp-admin/includes/class-plugin-upgrader.php:369
+msgid "The PHP version on your server is %1$s, however the new plugin version requires %2$s."
+msgstr "服务器上的PHP版本是 %1$s，但新插件版本需要 %2$s。"
+
+#. translators: 1: Current WordPress version, 2: WordPress version required by
+#. the new plugin version.
+#: wp-admin/includes/class-plugin-upgrader.php:355
+msgid "Your WordPress version is %1$s, however the new plugin version requires %2$s."
+msgstr "你的WordPress版本是 %1$s，但新插件版本需要 %2$s。"
+
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:68
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/contribute.php:103 wp-admin/credits.php:63 wp-admin/credits.php:71
 msgid "https://make.wordpress.org/contribute/"
@@ -725,7 +742,7 @@ msgstr "编辑"
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/meta-boxes.php:857
 msgid "Allow <a href=\"%s\">trackbacks and pingbacks</a>"
-msgstr "允许<a href=\"%s\">Trackback和Pingback</a>"
+msgstr "允许 <a href=\"%s\">Trackback 和 Pingback</a>"
 
 #: wp-admin/includes/meta-boxes.php:834
 msgid "https://wordpress.org/documentation/article/assign-custom-fields/"
@@ -1361,7 +1378,7 @@ msgstr "打开外观定制器"
 
 #: wp-admin/includes/dashboard.php:2085
 msgid "Configure your site&#8217;s logo, header, menus, and more in the Customizer."
-msgstr "在定制器中配置您站点的logo、标题、菜单等。"
+msgstr "在定制器中配置您站点的 Logo、标题、菜单等。"
 
 #: wp-admin/includes/dashboard.php:2084
 msgid "Start Customizing"
@@ -1416,7 +1433,7 @@ msgstr "如果这是一个开发的网站，您可以<a href=\"%s\" target=\"_bl
 
 #: wp-admin/user-edit.php:819
 msgid "The application password feature requires HTTPS, which is not enabled on this site."
-msgstr "应用程序密码功能需要 HTTPS ，此站点未启用 https。"
+msgstr "应用程序密码功能需要 HTTPS 但此站点未启用 HTTPS。"
 
 #. translators: 1: Date, 2: Time.
 #: wp-admin/update-core.php:1092
@@ -1630,12 +1647,12 @@ msgstr "已删除菜单项：%s。"
 #. translators: %s: Item name.
 #: wp-admin/nav-menus.php:518
 msgid "item %s"
-msgstr "项目%s"
+msgstr "项目 %s"
 
 #. translators: %s: Number of available theme updates.
 #: wp-admin/menu.php:203 wp-admin/network/menu.php:63
 msgid "Themes %s"
-msgstr "主题%s"
+msgstr "主题 %s"
 
 #. translators: %s: Error message.
 #: wp-admin/includes/privacy-tools.php:419
@@ -1645,7 +1662,7 @@ msgstr "无法对导出的个人数据进行编码。错误：%s"
 #. translators: %s: Post meta key.
 #: wp-admin/includes/privacy-tools.php:404
 msgid "The %s post meta must be an array."
-msgstr "%s文章元必须是数组。"
+msgstr "%s 文章元必须是数组。"
 
 #: wp-admin/includes/dashboard.php:1997
 msgid "Your site&#8217;s health is looking good, but there is still one thing you can do to improve its performance and security."
@@ -1688,7 +1705,7 @@ msgstr "主题已上传"
 #: wp-admin/includes/class-plugin-installer-skin.php:313
 msgctxt "plugin"
 msgid "Replace current with uploaded"
-msgstr "使用“上传的插件版本”代替“当前的插件版本”。"
+msgstr "使用上传版本替换当前版本"
 
 #: wp-admin/includes/class-plugin-installer-skin.php:225
 msgctxt "plugin"
@@ -1748,21 +1765,21 @@ msgstr "站点URL未能切换至HTTPS。"
 
 #: wp-admin/site-health.php:109
 msgid "Site URLs switched to HTTPS."
-msgstr "站点URL已切换至HTTPS。"
+msgstr "站点 URL 已切换至 HTTPS。"
 
 #: wp-admin/site-health.php:66
 msgid "It looks like HTTPS is not supported for your website at this point."
-msgstr "看起来您的网站暂时不支持HTTPS。"
+msgstr "看起来您的网站暂时不支持 HTTPS。"
 
 #: wp-admin/site-health.php:62
 msgid "Sorry, you are not allowed to update this site to HTTPS."
-msgstr "抱歉，您不能将该站点更新至HTTPS。"
+msgstr "抱歉，您不能将该站点更新至 HTTPS。"
 
 #. translators: %s: Number of users.
 #: wp-admin/users.php:641
 msgid "Password reset links sent to %s user."
 msgid_plural "Password reset links sent to %s users."
-msgstr[0] "密码重置链接已发送给%s位用户。"
+msgstr[0] "密码重置链接已发送给 %s 位用户。"
 
 #: wp-admin/users.php:638
 msgid "Password reset link sent."
@@ -1771,7 +1788,7 @@ msgstr "密码重置链接已发送。"
 #. translators: %s: User's display name.
 #: wp-admin/user-edit.php:697
 msgid "Send %s a link to reset their password. This will not change their password, nor will it force a change."
-msgstr "将链接发送给%s以重置其密码。本操作将不会修改其密码，也不会强制其修改密码。"
+msgstr "将链接发送给 %s 以重置其密码。本操作将不会修改其密码，也不会强制其修改密码。"
 
 #: wp-admin/user-edit.php:690
 msgid "Send Reset Link"
@@ -1783,7 +1800,7 @@ msgstr "政策"
 
 #: wp-admin/options-privacy.php:181 wp-admin/privacy-policy-guide.php:64
 msgid "The Privacy Settings require JavaScript."
-msgstr "隐私设置需要JavaScript支持。"
+msgstr "隐私设置需要 JavaScript 支持。"
 
 #. translators: Tab heading for Site Health Status page.
 #: wp-admin/options-privacy.php:172 wp-admin/privacy-policy-guide.php:55
@@ -1800,7 +1817,7 @@ msgstr "设置"
 #. translators: %s: WordPress version.
 #: wp-admin/update-core.php:82
 msgid "Re-install version %s"
-msgstr "重新安装%s版本"
+msgstr "重新安装 %s 版本"
 
 #. translators: %s: WordPress version.
 #: wp-admin/update-core.php:71
@@ -1829,7 +1846,7 @@ msgstr "若您是插件制作者，您可以<a href=\"https://developer.wordpres
 
 #: wp-admin/erase-personal-data.php:57
 msgid "Many plugins may collect or store personal data either in the WordPress database or remotely. Any Erase Personal Data request should delete data from plugins as well."
-msgstr "许多插件可以在WordPress数据库中收集、存储个人数据，或通过远程方式收集、存储。任何个人数据抹除请求都应该删除来自插件的数据。"
+msgstr "许多插件可以在 WordPress 数据库中收集、存储个人数据，或通过远程方式收集、存储。任何个人数据抹除请求都应该删除来自插件的数据。"
 
 #: wp-admin/erase-personal-data.php:55 wp-admin/export-personal-data.php:55
 msgid "Plugin Data"
@@ -1842,15 +1859,15 @@ msgstr "如果不确定，请查看插件文档或与插件作者联系，以了
 
 #: wp-admin/erase-personal-data.php:42
 msgid "<strong>Media</strong> &mdash; A list of URLs for all media file uploads made by the user."
-msgstr "<strong>媒体</strong>——用户上传的所有媒体文件的URL列表。"
+msgstr "<strong>媒体</strong>——用户上传的所有媒体文件的 URL 列表。"
 
 #: wp-admin/erase-personal-data.php:40 wp-admin/export-personal-data.php:40
 msgid "<strong>Session Tokens</strong> &mdash; User login information, IP Addresses, Expiration Date, User Agent (Browser/OS), and Last Login."
-msgstr "<strong>会话令牌</strong>——用户登录信息、IP地址、过期日期、用户代理（浏览器/操作系统）和上次登录时间。"
+msgstr "<strong>会话令牌</strong>——用户登录信息、IP 地址、过期日期、用户代理（浏览器/操作系统）和上次登录时间。"
 
 #: wp-admin/erase-personal-data.php:39
 msgid "<strong>Community Events Location</strong> &mdash; The IP Address of the user which is used for the Upcoming Community Events shown in the dashboard widget."
-msgstr "<strong>社群活动位置</strong>——用于仪表盘小工具中显示即将举行的社群聚会的用户IP地址。"
+msgstr "<strong>社群活动位置</strong>——用于仪表盘小工具中显示即将举行的社群聚会的用户 IP 地址。"
 
 #: wp-admin/erase-personal-data.php:38 wp-admin/export-personal-data.php:38
 msgid "<strong>Profile Information</strong> &mdash; user email address, username, display name, nickname, first name, last name, description/bio, and registration date."
@@ -1862,7 +1879,7 @@ msgstr "默认导出数据"
 
 #: wp-admin/erase-personal-data.php:27 wp-admin/export-personal-data.php:27
 msgid "The tool associates data stored in WordPress with a supplied email address, including profile data and comments."
-msgstr "该工具通过所提供的电子邮箱地址关联存储在WordPress中的数据，包括个人资料数据和评论。"
+msgstr "该工具通过所提供的电子邮箱地址关联存储在 WordPress 中的数据，包括个人资料数据和评论。"
 
 #: wp-admin/includes/dashboard.php:1471
 msgid "https://make.wordpress.org/community/organize-event-landing-page/"
@@ -1885,26 +1902,26 @@ msgstr "无法发送密码重置邮件，权限不足。"
 #. translators: 1: post_max_size, 2: upload_max_filesize
 #: wp-admin/includes/class-wp-site-health.php:2411
 msgid "The setting for %1$s is currently configured as 0, this could cause some problems when trying to upload files through plugin or theme features that rely on various upload methods. It is recommended to configure this setting to a fixed value, ideally matching the value of %2$s, as some upload methods read the value 0 as either unlimited, or disabled."
-msgstr "%1$s当前被配置为0，当尝试通过依赖各种上传方法的插件或主题功能上传文件时，这可能会导致一些问题。建议将此设置配置为固定值，最好与%2$s的值匹配，因为某些上传方法将数值“0”读取为无限制或禁用。"
+msgstr "%1$s 当前被配置为 0，当尝试通过依赖各种上传方法的插件或主题功能上传文件时，这可能会导致一些问题。建议将此设置配置为固定值，最好与 %2$s 的值匹配，因为某些上传方法将数值『0』读取为无限制或禁用。"
 
 #: wp-admin/includes/class-wp-site-health.php:1687
 #: wp-admin/includes/class-wp-site-health.php:1694
 msgid "Talk to your web host about supporting HTTPS for your website."
-msgstr "请与您的主机提供商讨论如何为您的网站提供HTTPS支持。"
+msgstr "请与您的主机提供商讨论如何为您的网站提供 HTTPS 支持。"
 
 #: wp-admin/includes/class-wp-site-health.php:1668
 #: wp-admin/includes/class-wp-site-health.php:1676
 msgid "Update your site to use HTTPS"
-msgstr "更新站点以使用HTTPS"
+msgstr "更新站点以使用 HTTPS"
 
 #. translators: 1: wp-config.php, 2: WP_HOME, 3: WP_SITEURL
 #: wp-admin/includes/class-wp-site-health.php:1654
 msgid "However, your WordPress Address is currently controlled by a PHP constant and therefore cannot be updated. You need to edit your %1$s and remove or update the definitions of %2$s and %3$s."
-msgstr "但是，您的WordPress地址当前由PHP常量控制，因此无法更新。您需要编辑%1$s并移除或更新%2$s和%3$s的定义。"
+msgstr "但是，您的 WordPress 地址当前由 PHP 常量控制，因此无法更新。您需要编辑 %1$s 并移除或更新 %2$s 和 %3$s 的定义。"
 
 #: wp-admin/includes/class-wp-site-health.php:1646
 msgid "HTTPS is already supported for your website."
-msgstr "您的网站已支持HTTPS。"
+msgstr "您的网站已支持 HTTPS。"
 
 #. translators: 1: URL to Settings > General > WordPress Address, 2: URL to
 #. Settings > General > Site Address.

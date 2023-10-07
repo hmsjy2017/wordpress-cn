@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-05 22:33:16+0000\n"
+"PO-Revision-Date: 2023-10-06 13:48:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +26,7 @@ msgstr "Noto Serif:400,400i,700,700i"
 #, gp-priority: high
 msgctxt "Comment number declension: on or off"
 msgid "off"
-msgstr "关 / 关闭"
+msgstr "关"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -42,7 +42,7 @@ msgstr "zh-CN"
 #, gp-priority: high
 msgctxt "decline months names: on or off"
 msgid "off"
-msgstr "关 / 关闭"
+msgstr "关"
 
 #. translators: If your word count is based on single characters (e.g. East
 #. Asian characters), enter 'characters_excluding_spaces' or
@@ -73,7 +73,7 @@ msgstr "https://cn.wordpress.org/"
 #, gp-priority: high
 msgctxt "Open Sans font: on or off"
 msgid "on"
-msgstr "打开"
+msgstr "开"
 
 #. translators: Localized date and time format, see
 #. https://www.php.net/manual/datetime.format.php
@@ -403,14 +403,297 @@ msgstr "页面"
 msgid "Parent"
 msgstr "父级"
 
+#: wp-includes/js/dist/edit-site.js:7266 wp-admin/includes/dashboard.php:2101
+msgid "Edit styles"
+msgstr "编辑样式"
+
+#: wp-includes/blocks/footnotes.php:194
+#: wp-includes/js/dist/block-library.js:58691
+#: wp-includes/js/dist/block-library.js:58702
+msgid "Footnotes"
+msgstr "脚注"
+
+#. translators: %s: The user email address.
+#: wp-signup.php:708 wp-signup.php:866
+msgid "Check your inbox at %s and click on the given link."
+msgstr "检查您在 %s 的收件箱，然后单击给定的链接。"
+
+#: wp-includes/update.php:1129
+msgid "Unable to locate WordPress content directory (wp-content)."
+msgstr "未能找到WordPress内容目录（wp-content）。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-themes-controller.php:502
+msgid "Whether the theme is a block-based theme."
+msgstr "主题是否是基于区块主题。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:948
+msgid "The date the template was last modified, in the site's timezone."
+msgstr "该模板的最后修改日期，以站点时区表示。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-navigation-fallback-controller.php:134
+msgid "The unique identifier for the Navigation Menu."
+msgstr "导航菜单的唯一标识符。"
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-navigation-fallback-controller.php:108
 msgid "No fallback menu found."
 msgstr "未找到回退菜单。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-navigation-fallback-controller.php:88
+msgid "Sorry, you are not allowed to edit Navigation Menus as this user."
+msgstr "抱歉，您不能以此用户身份编辑导航菜单。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-navigation-fallback-controller.php:80
+msgid "Sorry, you are not allowed to create Navigation Menus as this user."
+msgstr "抱歉，您不能以此用户身份创建导航菜单。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-revisions-controller.php:435
+msgid "Sorry, you are not allowed to view revisions for this global style."
+msgstr "抱歉，您无权查看此全局样式的修订版本。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-revisions-controller.php:114
+msgid "Cannot find user global styles revisions."
+msgstr "找不到用户全局样式修订版本。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:525
+msgid "Custom CSS selectors."
+msgstr "自定义CSS选择器。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:278
+msgid "Where the pattern comes from e.g. core"
+msgstr "区块样板的来源，如核心"
+
+#: wp-includes/post.php:304
+msgid "Pattern updated."
+msgstr "区块样板已更新。"
+
+#: wp-includes/post.php:303
+msgid "Pattern scheduled."
+msgstr "区块样板已预发布。"
+
+#: wp-includes/post.php:302
+msgid "Pattern reverted to draft."
+msgstr "区块样板已恢复为草稿。"
+
+#: wp-includes/post.php:301
+msgid "Pattern published privately."
+msgstr "区块样板已私密发布。"
+
+#: wp-includes/post.php:300
+msgid "Pattern published."
+msgstr "区块样板已发布。"
+
+#: wp-includes/post.php:298
+msgid "Patterns list navigation"
+msgstr "区块样板列表导航"
+
+#: wp-includes/post.php:297
+msgid "Filter patterns list"
+msgstr "筛选区块样板列表"
+
+#: wp-includes/post.php:295 wp-includes/js/dist/edit-site.js:22686
+msgid "No patterns found."
+msgstr "未找到任何区块样板。"
+
+#: wp-includes/post.php:294
+msgid "Search Patterns"
+msgstr "搜索区块样板"
+
+#: wp-includes/post.php:293
+msgid "All Patterns"
+msgstr "所有区块样板"
+
+#: wp-includes/post.php:292
+msgid "View Patterns"
+msgstr "查看区块样板"
+
+#: wp-includes/post.php:291
+msgid "View Pattern"
+msgstr "查看区块样板"
+
+#: wp-includes/post.php:290
+msgid "Edit Block Pattern"
+msgstr "编辑区块样板"
+
+#: wp-includes/post.php:289
+msgid "New Pattern"
+msgstr "新区块样板"
+
+#: wp-includes/post.php:288
+msgid "Add new Pattern"
+msgstr "添加新区块样板"
+
+#: wp-includes/post.php:287
+msgctxt "Pattern"
+msgid "Add New"
+msgstr "新增"
+
+#: wp-includes/post.php:286
+msgctxt "post type singular name"
+msgid "Pattern"
+msgstr "区块样板"
+
+#: wp-includes/post.php:285
+msgctxt "post type general name"
+msgid "Patterns"
+msgstr "区块样板"
+
+#: wp-includes/media.php:2013 wp-includes/media.php:5664
+msgid "An image should not be lazy-loaded and marked as high priority at the same time."
+msgstr "图像不应延迟加载，同时标记为高优先级。"
+
+#: wp-includes/media-template.php:378
+msgid "The Edit Media screen is deprecated as of WordPress 6.3. Please use the Media Library instead."
+msgstr "从WordPress 6.3开始，编辑媒体屏幕已被弃用。请改用媒体库。"
+
+#. translators: %s: The type of the given object ID.
+#: wp-includes/functions.php:7088
+msgid "Object ID must be an integer, %s given."
+msgstr "对象ID必须是一个整数，给定 %s 。"
+
+#. translators: 1: $strategy, 2: $handle
+#: wp-includes/class-wp-scripts.php:844
+msgid "Cannot supply a strategy `%1$s` for script `%2$s` because it is an alias (it lacks a `src` value)."
+msgstr "无法为脚本“%2$s”提供策略“%1$s”，因为它是别名（缺少“src”值）。"
+
+#. translators: 1: $strategy, 2: $handle
+#: wp-includes/class-wp-scripts.php:832
+msgid "Invalid strategy `%1$s` defined for `%2$s` during script registration."
+msgstr "脚本注册期间为“%2$s”定义的策略“%1$s”无效。"
+
+#: wp-includes/class-wp-post-type.php:860
+msgid "Page trashed."
+msgstr "页面已移至回收站。"
+
+#: wp-includes/class-wp-post-type.php:860
+msgid "Post trashed."
+msgstr "文章已移至回收站。"
+
+#: wp-includes/class-wp-navigation-fallback.php:236
+msgctxt "Title of a Navigation menu"
+msgid "Navigation"
+msgstr "导航"
+
+#: wp-includes/class-wp-navigation-fallback.php:113
+msgid "Unable to convert Classic Menu to blocks."
+msgstr "无法将经典菜单转换为区块。"
+
+#: wp-includes/class-wp-navigation-fallback.php:102
+msgid "No Classic Menus found."
+msgstr "未找到经典菜单。"
+
+#. translators: %s: duotone filter ID
+#: wp-includes/class-wp-duotone.php:904
+msgid "The duotone id \"%s\" is not registered in theme.json settings"
+msgstr "双色调 ID “%s”未在 theme.json 设置中注册"
+
+#. translators: %s: duotone colors
+#: wp-includes/class-wp-duotone.php:677
+msgid "\"%s\" in theme.json settings.color.duotone is not a hex or rgb string."
+msgstr "theme.json settings.color.duotone 中的“%s”不是十六进制字符串，也不是 RGB 字符串。"
+
+#: wp-includes/class-wp-classic-to-block-menu-converter.php:32
+msgid "The menu provided is not a valid menu."
+msgstr "提供的菜单为无效菜单。"
+
+#: wp-includes/blocks/search.php:142
+msgid "Expand search field"
+msgstr "展开搜索字段"
+
+#. translators: %1$s is a URL to a post, excerpt truncation character, default
+#. …
+#: wp-includes/blocks/latest-posts.php:54
+msgid " … <a href=\"%1$s\" rel=\"noopener noreferrer\">Read more</a>"
+msgstr " …<a href=\"%1$s\" rel=\"noopener noreferrer\">阅读更多</a>"
+
+#: wp-includes/block-template-utils.php:177
+msgctxt "Template name"
+msgid "Page: 404"
+msgstr "页面：404"
 
 #: wp-includes/block-template-utils.php:169
 msgctxt "Template name"
 msgid "Search Results"
 msgstr "搜索结果"
+
+#: wp-includes/block-template-utils.php:165
+msgid "Attachment Pages"
+msgstr "附件页面"
+
+#: wp-includes/block-template-utils.php:161
+msgctxt "Template name"
+msgid "Tag Archives"
+msgstr "标签归档"
+
+#: wp-includes/block-template-utils.php:157
+msgctxt "Template name"
+msgid "Date Archives"
+msgstr "日期归档"
+
+#: wp-includes/block-template-utils.php:149
+msgctxt "Template name"
+msgid "Category Archives"
+msgstr "分类归档"
+
+#: wp-includes/block-template-utils.php:145
+msgctxt "Template name"
+msgid "Author Archives"
+msgstr "作者归档"
+
+#: wp-includes/block-template-utils.php:141
+msgctxt "Template name"
+msgid "All Archives"
+msgstr "所有归档"
+
+#: wp-includes/block-template-utils.php:129
+msgctxt "Template name"
+msgid "Single Entries"
+msgstr "单个条目"
+
+#: wp-includes/block-template-utils.php:121
+msgctxt "Template name"
+msgid "Blog Home"
+msgstr "博客首页"
+
+#: wp-includes/block-template-utils.php:86
+msgctxt "template part area"
+msgid "Footer"
+msgstr "底部"
+
+#: wp-includes/block-template-utils.php:77
+msgctxt "template part area"
+msgid "Header"
+msgstr "头部"
+
+#: wp-includes/block-template-utils.php:68
+msgctxt "template part area"
+msgid "General"
+msgstr "常规"
+
+#: wp-includes/block-editor.php:52
+msgctxt "block category"
+msgid "Patterns"
+msgstr "区块样板"
+
+#: wp-includes/admin-bar.php:1095
+#: wp-admin/includes/class-custom-image-header.php:75
+#: wp-admin/includes/class-custom-image-header.php:76 wp-admin/menu.php:233
+msgctxt "custom image header"
+msgid "Header"
+msgstr "头部"
+
+#: wp-includes/admin-bar.php:1081
+#: wp-admin/includes/class-custom-background.php:67
+#: wp-admin/includes/class-custom-background.php:68 wp-admin/menu.php:238
+msgctxt "custom background"
+msgid "Background"
+msgstr "背景"
+
+#: wp-includes/admin-bar.php:171 wp-admin/about.php:43
+#: wp-admin/contribute.php:13 wp-admin/contribute.php:24
+#: wp-admin/contribute.php:38 wp-admin/credits.php:47 wp-admin/freedoms.php:44
+#: wp-admin/privacy.php:38
+msgid "Get Involved"
+msgstr "参与"
 
 #: wp-includes/block-template-utils.php:178
 msgid "Displays when a visitor views a non-existent page, such as a dead link or a mistyped URL."
@@ -530,6 +813,12 @@ msgstr "样式变体"
 msgid "Position"
 msgstr "位置"
 
+#: wp-includes/js/dist/block-editor.js:40146
+#: wp-admin/includes/class-wp-posts-list-table.php:1977
+#: wp-admin/includes/class-wp-posts-list-table.php:1980
+msgid "Sticky"
+msgstr "置顶"
+
 #: wp-login.php:1250
 msgid "https://wordpress.org/documentation/article/cookies/"
 msgstr "https://wordpress.org/documentation/article/cookies/"
@@ -546,6 +835,14 @@ msgstr "https://wordpress.org/documentation/article/site-editor/"
 msgid "Array of column names to be searched."
 msgstr "需要搜索的栏位名称组。"
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:293
+msgid "The block types which can use this pattern."
+msgstr "可使用此样板的区块类型。"
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:272
+msgid "An array of template types where the pattern fits."
+msgstr "该模式适合的模板类型数组。"
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php:150
 msgid "The category description, in human readable format."
 msgstr "采用人类可读的格式的分类描述。"
@@ -561,13 +858,36 @@ msgstr "下载文件"
 msgid "Please check that the %s PHP extension is installed and enabled."
 msgstr "请检查 PHP 扩展 %s 已安装并启用。"
 
+#. translators: 1: CUSTOM_TAGS, 2: Global variable names.
+#: wp-includes/kses.php:714
+msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
+msgstr "使用 %1$s 常量时，请确保将这些全局设置为数组：%2$s。"
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:2282
+msgid "The query argument must be an array or a tag name."
+msgstr "查询参数必须是数组或标签名。"
+
 #: wp-includes/html-api/class-wp-html-tag-processor.php:1967
 msgid "Invalid attribute name."
 msgstr "属性名称无效。"
 
+#: wp-includes/html-api/class-wp-html-tag-processor.php:1620
+msgid "Too many calls to seek() - this can lead to performance issues."
+msgstr "过多调用 seek()  - 这可能会导致性能问题。"
+
 #: wp-includes/html-api/class-wp-html-tag-processor.php:1611
 msgid "Unknown bookmark name."
 msgstr "未知书签名称。"
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:717
+msgid "Too many bookmarks: cannot create any more."
+msgstr "书签过多：无法继续创建。"
+
+#. translators: 1: The function name, 2: The argument number, 3: The argument
+#. name, 4: The expected type, 5: The provided type.
+#: wp-includes/formatting.php:5519
+msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
+msgstr "警告：%1$s 希望参数 %2$s (%3$s) 是 %4$s，%5$s 给定。"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:53
 msgid "https://wordpress.org/documentation/article/manage-wordpress-widgets/"
