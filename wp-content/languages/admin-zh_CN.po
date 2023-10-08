@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-06 20:47:02+0000\n"
+"PO-Revision-Date: 2023-10-07 09:31:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -783,7 +783,7 @@ msgstr "通过单击标题展开或折叠元素，并通过拖动标题或单击
 #. translators: %s: Attachment title.
 #: wp-admin/includes/class-wp-media-list-table.php:836
 msgid "Download &#8220;%s&#8221;"
-msgstr "下载 \"%s\""
+msgstr "下载 &#8220;%s&#8221;"
 
 #. translators: %s: The "$dir" argument.
 #: wp-admin/includes/class-wp-automatic-updater.php:83
@@ -1927,22 +1927,22 @@ msgstr "您的网站已支持 HTTPS。"
 #. Settings > General > Site Address.
 #: wp-admin/includes/class-wp-site-health.php:1635
 msgid "Your <a href=\"%1$s\">WordPress Address</a> and <a href=\"%2$s\">Site Address</a> are not set up to use HTTPS."
-msgstr "您的<a href=\"%1$s\">WordPress地址</a>及<a href=\"%2$s\">站点地址</a>未设置为使用HTTPS。"
+msgstr "您的 <a href=\"%1$s\">WordPress 地址</a>及<a href=\"%2$s\">站点地址</a>未设置为使用 HTTPS。"
 
 #. translators: 1: URL to Settings > General > WordPress Address, 2: URL to
 #. Settings > General > Site Address.
 #: wp-admin/includes/class-wp-site-health.php:1625
 msgid "You are accessing this website using HTTPS, but your <a href=\"%1$s\">WordPress Address</a> and <a href=\"%2$s\">Site Address</a> are not set up to use HTTPS by default."
-msgstr "您正在通过HTTPS访问此网站，但您的<a href=\"%1$s\">WordPress地址</a>及<a href=\"%2$s\">站点地址</a>并未设为默认使用HTTPS。"
+msgstr "您正在通过 HTTPS 访问此网站，但您的 <a href=\"%1$s\">WordPress 地址</a>及<a href=\"%2$s\">站点地址</a>并未设为默认使用 HTTPS。"
 
 #. translators: %s: URL to Settings > General > Site Address.
 #: wp-admin/includes/class-wp-site-health.php:1614
 msgid "Your <a href=\"%s\">Site Address</a> is not set up to use HTTPS."
-msgstr "您的<a href=\"%s\">站点地址</a>未设置为使用HTTPS。"
+msgstr "您的<a href=\"%s\">站点地址</a>未设置为使用 HTTPS。"
 
 #: wp-admin/includes/class-wp-site-health.php:1502
 msgid "Learn more about debugging in WordPress."
-msgstr "了解更多在WordPress中调试的信息"
+msgstr "了解更多在 WordPress 中调试的信息"
 
 #: wp-admin/includes/revision.php:98
 msgid "Added"
@@ -1974,23 +1974,23 @@ msgstr "搜索结果"
 
 #: wp-admin/includes/privacy-tools.php:944
 msgid "Invalid request ID when processing personal data to erase."
-msgstr "在处理要抹除的个人数据时遇到了无效的请求ID。"
+msgstr "在处理要抹除的个人数据时遇到了无效的请求 ID。"
 
 #: wp-admin/includes/privacy-tools.php:793
 msgid "Invalid request ID when merging personal data to export."
-msgstr "在合并要导出的个人数据时遇到了无效的请求ID。"
+msgstr "在合并要导出的个人数据时遇到了无效的请求 ID。"
 
 #: wp-admin/includes/privacy-tools.php:545
 msgid "Unable to archive the personal data export file (HTML format)."
-msgstr "无法存档该个人数据导出文件（HTML格式）。"
+msgstr "无法存档该个人数据导出文件（HTML 格式）。"
 
 #: wp-admin/includes/privacy-tools.php:541
 msgid "Unable to archive the personal data export file (JSON format)."
-msgstr "无法存档该个人数据导出文件（JSON格式）。"
+msgstr "无法存档该个人数据导出文件（JSON 格式）。"
 
 #: wp-admin/includes/privacy-tools.php:447
 msgid "Unable to open personal data export (HTML report) for writing."
-msgstr "无法打开个人数据导出文件（HTML报告）进行写入。"
+msgstr "无法打开个人数据导出文件（HTML 报告）进行写入。"
 
 #: wp-admin/includes/privacy-tools.php:333
 msgid "Unable to create personal data export folder."
@@ -2024,7 +2024,7 @@ msgstr "建议更新PHP版本"
 
 #: wp-admin/user-edit.php:807
 msgid "Your website appears to use Basic Authentication, which is not currently compatible with Application Passwords."
-msgstr "您的网站似乎正在使用HTTP基本认证功能，该功能目前与应用程序密码功能不兼容。"
+msgstr "您的网站似乎正在使用 HTTP 基本认证功能，该功能目前与应用程序密码功能不兼容。"
 
 #: wp-admin/includes/class-wp-site-health.php:2484
 msgid "https://developer.wordpress.org/rest-api/frequently-asked-questions/#why-is-authentication-not-working"
@@ -2036,7 +2036,7 @@ msgstr "此站点似乎受到版本控制功能管理。自动更新被禁用。
 
 #: wp-admin/update-core.php:273
 msgid "You are using a development version of WordPress."
-msgstr "您正在使用WordPress的开发版本。"
+msgstr "您正在使用 WordPress 的开发版本。"
 
 #: wp-admin/update-core.php:78
 msgid "You can update to the latest nightly build manually:"
@@ -2044,7 +2044,7 @@ msgstr "您可以手动更新到最新的每日构建版本："
 
 #: wp-admin/update-core.php:420
 msgid "Enable automatic updates for all new versions of WordPress."
-msgstr "启用所有新版本的WordPress自动更新。"
+msgstr "启用所有新版本的 WordPress 自动更新。"
 
 #: wp-admin/update-core.php:409
 msgid "Switch to automatic updates for maintenance and security releases only."
@@ -2057,23 +2057,23 @@ msgstr "当前版本：%s"
 
 #: wp-admin/update-core.php:424
 msgid "This site will not receive automatic updates for new versions of WordPress."
-msgstr "该站点不会接收WordPress新版本的自动更新。"
+msgstr "该站点不会接收 WordPress 新版本的自动更新。"
 
 #: wp-admin/update-core.php:413
 msgid "This site is automatically kept up to date with maintenance and security releases of WordPress only."
-msgstr "该站点仅自动更新至最新的WordPress维护和安全版本。"
+msgstr "该站点仅自动更新至最新的 WordPress 维护和安全版本。"
 
 #: wp-admin/update-core.php:402
 msgid "This site is automatically kept up to date with each new version of WordPress."
-msgstr "该站点会自动更新至WordPress的每个最新版本。"
+msgstr "该站点会自动更新至 WordPress 的每个最新版本。"
 
 #: wp-admin/update-core.php:313
 msgid "WordPress will only receive automatic security and maintenance releases from now on."
-msgstr "从现在起，WordPress只会自动接收安全性维护版本。"
+msgstr "从现在起，WordPress 只会自动接收安全性维护版本。"
 
 #: wp-admin/update-core.php:310
 msgid "Automatic updates for all WordPress versions have been enabled. Thank you!"
-msgstr "已启用所有WordPress版本的自动更新。 谢谢！"
+msgstr "已启用所有 WordPress 版本的自动更新。 谢谢！"
 
 #: wp-admin/index.php:82
 msgid "<strong>Site Health Status</strong> &mdash; Informs you of any potential issues that should be addressed to improve the performance or security of your website."
@@ -2083,7 +2083,7 @@ msgstr "<strong>站点健康状态</strong>——告知您所需解决的任何�
 #: wp-admin/authorize-application.php:204 wp-admin/user-edit.php:943
 #: wp-admin/js/auth-app.js:90
 msgid "Your new password for %s is:"
-msgstr "%s的新应用程序密码为："
+msgstr "%s 的新应用程序密码为："
 
 #: wp-admin/user-edit.php:803
 msgid "Add New Application Password"
@@ -2146,7 +2146,7 @@ msgstr "您将获得密码以手动输入相关应用程序。"
 #: wp-admin/authorize-application.php:277
 #: wp-admin/authorize-application.php:311
 msgid "You will be sent to %s"
-msgstr "您将被跳转到%s"
+msgstr "您将被跳转到 %s"
 
 #: wp-admin/authorize-application.php:263
 msgid "Yes, I approve of this connection"
@@ -2201,7 +2201,7 @@ msgstr[0] "应用程序密码让您能够访问<a href=\"%1$s\">此站点网络�
 
 #: wp-admin/user-edit.php:745
 msgid "Application passwords allow authentication via non-interactive systems, such as XML-RPC or the REST API, without providing your actual password. Application passwords can be easily revoked. They cannot be used for traditional logins to your website."
-msgstr "应用程序密码允许通过非交互式系统（例如XML-RPC或REST API）进行身份验证，而无需提供您的实际密码。应用密码可以随时撤销。它们不能用于通过传统方式登录您的网站。"
+msgstr "应用程序密码允许通过非交互式系统（例如 XML-RPC 或 REST API）进行身份验证，而无需提供您的实际密码。应用密码可以随时撤销。它们不能用于通过传统方式登录您的网站。"
 
 #: wp-admin/user-edit.php:744
 msgid "Application Passwords"
@@ -2224,7 +2224,7 @@ msgstr "再次输入密码。"
 #. necessary.
 #: wp-admin/update-core.php:142
 msgid "You can update from WordPress %1$s to <a href=\"%2$s\">WordPress %3$s</a> manually:"
-msgstr "您可以从WordPress %1$s手动更新至<a href=\"%2$s\"> WordPress %3$s</a>："
+msgstr "您可以从 WordPress %1$s 手动更新至<a href=\"%2$s\"> WordPress %3$s</a>："
 
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:156
 msgid "Revoke all application passwords"
@@ -2257,7 +2257,7 @@ msgstr "最后使用"
 #: wp-admin/includes/ajax-actions.php:5378
 #: wp-admin/includes/ajax-actions.php:5428
 msgid "The Site Health check for %1$s has been replaced with %2$s."
-msgstr "站点健康检查的%1$s已被%2$s代替。"
+msgstr "站点健康检查的 %1$s 已被 %2$s 代替。"
 
 #: wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php:139
 msgid "Erase personal data"
@@ -2322,7 +2322,7 @@ msgstr "若您请求重置密码，您的IP地址将包含于密码重置邮件�
 #. translators: %s: Plugin search term.
 #: wp-admin/includes/class-wp-plugins-list-table.php:419
 msgid "No plugins found for: %s."
-msgstr "找不到用于%s的插件。"
+msgstr "找不到用于 %s 的插件。"
 
 #: wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php:92
 #: wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php:98
@@ -2339,31 +2339,31 @@ msgstr "将导出请求&#8220;%s&#8221;标记为已完成。"
 #: wp-admin/includes/class-wp-privacy-requests-table.php:341
 msgid "%d request deleted successfully."
 msgid_plural "%d requests deleted successfully."
-msgstr[0] "%d个请求已成功删除。"
+msgstr[0] "%d 个请求已成功删除。"
 
 #. translators: %d: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:324
 msgid "%d request failed to delete."
 msgid_plural "%d requests failed to delete."
-msgstr[0] "%d个请求无法删除。"
+msgstr[0] "%d 个请求无法删除。"
 
 #. translators: %d: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:298
 msgid "%d request marked as complete."
 msgid_plural "%d requests marked as complete."
-msgstr[0] "%d个请求已标记为完成。"
+msgstr[0] "%d 个请求已标记为完成。"
 
 #. translators: %d: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:271
 msgid "%d confirmation request re-sent successfully."
 msgid_plural "%d confirmation requests re-sent successfully."
-msgstr[0] "%d个确认请求已成功发送。"
+msgstr[0] "%d 个确认请求已成功发送。"
 
 #. translators: %d: Number of requests.
 #: wp-admin/includes/class-wp-privacy-requests-table.php:254
 msgid "%d confirmation request failed to resend."
 msgid_plural "%d confirmation requests failed to resend."
-msgstr[0] "%d个确认请求无法重新发送。"
+msgstr[0] "%d 个确认请求无法重新发送。"
 
 #: wp-admin/includes/class-wp-privacy-requests-table.php:212
 msgid "Mark requests as completed"
@@ -2379,7 +2379,7 @@ msgstr "无法打开个人数据导出文件（存档）进行写入。"
 
 #: wp-admin/includes/privacy-tools.php:432
 msgid "Unable to open personal data export file (JSON report) for writing."
-msgstr "无法打开个人数据导出文件（JSON报告）进行写入。"
+msgstr "无法打开个人数据导出文件（JSON 报告）进行写入。"
 
 #: wp-admin/includes/privacy-tools.php:341
 msgid "Unable to protect personal data export folder from browsing."
@@ -2391,11 +2391,11 @@ msgstr "生成个人数据导出文件时的电子邮箱地址无效。"
 
 #: wp-admin/includes/privacy-tools.php:319
 msgid "Invalid request ID when generating personal data export file."
-msgstr "生成个人数据导出文件时遇到了无效的请求ID。"
+msgstr "生成个人数据导出文件时遇到了无效的请求 ID。"
 
 #: wp-admin/includes/privacy-tools.php:312
 msgid "Unable to generate personal data export file. ZipArchive not available."
-msgstr "无法生成个人数据导出文件。ZipArchive不可用。"
+msgstr "无法生成个人数据导出文件。ZipArchive 不可用。"
 
 #. translators: %s: Search query.
 #: wp-admin/edit-comments.php:282 wp-admin/edit-tags.php:342
@@ -2412,7 +2412,7 @@ msgstr "请注意，即使设置为不鼓励搜索引擎进行索引，您的站
 
 #: wp-admin/options-reading.php:45
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen."
-msgstr "您可以决定是否让索引工具、搜索引擎爬虫、ping服务访问您的站点。如果您不希望它们访问您的站点，请选择“建议搜索引擎不索引本站点”，并点击下方的“保存更改”。"
+msgstr "您可以决定是否让索引工具、搜索引擎爬虫、Ping 服务访问您的站点。如果您不希望它们访问您的站点，请选择『建议搜索引擎不索引本站点』，并点击下方的『保存更改』。"
 
 #. translators: 1: post_max_size, 2: upload_max_filesize
 #: wp-admin/includes/class-wp-site-health.php:2400
@@ -2487,7 +2487,7 @@ msgstr "插件和主题自动更新配置正确"
 #: wp-admin/includes/class-wp-themes-list-table.php:214
 msgctxt "theme"
 msgid "Activate &#8220;%s&#8221;"
-msgstr "启用“%s”"
+msgstr "启用&#8220;%s&#8221;"
 
 #: wp-admin/includes/ajax-actions.php:5518
 msgid "Sorry, you are not allowed to modify plugins."
@@ -2501,17 +2501,17 @@ msgstr "%1$s 的设置小于 %2$s，这可能会在尝试上传文件时出现�
 #. translators: 1: file_uploads, 2: 0
 #: wp-admin/includes/class-wp-site-health.php:2386
 msgid "%1$s is set to %2$s. You won't be able to upload files on your site."
-msgstr "%1$s的值被设置为%2$s，因此您无法在这个网站上传文件。"
+msgstr "%1$s 的值被设置为 %2$s，因此您无法在这个网站上传文件。"
 
 #. translators: %s: ini_get()
 #: wp-admin/includes/class-wp-site-health.php:2374
 msgid "The %s function has been disabled, some media settings are unavailable because of this."
-msgstr "%s函数已被禁用，因此某些媒体设置不可用。"
+msgstr "%s 函数已被禁用，因此某些媒体设置不可用。"
 
 #. translators: 1: file_uploads, 2: php.ini
 #: wp-admin/includes/class-wp-site-health.php:2361
 msgid "The %1$s directive in %2$s determines if uploading files is allowed on your site."
-msgstr "%2$s中的%1$s指令决定了您的站点是否能上传文件。"
+msgstr "%2$s 中的 %1$s 指令决定了您的站点是否能上传文件。"
 
 #: wp-admin/includes/class-wp-site-health.php:2351
 msgid "Files can be uploaded"
@@ -2531,7 +2531,7 @@ msgstr "最大单一上传文件大小"
 
 #: wp-admin/includes/class-wp-debug-data.php:563
 msgid "Max size of post data allowed"
-msgstr "最大允许POST提交数据大小"
+msgstr "最大允许 POST 提交数据大小"
 
 #: wp-admin/includes/class-wp-debug-data.php:558
 #: wp-admin/includes/class-wp-site-health.php:2778
@@ -2546,26 +2546,26 @@ msgstr "文件上传设置"
 #: wp-admin/theme-install.php:440
 msgctxt "theme"
 msgid "Cannot Install %s"
-msgstr "无法安装%s"
+msgstr "无法安装 %s"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/deprecated.php:1391
 msgctxt "plugin"
 msgid "Install %s"
-msgstr "安装%s"
+msgstr "安装 %s"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-theme-install-list-table.php:335
 #: wp-admin/theme-install.php:433
 msgctxt "theme"
 msgid "Install %s"
-msgstr "安装%s"
+msgstr "安装 %s"
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/theme.php:262 wp-admin/includes/update.php:753
 msgctxt "theme"
 msgid "Update %s now"
-msgstr "立即更新%s"
+msgstr "现在更新 %s"
 
 #. translators: 1: Theme name, 2: Version number.
 #: wp-admin/includes/class-wp-automatic-updater.php:1219
@@ -2592,7 +2592,7 @@ msgstr "该插件已安装。"
 #: wp-admin/includes/update.php:561 wp-admin/js/updates.js:2140
 msgctxt "plugin"
 msgid "Update %s now"
-msgstr "立即更新 %s"
+msgstr "现在更新 %s"
 
 #. translators: %s: Importer name.
 #. translators: %s: Plugin name and version.
@@ -2603,7 +2603,7 @@ msgstr "立即更新 %s"
 #: wp-admin/js/updates.js:2272
 msgctxt "plugin"
 msgid "Install %s now"
-msgstr "立即安装%s"
+msgstr "现在安装 %s"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/user-edit.php:955 wp-admin/js/application-passwords.js:203
@@ -2616,7 +2616,7 @@ msgstr "忽略此通知。"
 #: wp-admin/themes.php:926 wp-admin/themes.php:1160
 msgctxt "theme"
 msgid "Cannot Activate %s"
-msgstr "无法启用%s"
+msgstr "无法启用 %s"
 
 #: wp-admin/themes.php:298 wp-admin/network/themes.php:409
 msgid "Theme will no longer be auto-updated."
@@ -2628,7 +2628,7 @@ msgstr "主题将自动更新。"
 
 #: wp-admin/themes.php:191 wp-admin/network/themes.php:314
 msgid "Auto-updates can be enabled or disabled for each individual theme. Themes with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system."
-msgstr "每个主题均可单独启用或禁用自动更新功能。对于已启用自动更新的主题，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于WP-Cron任务计划系统。"
+msgstr "每个主题均可单独启用或禁用自动更新功能。对于已启用自动更新的主题，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于 WP-Cron 任务计划系统。"
 
 #: wp-admin/themes.php:106
 msgid "Sorry, you are not allowed to disable themes automatic updates."
@@ -2668,7 +2668,7 @@ msgstr "插件将自动更新。"
 
 #: wp-admin/plugins.php:577
 msgid "Auto-updates can be enabled or disabled for each individual plugin. Plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system."
-msgstr "每个插件均可单独启用或禁用自动更新功能。对于已启用自动更新的插件，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于WP-Cron任务计划系统。"
+msgstr "每个插件均可单独启用或禁用自动更新功能。对于已启用自动更新的插件，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于 WP-Cron 任务计划系统。"
 
 #: wp-admin/plugins.php:454
 msgid "Please connect to your network admin to manage plugins automatic updates."
@@ -2677,7 +2677,7 @@ msgstr "请联系网络管理员以管理插件的自动更新。"
 #. translators: %s: Human-readable time interval.
 #: wp-admin/index.php:163
 msgid "The admin email verification page will reappear after %s."
-msgstr "管理员邮件验证页面将会在%s之后重新显示。"
+msgstr "管理员邮件验证页面将会在 %s 之后重新显示。"
 
 #: wp-admin/includes/class-wp-debug-data.php:1211 wp-admin/plugins.php:575
 #: wp-admin/themes.php:197 wp-admin/update-core.php:1014
@@ -2688,11 +2688,11 @@ msgstr "自动更新"
 #: wp-admin/plugins.php:579 wp-admin/themes.php:192
 #: wp-admin/update-core.php:1009 wp-admin/network/themes.php:315
 msgid "Please note: Third-party themes and plugins, or custom code, may override WordPress scheduling."
-msgstr "请注意：第三方主题、插件或自定义代码，都有可能覆盖WordPress的计划任务。"
+msgstr "请注意：第三方主题、插件或自定义代码，都有可能覆盖 WordPress 的计划任务。"
 
 #: wp-admin/update-core.php:1008
 msgid "Auto-updates can be enabled or disabled for WordPress major versions and for each individual theme or plugin. Themes or plugins with auto-updates enabled will display the estimated date of the next auto-update. Auto-updates depends on the WP-Cron task scheduling system."
-msgstr "WordPress大版本及每个主题、插件均可单独启用或禁用自动更新功能。对于已启用自动更新的主题或插件，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于WP-Cron任务计划系统。"
+msgstr "WordPress 大版本及每个主题、插件均可单独启用或禁用自动更新功能。对于已启用自动更新的主题或插件，系统将显示下一次自动更新的预计日期。自动更新功能运行正常与否，取决于 WP-Cron 计划任务系统。"
 
 #. translators: 1: Documentation on WordPress backups, 2: Documentation on
 #. updating WordPress.
@@ -2721,21 +2721,21 @@ msgstr "成功"
 #: wp-admin/includes/plugin.php:1179
 msgctxt "plugin"
 msgid "<strong>Error:</strong> Current WordPress version (%1$s) does not meet minimum requirements for %2$s. The plugin requires WordPress %3$s."
-msgstr "<strong>错误：</strong>当前WordPress版本（%1$s）未能达到%2$s的最低版本要求。此插件需要WordPress %3$s。"
+msgstr "<strong>错误：</strong>当前 WordPress 版本（%1$s）未能达到 %2$s 的最低版本要求。此插件需要 WordPress %3$s。"
 
 #. translators: 1: Current PHP version, 2: Plugin name, 3: Required PHP
 #. version.
 #: wp-admin/includes/plugin.php:1168
 msgctxt "plugin"
 msgid "<strong>Error:</strong> Current PHP version (%1$s) does not meet minimum requirements for %2$s. The plugin requires PHP %3$s."
-msgstr "<strong>错误：</strong>当前PHP版本（%1$s）未能达到%2$s的最低版本要求。此插件需要PHP %3$s。"
+msgstr "<strong>错误：</strong>当前 PHP 版本（%1$s）未能达到 %2$s 的最低版本要求。此插件需要 PHP %3$s。"
 
 #. translators: 1: Current WordPress version, 2: Current PHP version, 3: Plugin
 #. name, 4: Required WordPress version, 5: Required PHP version.
 #: wp-admin/includes/plugin.php:1155
 msgctxt "plugin"
 msgid "<strong>Error:</strong> Current versions of WordPress (%1$s) and PHP (%2$s) do not meet minimum requirements for %3$s. The plugin requires WordPress %4$s and PHP %5$s."
-msgstr "<strong>错误：</strong>当前WordPress版本（%1$s）和PHP版本（%2$s）未能达到%3$s的最低版本要求。此插件需要WordPress %4$s和PHP %5$s。"
+msgstr "<strong>错误：</strong>当前 WordPress 版本（%1$s）和 PHP 版本（%2$s）未能达到 %3$s 的最低版本要求。此插件需要 WordPress %4$s 和 PHP %5$s。"
 
 #: wp-admin/includes/ajax-actions.php:5540
 msgid "Invalid data. The item does not exist."
@@ -2761,12 +2761,12 @@ msgstr "您不能回复草稿文章上的评论。"
 #. translators: %s: Themes screen URL.
 #: wp-admin/includes/class-wp-automatic-updater.php:1315
 msgid "To manage themes on your site, visit the Themes page: %s"
-msgstr "要管理您站点上的主题，请访问“主题”页面：%s"
+msgstr "要管理您网站上的主题，请访问“主题”页面：%s"
 
 #. translators: %s: Plugins screen URL.
 #: wp-admin/includes/class-wp-automatic-updater.php:1306
 msgid "To manage plugins on your site, visit the Plugins page: %s"
-msgstr "要管理您站点上的插件，请访问“插件”页面：%s"
+msgstr "要管理您网站上的插件，请访问“插件”页面：%s"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:1276
 msgid "These themes are now up to date:"
@@ -2865,25 +2865,25 @@ msgstr "不是垃圾评论"
 
 #: wp-admin/includes/class-wp-site-health.php:2745
 msgid "PHP Sessions"
-msgstr "PHP会话"
+msgstr "PHP 会话"
 
 #. translators: 1: session_start(), 2: session_write_close()
 #: wp-admin/includes/class-wp-site-health.php:1187
 msgid "A PHP session was created by a %1$s function call. This interferes with REST API and loopback requests. The session should be closed by %2$s before making any HTTP requests."
-msgstr "%1$s函数调用生成了一个PHP会话。该会话干扰了REST API及环回请求。在做出任何HTTP请求前，该会话必须由%2$s函数关闭。"
+msgstr "%1$s 函数调用生成了一个 PHP 会话。该会话干扰了 REST API 及环回请求。在做出任何 HTTP 请求前，该会话必须由 %2$s 函数关闭。"
 
 #: wp-admin/includes/class-wp-site-health.php:1181
 msgid "An active PHP session was detected"
-msgstr "已检测到活动的PHP会话"
+msgstr "已检测到活动的 PHP 会话"
 
 #. translators: 1: session_start(), 2: session_write_close()
 #: wp-admin/includes/class-wp-site-health.php:1170
 msgid "PHP sessions created by a %1$s function call may interfere with REST API and loopback requests. An active session should be closed by %2$s before making any HTTP requests."
-msgstr "由%1$s函数调用创建的PHP会话可能会干扰REST API和回环请求。在发出任何HTTP请求之前，活动的PHP会话应由%2$s关闭。"
+msgstr "由 %1$s 函数调用创建的 PHP 会话可能会干扰 REST API 和回环请求。在发出任何 HTTP 请求之前，活动的 PHP 会话应由 %2$s 关闭。"
 
 #: wp-admin/includes/class-wp-site-health.php:1160
 msgid "No PHP sessions detected"
-msgstr "未检测到PHP会话"
+msgstr "未检测到 PHP 会话"
 
 #: wp-admin/includes/class-wp-list-table.php:170
 #: wp-admin/includes/class-wp-screen.php:1338
@@ -2913,7 +2913,7 @@ msgstr "未找到插件。试试其他搜索条件。"
 #. translators: %s: Time until the next update.
 #: wp-admin/includes/update.php:1151
 msgid "Automatic update scheduled in %s."
-msgstr "自动更新将于%s后执行。"
+msgstr "自动更新将于 %s 后执行。"
 
 #. translators: %s: Duration that WP-Cron has been overdue.
 #: wp-admin/includes/update.php:1145
@@ -2922,7 +2922,7 @@ msgstr "自动更新已延期 %s。WP-Cron 可能出现了问题。"
 
 #: wp-admin/includes/update.php:1135
 msgid "Automatic update not scheduled. There may be a problem with WP-Cron."
-msgstr "未能安排自动更新。WP-Cron可能发生问题。"
+msgstr "未能安排自动更新。WP-Cron 可能发生问题。"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/class-plugin-installer-skin.php:301
@@ -2939,14 +2939,14 @@ msgstr "您正在上传当前插件的旧版本。您可以继续安装旧版本
 #: wp-admin/includes/class-plugin-installer-skin.php:280
 #: wp-admin/includes/class-plugin-upgrader.php:512
 msgid "Your WordPress version is %1$s, however the uploaded plugin requires %2$s."
-msgstr "您的WordPress版本为%1$s，但上传插件的WordPress版本要求为%2$s。"
+msgstr "您的 WordPress 版本为 %1$s，但上传插件的 WordPress 版本要求为 %2$s。"
 
 #. translators: 1: Current PHP version, 2: Version required by the uploaded
 #. plugin.
 #: wp-admin/includes/class-plugin-installer-skin.php:268
 #: wp-admin/includes/class-plugin-upgrader.php:501
 msgid "The PHP version on your server is %1$s, however the uploaded plugin requires %2$s."
-msgstr "您的服务器PHP版本为%1$s，然而上传的插件要求版本为%2$s。"
+msgstr "您的服务器 PHP 版本为 %1$s，然而上传的插件要求版本为 %2$s。"
 
 #: wp-admin/includes/class-plugin-installer-skin.php:259
 msgid "The plugin cannot be updated due to the following:"
