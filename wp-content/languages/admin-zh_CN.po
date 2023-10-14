@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-12 21:01:26+0000\n"
+"PO-Revision-Date: 2023-10-13 13:42:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4199,13 +4199,13 @@ msgstr "这些设置修改 WordPress 的每个部分将在何处如何加载。"
 #: wp-admin/site-health.php:281 wp-admin/js/site-health.js:160
 msgid "%s item with no issues detected"
 msgid_plural "%s items with no issues detected"
-msgstr[0] "%s个没有问题的项目"
+msgstr[0] "%s 个没有问题的项目"
 
 #. translators: %s: Number of recommended improvements.
 #: wp-admin/site-health.php:260 wp-admin/js/site-health.js:155
 msgid "%s recommended improvement"
 msgid_plural "%s recommended improvements"
-msgstr[0] "%s个推荐的改进"
+msgstr[0] "%s 个推荐的改进"
 
 #: wp-admin/site-health.php:241
 msgid "The site health check shows information about your WordPress configuration and items that may need your attention."
@@ -4238,7 +4238,7 @@ msgstr "到您站点的环回请求成功完成。"
 #. translators: %d: The HTTP response code returned.
 #: wp-admin/includes/class-wp-site-health.php:3178
 msgid "The loopback request returned an unexpected http status code, %d, it was not possible to determine if this will prevent features from working as expected."
-msgstr "到您站点的环回请求返回了预期外的HTTP状态码%d，无法判断依赖此种请求的功能是否能正常工作。"
+msgstr "到您站点的环回请求返回了预期外的 HTTP 状态码 %d，无法判断依赖此种请求的功能是否能正常工作。"
 
 #: wp-admin/includes/class-wp-site-health.php:3162
 msgid "The loopback request to your site failed, this means features relying on them are not currently working as expected."
@@ -4250,7 +4250,7 @@ msgstr "此站点不存在计划事件。"
 
 #: wp-admin/includes/class-wp-site-health.php:2769
 msgid "REST API availability"
-msgstr "REST API可用性"
+msgstr "REST API 可用性"
 
 #: wp-admin/includes/class-wp-site-health.php:2808
 msgid "Loopback request"
@@ -4262,7 +4262,7 @@ msgstr "调试已启用"
 
 #: wp-admin/includes/class-wp-site-health.php:2765
 msgid "HTTP Requests"
-msgstr "HTTP请求"
+msgstr "HTTP 请求"
 
 #: wp-admin/includes/class-wp-site-health.php:2761
 msgid "Scheduled events"
@@ -4274,15 +4274,15 @@ msgstr "安全通信"
 
 #: wp-admin/includes/class-wp-site-health.php:2814
 msgid "HTTPS status"
-msgstr "HTTPS状态"
+msgstr "HTTPS 状态"
 
 #: wp-admin/includes/class-wp-site-health.php:2753
 msgid "MySQL utf8mb4 support"
-msgstr "MySQL utf8mb4支持"
+msgstr "MySQL utf8mb4 支持"
 
 #: wp-admin/includes/class-wp-site-health.php:2737
 msgid "PHP Extensions"
-msgstr "PHP扩展"
+msgstr "PHP 扩展"
 
 #: wp-admin/includes/class-wp-site-health.php:2749
 msgid "Database Server version"
@@ -4290,7 +4290,7 @@ msgstr "数据库服务器版本"
 
 #: wp-admin/includes/class-wp-site-health.php:2733
 msgid "PHP Version"
-msgstr "PHP版本"
+msgstr "PHP 版本"
 
 #: wp-admin/includes/class-wp-site-health.php:2729
 msgid "Theme Versions"
@@ -4302,24 +4302,24 @@ msgstr "插件版本"
 
 #: wp-admin/includes/class-wp-site-health.php:2721
 msgid "WordPress Version"
-msgstr "WordPress版本"
+msgstr "WordPress 版本"
 
 #. translators: %s: The name of the query parameter being tested.
 #: wp-admin/includes/class-wp-site-health.php:2332
 msgid "The REST API did not process the %s query parameter correctly."
-msgstr "REST API未能正确处理%s请求参数。"
+msgstr "REST API 未能正确处理 %s 查询参数。"
 
 #: wp-admin/includes/class-wp-site-health.php:2326
 msgid "The REST API did not behave correctly"
-msgstr "REST API行为不正确"
+msgstr "REST API 行为不正确"
 
 #: wp-admin/includes/class-wp-site-health.php:2303
 msgid "The REST API encountered an unexpected result"
-msgstr "REST API遇到了预料之外的结果"
+msgstr "REST API 遇到了预料之外的结果"
 
 #: wp-admin/includes/class-wp-site-health.php:2283
 msgid "The REST API encountered an error"
-msgstr "REST API遇到了错误"
+msgstr "REST API 遇到了错误"
 
 #: wp-admin/includes/class-wp-site-health.php:2248
 msgid "The REST API is one way that WordPress and other applications communicate with the server. For example, the block editor screen relies on the REST API to display and save your posts and pages."
@@ -4327,15 +4327,15 @@ msgstr "REST API 是 WordPress 及其他应用与服务器通信的一种途径�
 
 #: wp-admin/includes/class-wp-site-health.php:2240
 msgid "The REST API is available"
-msgstr "REST API可用"
+msgstr "REST API 可用"
 
 #: wp-admin/includes/class-wp-site-health.php:2212
 msgid "HTTP requests are partially blocked"
-msgstr "HTTP请求被部分阻止"
+msgstr "HTTP 请求被部分阻止"
 
 #: wp-admin/includes/class-wp-site-health.php:2197
 msgid "HTTP requests are blocked"
-msgstr "HTTP请求被阻止"
+msgstr "HTTP 请求被阻止"
 
 #: wp-admin/includes/class-wp-site-health.php:2177
 msgid "It is possible for site maintainers to block all, or some, communication to other sites and services. If set up incorrectly, this may prevent plugins and themes from working as intended."
@@ -4343,7 +4343,7 @@ msgstr "站点维护者可以阻止全部或部分到其他站点和服务的连
 
 #: wp-admin/includes/class-wp-site-health.php:2169
 msgid "HTTP requests seem to be working as expected"
-msgstr "HTTP请求似乎工作正常"
+msgstr "HTTP 请求似乎工作正常"
 
 #: wp-admin/includes/class-wp-site-health.php:2145
 msgid "Your site could not complete a loopback request"
@@ -4372,7 +4372,7 @@ msgstr "通过"
 
 #: wp-admin/includes/class-wp-site-health.php:1839
 msgid "Background updates ensure that WordPress can auto-update if a security update is released for the version you are currently using."
-msgstr "后台更新确保WordPress能够在您正运行的版本需要安全更新时自动更新WordPress。"
+msgstr "后台更新确保 WordPress 能够在您正运行的版本需要安全更新时自动更新 WordPress。"
 
 #: wp-admin/includes/class-wp-site-health.php:1831
 msgid "Background updates are working"
@@ -4381,7 +4381,7 @@ msgstr "后台更新正常工作"
 #. translators: %s: The name of the failed cron event.
 #: wp-admin/includes/class-wp-site-health.php:1796
 msgid "The scheduled event, %s, failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
-msgstr "计划事件%s执行失败。您的站点仍然工作，但这可能意味着定时发布或自动更新不再正常运行。"
+msgstr "计划事件 %s 执行失败。您的站点仍然工作，但这可能意味着定时发布或自动更新不再正常运行。"
 
 #: wp-admin/includes/class-wp-site-health.php:1790
 msgid "A scheduled event has failed"
@@ -4398,7 +4398,7 @@ msgstr "不能检查您的计划事件"
 
 #: wp-admin/includes/class-wp-site-health.php:1766
 msgid "Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed."
-msgstr "计划事件包括定期检查插件、主题和WordPress自身的更新，也包括让计划文章按时发布。很多插件也通过计划事件来确保动作按期执行。"
+msgstr "计划事件包括定期检查插件、主题和 WordPress 自身的更新，也包括让计划文章按时发布。很多插件也通过计划事件来确保动作按期执行。"
 
 #: wp-admin/includes/class-wp-site-health.php:1758
 msgid "Scheduled events are running"
@@ -4406,7 +4406,7 @@ msgstr "计划事件正在运行"
 
 #: wp-admin/includes/class-wp-site-health.php:1739
 msgid "Talk to your web host about OpenSSL support for PHP."
-msgstr "请向您的主机提供商询问以了解对 PHP的 OpenSSL 支持。"
+msgstr "请向您的主机提供商询问以了解对 PHP 的 OpenSSL 支持。"
 
 #: wp-admin/includes/class-wp-site-health.php:1735
 msgid "Your site is unable to communicate securely with other services"
@@ -4414,7 +4414,7 @@ msgstr "您的站点无法与其他服务安全通信"
 
 #: wp-admin/includes/class-wp-site-health.php:1731
 msgid "Your site can communicate securely with other services"
-msgstr "您的站点能够与其他服务安全地通信"
+msgstr "您的站点能够与其他服务安全通信"
 
 #: wp-admin/includes/class-wp-site-health.php:1720
 msgid "Securely communicating between servers are needed for transactions such as fetching files, conducting sales on store sites, and much more."
@@ -4426,16 +4426,16 @@ msgstr "详细了解为何您应该使用 HTTPS "
 
 #: wp-admin/includes/class-wp-site-health.php:1597
 msgid "Your website does not use HTTPS"
-msgstr "您的站点没有使用HTTPS"
+msgstr "您的站点没有使用 HTTPS"
 
 #: wp-admin/includes/class-wp-site-health.php:1571
 msgid "Your website is using an active HTTPS connection"
-msgstr "您的站点正在使用活跃HTTPS连接"
+msgstr "您的站点正在使用活跃 HTTPS 连接"
 
 #. translators: %s: URL to Settings > General > Site Address.
 #: wp-admin/includes/class-wp-site-health.php:1605
 msgid "You are accessing this website using HTTPS, but your <a href=\"%s\">Site Address</a> is not set up to use HTTPS by default."
-msgstr "您正在通过HTTPS访问此网站，但您的<a href=\"%s\">站点地址</a>并未设为默认使用HTTPS。"
+msgstr "您正在通过 HTTPS 访问此网站，但您的<a href=\"%s\">站点地址</a>并未设为默认使用 HTTPS。"
 
 #: wp-admin/includes/class-wp-site-health.php:1526
 msgid "Your site is set to display errors to site visitors"
@@ -4444,7 +4444,7 @@ msgstr "您的站点被设置为向站点访客展示错误"
 #. translators: %s: WP_DEBUG_LOG
 #: wp-admin/includes/class-wp-site-health.php:1519
 msgid "The value, %s, has been added to this website&#8217;s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
-msgstr "数值%s已加入网站配置文件，这意味着此站点上发生的错误会被写入一个可能公开可见的文件。"
+msgstr "数值 %s 已加入网站配置文件，这意味着此站点上发生的错误会被写入一个可能公开可见的文件。"
 
 #: wp-admin/includes/class-wp-site-health.php:1511
 msgid "Your site is set to log errors to a potentially public file"
@@ -4462,11 +4462,11 @@ msgstr "您的站点没有被设置为输出调试信息"
 #. returned by the lookup.
 #: wp-admin/includes/class-wp-site-health.php:1453
 msgid "Your site is unable to reach WordPress.org at %1$s, and returned the error: %2$s"
-msgstr "您的站点无法与WordPress.org（%1$s）通信，并返回了错误：%2$s"
+msgstr "您的站点无法与 WordPress.org（%1$s）通信，并返回了错误：%2$s"
 
 #: wp-admin/includes/class-wp-site-health.php:1443
 msgid "Could not reach WordPress.org"
-msgstr "未能与WordPress.org通信"
+msgstr "未能与 WordPress.org 通信"
 
 #: wp-admin/includes/class-wp-site-health.php:1426
 msgid "Communicating with the WordPress servers is used to check for new versions, and to both install and update WordPress core, themes or plugins."
@@ -4474,42 +4474,42 @@ msgstr "WordPress 需要与服务器进行通信来检查新版本，以及安�
 
 #: wp-admin/includes/class-wp-site-health.php:1418
 msgid "Can communicate with WordPress.org"
-msgstr "能够与WordPress.org通信"
+msgstr "能够与 WordPress.org 通信"
 
 #: wp-admin/includes/class-wp-site-health.php:1376
 #: wp-admin/includes/class-wp-site-health.php:1392
 msgid "utf8mb4 requires a newer client library"
-msgstr "utf8mb4需要更新的客户端库"
+msgstr "utf8mb4 需要更新的客户端库"
 
 #: wp-admin/includes/class-wp-site-health.php:1354
 msgid "Your MariaDB version supports utf8mb4."
-msgstr "您的MariaDB版本支持utf8mb4。"
+msgstr "您的 MariaDB 版本支持 utf8mb4。"
 
 #: wp-admin/includes/class-wp-site-health.php:1341
 msgid "utf8mb4 requires a MariaDB update"
-msgstr "utf8mb4需要MariaDB更新"
+msgstr "utf8mb4 需要更新 MariaDB"
 
 #: wp-admin/includes/class-wp-site-health.php:1334
 msgid "Your MySQL version supports utf8mb4."
-msgstr "您的MySQL版本支持utf8mb4。"
+msgstr "您的 MySQL 版本支持 utf8mb4。"
 
 #: wp-admin/includes/class-wp-site-health.php:1321
 msgid "utf8mb4 requires a MySQL update"
-msgstr "utf8mb4需要MySQL更新"
+msgstr "utf8mb4 需要更新 MySQL"
 
 #: wp-admin/includes/class-wp-site-health.php:1303
 msgid "UTF8MB4 is supported"
-msgstr "支持UTF8MB4"
+msgstr "支持 UTF8MB4"
 
 #. translators: 1: The database engine in use (MySQL or MariaDB). 2: Database
 #. server minimum version number.
 #: wp-admin/includes/class-wp-site-health.php:1259
 msgid "WordPress requires %1$s version %2$s or higher. Contact your web hosting company to correct this."
-msgstr "WordPress需要%2$s及更高版本的%1$s。请联系您的主机提供商来修正此项。"
+msgstr "WordPress 需要 %2$s 及更高版本的 %1$s。请联系您的主机提供商来修正此项。"
 
 #: wp-admin/includes/class-wp-site-health.php:1252
 msgid "Severely outdated SQL server"
-msgstr "极度陈旧的SQL服务器"
+msgstr "极度陈旧的 SQL 服务器"
 
 #. translators: 1: The database engine in use (MySQL or MariaDB). 2: Database
 #. server recommended version number.
@@ -4519,11 +4519,11 @@ msgstr "出于最佳性能和安全考虑，建议您运行 %1$s %2$s 或更高�
 
 #: wp-admin/includes/class-wp-site-health.php:1236
 msgid "Outdated SQL server"
-msgstr "陈旧的SQL服务器"
+msgstr "陈旧的 SQL 服务器"
 
 #: wp-admin/includes/class-wp-site-health.php:1210
 msgid "SQL server is up to date"
-msgstr "SQL服务器已是最新"
+msgstr "SQL 服务器已是最新"
 
 #: wp-admin/includes/class-wp-site-health.php:1101
 msgid "One or more required modules are missing"
@@ -4536,12 +4536,12 @@ msgstr "缺少一个或多个推荐的模组"
 #. translators: %s: The module name.
 #: wp-admin/includes/class-wp-site-health.php:1070
 msgid "The optional module, %s, is not installed, or has been disabled."
-msgstr "可选的模组%s未被安装或已被禁用。"
+msgstr "可选的模组 %s 未被安装或已被禁用。"
 
 #. translators: %s: The module name.
 #: wp-admin/includes/class-wp-site-health.php:1061
 msgid "The required module, %s, is not installed, or has been disabled."
-msgstr "必需的模组%s未被安装或已被禁用。"
+msgstr "必需的模组 %s 未被安装或已被禁用。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-site-health.php:1058
@@ -4556,7 +4556,7 @@ msgstr "必需和推荐的模组均已安装"
 
 #: wp-admin/includes/class-wp-site-health.php:712
 msgid "Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your chosen theme."
-msgstr "您的站点没有任何默认主题。当您的主题遇到任何问题时，WordPress会自动使用默认主题。"
+msgstr "您的站点没有任何默认主题。当您的主题遇到任何问题时，WordPress 会自动使用默认主题。"
 
 #: wp-admin/includes/class-wp-site-health.php:708
 msgid "Have a default theme available"
@@ -4582,13 +4582,13 @@ msgstr "您应该移除未启用的插件"
 #: wp-admin/includes/class-wp-site-health.php:598
 msgid "Your site has %d installed theme, and it is up to date."
 msgid_plural "Your site has %d installed themes, and they are all up to date."
-msgstr[0] "您的站点有%d个已启用的主题，这些主题已是最新。"
+msgstr[0] "您的站点有 %d 个已启用的主题，这些主题已是最新。"
 
 #. translators: %d: The number of outdated themes.
 #: wp-admin/includes/class-wp-site-health.php:578
 msgid "Your site has %d theme waiting to be updated."
 msgid_plural "Your site has %d themes waiting to be updated."
-msgstr[0] "您的站点有%d个主题正等待更新。"
+msgstr[0] "您的站点有 %d 个主题正等待更新。"
 
 #: wp-admin/includes/class-wp-site-health.php:572
 msgid "You have themes waiting to be updated"
