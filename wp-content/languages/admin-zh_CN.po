@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-13 13:42:26+0000\n"
+"PO-Revision-Date: 2023-10-14 21:00:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4606,13 +4606,13 @@ msgstr "您的所有主题均为最新版本"
 #: wp-admin/includes/class-wp-site-health.php:430
 msgid "Your site has %d active plugin, and it is up to date."
 msgid_plural "Your site has %d active plugins, and they are all up to date."
-msgstr[0] "您的站点有%d个已启用的插件，这些插件已是最新。"
+msgstr[0] "您的站点有 %d 个已启用的插件，这些插件已是最新。"
 
 #. translators: %d: The number of outdated plugins.
 #: wp-admin/includes/class-wp-site-health.php:405
 msgid "Your site has %d plugin waiting to be updated."
 msgid_plural "Your site has %d plugins waiting to be updated."
-msgstr[0] "您的站点有%d个插件正等待更新。"
+msgstr[0] "您的站点有 %d 个插件正等待更新。"
 
 #: wp-admin/includes/class-wp-site-health.php:399
 msgid "You have plugins waiting to be updated"
@@ -4628,7 +4628,7 @@ msgstr "您的所有插件均为最新版本"
 
 #: wp-admin/includes/class-wp-site-health.php:336
 msgid "You are currently running the latest version of WordPress available, keep it up!"
-msgstr "您正在运行最新版本的WordPress，好样的！"
+msgstr "您正在运行最新版本的 WordPress，好样的！"
 
 #: wp-admin/includes/class-wp-site-health.php:323
 msgid "A new minor update is available for your site. Because minor updates often address security, it&#8217;s important to install them."
@@ -4636,16 +4636,16 @@ msgstr "一个新的小版本更新现已可用。因为小版本更新通常会
 
 #: wp-admin/includes/class-wp-site-health.php:315
 msgid "A new version of WordPress is available."
-msgstr "新版本的WordPress现已可用。"
+msgstr "新版本的 WordPress 现已可用。"
 
 #: wp-admin/includes/class-wp-site-health.php:307
 msgid "Install the latest version of WordPress"
-msgstr "安装最新版本的WordPress"
+msgstr "安装最新版本的 WordPress"
 
 #. translators: %s: The latest version of WordPress available.
 #: wp-admin/includes/class-wp-site-health.php:300
 msgid "WordPress update available (%s)"
-msgstr "WordPress更新可用（%s）"
+msgstr "WordPress 更新可用（%s）"
 
 #: wp-admin/includes/class-wp-site-health.php:287
 msgid "Check for updates manually"
@@ -4658,39 +4658,39 @@ msgstr "无法检查是否有任何新版本的 WordPress 可用。"
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:451
 msgid "WordPress security and maintenance releases are blocked by the %s filter."
-msgstr "WordPress安全和维护更新被%s过滤器阻止。"
+msgstr "WordPress 安全和维护更新被 %s 过滤器阻止。"
 
 #. translators: %s: Name of the constant used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:439
 msgid "WordPress security and maintenance releases are blocked by %s."
-msgstr "WordPress安全和维护更新被%s阻止。"
+msgstr "WordPress 安全和维护更新被 %s 阻止。"
 
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:419
 msgid "WordPress development updates are blocked by the %s filter."
-msgstr "WordPress开发更新被%s过滤器阻止。"
+msgstr "WordPress 开发更新被 %s 过滤器阻止。"
 
 #. translators: %s: Name of the constant used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:407
 msgid "WordPress development updates are blocked by the %s constant."
-msgstr "WordPress开发更新被%s常量阻止。"
+msgstr "WordPress 开发更新被 %s 常量阻止。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:383
 msgid "All of your WordPress files are writable."
-msgstr "所有WordPress文件都可写。"
+msgstr "所有 WordPress 文件都可写。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:378
 msgid "Some files are not writable by WordPress:"
-msgstr "一些文件不能被WordPress写入："
+msgstr "一些文件不能被 WordPress 写入："
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:352
 msgid "This could mean that connections are failing to WordPress.org."
-msgstr "这可能意味着到WordPress.org的连接失败。"
+msgstr "这可能意味着到 WordPress.org 的连接失败。"
 
 #. translators: %s: WordPress version.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:349
 msgid "Couldn't retrieve a list of the checksums for WordPress %s."
-msgstr "未能获取WordPress %s的校验和列表。"
+msgstr "未能获取 WordPress %s 的校验和列表。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:297
 msgid "Your installation of WordPress does not require FTP credentials to perform updates."
@@ -4698,11 +4698,11 @@ msgstr "您安装的 WordPress 不需要 FTP 凭据来执行更新。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:288
 msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
-msgstr "（由于文件所有权，您的站点现在通过FTP进行更新。请与您的主机提供商联系。）"
+msgstr "（由于文件所有权，您的站点现在通过 FTP 进行更新。请与您的主机提供商联系。）"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:287
 msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
-msgstr "您的WordPress安装需要FTP凭据来进行更新。"
+msgstr "您的 WordPress 安装需要 FTP 凭据来进行更新。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:265
 msgid "No version control systems were detected."
@@ -4711,12 +4711,12 @@ msgstr "没有检测到版本控制系统。"
 #. translators: 1: Folder name. 2: Version control directory.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:256
 msgid "The folder %1$s was detected as being under version control (%2$s)."
-msgstr "检测到目录%1$s受到版本控制（%2$s）。"
+msgstr "检测到目录 %1$s 受到版本控制（%2$s）。"
 
 #. translators: 1: Folder name. 2: Version control directory. 3: Filter name.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:243
 msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
-msgstr "检测到目录%1$s受到版本控制（%2$s），但%3$s允许了更新。"
+msgstr "检测到目录 %1$s 受到版本控制（%2$s），但 %3$s 允许了更新。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:183
 msgid "A previous automatic background update could not occur."
@@ -4726,7 +4726,7 @@ msgstr "较早前的自动后台更新未能发生。"
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:174
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:191
 msgid "The error code was %s."
-msgstr "错误代码为%s。"
+msgstr "错误代码为 %s。"
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:171
 msgid "When you've been able to update using the \"Update now\" button on Dashboard > Updates, this error will be cleared for future update attempts."
@@ -4744,12 +4744,12 @@ msgstr "较早前的后台更新遇到了致命错误，更新现已被禁用。
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:122
 msgid "The %s filter is enabled."
-msgstr "%s过滤器已启用。"
+msgstr "%s 过滤器已启用。"
 
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:101
 msgid "A plugin has prevented updates by disabling %s."
-msgstr "一个插件已通过禁用%s阻止了更新。"
+msgstr "一个插件已通过禁用 %s 阻止了更新。"
 
 #: wp-admin/includes/class-wp-debug-data.php:1413
 msgid "The must use plugins directory"
@@ -4786,7 +4786,7 @@ msgstr "（最新版本：%s）"
 #: wp-admin/includes/class-wp-debug-data.php:1007
 #: wp-admin/includes/class-wp-debug-data.php:1329
 msgid "Version %1$s by %2$s"
-msgstr "%1$s版，开发者为%2$s"
+msgstr "%1$s 版，开发者为 %2$s"
 
 #: wp-admin/includes/class-wp-debug-data.php:955
 #: wp-admin/includes/class-wp-debug-data.php:1002
@@ -4805,33 +4805,33 @@ msgstr "扩展"
 #. translators: %s: .htaccess
 #: wp-admin/includes/class-wp-debug-data.php:837
 msgid "Your %s file contains only core WordPress features."
-msgstr "您的%s文件仅包含核心WordPress功能。"
+msgstr "您的 %s 文件仅包含核心 WordPress 功能。"
 
 #. translators: %s: .htaccess
 #: wp-admin/includes/class-wp-debug-data.php:834
 msgid "Custom rules have been added to your %s file."
-msgstr "自定义规则已被加入您的%s文件。"
+msgstr "自定义规则已被加入您的 %s 文件。"
 
 #: wp-admin/includes/class-wp-debug-data.php:841
 msgid ".htaccess rules"
-msgstr ".htaccess规则"
+msgstr ".htaccess 规则"
 
 #: wp-admin/includes/class-wp-debug-data.php:809
 msgid "Is the Imagick library available?"
-msgstr "Imagick库是否可用？"
+msgstr "Imagick 库是否可用？"
 
 #: wp-admin/includes/class-wp-debug-data.php:800
 msgid "Is SUHOSIN installed?"
-msgstr "是否安装了SUHOSIN？"
+msgstr "是否安装了 SUHOSIN？"
 
 #: wp-admin/includes/class-wp-debug-data.php:785
 #: wp-admin/includes/class-wp-debug-data.php:790
 msgid "cURL version"
-msgstr "cURL版本"
+msgstr "cURL 版本"
 
 #: wp-admin/includes/class-wp-debug-data.php:776
 msgid "PHP post max size"
-msgstr "PHP最大post大小"
+msgstr "PHP 最大 POST 大小"
 
 #: wp-admin/includes/class-wp-debug-data.php:772
 msgid "Upload max filesize"
@@ -4844,21 +4844,21 @@ msgstr "最大输入时间"
 #: wp-admin/includes/class-wp-debug-data.php:753
 #: wp-admin/includes/class-wp-debug-data.php:762
 msgid "PHP memory limit"
-msgstr "PHP内存限制"
+msgstr "PHP 内存限制"
 
 #: wp-admin/includes/class-wp-debug-data.php:747
 msgid "PHP time limit"
-msgstr "PHP时间限制"
+msgstr "PHP 时间限制"
 
 #: wp-admin/includes/class-wp-debug-data.php:743
 msgid "PHP max input variables"
-msgstr "PHP最大输入变量"
+msgstr "PHP 最大输入变量"
 
 #. translators: %s: ini_get()
 #: wp-admin/includes/class-wp-debug-data.php:544
 #: wp-admin/includes/class-wp-debug-data.php:736
 msgid "Unable to determine some settings, as the %s function has been disabled."
-msgstr "无法确认部分设置，因%s函数已被禁用。"
+msgstr "无法确认部分设置，因为 %s 函数已被禁用。"
 
 #: wp-admin/includes/class-wp-debug-data.php:733
 msgid "Server settings"
@@ -4866,7 +4866,7 @@ msgstr "服务器设置"
 
 #: wp-admin/includes/class-wp-debug-data.php:726
 msgid "Unable to determine PHP SAPI"
-msgstr "无法确认PHP SAPI"
+msgstr "无法确认 PHP SAPI"
 
 #: wp-admin/includes/class-wp-debug-data.php:725
 msgid "PHP SAPI"
@@ -4874,23 +4874,23 @@ msgstr "PHP SAPI"
 
 #: wp-admin/includes/class-wp-debug-data.php:696
 msgid "(Does not support 64bit values)"
-msgstr "（不支持64位数值）"
+msgstr "（不支持 64 位数值）"
 
 #: wp-admin/includes/class-wp-debug-data.php:696
 msgid "(Supports 64bit values)"
-msgstr "（支持64位数值）"
+msgstr "（支持 64 位数值）"
 
 #: wp-admin/includes/class-wp-debug-data.php:720
 msgid "PHP version"
-msgstr "PHP版本"
+msgstr "PHP 版本"
 
 #: wp-admin/includes/class-wp-debug-data.php:716
 msgid "Unable to determine what web server software is used"
-msgstr "无法确认web服务器软件"
+msgstr "无法确认 Web 服务器软件"
 
 #: wp-admin/includes/class-wp-debug-data.php:715
 msgid "Web server"
-msgstr "Web服务器"
+msgstr "Web 服务器"
 
 #: wp-admin/includes/class-wp-debug-data.php:711
 msgid "Unable to determine server architecture"
@@ -4902,23 +4902,23 @@ msgstr "服务器架构"
 
 #: wp-admin/includes/class-wp-debug-data.php:677
 msgid "Ghostscript version"
-msgstr "Ghostscript版本"
+msgstr "Ghostscript 版本"
 
 #: wp-admin/includes/class-wp-debug-data.php:672
 msgid "Unable to determine if Ghostscript is installed"
-msgstr "无法确认Ghostscript是否安装"
+msgstr "无法确认 Ghostscript 是否安装"
 
 #: wp-admin/includes/class-wp-debug-data.php:629
 msgid "GD version"
-msgstr "GD版本"
+msgstr "GD 版本"
 
 #: wp-admin/includes/class-wp-debug-data.php:603
 msgid "Imagick Resource Limits"
-msgstr "Imagick资源限制"
+msgstr "Imagick 资源限制"
 
 #: wp-admin/includes/class-wp-debug-data.php:528
 msgid "ImageMagick version string"
-msgstr "ImageMagick版本字串"
+msgstr "ImageMagick 版本字符串"
 
 #: wp-admin/includes/class-wp-debug-data.php:523
 msgid "ImageMagick version number"
