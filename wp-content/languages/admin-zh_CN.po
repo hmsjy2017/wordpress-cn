@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.3.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-16 17:41:02+0000\n"
+"PO-Revision-Date: 2023-10-17 16:55:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6722,7 +6722,7 @@ msgstr "目前在 %1$s 附近没有安排任何活动。您想<a href=\"%2$s\">�
 #. translators: %s: The name of a city.
 #: wp-admin/includes/dashboard.php:1432
 msgid "Attend an upcoming event near %s."
-msgstr "参加近期位于%s附近的活动。"
+msgstr "参加近期位于 %s 附近的活动。"
 
 #: wp-admin/includes/dashboard.php:1402
 msgid "Cincinnati"
@@ -6746,7 +6746,7 @@ msgstr "发生了一个错误，请重试。"
 
 #: wp-admin/includes/dashboard.php:92
 msgid "WordPress Events and News"
-msgstr "WordPress活动及新闻"
+msgstr "WordPress 活动及新闻"
 
 #. translators: Date format for upcoming events on the dashboard. Include the
 #. day of the week. See https://www.php.net/manual/datetime.format.php
@@ -6758,12 +6758,12 @@ msgstr "Y年n月j日"
 
 #: wp-admin/includes/class-wp-community-events.php:125
 msgid "Unknown API error."
-msgstr "未知的API错误。"
+msgstr "未知的 API 错误。"
 
 #. translators: %d: Numeric HTTP status code, e.g. 400, 403, 500, 504, etc.
 #: wp-admin/includes/class-wp-community-events.php:120
 msgid "Invalid API response code (%d)."
-msgstr "API响应代码无效（%d）。"
+msgstr "API 响应代码无效（%d）。"
 
 #: wp-admin/users.php:193 wp-admin/users.php:287
 msgid "Sorry, you are not allowed to delete users."
@@ -6793,7 +6793,7 @@ msgstr "ID #%1$s：%2$s <strong>抱歉，您不能移除此用户。</strong>"
 
 #: wp-admin/user-edit.php:61
 msgid "You can select the language you wish to use while using the WordPress administration screen without affecting the language site visitors see."
-msgstr "您可以选择WordPress管理界面的语言，这不会影响到站点访客所看到的语言。"
+msgstr "您可以选择 WordPress 管理界面的语言，这不会影响到站点访客所看到的语言。"
 
 #: wp-admin/theme-install.php:267
 msgid "Edit Filters"
@@ -6811,7 +6811,7 @@ msgstr "选择一个或多个主题特征进行筛选"
 #. translators: %s: Number of ratings.
 #: wp-admin/includes/theme.php:881 wp-admin/theme-install.php:514
 msgid "(%s ratings)"
-msgstr "（%s个评级）"
+msgstr "（%s 个评级）"
 
 #: wp-admin/includes/template.php:2434
 msgid "Current Background Image"
@@ -6833,13 +6833,13 @@ msgstr "设置状态"
 #. translators: Hidden accessibility text. %s: Post title.
 #: wp-admin/includes/class-wp-posts-list-table.php:1046
 msgid "&#8220;%s&#8221; is locked"
-msgstr "“%s”已被锁定"
+msgstr "&#8220;%s&#8221; 已被锁定"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:788
 #: wp-admin/includes/plugin-install.php:708
 msgctxt "Active plugin installations"
 msgid "Less Than 10"
-msgstr "小于10"
+msgstr "小于 10"
 
 #: wp-admin/includes/ajax-actions.php:2586
 msgid "Sorry, you are not allowed to attach files to this post."
@@ -6880,12 +6880,12 @@ msgstr "<a href=\"https://cn.wordpress.org/support/\">支持</a>"
 #. translators: %s: Number of failed updates.
 #: wp-admin/includes/update.php:951
 msgid "%s updates failed."
-msgstr "%s个更新失败。"
+msgstr "%s 个更新失败。"
 
 #. translators: %s: Number of failed updates.
 #: wp-admin/includes/update.php:946
 msgid "%s update failed."
-msgstr "%s个更新失败。"
+msgstr "%s 个更新失败。"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:456
 msgid "Search installed plugins..."
@@ -6898,7 +6898,7 @@ msgstr "您可以在“安装插件”界面通过搜索或浏览目录来寻找
 #. translators: %s: https://wordpress.org/plugins
 #: wp-admin/plugin-install.php:100
 msgid "Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from the core WordPress application by thousands of developers all over the world. All plugins in the official <a href=\"%s\">WordPress Plugin Directory</a> are compatible with the license WordPress uses."
-msgstr "插件利用WordPress的钩子机制来扩展WordPress的功能，同时与WordPress核心应用程序相对独立。它们是由全球各地数以千计的开发者开发的。所有在官方<a href=\"%s\">WordPress.org插件目录</a>中的插件都与WordPress所用的许可证相兼容。"
+msgstr "插件利用 WordPress 的钩子机制来扩展 WordPress 的功能，同时与 WordPress 核心应用程序相对独立。它们是由全球各地数以千计的开发者开发的。所有在官方 <a href=\"%s\">WordPress.org 插件目录</a> 中的插件都与 WordPress 所用的许可证相兼容。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/plugin-install.php:326
@@ -6907,23 +6907,23 @@ msgstr "搜索插件："
 
 #: wp-admin/includes/import.php:227
 msgid "Import posts, pages, comments, custom fields, categories, and tags from a WordPress export file."
-msgstr "从WordPress导出文件导入文章、页面、自定义字段、分类和标签。"
+msgstr "从 WordPress 导出文件导入文章、页面、自定义字段、分类和标签。"
 
 #: wp-admin/includes/import.php:221
 msgid "Import posts &amp; media from Tumblr using their API."
-msgstr "从Tumblr通过他们的API导入文章和媒体。"
+msgstr "从 Tumblr 通过他们的 API 导入文章和媒体。"
 
 #: wp-admin/includes/import.php:215
 msgid "Import posts from an RSS feed."
-msgstr "从RSS feed导入文章。"
+msgstr "从 RSS Feed 导入文章。"
 
 #: wp-admin/includes/import.php:209
 msgid "Import posts and comments from a Movable Type or TypePad blog."
-msgstr "从Movable Type或TypePad博客导入文章和评论。"
+msgstr "从 Movable Type 或 TypePad 博客导入文章和评论。"
 
 #: wp-admin/includes/import.php:203
 msgid "Import posts from LiveJournal using their API."
-msgstr "从LiveJournal通过他们的API导入文章。"
+msgstr "从 LiveJournal 通过他们的 API 导入文章。"
 
 #: wp-admin/includes/import.php:197
 msgid "Convert existing categories to tags or tags to categories, selectively."
@@ -6931,30 +6931,30 @@ msgstr "选择性地将已有的分类转换为标签，或将标签转换为分
 
 #: wp-admin/includes/import.php:191
 msgid "Import posts, comments, and users from a Blogger blog."
-msgstr "从Blogger博客导入文章、评论和用户。"
+msgstr "从 Blogger 博客导入文章、评论和用户。"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:854
 msgctxt "plugin"
 msgid "Deactivate %s"
-msgstr "禁用%s"
+msgstr "禁用 %s"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:833
 #: wp-admin/includes/class-wp-plugins-list-table.php:894
 msgctxt "plugin"
 msgid "Delete %s"
-msgstr "删除%s"
+msgstr "删除 %s"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:804
 msgctxt "plugin"
 msgid "Network Deactivate %s"
-msgstr "在站点网络中禁用%s"
+msgstr "在站点网络中禁用 %s"
 
 #: wp-admin/user-new.php:271
 msgid "By default, new users will receive an email letting them know they&#8217;ve been added as a user for your site. This email will also contain a password reset link. Uncheck the box if you do not want to send the new user a welcome email."
-msgstr "默认情况下，新用户将收到一封电子邮件，告知他们已被添加为您站点的用户。，该邮件中还会包含一个密码重置链接。 如果您不想向新用户发送欢迎邮件，请取消选中该框。"
+msgstr "默认情况下，新用户将收到一封电子邮件，告知他们已被添加为您站点的用户。该邮件中还会包含一个密码重置链接。 如果您不想向新用户发送欢迎邮件，请取消选中该框。"
 
 #: wp-admin/user-new.php:269
 msgid "New users are automatically assigned a password, which they can change after logging in. You can view or edit the assigned password by clicking the Show Password button. The username cannot be changed once the user has been added."
@@ -6964,7 +6964,7 @@ msgstr "新用户将被自动指派一个密码，他们可以在登录后修改
 #: wp-admin/includes/update.php:1019
 msgctxt "plugin"
 msgid "%s was successfully deleted."
-msgstr "%s被成功删除。"
+msgstr "%s 被成功删除。"
 
 #: wp-admin/plugins.php:547
 msgid "The search for installed plugins will search for terms in their name, description, or author."
@@ -6972,7 +6972,7 @@ msgstr "搜索已安装的插件将在主题的名字、描述、作者和标签
 
 #: wp-admin/includes/theme.php:331
 msgid "Custom Logo"
-msgstr "自定义 logo"
+msgstr "自定义 Logo"
 
 #: wp-admin/users.php:465 wp-admin/users.php:497
 #: wp-admin/network/site-users.php:120
@@ -7005,7 +7005,7 @@ msgstr "有新版本可用。<button class=\"button-link\" type=\"button\">立�
 
 #: wp-admin/theme-install.php:187
 msgid "The Theme Installer screen requires JavaScript."
-msgstr "主题安装器需要JavaScript支持。"
+msgstr "主题安装器需要 JavaScript 支持。"
 
 #: wp-admin/includes/file.php:439 wp-admin/theme-editor.php:18
 msgid "Sorry, you are not allowed to edit templates for this site."
@@ -7062,42 +7062,42 @@ msgstr "您好，这是一条评论。若需要审核、编辑或删除评论，
 #: wp-admin/includes/update.php:1027
 msgctxt "theme"
 msgid "%s was successfully deleted."
-msgstr "%s被成功删除。"
+msgstr "%s 被成功删除。"
 
 #. translators: %s: Number of themes.
 #: wp-admin/includes/update.php:936
 msgid "%s themes successfully updated."
-msgstr "%s个主题成功更新。"
+msgstr "%s 个主题成功更新。"
 
 #. translators: %s: Number of plugins.
 #: wp-admin/includes/update.php:931
 msgid "%s plugins successfully updated."
-msgstr "%s个插件成功更新。"
+msgstr "%s 个插件成功更新。"
 
 #. translators: %s: Number of themes.
 #: wp-admin/includes/update.php:924
 msgid "%s theme successfully updated."
-msgstr "%s个主题成功更新。"
+msgstr "%s 个主题成功更新。"
 
 #. translators: %s: Number of plugins.
 #: wp-admin/includes/update.php:919
 msgid "%s plugin successfully updated."
-msgstr "%s个插件成功更新。"
+msgstr "%s 个插件成功更新。"
 
 #. translators: 1: URL to WordPress release notes, 2: New WordPress version.
 #: wp-admin/includes/update.php:339
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! Please notify the site administrator."
-msgstr "<a href=\"%1$s\">WordPress %2$s</a>现已可用！请通知站点管理员。"
+msgstr "<a href=\"%1$s\">WordPress %2$s</a> 现已可用！请通知站点管理员。"
 
 #: wp-admin/includes/update.php:334
 msgid "Please update WordPress now"
-msgstr "请立即更新WordPress"
+msgstr "请立即更新 WordPress"
 
 #. translators: 1: URL to WordPress release notes, 2: New WordPress version, 3:
 #. URL to network admin, 4: Accessibility text.
 #: wp-admin/includes/update.php:330
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! <a href=\"%3$s\" aria-label=\"%4$s\">Please update now</a>."
-msgstr "<a href=\"%1$s\">WordPress %2$s</a>现已可用！<a href=\"%3$s\" aria-label=\"%4$s\">请立即更新</a>。"
+msgstr "<a href=\"%1$s\">WordPress %2$s</a> 现已可用！<a href=\"%3$s\" aria-label=\"%4$s\">请立即更新</a>。"
 
 #: wp-admin/includes/theme.php:321
 msgid "Portfolio"
@@ -7182,7 +7182,7 @@ msgstr "嵌入内容模板"
 
 #: wp-admin/includes/file.php:49
 msgid "Embed 404 Template"
-msgstr "嵌入404模板"
+msgstr "嵌入 404 模板"
 
 #: wp-admin/includes/file.php:48
 msgid "Embed Template"
@@ -7277,7 +7277,7 @@ msgstr "自定义字段可为您的文章添加额外元数据，而这些字段
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/meta-boxes.php:796
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress sites, they&#8217;ll be notified automatically using <a href=\"%s\">pingbacks</a>, no other action necessary."
-msgstr "Trackback是一种通知老旧博客系统您链接到了他们的方法。如果您链接到了其他WordPress站点，将自动通过<a href=\"%s\">Pingback</a>通知他们，无须其他操作。"
+msgstr "Trackback 是一种通知老旧博客系统您链接到了他们的方法。如果您链接到了其他 WordPress 站点，将自动通过 <a href=\"%s\">Pingback</a> 通知他们，无须其他操作。"
 
 #. translators: %s: Documentation URL.
 #: wp-admin/includes/meta-boxes.php:758
@@ -7286,7 +7286,7 @@ msgstr "摘要是可选的手工创建的内容总结，并可在您的主题中
 
 #: wp-admin/edit-form-advanced.php:295
 msgid "The Text mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Text editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
-msgstr "文本模式使您可以向您的文章中加入HTML。请注意，为了让编辑器更简洁，在切换到文本模式时，&lt;p&gt;和&lt;br&gt;标签会自动被转换为换行。在您打字时，您可以使用一个换行来代替&lt;br&gt;标签，使用两个换行来代替&lt;p&gt;标签。在切换回可视化模式后，这些换行将自动被转换为对应的标签。"
+msgstr "文本模式使您可以向您的文章中加入 HTML。请注意，为了让编辑器更简洁，在切换到文本模式时，&lt;p&gt;和&lt;br&gt;标签会自动被转换为换行。在您打字时，您可以使用一个换行来代替&lt;br&gt;标签，使用两个换行来代替&lt;p&gt;标签。在切换回可视化模式后，这些换行将自动被转换为对应的标签。"
 
 #: wp-admin/edit-form-advanced.php:294
 msgid "Visual mode gives you an editor that is similar to a word processor. Click the Toolbar Toggle button to get a second row of controls."
@@ -7300,19 +7300,19 @@ msgstr "保存媒体文件时发生错误。"
 #: wp-admin/upload.php:106
 msgid "%s media file restored from the Trash."
 msgid_plural "%s media files restored from the Trash."
-msgstr[0] "已从回收站恢复%s个媒体文件。"
+msgstr[0] "已从回收站恢复 %s 个媒体文件。"
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:83
 msgid "%s media file moved to the Trash."
 msgid_plural "%s media files moved to the Trash."
-msgstr[0] "已移动%s个媒体文件至回收站。"
+msgstr[0] "已移动 %s 个媒体文件至回收站。"
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:66
 msgid "%s media file permanently deleted."
 msgid_plural "%s media files permanently deleted."
-msgstr[0] "已永久删除%s个媒体文件。"
+msgstr[0] "已永久删除 %s 个媒体文件。"
 
 #. translators: %s: Number of media files.
 #: wp-admin/upload.php:49
@@ -7328,7 +7328,7 @@ msgstr "已分离媒体文件。"
 #: wp-admin/upload.php:32
 msgid "%s media file attached."
 msgid_plural "%s media files attached."
-msgstr[0] "已附加%s个媒体文件。"
+msgstr[0] "已附加 %s 个媒体文件。"
 
 #: wp-admin/upload.php:28
 msgid "Media file attached."
@@ -7348,7 +7348,7 @@ msgstr "媒体文件已更新。"
 #: wp-admin/includes/update.php:733 wp-admin/includes/update.php:746
 #: wp-admin/update-core.php:564
 msgid "View %1$s version %2$s details"
-msgstr "查看%1$s版本%2$s详情"
+msgstr "查看 %1$s 版本 %2$s 详情"
 
 #. translators: 1: Relative date, 2: Time.
 #: wp-admin/includes/dashboard.php:1038
@@ -7358,12 +7358,12 @@ msgstr "%1$s %2$s"
 
 #: wp-admin/edit-form-advanced.php:376
 msgid "<strong>Publish</strong> &mdash; You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). The Password protected option allows you to set an arbitrary password for each post. The Private option hides the post from everyone except editors and administrators. Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>发布</strong>——您可以在“发布”区域设置文章的属性。点击“状态”、“可见性”、“发布”右侧的“编辑”按钮，可以调整更多设置。可见性设置包括密码保护和文章置顶；通过设置发布选项，可实现定时发布功能。"
+msgstr "<strong>发布</strong>&mdash；您可以在“发布”框中设置发布文章的条件。对于“状态”、“可见性”和“立即发布”，单击“编辑”链接以显示更多选项。可见性包括对帖子进行密码保护或使其无限期地保持在博客顶部（粘性）的选项。密码保护选项允许您为每个帖子设置任意密码。“私人”选项对除编辑和管理员之外的所有人隐藏帖子。发布（立即）允许您设置未来或过去的日期和时间，以便您可以安排在未来发布帖子或追溯帖子的日期。"
 
 #. translators: %s: New email.
 #: wp-admin/user-edit.php:534
 msgid "There is a pending change of your email to %s."
-msgstr "您即将修改您的电子邮箱地址为%s。"
+msgstr "您即将修改您的电子邮箱地址为 %s。"
 
 #: wp-admin/user-edit.php:223
 msgid "Error while saving the new email address. Please try again."
@@ -7404,37 +7404,37 @@ msgstr "您的数据库用户名。"
 
 #: wp-admin/setup-config.php:227
 msgid "The name of the database you want to use with WordPress."
-msgstr "希望将WordPress安装到的数据库名称。"
+msgstr "希望将 WordPress 安装到的数据库名称。"
 
 #. translators: 1: Plugin name, 2: Plugin author.
 #: wp-admin/plugins.php:365
 msgctxt "plugin"
 msgid "%1$s by %2$s"
-msgstr "由%2$s制作的%1$s"
+msgstr "由 %2$s 制作的 %1$s"
 
 #. translators: 1: Plugin name, 2: Plugin author.
 #: wp-admin/plugins.php:361
 msgid "%1$s by %2$s (will also <strong>delete its data</strong>)"
-msgstr "由%2$s制作的%1$s（<strong>其数据也将被一并删除</strong>）"
+msgstr "由 %2$s 制作的 %1$s（<strong>其数据也将被一并删除</strong>）"
 
 #. translators: %s: New admin email.
 #: wp-admin/options-general.php:149
 msgid "There is a pending change of the admin email to %s."
-msgstr "您即将修改管理员电子邮箱地址为%s。"
+msgstr "您即将修改管理员电子邮箱地址为 %s。"
 
 #: wp-admin/install.php:430
 msgid "WordPress has been installed. Thank you, and enjoy!"
-msgstr "WordPress安装完成。谢谢！"
+msgstr "WordPress 已经安装。谢谢你，享受吧！"
 
 #. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
 #: wp-admin/install.php:320
 msgid "The constant %s cannot be defined when installing WordPress."
-msgstr "常量%s不能在安装WordPress时被定义。"
+msgstr "常量 %s 不能在安装 WordPress 时被定义。"
 
 #. translators: %s: wp-config.php
 #: wp-admin/install.php:307
 msgid "Your %s file has an empty database table prefix, which is not supported."
-msgstr "您的%s文件有一个空的数据库表前缀，这不被支持。"
+msgstr "您的 %s 文件有一个不支持的空数据库表前缀。"
 
 #: wp-admin/index.php:186
 msgid "Dismiss the welcome panel"
@@ -7458,11 +7458,11 @@ msgstr "点击图片来修改或更新"
 #: wp-admin/includes/plugin-install.php:756
 msgid "Reviews with %1$d star: %2$s. Opens in a new tab."
 msgid_plural "Reviews with %1$d stars: %2$s. Opens in a new tab."
-msgstr[0] "%1$d星的评价：%2$s。在新标签页中打开。"
+msgstr[0] "%1$d 星的评价：%2$s。在新标签页中打开。"
 
 #: wp-admin/includes/plugin-install.php:748
 msgid "Read all reviews on WordPress.org or write your own!"
-msgstr "在WordPress.org阅读所有评价或撰写您的评价！"
+msgstr "在 WordPress.org 阅读所有评价或撰写您的评价！"
 
 #: wp-admin/includes/plugin-install.php:747
 msgid "Reviews"
@@ -7471,7 +7471,7 @@ msgstr "评价"
 #. translators: %s: URL to "Features as Plugins" page.
 #: wp-admin/includes/plugin-install.php:406
 msgid "You are using a development version of WordPress. These feature plugins are also under development. <a href=\"%s\">Learn more</a>."
-msgstr "您正在使用开发版本的WordPress。这些功能插件同样正被开发。<a href=\"%s\">了解更多</a>。"
+msgstr "您正在使用开发版本的 WordPress。这些功能插件同样正被开发。<a href=\"%s\">了解更多</a>。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/image-edit.php:286
@@ -7547,7 +7547,7 @@ msgstr "查看更多评论"
 #: wp-admin/includes/dashboard.php:894
 msgctxt "dashboard"
 msgid "%1$s on %2$s %3$s"
-msgstr "%2$s上的%1$s%3$s"
+msgstr "%2$s 上的 %1$s%3$s"
 
 #: wp-admin/includes/dashboard.php:793
 msgid "View this comment"
@@ -7565,12 +7565,12 @@ msgstr "更新进度"
 #. translators: %s: Taxonomy term name.
 #: wp-admin/includes/class-wp-terms-list-table.php:511
 msgid "View &#8220;%s&#8221; archive"
-msgstr "查看“%s”归档"
+msgstr "查看&#8220;%s&#8221;归档"
 
 #. translators: %s: Taxonomy term name.
 #: wp-admin/includes/class-wp-terms-list-table.php:501
 msgid "Delete &#8220;%s&#8221;"
-msgstr "删除“%s“"
+msgstr "删除 &#8220;%s&#8221;"
 
 #. translators: %s: Post title.
 #. translators: %s: Taxonomy term name.
@@ -7581,7 +7581,7 @@ msgstr "快速编辑“%s”"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:423
 msgid "Search for plugins in the WordPress Plugin Directory."
-msgstr "在WordPress插件目录中搜索插件。"
+msgstr "在 WordPress 插件目录中搜索插件。"
 
 #. translators: %s: Attachment title.
 #. translators: %s: Post title.
@@ -7595,7 +7595,7 @@ msgstr "从回收站中恢复“%s”"
 #: wp-admin/includes/class-wp-media-list-table.php:798
 #: wp-admin/includes/class-wp-posts-list-table.php:1505
 msgid "Delete &#8220;%s&#8221; permanently"
-msgstr "永久删除“%s”"
+msgstr "永久删除&#8220;%s&#8221;"
 
 #. translators: %s: Attachment title.
 #. translators: %s: Post title.
@@ -7622,7 +7622,7 @@ msgstr "从“%s”分离"
 #: wp-admin/includes/class-wp-posts-list-table.php:1134
 #: wp-admin/includes/class-wp-terms-list-table.php:419
 msgid "&#8220;%s&#8221; (Edit)"
-msgstr "“%s”（编辑）"
+msgstr "&#8220;%s&#8221; （编辑）"
 
 #: wp-admin/includes/class-wp-media-list-table.php:169
 msgctxt "attachment filter"
@@ -7651,7 +7651,7 @@ msgstr "%1$s（%2$s）"
 #. translators: %s: Importer slug.
 #: wp-admin/import.php:68
 msgid "The %s importer is invalid or is not installed."
-msgstr "%s导入器不可用或未被安装。"
+msgstr "%s 导入器不可用或未被安装。"
 
 #: wp-admin/edit-form-comment.php:137
 msgctxt "comment status"
@@ -7666,12 +7666,12 @@ msgstr "推荐高度为%s。"
 #. translators: %s: Size in pixels.
 #: wp-admin/includes/class-custom-image-header.php:629
 msgid "Suggested width is %s."
-msgstr "推荐宽度为%s。"
+msgstr "推荐宽度为 %s。"
 
 #. translators: %s: Size in pixels.
 #: wp-admin/includes/class-custom-image-header.php:613
 msgid "Images should be at least %s tall."
-msgstr "图片高度应至少为%s。"
+msgstr "图片高度应至少为 %s。"
 
 #. translators: %d: Custom header width.
 #. translators: %d: Custom header height.
@@ -7680,12 +7680,12 @@ msgstr "图片高度应至少为%s。"
 #: wp-admin/includes/class-custom-image-header.php:632
 #: wp-admin/includes/class-custom-image-header.php:644
 msgid "%d pixels"
-msgstr "%d像素"
+msgstr "%d 像素"
 
 #. translators: %s: Size in pixels.
 #: wp-admin/includes/class-custom-image-header.php:601
 msgid "Images should be at least %s wide."
-msgstr "图片宽度应至少为%s。"
+msgstr "图片宽度应至少为 %s。"
 
 #: wp-admin/user-new.php:604
 msgid "Send the new user an email about their account."
@@ -7733,16 +7733,16 @@ msgstr "朴素"
 #. translators: %s: Documentation URL.
 #: wp-admin/options-permalink.php:226
 msgid "WordPress offers you the ability to create a custom URL structure for your permalinks and archives. Custom URL structures can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"%s\">number of tags are available</a>, and here are some examples to get you started."
-msgstr "WordPress让您能够为您的固定链接和归档建立自定义URL结构。自定义URL结构可以为您的链接提高美感、可用性和前向兼容性。这里有<a href=\"%s\">一些可用的标签</a>，以及一些入门范例。"
+msgstr "WordPress 让您能够为您的固定链接和归档建立自定义 URL 结构。自定义 URL 结构可以为您的链接提高美感、可用性和前向兼容性。这里有<a href=\"%s\">一些可用的标签</a>，以及一些入门范例。"
 
 #: wp-admin/options-permalink.php:34
 msgid "Permalinks can contain useful information, such as the post date, title, or other elements. You can choose from any of the suggested permalink formats, or you can craft your own if you select Custom Structure."
-msgstr "固定链接可以包含有用的信息，如发布日期、标题或其他元素。您可以从推荐的固定链接格式种选择，也可以选择“自定义结构”来创建您自己的格式。"
+msgstr "固定链接可以包含有用的信息，如发布日期、标题或其它元素。您可以从推荐的固定链接格式种选择，也可以选择“自定义结构”来创建您自己的格式。"
 
 #. translators: %s: wp-config.php
 #: wp-admin/setup-config.php:425
 msgid "You can create the %s file manually and paste the following text into it."
-msgstr "您可以手工创建%s文件，并将以下文字粘贴于其中。"
+msgstr "您可以手工创建 %s 文件，并将以下文本粘贴于其中。"
 
 #. translators: %s: localhost
 #: wp-admin/setup-config.php:253
@@ -7757,12 +7757,12 @@ msgstr "如果由于任何原因无法自动创建文件，请不要担心，手
 #. translators: %s: wp-content/uploads
 #: wp-admin/options-media.php:143
 msgid "Default is %s"
-msgstr "缺省为%s"
+msgstr "缺省为 %s"
 
 #. translators: 1: .po, 2: .mo
 #: wp-admin/includes/class-language-pack-upgrader.php:352
 msgid "The language pack is missing either the %1$s or %2$s files."
-msgstr "语言包缺少%1$s或%2$s文件。"
+msgstr "语言包缺少 %1$s 或 %2$s 文件。"
 
 #. translators: %s: style.css
 #: wp-admin/includes/class-theme-upgrader.php:577
@@ -7772,7 +7772,7 @@ msgstr "%s 样式表未包含有效的主题标头。"
 #. translators: %s: style.css
 #: wp-admin/includes/class-theme-upgrader.php:552
 msgid "The theme is missing the %s stylesheet."
-msgstr "主题缺少%s样式表。"
+msgstr "主题缺少 %s 样式表。"
 
 #: wp-admin/theme-install.php:227
 msgid "If you have marked themes as favorites on WordPress.org, you can browse them here."
@@ -7811,7 +7811,7 @@ msgstr "开始之前"
 #. translators: Hidden accessibility text.
 #: wp-admin/maint/repair.php:176
 msgid "WordPress database repair"
-msgstr "WordPress数据库修复"
+msgstr "WordPress 数据库修复"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/maint/repair.php:81
@@ -7821,17 +7821,17 @@ msgstr "检查密钥"
 #. translators: %s: Nav menu title.
 #: wp-admin/includes/nav-menu.php:1486
 msgid "%s has been updated."
-msgstr "%s已被更新。"
+msgstr "%s 已更新。"
 
 #. translators: %s: Walker class name.
 #: wp-admin/includes/nav-menu.php:1275
 msgid "The Walker class named %s does not exist."
-msgstr "名为%s的Walker类不存在。"
+msgstr "名为 %s 的 Walker 类不存在。"
 
 #. translators: 1: Drop-in constant name, 2: wp-config.php
 #: wp-admin/includes/class-wp-plugins-list-table.php:778
 msgid "Requires %1$s in %2$s file."
-msgstr "需要在%2$s文件中包含%1$s。"
+msgstr "需要在 %2$s 文件中包含 %1$s。"
 
 #. translators: %s: Date and time.
 #: wp-admin/options-general.php:320
@@ -7846,12 +7846,12 @@ msgstr "日光节约时间于此开始：%s。"
 #. translators: %s: File name.
 #: wp-admin/includes/media.php:1738
 msgid "You are about to delete %s."
-msgstr "您即将删除%s。"
+msgstr "您即将删除 %s。"
 
 #. translators: %s: mu-plugins directory name.
 #: wp-admin/includes/class-wp-plugins-list-table.php:671
 msgid "Files in the %s directory are executed automatically."
-msgstr "在%s目录中的文件会被自动执行。"
+msgstr "在 %s 目录中的文件会被自动执行。"
 
 #: wp-admin/widgets-form.php:486
 msgid "This will clear all items from the inactive widgets list. You will not be able to restore any customizations."
@@ -7922,27 +7922,27 @@ msgstr "筛选插件列表"
 #. translators: %s: Plugin file name.
 #: wp-admin/plugin-editor.php:214
 msgid "Browsing %s (inactive)"
-msgstr "正在浏览%s（未启用）"
+msgstr "正在浏览 %s（未启用）"
 
 #. translators: %s: Plugin file name.
 #: wp-admin/plugin-editor.php:211
 msgid "Editing %s (inactive)"
-msgstr "正在编辑%s（未启用）"
+msgstr "正在编辑 %s（未启用）"
 
 #. translators: %s: Plugin file name.
 #: wp-admin/plugin-editor.php:206
 msgid "Browsing %s (active)"
-msgstr "正在浏览%s（已启用）"
+msgstr "正在浏览 %s（已启用）"
 
 #. translators: %s: Plugin file name.
 #: wp-admin/plugin-editor.php:203
 msgid "Editing %s (active)"
-msgstr "正在编辑%s（已启用）"
+msgstr "正在编辑 %s（已启用）"
 
 #. translators: %s: Local time.
 #: wp-admin/options-general.php:287
 msgid "Local time is %s."
-msgstr "当地时间为%s。"
+msgstr "当地时间为 %s。"
 
 #: wp-admin/my-sites.php:73 wp-admin/network/menu.php:53
 #: wp-admin/network/sites.php:374
@@ -7957,7 +7957,7 @@ msgstr "链接列表"
 #. translators: %s: WordPress version.
 #: wp-admin/includes/update.php:286
 msgid "Get Version %s"
-msgstr "获取版本%s"
+msgstr "获取版本 %s"
 
 #. translators: %s: Hidden accessibility text. Meta box title.
 #: wp-admin/includes/template.php:1415
@@ -7975,7 +7975,7 @@ msgstr "编辑固定链接"
 #. translators: 1: Site Wide Only: true, 2: Network: true
 #: wp-admin/includes/plugin.php:96
 msgid "The %1$s plugin header is deprecated. Use %2$s instead."
-msgstr "%1$s插件头已被废弃，请改用%2$s。"
+msgstr "%1$s 插件头已被废弃，请改用 %2$s。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-site-health.php:1067
@@ -7994,11 +7994,11 @@ msgstr "警告："
 
 #: wp-admin/includes/ms.php:986
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, these users will be permanently removed."
-msgstr "在您点击“确认删除”之后，这些用户将被永久移除。"
+msgstr "在您点击“确认删除”之后，这些用户将被永久删除。"
 
 #: wp-admin/includes/ms.php:984
 msgid "Once you hit &#8220;Confirm Deletion&#8221;, the user will be permanently removed."
-msgstr "在您点击“确认删除”之后，该用户将被永久移除。"
+msgstr "在您点击“确认删除”之后，该用户将被永久删除。"
 
 #: wp-admin/includes/ms.php:969
 msgid "User has no sites or content and will be deleted."
@@ -8017,17 +8017,17 @@ msgstr "选择用户"
 #. translators: %s: User login.
 #: wp-admin/includes/ms.php:914
 msgid "What should be done with content owned by %s?"
-msgstr "要如何处理%s拥有的内容？"
+msgstr "要如何处理 %s 拥有的内容？"
 
 #. translators: %s: User login.
 #: wp-admin/includes/ms.php:895
 msgid "Warning! User cannot be deleted. The user %s is a network administrator."
-msgstr "警告！无法删除此用户，用户%s是网络管理员。"
+msgstr "警告！无法删除此用户，用户 %s 是网络管理员。"
 
 #. translators: %s: User login.
 #: wp-admin/includes/ms.php:885
 msgid "Warning! User %s cannot be deleted."
-msgstr "警告！用户%s不能被删除。"
+msgstr "警告！用户 %s 不能被删除。"
 
 #: wp-admin/includes/ms.php:864
 msgid "You have chosen to delete the following users from all networks and sites."
@@ -8039,7 +8039,7 @@ msgstr "您选择从所有站点网络及站点中删除此用户。"
 
 #: wp-admin/includes/media.php:1043
 msgid "Invalid image URL."
-msgstr "无效图片URL。"
+msgstr "无效的图片 URL。"
 
 #: wp-admin/includes/file.php:17
 msgid "Theme Header"
@@ -8058,7 +8058,7 @@ msgstr "Y-m-d"
 #. translators: 1: Comment author, 2: Notification if the comment is pending.
 #: wp-admin/includes/dashboard.php:865
 msgid "From %1$s %2$s"
-msgstr "由%1$s %2$s"
+msgstr "由 %1$s %2$s"
 
 #: wp-admin/includes/dashboard.php:649
 msgid "View all drafts"
@@ -8076,7 +8076,7 @@ msgstr "无角色"
 #. translators: 1: Title of an update, 2: Error message.
 #: wp-admin/includes/class-bulk-upgrader-skin.php:43
 msgid "An error occurred while updating %1$s: %2$s"
-msgstr "在更新%1$s时发生了错误：%2$s"
+msgstr "在更新 %1$s 时发生了错误：%2$s"
 
 #: wp-admin/includes/class-wp-screen.php:1331
 msgid "View mode"
@@ -8086,7 +8086,7 @@ msgstr "查看模式"
 #: wp-admin/includes/class-wp-screen.php:1216
 msgid "%s column"
 msgid_plural "%s columns"
-msgstr[0] "%s栏"
+msgstr[0] "%s 栏"
 
 #: wp-admin/includes/class-wp-screen.php:1005
 msgid "Additional settings"
@@ -8120,7 +8120,7 @@ msgstr "无待审评论"
 #. translators: %s: hostname:port
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:176
 msgid "Failed to initialize a SFTP subsystem session with the SSH2 Server %s"
-msgstr "未能与SSH2服务器%s发起SFTP子系统会话"
+msgstr "无法通过 SSH2 服务器 %s 发起 SFTP 子系统会话"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:478
 msgctxt "column name"
@@ -8165,7 +8165,7 @@ msgstr[0] "全部<span class=\"count\">（%s）</span>"
 #. translators: %s: The new user.
 #: wp-admin/includes/ajax-actions.php:1770
 msgid "User %s added"
-msgstr "用户%s已添加"
+msgstr "用户 %s 已添加"
 
 #: wp-admin/export.php:224 wp-admin/export.php:276 wp-admin/export.php:321
 msgid "End date:"
@@ -8283,7 +8283,7 @@ msgstr "您将要删除这名用户："
 #. translators: %s: User's display name.
 #: wp-admin/user-edit.php:734
 msgid "Log %s out of all locations."
-msgstr "注销%s的所有会话。"
+msgstr "注销 %s 的所有会话。"
 
 #: wp-admin/user-edit.php:722
 msgid "Did you lose your phone or leave your account logged in at a public computer? You can log out everywhere else, and stay logged in here."
@@ -8325,17 +8325,17 @@ msgstr "无已批准的评论"
 #: wp-admin/includes/class-wp-list-table.php:817
 msgid "%s pending comment"
 msgid_plural "%s pending comments"
-msgstr[0] "%s条待审评论"
+msgstr[0] "%s 条待审评论"
 
 #. translators: %s: Number of comments.
 #: wp-admin/includes/class-wp-list-table.php:811
 msgid "%s approved comment"
 msgid_plural "%s approved comments"
-msgstr[0] "%s条已批准的评论"
+msgstr[0] "%s 条已批准的评论"
 
 #: wp-admin/includes/ajax-actions.php:4013
 msgid "Image could not be processed."
-msgstr "图片不能被处理。"
+msgstr "图片无法处理。"
 
 #: wp-admin/install.php:169 wp-admin/user-edit.php:673
 #: wp-admin/user-new.php:592
@@ -8345,7 +8345,7 @@ msgstr "确认密码"
 #. translators: 1: wp-config.php, 2: Secret key service URL.
 #: wp-admin/maint/repair.php:85
 msgid "While you are editing your %1$s file, take a moment to make sure you have all 8 keys and that they are unique. You can generate these using the <a href=\"%2$s\">WordPress.org secret key service</a>."
-msgstr "当您在编辑您的%1$s文件时，请花点时间确认您有全部8个密钥，并且他们是独一无二的。您可以用<a href=\"%2$s\">WordPress.org密钥服务</a>来生成它们。"
+msgstr "当您在编辑您的 %1$s 文件时，请花点时间确认您有全部 8 个密钥，并且他们是独一无二的。您可以用<a href=\"%2$s\">WordPress.org 密钥服务</a>来生成它们。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:258
@@ -8360,19 +8360,19 @@ msgstr "显示详情"
 #: wp-admin/nav-menus.php:756
 msgid "Your theme supports %s menu. Select which menu appears in each location."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
-msgstr[0] "您的主题支持%s个菜单，请分别选择您希望在每一处出现的菜单。"
+msgstr[0] "您的主题支持 %s 个菜单，请分别选择您希望在每一处出现的菜单。"
 
 #. translators: Hidden accessibility text. %s: Number of posts.
 #: wp-admin/includes/class-wp-users-list-table.php:607
 msgid "%s post by this author"
 msgid_plural "%s posts by this author"
-msgstr[0] "此作者有%s篇文章"
+msgstr[0] "此作者有 %s 篇文章"
 
 #. translators: Hidden accessibility text. %s: Theme name.
 #: wp-admin/includes/class-theme-installer-skin.php:133
 #: wp-admin/includes/class-theme-upgrader-skin.php:105
 msgid "Live Preview &#8220;%s&#8221;"
-msgstr "实时预览“%s”"
+msgstr "实时预览 &#8220;%s&#8221;"
 
 #. translators: %s: Post link.
 #: wp-admin/edit-form-comment.php:197
@@ -8391,7 +8391,7 @@ msgstr "评论状态"
 
 #: wp-admin/edit-form-advanced.php:362
 msgid "You can also embed media from many popular websites including Twitter, YouTube, Flickr and others by pasting the media URL on its own line into the content of your post/page. <a href=\"https://wordpress.org/documentation/article/embeds/\">Learn more about embeds</a>."
-msgstr "您也可以从许多知名网站（如Twitter、YouTube、Flickr）嵌入媒体内容，只需将媒体URL粘贴在您文章或页面中的单独一行即可。<a href=\"https://wordpress.org/support/article/embeds/\">了解更多关于嵌入的信息</a>。"
+msgstr "您也可以从许多知名网站（如 Twitter、YouTube、Flickr）嵌入媒体内容，只需将媒体 URL 粘贴在您文章或页面中的单独一行即可。<a href=\"https://wordpress.org/documentation/article/embeds/\">了解更多关于嵌入的信息</a>。"
 
 #: wp-admin/includes/class-custom-background.php:107
 msgid "<a href=\"https://codex.wordpress.org/Appearance_Background_Screen\">Documentation on Custom Background</a>"
@@ -8424,11 +8424,11 @@ msgstr "您当前使用的主题并不支持小工具功能，这意味着它没
 #. translators: %s: Documentation URL.
 #: wp-admin/options-writing.php:227
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see the <a href=\"%s\">Update Services</a> documentation article. Separate multiple service URLs with line breaks."
-msgstr "在您发表新文章时，WordPress会自动通知站点更新服务。要获取更多资讯，请参见Codex上的<a href=\"%s\">更新服务文档</a>。请以换行分隔多个服务URL。"
+msgstr "在您发表新文章时，WordPress 会自动通知站点更新服务。要获取更多资讯，请参见 Codex 上的<a href=\"%s\">更新服务文档</a>。请以换行分隔多个服务 URL。"
 
 #: wp-admin/includes/options.php:135
 msgid "The <a href=\"https://wordpress.org/documentation/article/wordpress-glossary/#character-set\">character encoding</a> of your site (UTF-8 is recommended)"
-msgstr "您的站点的<a href=\"https://wordpress.org/support/article/glossary/#character-set\">字符编码</a>（推荐使用UTF-8）"
+msgstr "您的站点的<a href=\"https://wordpress.org/documentation/article/wordpress-glossary/#character-set\">字符编码</a>（推荐使用 UTF-8）"
 
 #: wp-admin/includes/file.php:2501
 msgid "example: www.wordpress.org"
@@ -8481,7 +8481,7 @@ msgstr "插件成功升级。"
 msgctxt "Active plugin installations"
 msgid "%s+ Million"
 msgid_plural "%s+ Million"
-msgstr[0] "超%s百万"
+msgstr[0] "超 %s 百万"
 
 #. translators: 1: Error message, 2: Line number.
 #: wp-admin/link-parse-opml.php:93
@@ -8536,7 +8536,7 @@ msgstr "一篇文章未更新，有其他人正在编辑。"
 
 #: wp-admin/user-edit.php:63
 msgid "You can log out of other devices, such as your phone or a public computer, by clicking the Log Out Everywhere Else button."
-msgstr "您可以通过点击 “注销除此之外的所有会话”按钮来注销其他设备的登录状态，例如您的手机或公共计算机。"
+msgstr "您可以通过点击“登出其他设备”按钮来在您的其他设备上登出，如您的手机或公共电脑。"
 
 #: wp-admin/update-core.php:818
 msgid "New translations are available."
@@ -8587,7 +8587,7 @@ msgstr ""
 "若您选择了删除站点，请考虑未来在这里重新开设一个新站点（但请记住，您现有的站点及用户名将一去不返）！\n"
 "\n"
 "祝好，\n"
-"###SITENAME###全体成员敬上\n"
+"###SITENAME### 敬上\n"
 "###SITEURL###"
 
 #. translators: Hidden accessibility text.
@@ -8645,13 +8645,13 @@ msgstr ""
 "BETA测试？\n"
 "==========\n"
 "\n"
-"这封调试邮件是在您使用开发版本的WordPress时发送给您的。\n"
+"这封调试邮件是在您使用开发版本的 WordPress 时发送给您的。\n"
 "\n"
-"如果您认为这些失败是由WordPress的bug引起的，能请您报告给我们吗？\n"
+"如果您认为这些失败是由 WordPress 的 Bug 引起的，能请您报告给我们吗？\n"
 " * 在支持论坛中发表主题：https://wordpress.org/support/forum/alphabeta\n"
 " * 或者，如果您善于撰写bug报告：https://core.trac.wordpress.org/\n"
 "\n"
-"谢谢！——WordPress团队"
+"谢谢！——WordPress 团队"
 
 #: wp-admin/includes/revision.php:252 wp-admin/includes/revision.php:295
 msgid "M j, Y @ H:i"
@@ -8713,7 +8713,7 @@ msgid ""
 "--The WordPress Team\n"
 "https://wordpress.org/\n"
 msgstr ""
-"您的新WordPress站点已被成功建立：\n"
+"您的新 WordPress 站点已被成功建立：\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -8725,7 +8725,7 @@ msgstr ""
 "\n"
 "我们希望您喜欢您的新站点。谢谢！\n"
 "\n"
-"——WordPress团队\n"
+"——WordPress 团队\n"
 "https://wordpress.org/\n"
 
 #: wp-admin/themes.php:282
@@ -8754,7 +8754,7 @@ msgstr "https://planet.wordpress.org/"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:799
 msgid "Untested with your version of WordPress"
-msgstr "未在您的WordPress版本中测试"
+msgstr "未在您的 WordPress 版本中测试"
 
 #: wp-admin/includes/meta-boxes.php:1181
 msgid "All categories"
@@ -8768,7 +8768,7 @@ msgstr "按评论类型筛选"
 #. translators: %s: User's display name.
 #: wp-admin/includes/ajax-actions.php:3988
 msgid "%s has been logged out."
-msgstr "已成功注销%s的会话。"
+msgstr "%s已被登出。"
 
 #: wp-admin/includes/ajax-actions.php:3984
 msgid "You are now logged out everywhere else."
@@ -8824,7 +8824,7 @@ msgstr "名称"
 #. translators: %s: Placeholder that must come at the start of the URL.
 #: wp-admin/options-permalink.php:417
 msgid "If you like, you may enter custom structures for your category and tag URLs here. For example, using <code>topics</code> as your category base would make your category links like <code>%s/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
-msgstr "如果您喜欢，您可以在此给您的分类和标签自定义URL。比如，使用<code>topics</code>作为您的分类基础将会使您的分类链接变成<code>%s/topics/uncategorized/</code>。如果您留空此处，默认值将被使用。"
+msgstr "如果您喜欢，您可以在此给您的分类和标签自定义 URL。比如，使用<code>topics</code>作为您的分类基础将会使您的分类链接变成<code>%s/topics/uncategorized/</code>。如果您留空此处，将使用默认值。"
 
 #: wp-admin/credits.php:139
 msgid "Release Lead"
@@ -8852,11 +8852,11 @@ msgstr "您可以简单的网格视图或列表视图两种方式来查阅您的
 
 #: wp-admin/upload.php:179
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
-msgstr "您上传的所有文件都在“媒体库”界面中按上传时间顺序列出，最新上传的显示在最前面。"
+msgstr "您上传的所有文件都在『媒体库』界面中按上传时间顺序列出，最新上传的显示在最前面。"
 
 #: wp-admin/plugin-install.php:113
 msgid "If you just want to get an idea of what&#8217;s available, you can browse Featured and Popular plugins by using the links above the plugins list. These sections rotate regularly."
-msgstr "若您只想知道有什么插件可以选择，您可从列表上方的“特色”、“热门”中浏览。这些内容定期更新。"
+msgstr "如果您只想了解可用的插件，可以使用插件列表上方的链接浏览精选和热门插件。这些部分会定期轮换。"
 
 #: wp-admin/plugin-install.php:151
 msgid "Browse Plugins"
@@ -8869,7 +8869,7 @@ msgstr "添加插件"
 #. translators: 1: WPLANG, 2: wp-config.php
 #: wp-admin/options-general.php:222
 msgid "The %1$s constant in your %2$s file is no longer needed."
-msgstr "在您的%2$s文件中的%1$s常量已不需要。"
+msgstr "在您的 %2$s 文件中的 %1$s 常量已不需要。"
 
 #: wp-admin/includes/translation-install.php:24
 msgid "Invalid translation type."
@@ -8877,7 +8877,7 @@ msgstr "无效的翻译类型。"
 
 #: wp-admin/install.php:369
 msgid "Welcome to the famous five-minute WordPress installation process! Just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
-msgstr "欢迎使用著名的WordPress五分钟安装程序！请简单地填写下面的表单，来开始使用这个世界上最具扩展性、最强大的个人信息发布平台。"
+msgstr "欢迎使用著名的 WordPress 五分钟安装程序！请简单地填写下面的表单，来开始使用这个世界上最具扩展性、最强大的个人发布平台。"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:803
 msgid "<strong>Compatible</strong> with your version of WordPress"
@@ -8885,7 +8885,7 @@ msgstr "该插件<strong>兼容</strong>于您当前使用的WordPress版本"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:801
 msgid "<strong>Incompatible</strong> with your version of WordPress"
-msgstr "该插件<strong>不兼容</strong>于您当前使用的WordPress版本"
+msgstr "该插件<strong>不兼容</strong>于您当前使用的 WordPress 版本"
 
 #. translators: %s: Number of stars.
 #: wp-admin/includes/plugin-install.php:774
