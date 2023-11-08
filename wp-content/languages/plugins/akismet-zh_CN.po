@@ -259,7 +259,7 @@ msgstr "Akismet 已被数百万人使用，可能是世界上<strong>保护您�
 
 #: class.akismet-admin.php:114 class.akismet-admin.php:117
 msgid "Akismet Anti-spam"
-msgstr "Akismet Anti-spam"
+msgstr "Akismet 反垃圾评论"
 
 #: views/enter.php:10
 msgid "Connect with API key"
