@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.4.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-08 08:30:29+0000\n"
+"PO-Revision-Date: 2023-11-10 16:13:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -326,7 +326,7 @@ msgstr "导出为 JSON"
 
 #: wp-includes/js/dist/edit-site.js:26939 wp-admin/menu.php:67
 msgid "Library"
-msgstr "库"
+msgstr "媒体库"
 
 #: wp-includes/taxonomy.php:235
 msgctxt "taxonomy singular name"
@@ -362,7 +362,7 @@ msgstr "一年"
 #. "4 months ago" or "4 months from now".
 #: wp-includes/script-loader.php:457
 msgid "%d months"
-msgstr "%d 月"
+msgstr "%d 个月"
 
 #. translators: %s: One month from or to a particular datetime, e.g., "a month
 #. ago" or "a month from now".
@@ -424,7 +424,7 @@ msgstr "模板父 ID 无效。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-autosaves-controller.php:218
 msgid "There is no autosave revision for this template."
-msgstr "此模板没有自动保存修订。"
+msgstr "此模板没有自动保存修订版。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:718
 msgid "This block is automatically inserted near any occurrence of the block types used as keys of this map, into a relative position given by the corresponding value."
@@ -437,7 +437,7 @@ msgstr "查看媒体文件"
 #: wp-includes/post.php:78 wp-admin/menu.php:68 wp-admin/upload.php:214
 #: wp-admin/upload.php:421
 msgid "Add New Media File"
-msgstr "添加新媒体文件"
+msgstr "添加文件"
 
 #: wp-includes/meta.php:1473
 msgid "Meta keys cannot enable revisions support unless the object subtype supports revisions."
@@ -600,7 +600,7 @@ msgstr "披露"
 #: wp-includes/blocks/details/block.json
 msgctxt "block description"
 msgid "Hide and show additional content."
-msgstr "隐藏与显示更多内容。"
+msgstr "隐藏与显示更多内容"
 
 #: wp-includes/blocks/details/block.json
 msgctxt "block title"
@@ -912,7 +912,7 @@ msgstr "底部"
 #: wp-includes/block-template-utils.php:71
 msgctxt "template part area"
 msgid "Header"
-msgstr "头部"
+msgstr "页眉"
 
 #: wp-includes/block-template-utils.php:62
 msgctxt "template part area"
@@ -929,7 +929,7 @@ msgstr "区块样板"
 #: wp-admin/includes/class-custom-image-header.php:76 wp-admin/menu.php:231
 msgctxt "custom image header"
 msgid "Header"
-msgstr "头部"
+msgstr "页眉"
 
 #: wp-includes/admin-bar.php:1091
 #: wp-admin/includes/class-custom-background.php:67
@@ -1384,7 +1384,7 @@ msgstr "修订版本未启用。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:89
 msgid "The template prefix for the created template. This is used to extract the main template type, e.g. in `taxonomy-books` extracts the `taxonomy`"
-msgstr "所创建模板的模板前缀。 这被用于提取主模板类型，例如在“taxonomy-books”中将提取“taxonomy”"
+msgstr "所创建模板的模板前缀。 这被用于提取主模板类型，例如在“taxonomy-books”中将提取“taxonomy”。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:85
 msgid "Indicates if a template is custom or part of the template hierarchy"
@@ -1392,7 +1392,7 @@ msgstr "指明模板是自定义的，或是属于模板层级的一部分"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:80
 msgid "The slug of the template to get the fallback for"
-msgstr "获取回退所用的模板的别名"
+msgstr "获取回退所用的模板的别名："
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:405
 msgid "The icon for the post type."
@@ -1633,7 +1633,7 @@ msgstr "显示文章作者的详细信息，例如姓名、头像和个人说明
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block description"
 msgid "The author biography."
-msgstr "作者简介。"
+msgstr "作者简介"
 
 #: wp-includes/blocks/post-author-biography/block.json
 msgctxt "block title"
@@ -2636,7 +2636,7 @@ msgstr "新建导航菜单"
 
 #: wp-includes/post.php:516 wp-includes/post.php:517
 msgid "Add New Navigation Menu"
-msgstr "新增导航菜单"
+msgstr "添加导航菜单"
 
 #: wp-includes/post.php:515
 msgctxt "post type singular name"
@@ -3105,7 +3105,7 @@ msgstr "关键字"
 #: wp-includes/js/dist/block-library.js:16308
 #: wp-includes/js/dist/block-library.js:16404
 msgid "Embed of %s."
-msgstr "嵌入 %s。"
+msgstr "嵌入 %s"
 
 #: wp-includes/blocks/file.php:49 wp-includes/js/dist/block-library.js:16203
 #: wp-includes/js/dist/block-library.js:16307
@@ -3260,7 +3260,7 @@ msgstr "站点副标题"
 #: wp-includes/blocks/site-logo/block.json
 msgctxt "block title"
 msgid "Site Logo"
-msgstr "站点 Logo"
+msgstr "站点 Logo "
 
 #: wp-includes/blocks/shortcode/block.json
 msgctxt "block description"
@@ -3884,7 +3884,7 @@ msgstr "标签链接"
 
 #: wp-includes/script-loader.php:1015
 msgid "This image cannot be processed by the web server. Convert it to JPEG or PNG before uploading."
-msgstr "Web 服务器无法处理该图片，请在上传前将其转换为 JPEG 或 PNG 格式。"
+msgstr "Web服务器无法处理该图片，请在上传前将其转换为JPEG或PNG格式。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-widgets-controller.php:860
 msgid "URL-encoded form data from the widget admin form. Used to update a widget that does not support instance. Write only."
@@ -3995,7 +3995,7 @@ msgstr "标识小工具类型的唯一别名。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:215
 msgid "Invalid widget type."
-msgstr "无效的小工具类型。"
+msgstr "无效的小工具类型"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:86
 msgid "Serialized widget form data to encode into instance settings."
@@ -4202,7 +4202,7 @@ msgstr "预览区块样板时视口的首选宽度（以像素为单位）。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:281
 msgid "A description of the pattern."
-msgstr "区块样板的描述。"
+msgstr "区块样板的描述；"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:273
 msgid "The pattern's keywords."
@@ -4338,7 +4338,7 @@ msgstr "模板归档"
 
 #: wp-includes/post.php:361
 msgid "No templates found in Trash."
-msgstr "在回收站内找不到模板。"
+msgstr "在回收站内找不到模板"
 
 #: wp-includes/post.php:360
 msgid "No templates found."
@@ -4366,7 +4366,7 @@ msgstr "新模板"
 
 #: wp-includes/post.php:352 wp-includes/post.php:353
 msgid "Add New Template"
-msgstr "新增模板"
+msgstr "添加模板"
 
 #: wp-includes/post.php:357 wp-includes/js/dist/core-commands.js:532
 #: wp-includes/js/dist/edit-site.js:14281
@@ -4391,7 +4391,7 @@ msgstr "%1$s: %2$s"
 
 #: wp-includes/blocks/site-logo.php:73
 msgid "Site logo."
-msgstr "站点 logo。"
+msgstr "站点 logo"
 
 #: wp-includes/blocks/site-logo.php:45
 msgid "(Home link, opens in a new tab)"
@@ -4867,7 +4867,7 @@ msgstr "旋转"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1350
 msgid "Image edit."
-msgstr "图片编辑。"
+msgstr "图片编辑"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1346
 msgid "Array of image edits."
@@ -4924,7 +4924,7 @@ msgstr "进行一项高级项目查询。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3109
 msgid "Term ID Taxonomy Query"
-msgstr "项目ID分类法查询"
+msgstr "项目ID分类法查询。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:3102
 msgid "Match terms with the listed IDs."
@@ -5722,7 +5722,7 @@ msgstr "以模糊的人类可读格式撰写该区块最后一次更新的日期
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:276
 msgid "The block icon."
-msgstr "区块图标。"
+msgstr "区块图标"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:271
 msgid "The WordPress.org username of the block author."
@@ -5750,7 +5750,7 @@ msgstr "区块的星级等级。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:241
 msgid "The block slug."
-msgstr "区块别名。"
+msgstr "区块别名"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:236
 msgid "A short description of the block, in human readable format."
@@ -6034,7 +6034,7 @@ msgstr "区块关键字。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:694
 msgid "Parent blocks."
-msgstr "上级区块。"
+msgstr "上级区块"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:687
 msgid "Public text domain."
@@ -6074,7 +6074,7 @@ msgstr "编辑器脚本句柄。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:549
 msgid "Is the block dynamically rendered."
-msgstr "区块是动态渲染的。"
+msgstr "区块是动态渲染的？"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:457
 msgid "Block category."
@@ -6122,7 +6122,7 @@ msgstr "抱歉，您不能管理区块类型。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:92
 msgid "Block name."
-msgstr "区块名称。"
+msgstr "区块名称"
 
 #: wp-includes/meta.php:1513
 msgid "When registering a default meta value the data must match the type provided."
@@ -6474,7 +6474,7 @@ msgstr "如果可由主题定义，便自定义页眉。"
 
 #: wp-includes/theme.php:3937
 msgid "Whether posts and comments RSS feed links are added to head."
-msgstr "是否将文章和评论RSS feed链接加入头部。"
+msgstr "是否将文章和评论RSS feed链接加入页首。"
 
 #: wp-includes/theme.php:3930
 msgid "Whether theme opts in to wide alignment CSS class."
@@ -6834,7 +6834,7 @@ msgstr "图片的像素尺寸"
 
 #: wp-includes/media-template.php:652
 msgid "Media title&hellip;"
-msgstr "媒体标题&hellip;"
+msgstr "媒体标题…"
 
 #: wp-includes/media-template.php:651
 msgid "Media title"
@@ -6842,7 +6842,7 @@ msgstr "媒体标题"
 
 #: wp-includes/media-template.php:649
 msgid "Audio title&hellip;"
-msgstr "音频标题&hellip;"
+msgstr "音频标题…"
 
 #: wp-includes/media-template.php:648
 msgid "Audio title"
@@ -6850,7 +6850,7 @@ msgstr "音频标题"
 
 #: wp-includes/media-template.php:646
 msgid "Video title&hellip;"
-msgstr "视频标题&hellip;"
+msgstr "视频标题…"
 
 #: wp-includes/media-template.php:645
 msgid "Video title"
@@ -6858,7 +6858,7 @@ msgstr "视频标题"
 
 #: wp-includes/media-template.php:641
 msgid "Caption&hellip;"
-msgstr "说明文字&hellip;"
+msgstr "说明文字…"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/media-template.php:441 wp-includes/js/dist/edit-site.js:18914
@@ -8504,7 +8504,7 @@ msgstr "您确定要丢弃未发布的修改吗？"
 
 #: wp-includes/script-loader.php:1310
 msgid "Reverting unpublished changes&hellip;"
-msgstr "回滚未发布的修改&hellip;"
+msgstr "回滚未发布的修改…"
 
 #: wp-includes/script-loader.php:1309
 msgid "Setting up your live preview. This may take a bit."
@@ -8512,7 +8512,7 @@ msgstr "正在设置实时预览，请稍等。"
 
 #: wp-includes/script-loader.php:1308
 msgid "Downloading your new theme&hellip;"
-msgstr "正在下载您的新主题&hellip;"
+msgstr "正在下载您的新主题…"
 
 #: wp-includes/script-loader.php:1298
 msgid "Discard changes"
@@ -8762,7 +8762,7 @@ msgstr "章节"
 
 #: wp-includes/script-loader.php:1077
 msgid "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/"
-msgstr "您正在使用的浏览器未安装或启用Flash播放器，请启用您的 Flash 播放器插件，或从 https://get.adobe.com/flashplayer/ 下载最新版"
+msgstr "您正在使用的浏览器未安装或启用Flash播放器，请启用您的Flash播放器插件，或从 https://get.adobe.com/flashplayer/ 下载最新版。"
 
 #. translators: %s: register_routes()
 #: wp-includes/rest-api/endpoints/class-wp-rest-controller.php:53
@@ -11504,7 +11504,7 @@ msgstr "如果您加入视频，此图片将在视频载入时候补显示。"
 #: wp-includes/customize/class-wp-customize-themes-section.php:155
 #: wp-includes/customize/class-wp-customize-themes-section.php:158
 msgid "Search themes&hellip;"
-msgstr "搜索主题&hellip;"
+msgstr "搜索主题…"
 
 #. translators: %s: Theme name.
 #: wp-includes/class-wp-customize-manager.php:4944
@@ -11554,7 +11554,7 @@ msgstr "无效的变更集UUID"
 
 #: wp-includes/class-wp-customize-control.php:645
 msgid "New page title&hellip;"
-msgstr "新页面标题&hellip;"
+msgstr "新页面标题…"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-customize-control.php:642
@@ -12099,7 +12099,7 @@ msgstr "请改用%s。"
 #. translators: %s: get_trackback_url()
 #: wp-includes/author-template.php:72 wp-includes/comment-template.php:1246
 msgid "Use %s instead if you do not want the value echoed."
-msgstr "请改用%s如果您不希望该值被回显。"
+msgstr "请改用 %s 如果您不希望该值被回显。"
 
 #: wp-includes/class-wp-term.php:160
 msgid "Term ID is shared between multiple taxonomies"
@@ -12461,7 +12461,7 @@ msgstr "用户名只能包含小写字母（a-z）和数字。"
 #: wp-includes/media.php:2805 wp-includes/media.php:2826
 msgctxt "playlist item title"
 msgid "&#8220;%s&#8221;"
-msgstr "&#8220;%s&#8221;"
+msgstr "“%s”"
 
 #. translators: Three-letter abbreviation of the month.
 #: wp-includes/class-wp-locale.php:214
@@ -12776,7 +12776,7 @@ msgstr "非常弱"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:249
 msgid "Add New Image"
-msgstr "新增图片"
+msgstr "添加新图像"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:249
 msgid "Add New Header Image"
@@ -13065,11 +13065,11 @@ msgstr "内联工具栏（当图片、链接或预览被选中时）"
 
 #: wp-includes/class-wp-editor.php:1403
 msgid "Additional shortcuts,"
-msgstr "额外的快捷方式,"
+msgstr "额外的快捷方式，"
 
 #: wp-includes/class-wp-editor.php:1402
 msgid "Default shortcuts,"
-msgstr "默认快捷方式,"
+msgstr "默认快捷方式，"
 
 #: wp-includes/class-wp-customize-section.php:248
 #: wp-includes/js/dist/customize-widgets.js:2558
@@ -13282,7 +13282,7 @@ msgstr "CSS类"
 #: wp-admin/includes/class-walker-nav-menu-edit.php:211
 #: wp-admin/includes/nav-menu.php:1337
 msgid "Title Attribute"
-msgstr "标题属性"
+msgstr "title属性"
 
 #: wp-includes/class-wp-editor.php:1899
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:108
@@ -15042,7 +15042,7 @@ msgstr "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,thi
 
 #: wp-includes/post-template.php:1769
 msgid "This content is password protected. To view it please enter your password below:"
-msgstr "此内容受密码保护。 要查看它，请在下面输入您的密码："
+msgstr "此内容受密码保护。如需查阅，请在下列字段中输入您的密码。"
 
 #: wp-includes/class-wp-http-curl.php:283
 #: wp-includes/class-wp-http-streams.php:336
@@ -16823,7 +16823,7 @@ msgstr "父页："
 
 #: wp-includes/post.php:296
 msgid "No patterns found in Trash."
-msgstr "在回收站内找不到模板。"
+msgstr "在回收站中未找到页面"
 
 #: wp-includes/class-wp-post-type.php:971
 msgid "Search Pages"
@@ -16840,12 +16840,12 @@ msgstr "编辑页面"
 #: wp-includes/class-wp-post-type.php:965
 #: wp-includes/class-wp-post-type.php:966
 msgid "Add New Page"
-msgstr "创建页面"
+msgstr "添加页面"
 
 #: wp-includes/class-wp-post-type.php:965
 #: wp-includes/class-wp-post-type.php:966
 msgid "Add New Post"
-msgstr "撰写新文章"
+msgstr "写文章"
 
 #: wp-includes/class-wp-post-type.php:964
 msgctxt "post type singular name"
@@ -17752,11 +17752,11 @@ msgstr "无法从一个修订版本上创建新的修订"
 
 #: wp-includes/post.php:4506
 msgid "Could not insert post into the database."
-msgstr "无法将文章插入数据库。"
+msgstr "无法在数据库中插入文章"
 
 #: wp-includes/post.php:4483
 msgid "Could not update post in the database."
-msgstr "无法在数据库中更新文章。"
+msgstr "无法在数据库中更新文章"
 
 #: wp-includes/post.php:4181
 msgid "Content, title, and excerpt are empty."
@@ -17890,11 +17890,11 @@ msgstr "批准：%s"
 
 #: wp-includes/pluggable.php:1947
 msgid "Pingback excerpt: "
-msgstr "Pingback 摘要： "
+msgstr "Pingback摘要："
 
 #: wp-includes/pluggable.php:1936
 msgid "Trackback excerpt: "
-msgstr "Trackback 摘要： "
+msgstr "Trackback摘要："
 
 #. translators: Comment moderation. %s: Comment action URL.
 #: wp-includes/pluggable.php:1801 wp-includes/pluggable.php:1983
@@ -18601,7 +18601,7 @@ msgstr "确定要<a href=\"%s\">注销</a>当前的登录？"
 #. translators: %s: Site title.
 #: wp-includes/functions.php:3613
 msgid "You are attempting to log out of %s"
-msgstr "您正试图退出 %s"
+msgstr "您试图要从%s注销登录。"
 
 #. translators: %s: File name.
 #: wp-includes/functions.php:2947
@@ -18626,7 +18626,7 @@ msgstr "%s是一项WP的保护选项，因此无法修改"
 #. translators: Used between list items, there is a space after the comma.
 #: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1841
 msgid ", "
-msgstr ", "
+msgstr "、"
 
 #. translators: Time difference between two dates, in days. %s: Number of days.
 #: wp-includes/formatting.php:3914
@@ -18677,11 +18677,11 @@ msgstr "“%s”的评论"
 #. translators: Comments feed title. 1: Site title, 2: Search query.
 #: wp-includes/feed-atom-comments.php:37 wp-includes/feed-rss2-comments.php:42
 msgid "Comments for %1$s searching on %2$s"
-msgstr "%1$s 在 %2$s 上搜索的评论"
+msgstr "%1$s的评论搜索“%2$s”"
 
 #: wp-includes/deprecated.php:1872 wp-includes/post-template.php:1642
 msgid "Missing Attachment"
-msgstr "缺少附件"
+msgstr "附件丢失"
 
 #: wp-includes/deprecated.php:984
 msgid "Last updated"
@@ -18850,7 +18850,7 @@ msgstr "为了和其他 cron 计划任务函数的行为相匹配，这个参数
 
 #: wp-includes/comment.php:2434
 msgid "Could not update comment status."
-msgstr "无法更新评论状态。"
+msgstr "无法更新评论状态"
 
 #: wp-includes/comment.php:707
 msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
@@ -18922,7 +18922,7 @@ msgstr "文章作者 %s"
 #. translators: %s: Author's display name.
 #: wp-includes/author-template.php:244
 msgid "Visit %s&#8217;s website"
-msgstr "访问%s的站点"
+msgstr "访问 %s&#8217;s 站点"
 
 #: wp-includes/theme-compat/sidebar.php:138
 #: wp-includes/widgets/class-wp-widget-meta.php:33
@@ -19697,7 +19697,7 @@ msgstr "添加媒体"
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3208
 msgid "File &#8220;%s&#8221; is not an image."
-msgstr "&#8220;%s&#8221; 不是图片文件。"
+msgstr "“%s”不是图片文件。"
 
 #: wp-includes/deprecated.php:3199
 msgid "The GD image library is not installed."
@@ -19706,7 +19706,7 @@ msgstr "未安装 GD 图片库。"
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3195
 msgid "File &#8220;%s&#8221; does not exist?"
-msgstr "&#8220;%s&#8221; 文件不存在？"
+msgstr "文件“%s”不存在？"
 
 #: wp-includes/block-editor.php:171 wp-includes/media-template.php:911
 #: wp-includes/media-template.php:991 wp-includes/media-template.php:1182
@@ -19762,7 +19762,7 @@ msgstr "归档"
 #: wp-includes/widgets.php:185 wp-admin/includes/file.php:19
 #: wp-admin/widgets-form.php:300
 msgid "Sidebar"
-msgstr "侧边栏"
+msgstr "边栏"
 
 #: wp-includes/widgets/class-wp-widget-rss.php:83
 #: wp-admin/includes/dashboard.php:1287
@@ -19984,7 +19984,7 @@ msgstr "描述"
 #: wp-admin/includes/class-wp-ms-users-list-table.php:194
 #: wp-admin/includes/class-wp-ms-users-list-table.php:216
 msgid "Name"
-msgstr "名称"
+msgstr "显示名称"
 
 #: wp-includes/class-wp-editor.php:1222
 #: wp-includes/js/dist/block-editor.js:52849
@@ -20169,7 +20169,7 @@ msgstr "撤销"
 #. translators: %s: Search query.
 #: wp-includes/general-template.php:1196
 msgid "Search Results for &#8220;%s&#8221;"
-msgstr "搜索结果 &#8220;%s&#8221;"
+msgstr "“%s”的搜索结果"
 
 #. translators: %s: Human-readable time difference.
 #. translators: %s: Duration.
@@ -20181,7 +20181,7 @@ msgstr "搜索结果 &#8220;%s&#8221;"
 #: wp-admin/includes/plugin-install.php:676 wp-admin/includes/revision.php:254
 #: wp-admin/includes/revision.php:297
 msgid "%s ago"
-msgstr "%s 之前"
+msgstr "%s前"
 
 #: wp-includes/js/dist/edit-site.js:33883
 #: wp-admin/includes/class-wp-media-list-table.php:815
@@ -20330,7 +20330,7 @@ msgstr "查看站点"
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:526
 #: wp-admin/includes/class-wp-ms-users-list-table.php:344
 msgid "Y/m/d"
-msgstr "Y/m/d"
+msgstr "Y-m-d"
 
 #: wp-includes/post.php:1222 wp-includes/post.php:1243
 #: wp-includes/js/dist/block-library.js:34155
