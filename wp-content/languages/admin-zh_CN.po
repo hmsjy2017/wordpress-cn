@@ -103,7 +103,7 @@ msgstr "使用批量编辑时，您可以一次性更改所有选定帖子的元
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>，了解有关安装、增强功能、修复问题、发行贡献者、学习资源和文件更改列表的信息。"
 
-#. translators: %s: WordPress Field Guide link.
+#. translators: 1: WordPress Field Guide link, 2: WordPress version number.
 #: wp-admin/about.php:276
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "探索 <a href=\"%1$s\">WordPress %2$s Field Guide</a>。通过详细的开发人员说明了解此版本中的更改，以帮助您使用 WordPress 构建。"
