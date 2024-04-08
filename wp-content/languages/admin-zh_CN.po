@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-30 20:40:28+0000\n"
+"PO-Revision-Date: 2024-04-07 18:04:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: zh_CN\n"
 "Project-Id-Version: WordPress - 6.5.x - Development - Administration\n"
 
@@ -39,7 +39,7 @@ msgstr "Asia/Shanghai"
 
 #: wp-admin/about.php:203
 msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
-msgstr "该版本包括 110 多项性能更新，整个「帖子编辑器」和「网站编辑器」的速度和效率都有显著提高。加载速度比 6.4 版快两倍多，输入处理速度比上一版本快五倍。翻译网站在此版本中的加载时间最多可提高 25%。"
+msgstr "该版本包括 110 多项性能更新，整个「文章编辑器」和「网站编辑器」的速度和效率都有显著提高。加载速度比 6.4 版快两倍多，输入处理速度比上一版本快五倍。翻译网站在此版本中的加载时间最多可提高 25%。"
 
 #: wp-admin/about.php:115
 msgid "Find and organize your data however you like with data views for pages, templates, patterns, and template parts. Arrange it in a table or grid view with the option to toggle fields and make bulk changes."
@@ -361,7 +361,7 @@ msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>，了解有关�
 #. translators: 1: WordPress Field Guide link, 2: WordPress version number.
 #: wp-admin/about.php:258
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
-msgstr "探索 <a href=\"%1$s\">WordPress %2$s Field Guide</a>。通过详细的开发人员说明了解此版本中的更改，以帮助您使用 WordPress 构建。"
+msgstr "探索 <a href=\"%1$s\">WordPress %2$s 现场指南</a>。 通过详细的开发人员说明了解此版本中的更改，以帮助您使用 WordPress 进行构建。"
 
 #: wp-admin/includes/user.php:721 wp-admin/includes/user.php:744
 msgid "Invalid URL format."
@@ -749,19 +749,19 @@ msgstr "WordPress 拥抱新技术，同时致力于向后兼容。 WordPress 项
 
 #: wp-admin/contribute.php:89
 msgid "<strong>Contribute</strong> to the code, improve the UX, and test the WordPress app."
-msgstr "<strong>贡献</strong>代码、改进用户体验并测试 WordPress 应用。"
+msgstr "<strong>贡献</strong> 代码、改进用户体验并测试 WordPress 应用。"
 
 #: wp-admin/contribute.php:88
 msgid "<strong>Write</strong> and submit patches to fix bugs or help build new features."
-msgstr "<strong>编写</strong>并提交补丁以修复错误或帮助构建新功能。"
+msgstr "<strong>编写</strong> 并提交补丁以修复错误或帮助构建新功能。"
 
 #: wp-admin/contribute.php:87
 msgid "<strong>Test</strong> new releases and proposed features for the Block Editor."
-msgstr "<strong>测试</strong>区块编辑器的新版本和建议功能。"
+msgstr "<strong>测试</strong> 区块编辑器的新版本和建议功能。"
 
 #: wp-admin/contribute.php:86
 msgid "<strong>Find</strong> and report bugs in the WordPress core software."
-msgstr "<strong>查找</strong>并报告 WordPress 核心软件中的错误。"
+msgstr "<strong>查找</strong> 并报告 WordPress 核心软件中的错误。"
 
 #: wp-admin/contribute.php:84
 msgid "If you do code, or want to learn how, you can contribute technically in numerous ways:"
@@ -773,27 +773,27 @@ msgstr "基于代码的贡献"
 
 #: wp-admin/contribute.php:71
 msgid "<strong>Explore</strong> ways to reduce the environmental impact of websites."
-msgstr "<strong>探索</strong>减少数百万个网站对环境影响的方法。"
+msgstr "<strong>探索</strong> 减少数百万个网站对环境影响的方法。"
 
 #: wp-admin/contribute.php:70
 msgid "<strong>Edit</strong> videos and add captions to WordPress.tv."
-msgstr "<strong>编辑</strong>视频并向 WordPress.tv 添加字幕。"
+msgstr "<strong>编辑</strong> 视频并向 WordPress.tv 添加字幕。"
 
 #: wp-admin/contribute.php:69
 msgid "<strong>Lend</strong> your creative imagination to the WordPress UI design."
-msgstr "<strong>发挥</strong>您的创意想象力到 WordPress UI 设计中。"
+msgstr "<strong>发挥</strong> 您的创意想象力到 WordPress UI 设计中。"
 
 #: wp-admin/contribute.php:68
 msgid "<strong>Organize</strong> or participate in local Meetups and WordCamps."
-msgstr "<strong>组织</strong>或参加本地 WordPress 聚会和 WordCamp。"
+msgstr "<strong>组织</strong> 或参加本地 WordPress 聚会和 WordCamp。"
 
 #: wp-admin/contribute.php:67
 msgid "<strong>Curate</strong> submissions or take photos for the Photo Directory."
-msgstr "<strong>策划</strong>提交内容或为 WordPress 照片目录拍摄照片。"
+msgstr "<strong>策划</strong> 提交内容或为 WordPress 照片目录拍摄照片。"
 
 #: wp-admin/contribute.php:66
 msgid "<strong>Promote</strong> the WordPress project to your community."
-msgstr "向您的社区<strong>推广</strong> WordPress 项目。"
+msgstr "<strong>推广</strong> 向您的社区 WordPress 项目。"
 
 #: wp-admin/contribute.php:65
 msgid "<strong>Create</strong> and improve WordPress educational materials."

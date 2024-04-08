@@ -7,11 +7,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: zh_CN\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
 #. Theme Name of the theme
+#: style.css
 #, gp-priority: high
 msgid "Twenty Twenty-Two"
 msgstr "Twenty Twenty-Two"
@@ -115,27 +116,27 @@ msgctxt "Font family name"
 msgid "Source Serif Pro"
 msgstr "Source Serif Pro"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Foreground"
 msgstr "前景"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Background"
 msgstr "背景"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Primary"
 msgstr "主要"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Secondary"
 msgstr "次要"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Tertiary"
 msgstr "第三"
@@ -894,16 +895,19 @@ msgid "Large post titles"
 msgstr "大号文章标题"
 
 #. Theme URI of the theme
+#: style.css
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentytwo/"
 msgstr "https://cn.wordpress.org/themes/twentytwentytwo/"
 
 #. Author URI of the theme
+#: style.css
 #, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://cn.wordpress.org/"
 
 #. Author of the theme
+#: style.css
 #, gp-priority: low
 msgid "the WordPress team"
 msgstr "WordPress 团队"
