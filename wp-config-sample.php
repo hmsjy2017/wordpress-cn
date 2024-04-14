@@ -82,24 +82,24 @@ define( 'WP_DEBUG', false );
 /**
  * 简体中文专属：ICP 备案号显示
  *
- * 阅读 https://cn.wordpress.org/support/restore-i10n-features/ 以启用。
  * 在设置 → 常规中设置你的 ICP 备案号。
- * 可调用简码 [wp_icp_num] 或函数 wp_icp_num() 显示。
+ * 可调用简码 [cn_icp] 或函数 cn_icp() 显示。
  *
  * @since 6.5.0
+ * @link https://cn.wordpress.org/support/i10n-features/
  */
-define( 'WP_ICP_NUM', true );
+define( 'CN_ICP', true );
 
 /**
  * 简体中文专属：公安备案号显示
  *
- * 阅读 https://cn.wordpress.org/support/restore-i10n-features/ 以启用。
  * 在设置 → 常规中设置你的公安备案号。
- * 可调用简码 [wp_cybersecurity_num] 或函数 wp_cybersecurity_num() 显示。
+ * 可调用简码 [cn_ga] 或函数 cn_ga() 显示。
  *
  * @since 6.5.0
+ * @link https://cn.wordpress.org/support/i10n-features/
  */
-define( 'WP_CYBERSECURITY_NUM', true );
+define( 'CN_GA', true );
 
 /* 在这行和「停止编辑」行之间添加任何自定义值。 */
 

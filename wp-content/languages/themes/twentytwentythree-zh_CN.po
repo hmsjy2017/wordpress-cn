@@ -25,6 +25,11 @@ msgstr "Twenty Twenty-Three"
 
 #: theme.json
 msgctxt "Template part name"
+msgid "Comments Template Part"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
 msgid "Post Meta"
 msgstr "文章 Meta"
 
