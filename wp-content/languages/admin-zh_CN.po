@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-07 18:04:22+0000\n"
+"PO-Revision-Date: 2024-04-15 07:09:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,52 +37,62 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Asia/Shanghai"
 
-#: wp-admin/about.php:234
+#: wp-admin/js/updates.js:1134
+msgid "Activation completed successfully. Some changes may not occur until you refresh the page."
+msgstr ""
+
+#. translators: %s: The refresh link's attributes.
+#: wp-admin/js/updates.js:1127
+msgid "Plugin activated. Some changes may not occur until you refresh the page. <a %s>Refresh Now</a>"
+msgstr ""
+
+#: wp-admin/menu.php:209
+msgctxt "patterns menu item"
+msgid "Patterns"
+msgstr ""
+
+#: wp-admin/about.php:259
 msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
 msgstr "该版本包括 110 多项性能更新，整个「文章编辑器」和「网站编辑器」的速度和效率都有显著提高。加载速度比 6.4 版快两倍多，输入处理速度比上一版本快五倍。翻译网站在此版本中的加载时间最多可提高 25%。"
 
-#: wp-admin/about.php:146
+#: wp-admin/about.php:171
 msgid "Find and organize your data however you like with data views for pages, templates, patterns, and template parts. Arrange it in a table or grid view with the option to toggle fields and make bulk changes."
 msgstr "使用页面、模板、模式和模板组件的数据视图，可以随心所欲地查找和组织数据。在表格或网格视图中排列数据，并可选择切换字段和批量更改。"
 
 #. translators: %s: Error string for a failed dependencies check.
-#: wp-admin/js/updates.js:2360
+#: wp-admin/js/updates.js:2387
 msgid "Dependencies check failed: %s"
 msgstr "依赖关系检查失败：%s"
 
 #. translators: %s: The remaining number of plugins.
-#: wp-admin/js/updates.js:1457
+#: wp-admin/js/updates.js:1484
 msgctxt "plugin/plugins"
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] "%s 项目"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1182
+#: wp-admin/js/updates.js:1209
 msgctxt "plugin"
 msgid "%s activation failed"
 msgstr "%s 启用失败"
 
-#: wp-admin/js/updates.js:1179
+#: wp-admin/js/updates.js:1206
 msgid "Activation failed."
 msgstr "启用失败。"
 
-#: wp-admin/js/updates.js:1122
-msgid "Activation completed successfully."
-msgstr "启用成功。"
-
-#: wp-admin/js/updates.js:1115
+#: wp-admin/js/updates.js:1116
 msgctxt "plugin"
 msgid "Activated!"
 msgstr "已启用！"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1093 wp-admin/js/updates.js:2662
+#: wp-admin/js/updates.js:1093 wp-admin/js/updates.js:2689
 msgctxt "plugin"
 msgid "Activating %s"
 msgstr "启用 %s"
 
-#: wp-admin/js/updates.js:1090 wp-admin/js/updates.js:2666
+#: wp-admin/js/updates.js:1090 wp-admin/js/updates.js:2693
 msgid "Activating..."
 msgstr "正在启用..."
 
@@ -91,8 +101,8 @@ msgid "Activating... please wait."
 msgstr "正在启用......请稍候。"
 
 #. translators: %s: Error string for a failed activation.
-#: wp-admin/js/updates.js:1031 wp-admin/js/updates.js:1193
-#: wp-admin/js/updates.js:2365
+#: wp-admin/js/updates.js:1031 wp-admin/js/updates.js:1220
+#: wp-admin/js/updates.js:2392
 msgid "Activation failed: %s"
 msgstr "启用失败：%s"
 
@@ -244,8 +254,8 @@ msgstr "%s 已经启用。"
 #: wp-admin/includes/plugin-install.php:957
 #: wp-admin/includes/plugin-install.php:972
 #: wp-admin/includes/plugin-install.php:977 wp-admin/press-this.php:63
-#: wp-admin/js/updates.js:1303 wp-admin/js/updates.js:2628
-#: wp-admin/js/updates.js:2709
+#: wp-admin/js/updates.js:1330 wp-admin/js/updates.js:2655
+#: wp-admin/js/updates.js:2736
 msgctxt "plugin"
 msgid "Install Now"
 msgstr "立即安装"
@@ -254,112 +264,112 @@ msgstr "立即安装"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "由全球热心人士组成的团队打造"
 
-#: wp-admin/about.php:244
+#: wp-admin/about.php:269
 msgid "This release includes more than 65 accessibility improvements across the platform, making it more accessible than ever. This release adds fixes to contrast settings, cursor focus, submenus, and positioning of elements, among many others, that help improve the WordPress experience for everyone."
 msgstr "此版本对整个平台的可访问性进行了超过 65 项改进，使其比以往任何时候都更易于访问。此版本添加了对比度设置、光标焦点、子菜单和元素定位等修复，有助于改善每个人的 WordPress 体验。"
 
-#: wp-admin/about.php:243
+#: wp-admin/about.php:268
 msgid "Accessibility improvements"
 msgstr "可访问性改进"
 
-#: wp-admin/about.php:233
+#: wp-admin/about.php:258
 msgid "Performance updates"
 msgstr "性能更新"
 
 #. translators: %s: Requires Plugins
-#: wp-admin/about.php:213
+#: wp-admin/about.php:238
 msgid "There&#8217;s now an easier way to manage plugin dependencies. Plugin authors can supply a new %s header with a comma-separated list of required plugin slugs, presenting users with links to install and activate those plugins first."
 msgstr "现在管理插件依赖关系的方法更简单了。插件作者可以提供一个新的 %s 标题，其中包含一个以逗号分隔的所需插件插头列表，向用户提供链接，以便首先安装和启用这些插件。"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:233
 msgid "Explore improvements to the plugin experience"
 msgstr "探索插件体验的改进"
 
-#: wp-admin/about.php:199
+#: wp-admin/about.php:224
 msgid "Give designers and creators using Classic themes access to an upgraded design experience. Opt in to support for spacing, border, typography, and color options, even without using theme.json. Once support is enabled, more tools will be automatically added as they become available."
 msgstr "让使用经典主题的设计师和创作者获得升级的设计体验。即使不使用 theme.json，也可选择支持间距、边框、排版和颜色选项。一旦启用支持，更多工具将在可用时自动添加。"
 
-#: wp-admin/about.php:198
+#: wp-admin/about.php:223
 msgid "Add appearance tools to Classic themes"
 msgstr "为经典主题添加外观工具"
 
-#: wp-admin/about.php:185
+#: wp-admin/about.php:210
 msgid "Link core block attributes to custom fields and use the value of custom fields without creating custom blocks. Powered by the Block Bindings API, developers can extend this capability further to connect blocks to any dynamic content—even beyond custom fields. If there&#8217;s data stored elsewhere, easily point blocks to that new source with only a few lines of code."
 msgstr "将核心块属性链接到自定义字段，无需创建自定义块即可使用自定义字段的值。通过区块绑定 API，开发人员可以进一步扩展这一功能，将区块连接到任何动态内容，甚至是自定义字段以外的内容。如果有数据存储在其他地方，只需几行代码就可以轻松地将区块指向新的数据源。"
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:209
 msgid "Connect blocks to custom fields or other dynamic content"
 msgstr "将区块连接到自定义字段或其他动态内容"
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:200
 msgid "The Interactivity API offers developers a standardized method for building interactive front-end experiences with blocks. It simplifies the process, with fewer dependencies on external tooling, while maintaining optimal performance. Use it to create memorable user experiences, like fetching search results instantly or letting visitors interact with content in real time."
 msgstr "交互式 API 为开发人员提供了一种标准化的方法，用于使用区块构建交互式前端体验。它简化了流程，减少了对外部工具的依赖，同时保持了最佳性能。使用它可以创建令人难忘的用户体验，如即时获取搜索结果或让访问者与内容进行实时交互。"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:199
 msgid "Bring interactions to blocks with the Interactivity API"
 msgstr "使用交互式 API 将交互引入区块"
 
-#: wp-admin/about.php:160
+#: wp-admin/about.php:185
 msgid "Create and manage links easily with a more intuitive link-building experience, like a streamlined UI and a shortcut for copying links."
 msgstr "通过更直观的链接创建体验，如简化的用户界面和复制链接的快捷方式，轻松创建和管理链接。"
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:184
 msgid "Improved link controls"
 msgstr "改进链接控制"
 
-#: wp-admin/about.php:153
+#: wp-admin/about.php:178
 msgid "Feel the difference when you move things around, with helpful visual cues like displaced items in List View or frictionless dragging to anywhere in your workspace—from beginning to end."
 msgstr "通过有用的视觉提示，如在列表视图中移动项目，或无摩擦地拖动到工作区的任何位置 - 从头到尾，让你在移动时感受到与众不同。"
 
-#: wp-admin/about.php:152
+#: wp-admin/about.php:177
 msgid "Smoother drag-and-drop"
 msgstr "拖放更流畅"
 
-#: wp-admin/about.php:145
+#: wp-admin/about.php:170
 msgid "Discover new Data Views"
 msgstr "发现新的数据视图"
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:161
 msgid "With shadow supports enabled, you can create layouts with visual depth or add a little personality to your design."
 msgstr "启用阴影支持后，您可以创建具有视觉深度的布局，或为您的设计添加一点个性。"
 
-#: wp-admin/about.php:135
+#: wp-admin/about.php:160
 msgid "Add box shadow supports to even more blocks"
 msgstr "为更多区块添加方框阴影支持"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:154
 msgid "Set aspect ratios for Cover block images and easily add color overlays that automatically source color from your chosen image."
 msgstr "为封面块图像设置长宽比，并轻松添加颜色叠加，自动从所选图像中获取颜色。"
 
-#: wp-admin/about.php:128
+#: wp-admin/about.php:153
 msgid "Get more control over images in Cover blocks"
 msgstr "对封面区块中的图像进行更多控制"
 
-#: wp-admin/about.php:122
+#: wp-admin/about.php:147
 msgid "Control size, repeat, and focal point options so you can play around with subtle or splashy ways to add visual interest to layouts."
 msgstr "控制大小、重复次数和焦点选项，让你可以用微妙或华丽的方式为版面增添视觉趣味。"
 
-#: wp-admin/about.php:121
+#: wp-admin/about.php:146
 msgid "Do more with background images in Group blocks"
 msgstr "在组块中使用更多背景图片"
 
-#: wp-admin/about.php:107
+#: wp-admin/about.php:132
 msgid "Work through creative projects with a more comprehensive picture of what&#8217;s been done—and what you can fall back on. Get details like time stamps, quick summaries, and a paginated list of total revisions. View revisions from the Style Book to see changes outside of what you&#8217;re working on. Revisions are also now available for templates and template parts."
 msgstr "更全面地了解创意项目的完成情况 - 以及你可以依靠的东西。获取详细信息，如时间戳、快速摘要和分页的总修订列表。从《样式手册》中查看修订内容，了解您正在处理的内容之外的更改。现在，模板和模板组件也可以进行修订。"
 
-#: wp-admin/about.php:106
+#: wp-admin/about.php:131
 msgid "Get more details from your style revisions"
 msgstr "从您的风格修订中获取更多细节"
 
-#: wp-admin/about.php:100
+#: wp-admin/about.php:125
 msgid "The new Font Library puts you in control of an essential piece of your site&#8217;s design—typography—without coding or extra steps. Effortlessly install, remove, and activate local and Google Fonts across your site for any block theme. The ability to include custom typography collections gives site creators and publishers even more choice."
 msgstr "全新的字体库让您无需编码或额外步骤，即可掌控网站设计的重要部分 - 排版。在网站上轻松安装、移除和启用本地字体和 Google 字体，适用于任何区块主题。包含自定义排版集合的功能为网站创建者和发布者提供了更多选择。"
 
-#: wp-admin/about.php:99
+#: wp-admin/about.php:124
 msgid "Add and manage fonts across your site"
 msgstr "在网站上添加和管理字体"
 
-#: wp-admin/about.php:87
+#: wp-admin/about.php:112
 msgid "Take your site-building experience further with WordPress 6.5. Explore more avenues to make it your own, with new features and enhancements that will help fine-tune your creative work. Discover the latest additions to the developer experience, with fresh foundational tools poised to transform the future of blocks."
 msgstr "使用 WordPress 6.5，让您的建站体验更上一层楼。通过新功能和增强功能，探索更多属于自己的途径，这将有助于微调您的创意作品。了解开发人员体验的最新添加内容，全新的基础工具将改变区块的未来。"
 
@@ -441,12 +451,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "使用批量编辑时，您可以一次性更改所有选定文章的元数据（类别、作者等）。要从分组中移除一篇文章，只需点击批量编辑区域中其名称旁边的 %s<span class=\"screen-reader-text\">移除</span>按钮即可。"
 
 #. translators: 1: WordPress Release Notes link, 2: WordPress version number.
-#: wp-admin/about.php:308
+#: wp-admin/about.php:333
 msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "<a href=\"%1$s\">阅读 WordPress %2$s 发行说明</a>，了解有关安装、增强功能、修复问题、发行贡献者、学习资源和文件更改列表的信息。"
 
 #. translators: 1: WordPress Field Guide link, 2: WordPress version number.
-#: wp-admin/about.php:289
+#: wp-admin/about.php:314
 msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "探索 <a href=\"%1$s\">WordPress %2$s 现场指南</a>。 通过详细的开发人员说明了解此版本中的更改，以帮助您使用 WordPress 进行构建。"
 
@@ -467,7 +477,7 @@ msgid "Your WordPress version is %1$s, however the new plugin version requires %
 msgstr "你的 WordPress 版本是 %1$s，但新插件版本需要 %2$s。"
 
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:66
+#: wp-admin/about.php:66 wp-admin/about.php:91
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -940,9 +950,9 @@ msgid "Be the future of WordPress"
 msgstr "成为 WordPress 的未来"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:268
+#: wp-admin/about.php:293
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
-msgstr "<a href=\"%1$s\">学习 WordPress</a> 是为 WordPress 新用户和经验丰富的用户提供的免费资源。 Learn 包含有关使用 WordPress 中的各种功能的操作视频、用于深入探索主题的<a href=\"%2$s\">互动活动</a>以及用于深入了解 WordPress 特定领域的课程计划。"
+msgstr "<a href=\"%1$s\">学习 WordPress</a> 是为 WordPress 新用户和经验丰富的用户提供的免费资源。学习包含有关使用 WordPress 中的各种功能的操作视频、用于深入探索主题的<a href=\"%2$s\">互动活动</a>以及用于深入了解 WordPress 特定领域的课程计划。"
 
 #: wp-admin/comment.php:72 wp-admin/edit-comments.php:232
 #: wp-admin/edit-form-advanced.php:320 wp-admin/edit-form-advanced.php:338
@@ -1092,12 +1102,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">定制器文档</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:394
+#: wp-admin/about.php:419
 msgid "https://wordpress.org/download/"
 msgstr "https://cn.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:391
+#: wp-admin/about.php:416
 msgid "This is the final release of WordPress %s"
 msgstr "这是 WordPress %s 的最终版本"
 
@@ -1436,21 +1446,21 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "联系 WordPress 核心开发人员以确保您不会再遇到这个问题。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:388
+#: wp-admin/about.php:413
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）即将停止接收安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:385
+#: wp-admin/about.php:410
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）已不再受到支持，您的站点将不会再接收到任何的安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
-#: wp-admin/about.php:290
+#: wp-admin/about.php:315
 msgid "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-6-5-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:259
+#: wp-admin/about.php:284
 msgid "Learn more about WordPress %s"
 msgstr "了解 WordPress %s"
 
@@ -2255,7 +2265,7 @@ msgstr "无法显示目录列表。"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:105
 #: wp-admin/includes/class-wp-theme-install-list-table.php:60
-#: wp-admin/includes/file.php:33 wp-admin/js/updates.js:3016
+#: wp-admin/includes/file.php:33 wp-admin/js/updates.js:3043
 msgid "Search Results"
 msgstr "搜索结果"
 
@@ -2380,7 +2390,7 @@ msgstr "新增的应用程序密码"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "此功能需要创建应用程序密码，但不需要更新用户信息。"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "Go to Updates"
 msgstr "转到「更新」页面"
 
@@ -2719,7 +2729,7 @@ msgstr "无法生成个人数据导出文件。 ZipArchive 不可用。"
 #. translators: %s: Search query.
 #: wp-admin/edit-comments.php:282 wp-admin/edit-tags.php:342
 #: wp-admin/edit.php:429 wp-admin/link-manager.php:111 wp-admin/plugins.php:765
-#: wp-admin/upload.php:429 wp-admin/users.php:795 wp-admin/js/updates.js:3106
+#: wp-admin/upload.php:429 wp-admin/users.php:795 wp-admin/js/updates.js:3133
 #: wp-admin/network/sites.php:389 wp-admin/network/themes.php:374
 #: wp-admin/network/users.php:300
 msgid "Search results for: %s"
@@ -3050,113 +3060,113 @@ msgstr "已无更多评论。"
 msgid "Show more comments"
 msgstr "显示更多评论"
 
-#: wp-admin/js/updates.js:3388 wp-admin/js/updates.js:3452
-#: wp-admin/js/updates.js:3454
+#: wp-admin/js/updates.js:3420 wp-admin/js/updates.js:3484
+#: wp-admin/js/updates.js:3486
 msgid "The request could not be completed."
 msgstr "该请求无法完成。"
 
-#: wp-admin/js/updates.js:3364
+#: wp-admin/js/updates.js:3396
 msgid "Disabling..."
 msgstr "正在禁用…"
 
-#: wp-admin/js/updates.js:3362
+#: wp-admin/js/updates.js:3394
 msgid "Enabling..."
 msgstr "正在启用…"
 
 #. translators: %s: Number of plugins.
-#: wp-admin/js/updates.js:3044 wp-admin/js/updates.js:3130
+#: wp-admin/js/updates.js:3071 wp-admin/js/updates.js:3157
 msgid "Number of plugins found: %d"
 msgstr "找到的插件数：%d"
 
-#: wp-admin/js/updates.js:2870
+#: wp-admin/js/updates.js:2897
 msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
 msgstr "注意：这些主题可能已在站点网络中的其他站点上启用，您确定要继续？"
 
-#: wp-admin/js/updates.js:2869
+#: wp-admin/js/updates.js:2896
 msgid "Are you sure you want to delete the selected plugins and their data?"
 msgstr "您确定要删除选中的插件及其数据吗？"
 
-#: wp-admin/js/updates.js:2857
+#: wp-admin/js/updates.js:2884
 msgid "Please select at least one item to perform this action on."
 msgstr "请为此操作选择至少一个项目。"
 
 #. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:2737
+#: wp-admin/js/updates.js:2764
 msgid "Are you sure you want to delete %s and its data?"
 msgstr "您确定要删除 %s 及其数据吗？"
 
-#: wp-admin/js/updates.js:2552 wp-admin/js/updates.js:2630
-#: wp-admin/js/updates.js:2711
+#: wp-admin/js/updates.js:2579 wp-admin/js/updates.js:2657
+#: wp-admin/js/updates.js:2738
 msgid "Update canceled."
 msgstr "更新已取消。"
 
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/includes/plugin-install.php:992 wp-admin/includes/update.php:568
-#: wp-admin/js/updates.js:2535
+#: wp-admin/js/updates.js:2562
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "立即更新「%s」"
 
-#: wp-admin/js/updates.js:2418
+#: wp-admin/js/updates.js:2445
 msgid "Updates may not complete if you navigate away from this page."
 msgstr "如果您离开此页，插件更新或不会完成。"
 
-#: wp-admin/js/updates.js:2340
+#: wp-admin/js/updates.js:2367
 msgid "Connection lost or the server is busy. Please try again later."
 msgstr "连接丢失或服务器忙，请稍后再试。"
 
 #. translators: %s: Error string for a failed deletion.
-#: wp-admin/js/updates.js:2034 wp-admin/js/updates.js:2370
+#: wp-admin/js/updates.js:2061 wp-admin/js/updates.js:2397
 msgid "Deletion failed: %s"
 msgstr "删除失败：%s"
 
-#: wp-admin/js/updates.js:2012
+#: wp-admin/js/updates.js:2039
 msgctxt "theme"
 msgid "Deleted!"
 msgstr "已删除！"
 
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1878
+#: wp-admin/js/updates.js:1905
 msgctxt "theme"
 msgid "%s installation failed"
 msgstr "「%s」安装失败"
 
 #. translators: %s: Theme name.
-#: wp-admin/js/updates.js:1791
+#: wp-admin/js/updates.js:1818
 msgctxt "theme"
 msgid "Network Activate %s"
 msgstr "在站点网络中启用 %s"
 
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1767
+#: wp-admin/js/updates.js:1794
 msgctxt "theme"
 msgid "%s installed!"
 msgstr "「%s」安装完成！"
 
 #. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1728
+#: wp-admin/js/updates.js:1755
 msgctxt "theme"
 msgid "Installing %s..."
 msgstr "正在安装「%s」…"
 
-#: wp-admin/js/updates.js:1598
+#: wp-admin/js/updates.js:1625
 msgctxt "theme"
 msgid "Updated!"
 msgstr "已更新！"
 
-#: wp-admin/js/updates.js:1573
+#: wp-admin/js/updates.js:1600
 msgid "Updating... please wait."
 msgstr "更新中…请稍等。"
 
-#: wp-admin/js/updates.js:1464
+#: wp-admin/js/updates.js:1491
 msgctxt "plugin"
 msgid "Deleted!"
 msgstr "已删除！"
 
-#: wp-admin/js/updates.js:1331 wp-admin/js/updates.js:1334
-#: wp-admin/js/updates.js:1337 wp-admin/js/updates.js:1915
-#: wp-admin/js/updates.js:1918 wp-admin/js/updates.js:1921
+#: wp-admin/js/updates.js:1358 wp-admin/js/updates.js:1361
+#: wp-admin/js/updates.js:1364 wp-admin/js/updates.js:1942
+#: wp-admin/js/updates.js:1945 wp-admin/js/updates.js:1948
 msgid "Deleting..."
 msgstr "删除中…"
 
@@ -3164,14 +3174,14 @@ msgstr "删除中…"
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/import.php:165 wp-admin/includes/plugin-install.php:955
-#: wp-admin/includes/plugin-install.php:970 wp-admin/js/updates.js:1299
-#: wp-admin/js/updates.js:2544 wp-admin/js/updates.js:2705
+#: wp-admin/includes/plugin-install.php:970 wp-admin/js/updates.js:1326
+#: wp-admin/js/updates.js:2571 wp-admin/js/updates.js:2732
 msgctxt "plugin"
 msgid "Install %s now"
 msgstr "立即安装「%s」"
 
 #. translators: %s: Activation URL.
-#: wp-admin/js/updates.js:1236
+#: wp-admin/js/updates.js:1263
 msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
 msgstr "导入器安装成功。<a href=\"%s\">运行导入器</a>"
 
@@ -3182,13 +3192,13 @@ msgid "%s installation failed"
 msgstr "「%s」安装失败"
 
 #. translators: %s: Error string for a failed installation.
-#: wp-admin/js/updates.js:872 wp-admin/js/updates.js:1273
-#: wp-admin/js/updates.js:1837 wp-admin/js/updates.js:2355
+#: wp-admin/js/updates.js:872 wp-admin/js/updates.js:1300
+#: wp-admin/js/updates.js:1864 wp-admin/js/updates.js:2382
 msgid "Installation failed: %s"
 msgstr "安装失败：%s"
 
-#: wp-admin/js/updates.js:814 wp-admin/js/updates.js:1254
-#: wp-admin/js/updates.js:1773
+#: wp-admin/js/updates.js:814 wp-admin/js/updates.js:1281
+#: wp-admin/js/updates.js:1800
 msgid "Installation completed successfully."
 msgstr "安装成功完成。"
 
@@ -3203,7 +3213,7 @@ msgctxt "plugin"
 msgid "%s installed!"
 msgstr "「%s」安装完成！"
 
-#: wp-admin/js/updates.js:767 wp-admin/js/updates.js:1734
+#: wp-admin/js/updates.js:767 wp-admin/js/updates.js:1761
 msgid "Installing... please wait."
 msgstr "正在安装…请稍等。"
 
@@ -3214,7 +3224,7 @@ msgid "Installing %s..."
 msgstr "正在安装「%s」…"
 
 #: wp-admin/js/updates.js:740 wp-admin/js/updates.js:752
-#: wp-admin/js/updates.js:1719 wp-admin/js/updates.js:1732
+#: wp-admin/js/updates.js:1746 wp-admin/js/updates.js:1759
 msgid "Installing..."
 msgstr "正在安装…"
 
@@ -3225,12 +3235,12 @@ msgid "%s update failed."
 msgstr "「%s」更新失败。"
 
 #. translators: %s: Error string for a failed update.
-#: wp-admin/js/updates.js:634 wp-admin/js/updates.js:1661
-#: wp-admin/js/updates.js:2350
+#: wp-admin/js/updates.js:634 wp-admin/js/updates.js:1688
+#: wp-admin/js/updates.js:2377
 msgid "Update failed: %s"
 msgstr "更新失败：%s"
 
-#: wp-admin/js/updates.js:587 wp-admin/js/updates.js:1635
+#: wp-admin/js/updates.js:587 wp-admin/js/updates.js:1662
 msgid "Update completed successfully."
 msgstr "更新成功完成。"
 
@@ -3246,7 +3256,7 @@ msgid "%s updated!"
 msgstr "「%s」更新完成！"
 
 #: wp-admin/js/updates.js:481 wp-admin/js/updates.js:512
-#: wp-admin/js/updates.js:1569 wp-admin/js/updates.js:1574
+#: wp-admin/js/updates.js:1596 wp-admin/js/updates.js:1601
 msgid "Updating..."
 msgstr "正在更新…"
 
@@ -3625,7 +3635,7 @@ msgid "Schedule"
 msgstr "定时发布"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:305
-#: wp-admin/js/updates.js:3125
+#: wp-admin/js/updates.js:3152
 msgid "No plugins found. Try a different search."
 msgstr "未找到插件。试试其他搜索条件。"
 
@@ -3697,13 +3707,13 @@ msgid "The active theme has the following error: \"%s\"."
 msgstr "当前主题有以下错误：「%s」。"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1319
-#: wp-admin/themes.php:781 wp-admin/js/updates.js:3441
+#: wp-admin/themes.php:781 wp-admin/js/updates.js:3473
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:812
 msgid "Enable auto-updates"
 msgstr "启用自动更新"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:1315
-#: wp-admin/themes.php:777 wp-admin/js/updates.js:3430
+#: wp-admin/themes.php:777 wp-admin/js/updates.js:3462
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:808
 msgid "Disable auto-updates"
 msgstr "禁用自动更新"
@@ -3740,7 +3750,7 @@ msgid "Automatic Updates"
 msgstr "自动更新"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:428
-#: wp-admin/plugin-editor.php:34 wp-admin/js/updates.js:1448
+#: wp-admin/plugin-editor.php:34 wp-admin/js/updates.js:1475
 msgid "No plugins are currently available."
 msgstr "当前没有可用的插件。"
 
@@ -3858,7 +3868,7 @@ msgstr "自动更新"
 #: wp-admin/includes/class-wp-debug-data.php:1055
 #: wp-admin/includes/class-wp-debug-data.php:1370
 #: wp-admin/includes/class-wp-plugins-list-table.php:1306
-#: wp-admin/themes.php:772 wp-admin/js/updates.js:3443
+#: wp-admin/themes.php:772 wp-admin/js/updates.js:3475
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:799
 msgid "Auto-updates disabled"
 msgstr "自动更新已禁用"
@@ -3866,7 +3876,7 @@ msgstr "自动更新已禁用"
 #: wp-admin/includes/class-wp-debug-data.php:1053
 #: wp-admin/includes/class-wp-debug-data.php:1368
 #: wp-admin/includes/class-wp-plugins-list-table.php:1304
-#: wp-admin/themes.php:774 wp-admin/js/updates.js:3432
+#: wp-admin/themes.php:774 wp-admin/js/updates.js:3464
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:797
 msgid "Auto-updates enabled"
 msgstr "自动更新已启用"
@@ -6061,7 +6071,7 @@ msgstr "此插件不适用于您的 WordPress 和 PHP 版本。"
 
 #. translators: %s: WordPress version number.
 #. translators: %s: WordPress version.
-#: wp-admin/about.php:311 wp-admin/includes/update.php:323
+#: wp-admin/about.php:336 wp-admin/includes/update.php:323
 #: wp-admin/index.php:119 wp-admin/install.php:249 wp-admin/update-core.php:94
 #: wp-admin/upgrade.php:81
 msgid "https://wordpress.org/documentation/wordpress-version/version-%s/"
@@ -7338,7 +7348,7 @@ msgstr "您计划的修改刚才已发布"
 #: wp-admin/includes/class-theme-installer-skin.php:141
 #: wp-admin/includes/class-theme-upgrader-skin.php:113
 #: wp-admin/includes/class-wp-themes-list-table.php:215
-#: wp-admin/js/updates.js:1806
+#: wp-admin/js/updates.js:1833
 msgctxt "theme"
 msgid "Activate"
 msgstr "启用"
@@ -7369,12 +7379,12 @@ msgstr "启用 %s"
 msgid "No media files found."
 msgstr "未找到媒体文件。"
 
-#: wp-admin/import.php:139 wp-admin/import.php:188 wp-admin/js/updates.js:1252
+#: wp-admin/import.php:139 wp-admin/import.php:188 wp-admin/js/updates.js:1279
 msgid "Run Importer"
 msgstr "运行导入器"
 
 #. translators: %s: Importer name.
-#: wp-admin/import.php:138 wp-admin/import.php:187 wp-admin/js/updates.js:1248
+#: wp-admin/import.php:138 wp-admin/import.php:187 wp-admin/js/updates.js:1275
 msgid "Run %s"
 msgstr "运行 %s"
 
@@ -7901,8 +7911,8 @@ msgstr "嵌入 404 模板"
 msgid "Embed Template"
 msgstr "嵌入模板"
 
-#: wp-admin/includes/plugin-install.php:1010 wp-admin/js/updates.js:1146
-#: wp-admin/js/updates.js:1154
+#: wp-admin/includes/plugin-install.php:1010 wp-admin/js/updates.js:1179
+#: wp-admin/js/updates.js:1188
 msgctxt "plugin"
 msgid "Active"
 msgstr "已启用"
@@ -7941,7 +7951,7 @@ msgstr "主题未能被删除。"
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "抱歉，您不能在此站点上删除主题。"
 
-#: wp-admin/js/updates.js:662 wp-admin/js/updates.js:2394
+#: wp-admin/js/updates.js:662 wp-admin/js/updates.js:2421
 msgid "Update failed."
 msgstr "更新失败。"
 
@@ -8418,7 +8428,7 @@ msgid "(Currently set to: %s)"
 msgstr "（当前设置为：%s）"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:359
+#: wp-admin/about.php:384
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本 %s</strong>修正了一个安全问题。"
 
@@ -8430,15 +8440,15 @@ msgstr "https://cn.gravatar.com/"
 msgid "Profile Picture"
 msgstr "资料图片"
 
-#: wp-admin/about.php:356
+#: wp-admin/about.php:381
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:353
+#: wp-admin/about.php:378
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:350
+#: wp-admin/about.php:375
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
@@ -11167,7 +11177,7 @@ msgstr "收起"
 msgid "If you do not want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
 msgstr "如果您不想要页眉图片，点击本页下方「页眉图片」一节的「移除页眉图片」按钮。移除之后如需再次启用页眉图片功能，您只须选择一张图片，然后点击「保存更改」。"
 
-#: wp-admin/js/updates.js:1771
+#: wp-admin/js/updates.js:1798
 msgctxt "theme"
 msgid "Installed!"
 msgstr "已安装"
@@ -11374,7 +11384,7 @@ msgstr "预览："
 
 #. translators: %s: Plugin name.
 #. translators: %s: Theme name.
-#: wp-admin/js/updates.js:2743 wp-admin/js/updates.js:2800
+#: wp-admin/js/updates.js:2770 wp-admin/js/updates.js:2827
 msgid "Are you sure you want to delete %s?"
 msgstr "您确定要删除 %s 吗？"
 
@@ -11772,13 +11782,13 @@ msgstr "在浏览站点时显示工具栏"
 
 #. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:63 wp-admin/about.php:382
+#: wp-admin/about.php:63 wp-admin/about.php:88 wp-admin/about.php:407
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:376
+#: wp-admin/about.php:401
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
@@ -11786,31 +11796,31 @@ msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s �
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:51 wp-admin/about.php:370
+#: wp-admin/about.php:76 wp-admin/about.php:395
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:364
+#: wp-admin/about.php:51 wp-admin/about.php:389
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:361
+#: wp-admin/about.php:386
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本 %s</strong> 修正了一些安全问题。"
 
-#: wp-admin/about.php:46 wp-admin/about.php:355
+#: wp-admin/about.php:46 wp-admin/about.php:380
 msgid "Maintenance and Security Release"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:352
+#: wp-admin/about.php:377
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:349
+#: wp-admin/about.php:374
 msgid "Maintenance Release"
 msgstr "维护更新"
 
@@ -12084,15 +12094,15 @@ msgid "Because this is a multisite installation, you may add accounts that alrea
 msgstr "由于当前多站点功能已经开启，您可以直接通过输入用户名或电子邮箱地址的方式将站点网络中的现有用户添加到站点中，然后为其指定用户角色。如需修改密码等其他信息，您需要拥有网络管理员的权限，访问「管理网络」>「所有用户」，然后将鼠标放置在用户名上方，点击出现的「编辑」链接。"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:81
+#: wp-admin/about.php:106
 msgid "Welcome to WordPress %s"
 msgstr "欢迎使用 WordPress %s"
 
-#: wp-admin/about.php:336
+#: wp-admin/about.php:361
 msgid "Go to Dashboard &rarr; Home"
 msgstr "转到「仪表盘」 &rarr; 「首页」页面"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:354
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "转到「仪表盘」 &rarr; 「更新」页面"
 
@@ -12710,7 +12720,7 @@ msgid "This child theme inherits templates from a parent theme, %s."
 msgstr "此主题使用从父主题「%s」继承下来的模板。"
 
 #: wp-admin/includes/class-theme-installer-skin.php:150
-#: wp-admin/js/updates.js:1795
+#: wp-admin/js/updates.js:1822
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:467
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:589
 msgid "Network Enable"
@@ -13826,7 +13836,7 @@ msgstr "选择颜色"
 msgid "Edit menu item"
 msgstr "编辑菜单项"
 
-#: wp-admin/about.php:336 wp-admin/includes/network.php:166
+#: wp-admin/about.php:361 wp-admin/includes/network.php:166
 msgid "Go to Dashboard"
 msgstr "转到「仪表盘」页面"
 
@@ -14205,7 +14215,7 @@ msgstr "重新启用插件"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:482
 #: wp-admin/update-core.php:913 wp-admin/js/updates.js:854
-#: wp-admin/js/updates.js:1882
+#: wp-admin/js/updates.js:1909
 msgid "Installation failed."
 msgstr "安装失败"
 
@@ -14285,7 +14295,7 @@ msgstr "抱歉，您不能编辑此项目。"
 msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
 msgstr "您试图编辑一个不存在的项目。可能该项目已被删除？"
 
-#: wp-admin/js/updates.js:3039
+#: wp-admin/js/updates.js:3066
 msgid "You do not appear to have any plugins available at this time."
 msgstr "您现在还没有任何插件。"
 
