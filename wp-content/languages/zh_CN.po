@@ -142,7 +142,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: Opening curly double quote.
-#: wp-includes/formatting.php:84 wp-includes/formatting.php:5706
+#: wp-includes/formatting.php:84 wp-includes/formatting.php:5707
 #, gp-priority: high
 msgctxt "opening curly double quote"
 msgid "&#8220;"
@@ -2853,7 +2853,7 @@ msgid "Call %s to create an HTML Processor instead of calling the constructor di
 msgstr "调用 %s 来创建 HTML 处理器，而不是直接调用构造函数。"
 
 #. translators: %s: The "type" key.
-#: wp-includes/functions.php:8866
+#: wp-includes/functions.php:8869
 msgid "The %s key must be a string without spaces."
 msgstr "%s 键必须是不带空格的字符串。"
 
@@ -4175,7 +4175,7 @@ msgid "The Edit Media screen is deprecated as of WordPress 6.3. Please use the M
 msgstr "从 WordPress 6.3 开始，编辑媒体屏幕已被弃用。请改用媒体库。"
 
 #. translators: %s: The type of the given object ID.
-#: wp-includes/functions.php:7249
+#: wp-includes/functions.php:7252
 msgid "Object ID must be an integer, %s given."
 msgstr "对象 ID 必须是一个整数，给定 %s。"
 
@@ -5028,7 +5028,7 @@ msgstr "请检查 PHP 扩展 %s 已安装并启用。"
 msgid "When using the %1$s constant, make sure to set these globals to an array: %2$s."
 msgstr "使用 %1$s 常量时，请确保将这些全局变量设置为数组：%2$s。"
 
-#: wp-includes/html-api/class-wp-html-tag-processor.php:3272
+#: wp-includes/html-api/class-wp-html-tag-processor.php:3279
 msgid "The query argument must be an array or a tag name."
 msgstr "查询参数必须是数组或标签名称。"
 
@@ -5050,7 +5050,7 @@ msgstr "书签太多：无法再创建更多。"
 
 #. translators: 1: The function name, 2: The argument number, 3: The argument
 #. name, 4: The expected type, 5: The provided type.
-#: wp-includes/formatting.php:5539
+#: wp-includes/formatting.php:5540
 msgid "Warning: %1$s expects parameter %2$s (%3$s) to be a %4$s, %5$s given."
 msgstr "警告：%1$s 期望参数 %2$s（%3$s）是一个 %4$s，但传递了 %5$s。"
 
@@ -9038,7 +9038,7 @@ msgstr "独立"
 
 #. translators: 1: Function name, 2: A variable type, like "boolean" or
 #. "integer".
-#: wp-includes/functions.php:8708
+#: wp-includes/functions.php:8711
 msgid "%1$s only accepts a non-empty path string, received %2$s."
 msgstr "%1$s 只接受非空路径字符串，当前 %2$s。"
 
@@ -9060,7 +9060,7 @@ msgid "Sorry, you are not allowed to upload this file type."
 msgstr "抱歉，您无权上传此文件类型。"
 
 #. translators: 1: Option name, 2: Error code.
-#: wp-includes/formatting.php:5107
+#: wp-includes/formatting.php:5108
 msgid "Could not sanitize the %1$s option. Error code: %2$s"
 msgstr "无法清理 %1$s 选项。错误代码：%2$s"
 
@@ -11201,7 +11201,7 @@ msgstr "（首页链接，在新标签页中打开）"
 
 #. translators: 1: Block type, 2: Typography supports key, e.g: fontSize,
 #. lineHeight, etc. 3: block.json, 4: Old metadata key, 5: New metadata key.
-#: wp-includes/blocks.php:1882
+#: wp-includes/blocks.php:1910
 msgid "Block \"%1$s\" is declaring %2$s support in %3$s file under %4$s. %2$s support is now declared under %5$s."
 msgstr "区块「%1$s」正在 %4$s 下的 %3$s 文件中声明 %2$s 支持。现在，%2$s 支持被声明在 %5$s 下。"
 
@@ -11793,7 +11793,7 @@ msgid "Filter by category"
 msgstr "按分类筛选"
 
 #. translators: Documentation explaining HTTPS and why it should be used.
-#: wp-includes/functions.php:8508
+#: wp-includes/functions.php:8511
 msgid "https://wordpress.org/documentation/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/documentation/article/why-should-i-use-https/"
 
@@ -15216,7 +15216,7 @@ msgstr "WordPress 版本 %s"
 msgid "https://wordpress.org/documentation/article/debugging-a-wordpress-network/"
 msgstr "https://wordpress.org/documentation/article/debugging-a-wordpress-network/"
 
-#: wp-includes/formatting.php:5079
+#: wp-includes/formatting.php:5080
 msgid "https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure"
 msgstr "https://wordpress.org/documentation/article/customize-permalinks/#choosing-your-permalink-structure"
 
@@ -15656,7 +15656,7 @@ msgstr "[%s] 网络管理员电子邮箱地址变更请求"
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:8013
+#: wp-includes/functions.php:8016
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] 管理员电子邮箱地址已更改"
 
@@ -16023,7 +16023,7 @@ msgstr "缺少请求 ID。"
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "出于无障碍访问的考虑，我们不推荐在登录 logo 上使用 title 属性。请改用链接文字。"
 
-#: wp-includes/functions.php:8449
+#: wp-includes/functions.php:8452
 msgid "Update PHP"
 msgstr "更新 PHP"
 
@@ -16041,7 +16041,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "REST API 路由必须于 %s 动作上注册。"
 
 #. translators: Used to join last two items in a list with more than 2 times.
-#: wp-includes/formatting.php:5352
+#: wp-includes/formatting.php:5353
 msgid "%1$s, and %2$s"
 msgstr "%1$s 和 %2$s"
 
@@ -16130,16 +16130,16 @@ msgid "Formats"
 msgstr "形式"
 
 #. translators: Used to join items in a list with more than 2 items.
-#: wp-includes/formatting.php:5350
+#: wp-includes/formatting.php:5351
 msgid "%1$s, %2$s"
 msgstr "%1$s 、 %2$s"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:8392
+#: wp-includes/functions.php:8395
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "此资源由您的主机提供商提供，为您的站点独有。要获取更多信息，<a href=\"%s\" target=\"_blank\">请查阅官方 WordPress 文档</a>。"
 
-#: wp-includes/functions.php:8341
+#: wp-includes/functions.php:8344
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://cn.wordpress.org/support/update-php/"
@@ -17897,7 +17897,7 @@ msgstr "普通"
 #: wp-includes/class-wp-customize-manager.php:5701
 #: wp-includes/class-wp-customize-manager.php:5722
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
-#: wp-includes/functions.php:8451 wp-includes/media-template.php:167
+#: wp-includes/functions.php:8454 wp-includes/media-template.php:167
 #: wp-includes/widgets/class-wp-widget-custom-html.php:322 wp-login.php:692
 #: wp-includes/js/dist/components.js:58741
 #: wp-includes/js/dist/customize-widgets.js:1437
@@ -18424,12 +18424,12 @@ msgid "User Requests"
 msgstr "用户请求"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:8164
+#: wp-includes/functions.php:8167
 msgid "This content was deleted by the author."
 msgstr "此内容已被作者删除。"
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:8160
+#: wp-includes/functions.php:8163
 msgid "[deleted]"
 msgstr "[已删除]"
 
@@ -19289,7 +19289,7 @@ msgstr "Scrape key 检查失败，请重试。"
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:7996
+#: wp-includes/functions.php:7999
 msgid ""
 "Hi,\n"
 "\n"
@@ -19315,7 +19315,7 @@ msgstr ""
 "###SITENAME### 全体成员敬上\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:7851
+#: wp-includes/functions.php:7854
 msgid "Only UUID V4 is supported at this time."
 msgstr "现时仅支持 UUID V4。"
 
@@ -22209,7 +22209,7 @@ msgid "Image crop area preview. Requires mouse interaction."
 msgstr "图片裁剪区域预览，需要鼠标交互。"
 
 #. translators: %s: Documentation URL.
-#: wp-includes/formatting.php:5078
+#: wp-includes/formatting.php:5079
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "自定义固定链接需要一个结构化标签。<a href=\"%s\">了解更多</a>"
 
@@ -22381,7 +22381,7 @@ msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "%1$s %2$s %3$s %4$s Feed"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/functions.php:7396 wp-includes/media-template.php:202
+#: wp-includes/functions.php:7399 wp-includes/media-template.php:202
 #: wp-includes/media-template.php:367
 msgid "Close dialog"
 msgstr "关闭对话框"
@@ -25732,7 +25732,7 @@ msgstr "请核对您是否输入了正确的电子邮箱地址。您输入的是
 msgid "Your session has expired. You can log in again from this page or go to the login page."
 msgstr "您的登录会话已过期，请重新登录。"
 
-#: wp-includes/functions.php:7418
+#: wp-includes/functions.php:7421
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "登录页将在新标签页中打开。登录后您可关闭该页并返回本页。"
 
@@ -25758,7 +25758,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "搜索&hellip;"
 
-#: wp-includes/functions.php:7416 wp-includes/script-loader.php:1298
+#: wp-includes/functions.php:7419 wp-includes/script-loader.php:1298
 msgid "Session expired"
 msgstr "会话已过期"
 
@@ -26928,7 +26928,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "蓝色"
 
-#: wp-includes/formatting.php:5058 wp-admin/options.php:297
+#: wp-includes/formatting.php:5059 wp-admin/options.php:297
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "您输入的时区无效。请选择有效的时区。"
 
@@ -27356,7 +27356,7 @@ msgid "You are currently browsing the archives for the %s category."
 msgstr "您现在正在浏览 %s 的分类归档。"
 
 #. translators: Used to join items in a list with only 2 items.
-#: wp-includes/formatting.php:5354
+#: wp-includes/formatting.php:5355
 msgid "%1$s and %2$s"
 msgstr "%1$s 和 %2$s"
 
@@ -27659,15 +27659,15 @@ msgstr "您请求的站点未被正确安装。请联系系统管理员。"
 msgid "The given object ID is not that of a menu item."
 msgstr "给出的对象 ID 不是菜单项的 ID。"
 
-#: wp-includes/formatting.php:4999
+#: wp-includes/formatting.php:5000
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "您输入的站点地址可能有误。请输入正确的 URL。"
 
-#: wp-includes/formatting.php:4986
+#: wp-includes/formatting.php:4987
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "您输入的 WordPress 地址可能有误。请输入一个正确的 URL。"
 
-#: wp-includes/formatting.php:4867
+#: wp-includes/formatting.php:4868
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "您输入的电子邮箱地址无效。请输入有效的电子邮箱地址。"
 
@@ -28251,7 +28251,7 @@ msgstr "<strong>错误：</strong>WordPress %1$s 需要 MySQL %2$s 以上版本"
 msgid "Sidebar %d"
 msgstr "边栏%d"
 
-#: wp-includes/functions.php:7417 wp-includes/user.php:306
+#: wp-includes/functions.php:7420 wp-includes/user.php:306
 msgid "Please log in again."
 msgstr "请重新登录。"
 
@@ -29293,15 +29293,15 @@ msgstr "注销"
 msgid "Log in"
 msgstr "登录"
 
-#: wp-includes/functions.php:6682
+#: wp-includes/functions.php:6685
 msgid "Manual Offsets"
 msgstr "手动指定偏差"
 
-#: wp-includes/functions.php:6673 wp-includes/functions.php:6678
+#: wp-includes/functions.php:6676 wp-includes/functions.php:6681
 msgid "UTC"
 msgstr "协调世界时（UTC）"
 
-#: wp-includes/functions.php:6621
+#: wp-includes/functions.php:6624
 msgid "Select a city"
 msgstr "选择城市"
 
