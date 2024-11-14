@@ -1098,6 +1098,7 @@ msgid "Popular Categories"
 msgstr "热门分类"
 
 #: patterns/hidden-post-navigation.php:9 patterns/hidden-post-navigation.php:10
+#: patterns/hidden-posts-heading.php:10
 #: patterns/template-index-portfolio.php:16
 msgid "Posts"
 msgstr "文章"
