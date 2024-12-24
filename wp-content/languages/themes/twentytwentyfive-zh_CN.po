@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Five package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-14 19:39:35+0000\n"
+"PO-Revision-Date: 2024-12-14 10:22:25+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,25 @@ msgstr ""
 "X-Generator: GlotPress/4.0.1\n"
 "Language: zh_CN\n"
 "Project-Id-Version: Themes - Twenty Twenty-Five\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide."
+msgstr "二〇二五强调简洁性和适应性。它提供灵活的设计选项，并为不同的页面类型（如服务和着陆页面）提供多种样板支持，使其成为建立个人博客、专业作品集、在线杂志或商业网站的理想之选。它的模板可满足各种博客风格的需要，从注重文字的布局到注重图片的布局。此外，它还支持国际化的排版和多样化的调色板，确保全球用户的可访问性和可定制性。"
+
+#. Theme Name of the theme
+#: style.css patterns/footer-columns.php:66 patterns/footer-newsletter.php:42
+#: patterns/footer.php:75 patterns/page-portfolio-home.php:226
+#, gp-priority: high
+msgid "Twenty Twenty-Five"
+msgstr "二〇二五"
+
+#: patterns/text-faqs.php:35 patterns/text-faqs.php:51
+#: patterns/text-faqs.php:71 patterns/text-faqs.php:87
+msgctxt "Answer in the FAQs pattern."
+msgid "This exquisite compilation showcases a diverse array of photographs that capture the essence of different eras and cultures, reflecting the unique styles and perspectives of each artist."
+msgstr "这本精美的合辑展示了各种各样的照片，捕捉了不同时代和文化的精髓，反映了每位艺术家的独特风格和观点。"
 
 #: theme.json
 msgctxt "Custom template name"
@@ -51,46 +70,55 @@ msgctxt "Template part name"
 msgid "Header"
 msgstr "页眉"
 
-#: theme.json
+#: styles/02-noon.json styles/typography/typography-preset-1.json
 msgctxt "Font family name"
 msgid "Beiruti"
 msgstr "Beiruti"
 
-#: theme.json
+#: styles/05-twilight.json styles/typography/typography-preset-4.json
 msgctxt "Font family name"
 msgid "Roboto Slab"
 msgstr "Roboto Slab"
 
-#: theme.json
+#: styles/04-afternoon.json styles/07-sunrise.json
+#: styles/typography/typography-preset-3.json
+#: styles/typography/typography-preset-6.json
 msgctxt "Font family name"
 msgid "Platypi"
 msgstr "Platypi"
 
-#: theme.json
+#: styles/04-afternoon.json styles/06-morning.json
+#: styles/typography/typography-preset-3.json
+#: styles/typography/typography-preset-5.json
 msgctxt "Font family name"
 msgid "Ysabeau Office"
 msgstr "Ysabeau Office"
 
-#: theme.json
+#: styles/08-midnight.json styles/typography/typography-preset-7.json
 msgctxt "Font family name"
 msgid "Fira Sans"
 msgstr "Fira Sans"
 
-#: theme.json
+#: styles/03-dusk.json styles/typography/typography-preset-2.json theme.json
 msgctxt "Font family name"
 msgid "Fira Code"
 msgstr "Fira Code"
 
-#: theme.json
+#: styles/03-dusk.json styles/typography/typography-preset-2.json
 msgctxt "Font family name"
 msgid "Vollkorn"
 msgstr "Vollkorn"
 
-#: theme.json
+#: styles/02-noon.json styles/06-morning.json styles/07-sunrise.json
+#: styles/08-midnight.json styles/typography/typography-preset-1.json
+#: styles/typography/typography-preset-5.json
+#: styles/typography/typography-preset-6.json
+#: styles/typography/typography-preset-7.json
 msgctxt "Font family name"
 msgid "Literata"
 msgstr "Literata"
 
+#: styles/05-twilight.json styles/typography/typography-preset-4.json
 #: theme.json
 msgctxt "Font family name"
 msgid "Manrope"
@@ -211,7 +239,7 @@ msgctxt "Style variation name"
 msgid "Display"
 msgstr "显示"
 
-#: styles/08-midnight.json
+#: styles/08-midnight.json styles/colors/08-midnight.json
 msgctxt "Duotone name"
 msgid "Midnight filter"
 msgstr "午夜滤镜"
@@ -409,34 +437,22 @@ msgctxt "Pattern title"
 msgid "Vertical header"
 msgstr "垂直标题"
 
-#: patterns/text-faqs.php:64
-msgctxt "Question in the FAQs pattern"
-msgid "Will The Stories Book be available in other languages other that English?"
-msgstr "《故事集》是否有英语以外的其他语言版本？"
-
-#: patterns/text-faqs.php:55
+#: patterns/text-faqs.php:83
 msgctxt "Question in the FAQs pattern."
 msgid "Are signed copies available?"
 msgstr "是否提供签名本？"
 
-#: patterns/text-faqs.php:46
+#: patterns/text-faqs.php:67
 msgctxt "Question in the FAQs pattern."
 msgid "When will The Stories Book be released?"
 msgstr "《故事集》何时发行？"
 
-#: patterns/text-faqs.php:37
+#: patterns/text-faqs.php:47
 msgctxt "Question in the FAQs pattern."
 msgid "How much does The Stories Book cost?"
 msgstr "《故事集》的价格是多少？"
 
-#: patterns/text-faqs.php:30 patterns/text-faqs.php:39
-#: patterns/text-faqs.php:48 patterns/text-faqs.php:57
-#: patterns/text-faqs.php:66
-msgctxt "Answer in the FAQs pattern."
-msgid "This exquisite compilation showcases a diverse array of photographs that capture the essence of different eras and cultures, reflecting the unique styles and perspectives of each artist. Fleckenstein's evocative imagery, Strand's groundbreaking modernist approach, and Kōno's meticulous documentation of Japanese life come together in a harmonious blend that celebrates the art of photography."
-msgstr "这本精美的合集展示了一系列不同的摄影作品，捕捉了不同时代和文化的精髓，反映了每位艺术家的唯一样式和视角。弗莱肯斯坦令人回味的图像、斯特兰德开创性的现代主义手法，以及光野对日本生活细致入微的记录，三者和谐地融为一体，共同颂扬了摄影艺术。"
-
-#: patterns/text-faqs.php:28
+#: patterns/text-faqs.php:31
 msgctxt "Question in the FAQs pattern."
 msgid "What is The Stories Book about?"
 msgstr "《故事集》讲述了什么？"
@@ -448,8 +464,8 @@ msgstr "常见问题"
 
 #: patterns/text-faqs.php
 msgctxt "Pattern description"
-msgid "A FAQs section with a FAQ heading and list of toggle questions and answers."
-msgstr "常问问题部分包含一个常问问题标题和列表，可切换问题和答案。"
+msgid "A FAQs section with a FAQ heading and list of questions and answers."
+msgstr "常见问题专区，包含「常见问题」标题，以及问答列表。"
 
 #: patterns/text-faqs.php
 msgctxt "Pattern title"
@@ -586,6 +602,7 @@ msgctxt "Pattern title"
 msgid "News blog single post with sidebar"
 msgstr "带侧边栏的新闻博客单篇文章"
 
+#: patterns/template-home-with-sidebar-news-blog.php:88
 #: patterns/template-single-left-aligned-content.php:56
 #: patterns/template-single-news-blog.php:39
 msgctxt "Separator between date and categories."
@@ -631,12 +648,6 @@ msgstr "一个列表文章，1 栏，有特色图片和文章日期。"
 msgctxt "Pattern title"
 msgid "List of posts, 1 column"
 msgstr "职位列表，1 栏"
-
-#: patterns/template-query-loop-vertical-header-blog.php:47
-#: patterns/template-query-loop.php:31
-msgctxt "Message explaining that there are no results returned from a search"
-msgid "Sorry, but nothing was found. Please try a search with different keywords."
-msgstr "很抱歉，没有找到任何结果。请尝试使用不同的关键字进行搜索。"
 
 #: patterns/template-query-loop-vertical-header-blog.php
 msgctxt "Pattern title"
@@ -685,11 +696,6 @@ msgstr "右对齐博客的页面模板"
 msgctxt "Pattern title"
 msgid "Photo blog page"
 msgstr "照片博客页面"
-
-#: patterns/template-home-with-sidebar-news-blog.php:88
-msgctxt "Separator between date and categories"
-msgid "·"
-msgstr "·"
 
 #: patterns/template-home-with-sidebar-news-blog.php:42
 msgid "The Latest"
@@ -787,10 +793,6 @@ msgstr "用智能手机拍摄风景优美的野花草地和树木"
 #: patterns/services-subscriber-only-section.php:55
 msgid "View plans"
 msgstr "查看计划"
-
-#: patterns/services-subscriber-only-section.php:31
-msgid "Join our IRL event."
-msgstr "加入我们的 IRL 事件。"
 
 #: patterns/services-subscriber-only-section.php:21
 msgid "Subscribe to get unlimited access"
@@ -917,6 +919,7 @@ msgid "Get a free tote bag."
 msgstr "免费获得一个手提袋。"
 
 #: patterns/pricing-2-col.php:48 patterns/pricing-2-col.php:92
+#: patterns/services-subscriber-only-section.php:31
 msgid "Join our IRL events."
 msgstr "加入我们的 IRL 事件。"
 
@@ -1257,6 +1260,8 @@ msgstr "作者"
 #: patterns/template-query-loop-news-blog.php:55
 #: patterns/template-query-loop-photo-blog.php:22
 #: patterns/template-query-loop-text-blog.php:19
+#: patterns/template-query-loop-vertical-header-blog.php:47
+#: patterns/template-query-loop.php:31
 msgctxt "Message explaining that there are no results returned from a search."
 msgid "Sorry, but nothing was found. Please try a search with different keywords."
 msgstr "抱歉，未找到任何内容。请尝试使用不同的关键字进行搜索。"
@@ -1276,15 +1281,10 @@ msgctxt "Pattern title"
 msgid "Sidebar"
 msgstr "侧边栏"
 
-#: patterns/hidden-search.php:14
+#: patterns/cta-heading-search.php:21 patterns/hidden-search.php:14
 msgctxt "Button text. Verb."
 msgid "Search"
 msgstr "搜索"
-
-#: patterns/hidden-search.php:14
-msgctxt "Search input field placeholder text"
-msgid "Type here..."
-msgstr "在此输入..."
 
 #: patterns/hidden-search.php
 msgctxt "Pattern title"
@@ -1343,8 +1343,8 @@ msgstr "苹果播客"
 
 #: patterns/hero-podcast.php:49
 msgctxt "Button text"
-msgid "Youtube"
-msgstr "Youtube"
+msgid "YouTube"
+msgstr "YouTube"
 
 #: patterns/hero-podcast.php:43
 msgid "Subscribe on your favorite platform"
@@ -1516,22 +1516,17 @@ msgctxt "Pattern title"
 msgid "Centered header"
 msgstr "居中标题"
 
-#: patterns/grid-with-categories.php:57
+#: patterns/grid-with-categories.php:64
 msgid "Sunflowers"
 msgstr "向日葵"
 
-#: patterns/grid-with-categories.php:45
+#: patterns/grid-with-categories.php:50
 msgid "Cactus"
 msgstr "仙人掌"
 
-#: patterns/grid-with-categories.php:33
+#: patterns/grid-with-categories.php:36
 msgid "Anthuriums"
 msgstr "红掌"
-
-#: patterns/grid-with-categories.php:29 patterns/grid-with-categories.php:40
-#: patterns/grid-with-categories.php:52
-msgid "Write title…"
-msgstr "撰写标题..."
 
 #: patterns/grid-with-categories.php:29
 msgid "Close up of a red anthurium."
@@ -1682,7 +1677,7 @@ msgctxt "Pattern title"
 msgid "Footer with columns"
 msgstr "带列的页脚"
 
-#. Translators: Designed with WordPress. %s: WordPress link.
+#. translators: Designed with WordPress. %s: WordPress link.
 #: patterns/footer-centered.php:33 patterns/footer-columns.php:73
 #: patterns/footer-newsletter.php:49 patterns/footer-social.php:35
 #: patterns/footer.php:82
@@ -1704,7 +1699,7 @@ msgid "An introduction to African dialects"
 msgstr "非洲方言简介"
 
 #: patterns/event-schedule.php:163
-msgid "Black and white photo of an african woman."
+msgid "Black and white photo of an African woman."
 msgstr "非洲妇女的黑白照片。"
 
 #: patterns/event-schedule.php:142
@@ -1712,7 +1707,7 @@ msgid "Ancient buildings and symbols"
 msgstr "古代建筑和标志"
 
 #: patterns/event-schedule.php:132 patterns/media-instagram-grid.php:52
-msgid "The acropolis in Athens."
+msgid "The Acropolis of Athens."
 msgstr "雅典卫城"
 
 #: patterns/event-schedule.php:89
@@ -1832,12 +1827,7 @@ msgctxt "Pattern title"
 msgid "Newsletter sign-up"
 msgstr "订阅电子报"
 
-#: patterns/cta-heading-search.php:21
-msgctxt "Button text. Verb"
-msgid "Search"
-msgstr "搜索"
-
-#: patterns/cta-heading-search.php:21
+#: patterns/cta-heading-search.php:21 patterns/hidden-search.php:14
 msgctxt "Search input field placeholder text."
 msgid "Type here..."
 msgstr "在此输入..."
@@ -2424,7 +2414,7 @@ msgid "A collection of post format patterns."
 msgstr "文章格式样板集。"
 
 #: functions.php:113
-msgid "Post format"
+msgid "Post formats"
 msgstr "文章格式"
 
 #: functions.php:106
@@ -2440,26 +2430,21 @@ msgid "Checkmark"
 msgstr "复选标记"
 
 #. Author URI of the theme
-#: patterns/footer-centered.php:34 patterns/footer-columns.php:74
+#: style.css patterns/footer-centered.php:34 patterns/footer-columns.php:74
 #: patterns/footer-newsletter.php:50 patterns/footer-social.php:36
 #: patterns/footer.php:83
+#, gp-priority: low
 msgid "https://wordpress.org"
 msgstr "https://cn.wordpress.org"
 
 #. Author of the theme
+#: style.css
+#, gp-priority: low
 msgid "the WordPress team"
 msgstr "WordPress 团队"
 
-#. Description of the theme
-msgid "Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide."
-msgstr "二〇二五强调简洁性和适应性。它提供灵活的设计选项，并为不同的页面类型（如服务和着陆页面）提供多种样板支持，使其成为建立个人博客、专业作品集、在线杂志或商业网站的理想之选。它的模板可满足各种博客风格的需要，从注重文字的布局到注重图片的布局。此外，它还支持国际化的排版和多样化的调色板，确保全球用户的可访问性和可定制性。"
-
 #. Theme URI of the theme
+#: style.css
+#, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentyfive/"
 msgstr "https://cn.wordpress.org/themes/twentytwentyfive/"
-
-#. Theme Name of the theme
-#: patterns/footer-columns.php:66 patterns/footer-newsletter.php:42
-#: patterns/footer.php:75 patterns/page-portfolio-home.php:226
-msgid "Twenty Twenty-Five"
-msgstr "二〇二五"
