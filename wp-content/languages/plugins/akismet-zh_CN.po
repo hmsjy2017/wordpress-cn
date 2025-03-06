@@ -230,7 +230,7 @@ msgstr "Akismet 无法检查该评论，稍后将自动重试。"
 msgid "Comment was caught by %s."
 msgstr "评论已被 %s 捕获。"
 
-#: class.akismet.php:807
+#: class.akismet.php:804
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet 尚未完成配置。请输入 API 密钥。"
 
@@ -283,7 +283,7 @@ msgid "Privacy"
 msgstr "隐私"
 
 #. translators: %s: Akismet privacy URL
-#: class.akismet.php:1926
+#: class.akismet.php:1925
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed.</a>"
 msgstr "这个站点使用 Akismet 来减少垃圾评论。<a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">了解你的评论数据如何被处理</a>。"
 
@@ -291,7 +291,7 @@ msgstr "这个站点使用 Akismet 来减少垃圾评论。<a href=\"%s\" target
 msgid "We collect information about visitors who comment on Sites that use our Akismet Anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "我们收集在使用 Akismet 反垃圾邮件服务的网站上发表评论的访客信息。我们收集的信息取决于用户如何为网站设置 Akismet，但通常包括评论者的 IP 地址、用户代理、引荐来源网址和网站 URL（以及评论者直接提供的其他信息，如姓名、用户名、电子邮件地址，以及评论本身）。"
 
-#: class.akismet.php:409
+#: class.akismet.php:430
 msgid "Comment discarded."
 msgstr "评论已丢弃。"
 
@@ -417,7 +417,7 @@ msgstr[0] "Akismet 已检查 %s 则评论。"
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "没有可供检查的评论。 Akismet 只会检查等待审核的评论。"
 
-#: class.akismet.php:813
+#: class.akismet.php:810
 msgid "Comment not found."
 msgstr "未找到评论。"
 
@@ -728,13 +728,13 @@ msgid "Past six months"
 msgstr "过去六个月"
 
 #. translators: 1: WordPress documentation URL, 2: Akismet download URL.
-#: class.akismet.php:1741
+#: class.akismet.php:1740
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "请<a href=\"%1$s\">升级WordPress</a>，或<a href=\"%2$s\">将Akismet插件降级至2.4版本</a>。"
 
 #. translators: 1: Current Akismet version number, 2: Minimum WordPress version
 #. number required.
-#: class.akismet.php:1739
+#: class.akismet.php:1738
 msgid "Akismet %1$s requires WordPress %2$s or higher."
 msgstr "Akismet %1$s 需要 WordPress %2$s 或更高版本。"
 
