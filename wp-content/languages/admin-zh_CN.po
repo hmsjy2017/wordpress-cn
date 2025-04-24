@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-15 19:18:31+0000\n"
+"PO-Revision-Date: 2025-04-23 10:18:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1144,11 +1144,11 @@ msgstr "更多详情。"
 
 #: wp-admin/contribute.php:103
 msgid "Find your team &rarr;"
-msgstr "找到您的团队➡️"
+msgstr "寻找适合您的团队➡️"
 
 #: wp-admin/contribute.php:102
 msgid "Finding the area that aligns with your skills and interests is the first step toward meaningful contribution. With more than 20 Make WordPress teams working on different parts of the open source WordPress project, there&#8217;s a place for everyone, no matter what your skill set is."
-msgstr "找到与您的技能和兴趣相符的领域是做出有意义贡献的第一步。超过 20 个 Make WordPress 团队致力于开源 WordPress 项目的不同部分，无论您的技能如何，每个人都可以找到自己的位置。"
+msgstr "找到与您的技能和兴趣相符的领域是做出有意义贡献的第一步。超过 20 个 Make WordPress 团队致力于开源 WordPress 项目的不同部分，无论您的技能水平如何，每个人都能找到自己的一席之地。"
 
 #: wp-admin/contribute.php:101
 msgid "Shape the future of the web with WordPress"
@@ -5871,7 +5871,7 @@ msgstr "自由之三"
 
 #: wp-admin/freedoms.php:68
 msgid "To study how the program works and change it to make it do what you wish."
-msgstr "研究程序的工作原理，并对其进行更改，以使其按您的意愿执行。"
+msgstr "研究程序的工作原理并对其进行修改以使其按照您的意愿运行。"
 
 #: wp-admin/freedoms.php:67
 msgid "The 2nd Freedom"
@@ -5879,7 +5879,7 @@ msgstr "自由之二"
 
 #: wp-admin/freedoms.php:63
 msgid "To run the program for any purpose."
-msgstr "可将程序执行于任何用途。"
+msgstr "可将程序运行于任何用途。"
 
 #: wp-admin/freedoms.php:62
 msgid "The 1st Freedom"
