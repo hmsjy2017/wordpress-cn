@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Five package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-12-14 10:22:25+0000\n"
+"PO-Revision-Date: 2025-08-15 08:49:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,6 +23,31 @@ msgstr "二〇二五强调简洁性和适应性。它提供灵活的设计选项
 #, gp-priority: high
 msgid "Twenty Twenty-Five"
 msgstr "二〇二五"
+
+#: patterns/template-home-vertical-header-blog.php
+msgctxt "Pattern title"
+msgid "Right-aligned home"
+msgstr "右对齐主页"
+
+#: patterns/template-archive-vertical-header-blog.php
+msgctxt "Pattern title"
+msgid "Right-aligned archive"
+msgstr "右对齐归档"
+
+#: patterns/template-search-text-blog.php
+msgctxt "Pattern title"
+msgid "Text blog search results"
+msgstr "文本博客搜索结果"
+
+#: patterns/template-query-loop-vertical-header-blog.php
+msgctxt "Pattern title"
+msgid "Right-aligned query loop"
+msgstr "右对齐查询循环"
+
+#: patterns/template-query-loop-text-blog.php
+msgctxt "Pattern title"
+msgid "Text blog query loop"
+msgstr "文本博客查询循环"
 
 #: patterns/text-faqs.php:35 patterns/text-faqs.php:51
 #: patterns/text-faqs.php:71 patterns/text-faqs.php:87
@@ -59,6 +84,11 @@ msgstr "页脚"
 msgctxt "Template part name"
 msgid "Header with large title"
 msgstr "大标题页眉"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Vertical site header"
+msgstr "垂直站点页眉"
 
 #: theme.json
 msgctxt "Template part name"
@@ -422,6 +452,16 @@ msgctxt "Style variation name"
 msgid "Evening"
 msgstr "晚间"
 
+#: patterns/vertical-header.php
+msgctxt "Pattern description"
+msgid "Vertical site header with site title and navigation."
+msgstr "带有站点标题和导航的垂直站点页眉"
+
+#: patterns/vertical-header.php
+msgctxt "Pattern title"
+msgid "Vertical site header"
+msgstr "垂直站点页眉"
+
 #: patterns/text-faqs.php:83
 msgctxt "Question in the FAQs pattern."
 msgid "Are signed copies available?"
@@ -538,6 +578,11 @@ msgctxt "Pattern title"
 msgid "Right-aligned single post"
 msgstr "右对齐的单篇文章"
 
+#: patterns/template-single-text-blog.php
+msgctxt "Pattern title"
+msgid "Text blog single post"
+msgstr "文本博客单篇文章"
+
 #: patterns/template-single-photo-blog.php:79
 msgid "Next Photo"
 msgstr "下一张照片"
@@ -624,6 +669,11 @@ msgctxt "Pattern title"
 msgid "List of posts, 1 column"
 msgstr "职位列表，1 栏"
 
+#: patterns/template-page-vertical-header-blog.php
+msgctxt "Pattern title"
+msgid "Right-aligned page"
+msgstr "右对齐页面"
+
 #: patterns/template-query-loop-photo-blog.php
 msgctxt "Pattern description"
 msgid "A list of posts, 3 columns, with only featured images."
@@ -666,6 +716,11 @@ msgctxt "Pattern title"
 msgid "News blog with sidebar"
 msgstr "新闻博客侧边栏"
 
+#: patterns/template-home-text-blog.php
+msgctxt "Pattern title"
+msgid "Text blog home"
+msgstr "文本博客首页"
+
 #: patterns/template-home-posts-grid-news-blog.php:114
 msgid "Architecture"
 msgstr "建筑"
@@ -685,6 +740,11 @@ msgctxt "Pattern title"
 msgid "News blog home"
 msgstr "新闻博客首页"
 
+#: patterns/template-archive-text-blog.php
+msgctxt "Pattern title"
+msgid "Text blog archive"
+msgstr "文本博客归档"
+
 #: patterns/template-archive-photo-blog.php
 msgctxt "Pattern title"
 msgid "Photo blog archive"
@@ -694,6 +754,11 @@ msgstr "图片博客归档"
 msgctxt "Pattern title"
 msgid "News blog archive"
 msgstr "新闻博客归档"
+
+#: patterns/template-404-vertical-header-blog.php
+msgctxt "Pattern title"
+msgid "Right-aligned 404"
+msgstr "右对齐 404"
 
 #: patterns/services-team-photos.php:50
 msgid "Man in hat, standing in front of a building."
@@ -1407,9 +1472,19 @@ msgid "Heading and paragraph with image on the right"
 msgstr "标题和段落右侧有图片"
 
 #: patterns/header.php
+msgctxt "Pattern description"
+msgid "Site header with site title and navigation."
+msgstr "带有站点标题和导航的站点页眉。"
+
+#: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"
 msgstr "标题"
+
+#: patterns/header-large-title.php
+msgctxt "Pattern description"
+msgid "Site header with large site title and right-aligned navigation."
+msgstr "带有大号站点标题以及导航右对齐的站点页眉。"
 
 #: patterns/header-large-title.php
 msgctxt "Pattern title"
@@ -1417,9 +1492,24 @@ msgid "Header with large title"
 msgstr "带大标题的页眉"
 
 #: patterns/header-columns.php
+msgctxt "Pattern description"
+msgid "Site header with site title and navigation in columns."
+msgstr "带有站点标题和分栏导航的站点页眉。"
+
+#: patterns/header-columns.php
 msgctxt "Pattern title"
 msgid "Header with columns"
 msgstr "带列的页眉"
+
+#: patterns/header-centered.php
+msgctxt "Pattern description"
+msgid "Site header with centered site title and navigation."
+msgstr "带有居中站点标题和导航的站点页眉。"
+
+#: patterns/header-centered.php
+msgctxt "Pattern title"
+msgid "Centered site header"
+msgstr "居中站点页眉"
 
 #: patterns/grid-with-categories.php:64
 msgid "Sunflowers"
