@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-10-27 07:52:03+0000\n"
+"PO-Revision-Date: 2025-11-13 16:16:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -512,7 +512,7 @@ msgstr "添加页面"
 
 #: wp-includes/class-wp-post-type.php:993
 msgid "Add Post"
-msgstr "添加文章"
+msgstr "写文章"
 
 #. translators: There is a space after the colon.
 #: wp-includes/class-wp-phpmailer.php:88
@@ -7819,7 +7819,7 @@ msgstr "此主题是否使用编辑器样式 CSS wrapper。"
 
 #: wp-includes/theme.php:4210
 msgid "Custom gradient presets if defined by the theme."
-msgstr "自定义由主题定义的预设梯度。"
+msgstr "自定义由主题定义的预设渐变。"
 
 #: wp-includes/theme.php:4185
 msgid "Custom font sizes if defined by the theme."
@@ -7831,7 +7831,7 @@ msgstr "自定义由主题定义的调色盘。"
 
 #: wp-includes/theme.php:4145
 msgid "Whether the theme disables custom gradients."
-msgstr "主题是否禁用自定义梯度。"
+msgstr "主题是否禁用自定义渐变。"
 
 #: wp-includes/theme.php:4138
 msgid "Whether the theme disables custom font sizes."
@@ -16353,10 +16353,6 @@ msgctxt "Comma-separated list of search stopwords in your language"
 msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 msgstr "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 
-#: wp-includes/post-template.php:1810
-msgid "This content is password protected. To view it please enter your password below:"
-msgstr "此内容受密码保护。如需查阅，请在下列字段中输入您的密码。"
-
 #: wp-includes/class-wp-http-curl.php:283
 #: wp-includes/class-wp-http-streams.php:336
 msgid "Failed to write request to temporary file."
@@ -19125,6 +19121,10 @@ msgstr "%s [当前版本]"
 #: wp-includes/post-template.php:1926 wp-includes/post-template.php:1987
 msgid "%s [Autosave]"
 msgstr "%s [自动保存]"
+
+#: wp-includes/post-template.php:1810
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr "此内容受密码保护。如需查看请在下方输入访问密码："
 
 #. translators: 'Home' as in a website's home page.
 #: wp-includes/blocks/home-link.php:140 wp-includes/post-template.php:1471

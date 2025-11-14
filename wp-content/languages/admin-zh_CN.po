@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-04 17:30:55+0000\n"
+"PO-Revision-Date: 2025-11-13 16:26:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,7 +55,7 @@ msgstr "删除主题时发生错误。"
 #: wp-admin/themes.php:255 wp-admin/network/menu.php:86
 #: wp-admin/network/themes.php:366
 msgid "Add Theme"
-msgstr "添加主题"
+msgstr "安装主题"
 
 #. translators: %s: https://wordpress.org/about/privacy
 #: wp-admin/privacy.php:62
@@ -84,7 +84,7 @@ msgstr "添加用户"
 
 #: wp-admin/menu.php:311 wp-admin/plugins.php:770 wp-admin/network/menu.php:111
 msgid "Add Plugin"
-msgstr "添加插件"
+msgstr "安装插件"
 
 #: wp-admin/menu.php:217
 msgctxt "design menu item"
@@ -1474,7 +1474,7 @@ msgstr "区块主题是一个可以在站点的所有部分包括导航菜单、
 
 #: wp-admin/site-health.php:277
 msgid "Recommended items are considered beneficial to your site, although not as important to prioritize as a critical issue, they may include improvements to things such as; Performance, user experience, and more."
-msgstr "推荐改进项目是对您的站点有益处的项目，尽管其不像关键问题那样需要优先考虑，它们仍然包含对于如网站性能、用户体验等项目的改进。"
+msgstr "推荐项目对您的站点有益，尽管其不如关键问题那样需要优先考虑，但它们可能包括对性能、 用户体验等方面的改进。"
 
 #: wp-admin/site-health.php:264
 msgid "Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized."
@@ -4389,7 +4389,7 @@ msgstr "SQL 服务器是 WordPress 所必需的一份软件，用以存储您的
 
 #: wp-admin/includes/class-wp-site-health.php:889
 msgid "PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator."
-msgstr "PHP 模组为您的站点执行大多数任务。任何修改都需要由您的服务器管理员进行。"
+msgstr "PHP 模块为您的站点执行大多数任务。任何修改都需要由您的服务器管理员进行。"
 
 #: wp-admin/includes/class-wp-site-health.php:504
 msgid "Manage your themes"
@@ -4544,7 +4544,7 @@ msgstr "https://make.wordpress.org/hosting/handbook/handbook/server-environment/
 #. modules. 2: Additional link attributes. 3: Accessibility text.
 #: wp-admin/includes/class-wp-site-health.php:892
 msgid "The WordPress Hosting Team maintains a list of those modules, both recommended and required, in <a href=\"%1$s\" %2$s>the team handbook%3$s</a>."
-msgstr "WordPress 主机团队维护着一份必需和推荐的模组列表，列于<a href=\"%1$s\" %2$s>团队手册 %3$s</a>。"
+msgstr "WordPress 主机团队维护着一份必需和推荐的模块列表，位于<a href=\"%1$s\" %2$s>团队手册 %3$s</a>。"
 
 #: wp-admin/includes/class-wp-site-health.php:259
 #: wp-admin/includes/class-wp-site-health.php:737
@@ -4684,7 +4684,7 @@ msgstr[0] "%s 个推荐的改进"
 
 #: wp-admin/site-health.php:254
 msgid "The site health check shows information about your WordPress configuration and items that may need your attention."
-msgstr "站点健康检查向您显示关于您 WordPress 配置的信息，及需要您的注意的项目。"
+msgstr "站点健康检查向您显示有关您的 WordPress 配置以及可能需要您注意的项目的信息。"
 
 #: wp-admin/includes/dashboard.php:68 wp-admin/site-health.php:251
 msgid "Site Health Status"
@@ -4973,21 +4973,21 @@ msgstr "SQL 服务器已是最新"
 
 #: wp-admin/includes/class-wp-site-health.php:1101
 msgid "One or more required modules are missing"
-msgstr "缺少一个或多个必需的模组"
+msgstr "缺少一个或多个必需的模块"
 
 #: wp-admin/includes/class-wp-site-health.php:1098
 msgid "One or more recommended modules are missing"
-msgstr "缺少一个或多个推荐的模组"
+msgstr "缺少一个或多个推荐的模块"
 
 #. translators: %s: The module name.
 #: wp-admin/includes/class-wp-site-health.php:1070
 msgid "The optional module, %s, is not installed, or has been disabled."
-msgstr "可选的模组 %s 未被安装或已被禁用。"
+msgstr "可选的模块 %s 未被安装或已被禁用。"
 
 #. translators: %s: The module name.
 #: wp-admin/includes/class-wp-site-health.php:1061
 msgid "The required module, %s, is not installed, or has been disabled."
-msgstr "必需的模组 %s 未被安装或已被禁用。"
+msgstr "必需的模块 %s 未被安装或已被禁用。"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-site-health.php:1058
@@ -4998,7 +4998,7 @@ msgstr "错误"
 
 #: wp-admin/includes/class-wp-site-health.php:881
 msgid "Required and recommended modules are installed"
-msgstr "必需和推荐的模组均已安装"
+msgstr "必需和推荐的模块均已安装"
 
 #: wp-admin/includes/class-wp-site-health.php:712
 msgid "Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your chosen theme."
@@ -10178,7 +10178,7 @@ msgstr "从左边栏中添加菜单项目。"
 #. translators: %s: https://wordpress.org/plugins
 #: wp-admin/includes/plugin-install.php:404
 msgid "Plugins extend and expand the functionality of WordPress. You may install plugins in the <a href=\"%s\">WordPress Plugin Directory</a> right from here, or upload a plugin in .zip format by clicking the button at the top of this page."
-msgstr "插件可以扩展和增强 WordPress 的功能。您可以从<a href=\"%s\">WordPress 插件目录</a>中自动安装插件，或者通过点击本页顶部的按钮上传 .zip 格式的插件文件。"
+msgstr "插件可以扩展和增强 WordPress 的功能。您可以从 <a href=\"%s\">WordPress 插件目录</a>中直接安装插件，或者通过点击本页顶部的按钮上传 .zip 格式的插件文件。"
 
 #. Plugin URI of the plugin
 #: hello.php
@@ -10540,7 +10540,7 @@ msgstr "要使用背景图片，您需先上传，或从媒体库中已上传过
 #. translators: 1: URL to browser uploader, 2: Additional link attributes.
 #: wp-admin/includes/media.php:3049
 msgid "You are using the multi-file uploader. Problems? Try the <a href=\"%1$s\" %2$s>browser uploader</a> instead."
-msgstr "您正在使用多文件上传工具。如果上传文件时遇到问题，请尝试使用<a href=\"%1$s\" %2$s>浏览器上传工具</a>。"
+msgstr "您正在使用多文件上传器。如果遇到问题，请尝试使用<a href=\"%1$s\" %2$s>浏览器上传器</a>。"
 
 #: wp-admin/async-upload.php:68
 msgctxt "media item"
@@ -10794,10 +10794,6 @@ msgstr "预览并安装"
 #: wp-admin/theme-install.php:129
 msgid "Once you have generated a list of themes, you can preview and install any of them. Click on the thumbnail of the theme you are interested in previewing. It will open up in a full-screen Preview page to give you a better idea of how that theme will look."
 msgstr "生成主题列表后，您可以预览或是安装任何一个主题。 单击您有兴趣预览的主题缩略图，主题将在全屏预览页面中打开，让您更直观地了解该主题的外观。"
-
-#: wp-admin/includes/media.php:3066
-msgid "You are using the browser&#8217;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href=\"#\">Switch to the multi-file uploader</a>."
-msgstr "您正在使用浏览器内置的标准上传工具。 WordPress 提供了全新的上传工具，支持多选、拖放上传功能。<a href=\"#\">改用新的上传工具</a>。"
 
 #: wp-admin/tools.php:50
 msgid "The Categories and Tags Converter link on this screen will take you to the Import screen, where that Converter is one of the plugins you can install. Once that plugin is installed, the Activate Plugin &amp; Run Importer link will take you to a screen where you can choose to convert tags into categories or vice versa."
@@ -11674,6 +11670,10 @@ msgstr "转到「仪表盘」 &rarr; 「首页」页面"
 #: wp-admin/about.php:360
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "转到「仪表盘」 &rarr; 「更新」页面"
+
+#: wp-admin/includes/media.php:3066
+msgid "You are using the browser&#8217;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href=\"#\">Switch to the multi-file uploader</a>."
+msgstr "您正在使用的是浏览器内置的文件上传器。WordPress 上传器支持多文件选择和拖放功能。<a href=\"#\">切换到多文件上传器</a>。"
 
 #: wp-admin/user-edit.php:217
 msgid "Profile updated."
