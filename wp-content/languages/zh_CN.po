@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-02 10:28:55+0000\n"
+"PO-Revision-Date: 2025-12-03 08:19:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2157,63 +2157,63 @@ msgstr "术语名称无效。"
 
 #: wp-includes/taxonomy.php:252
 msgid "View Pattern Category"
-msgstr "查看区块样板分类"
+msgstr "查看样板分类"
 
 #: wp-includes/taxonomy.php:251
 msgid "Update Pattern Category"
-msgstr "更新区块样板分类"
+msgstr "更新样板分类"
 
 #: wp-includes/taxonomy.php:249
 msgid "Search Pattern Categories"
-msgstr "搜索区块样板分类"
+msgstr "搜索样板分类"
 
 #: wp-includes/taxonomy.php:248
 msgid "Popular Pattern Categories"
-msgstr "热门区块样板分类"
+msgstr "热门样板分类"
 
 #: wp-includes/taxonomy.php:247
 msgid "No pattern categories found."
-msgstr "未找到区块样板分类。"
+msgstr "未找到样板分类。"
 
 #: wp-includes/taxonomy.php:246
 msgid "No pattern categories"
-msgstr "无区块样板分类"
+msgstr "无样板分类"
 
 #: wp-includes/taxonomy.php:245
 msgid "New Pattern Category Name"
-msgstr "新区块样板分类名称"
+msgstr "新样板分类名称"
 
 #: wp-includes/taxonomy.php:244
 msgid "Pattern Categories list navigation"
-msgstr "区块样板分类列表导航"
+msgstr "样板分类列表导航"
 
 #: wp-includes/taxonomy.php:243
 msgid "Pattern Categories list"
-msgstr "区块样板分类列表"
+msgstr "样板分类列表"
 
 #: wp-includes/taxonomy.php:242
 msgid "A link to a pattern category."
-msgstr "指向区块样板分类的链接。"
+msgstr "指向样板分类的链接。"
 
 #: wp-includes/taxonomy.php:241
 msgid "Pattern Category Link"
-msgstr "区块样板分类链接"
+msgstr "样板分类链接"
 
 #: wp-includes/taxonomy.php:240
 msgid "Edit Pattern Category"
-msgstr "编辑区块样板分类"
+msgstr "编辑样板分类"
 
 #: wp-includes/taxonomy.php:239
 msgid "Choose from the most used pattern categories"
-msgstr "从最常用的区块样板分类中选择"
+msgstr "从最常用的样板分类中选择"
 
 #: wp-includes/taxonomy.php:238
 msgid "&larr; Go to Pattern Categories"
-msgstr "&larr; 转到区块样板分类"
+msgstr "&larr; 转到样板分类"
 
 #: wp-includes/taxonomy.php:237
 msgid "Add or remove pattern categories"
-msgstr "添加或删除区块样板分类"
+msgstr "添加或删除样板分类"
 
 #. translators: %s: wp_remove_surrounding_empty_script_tags()
 #: wp-includes/script-loader.php:3572
@@ -2775,12 +2775,12 @@ msgstr "模板组件已更新。"
 #: wp-includes/taxonomy.php:235
 msgctxt "taxonomy singular name"
 msgid "Pattern Category"
-msgstr "区块样板分类"
+msgstr "样板分类"
 
 #: wp-includes/taxonomy.php:234
 msgctxt "taxonomy general name"
 msgid "Pattern Categories"
-msgstr "区块样板分类"
+msgstr "样板分类"
 
 #: wp-includes/script-loader.php:3565
 msgid "Expected string to start with script tag (without attributes) and end with script tag, with optional whitespace."
@@ -2961,7 +2961,7 @@ msgstr "无法将区块与其自身挂载。"
 #. translators: %s: file name.
 #: wp-includes/block-patterns.php:390
 msgid "Could not register file \"%s\" as a block pattern as the file does not exist."
-msgstr "无法将文件「%s」注册为区块模式，因为该文件不存在。"
+msgstr "无法将文件「%s」注册为区块样板，因为该文件不存在。"
 
 #: wp-includes/admin-bar.php:207
 msgid "Learn WordPress"
@@ -2993,7 +2993,7 @@ msgstr "摘要"
 #: wp-includes/blocks/pattern/block.json
 msgctxt "block title"
 msgid "Pattern Placeholder"
-msgstr "区块样板占位符"
+msgstr "样板占位符"
 
 #: wp-includes/blocks/footnotes/block.json
 msgctxt "block keyword"
@@ -3177,11 +3177,11 @@ msgstr "筛选样式列表"
 
 #: wp-includes/post.php:316
 msgid "No patterns found."
-msgstr "未找到任何模式。"
+msgstr "未找到任何样板。"
 
 #: wp-includes/post.php:315
 msgid "Search Patterns"
-msgstr "搜索区块样板"
+msgstr "搜索样板"
 
 #: wp-includes/post.php:314
 msgid "All Patterns"
@@ -3201,17 +3201,17 @@ msgstr "编辑区块样板"
 
 #: wp-includes/post.php:310
 msgid "New Pattern"
-msgstr "新样式"
+msgstr "新样板"
 
 #: wp-includes/post.php:307
 msgctxt "post type singular name"
 msgid "Pattern"
-msgstr "区块样板"
+msgstr "样板"
 
 #: wp-includes/post.php:306
 msgctxt "post type general name"
 msgid "Patterns"
-msgstr "区块样板"
+msgstr "样板"
 
 #: wp-includes/media.php:2240 wp-includes/media.php:6087
 msgid "An image should not be lazy-loaded and marked as high priority at the same time."
@@ -3502,11 +3502,11 @@ msgstr "需要搜索的栏位名称组。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:292
 msgid "The block types which can use this pattern."
-msgstr "可以使用该区块样板的区块类型。"
+msgstr "可以使用该样板的区块类型。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:278
 msgid "An array of template types where the pattern fits."
-msgstr "适合该区块样板的一组模板类型。"
+msgstr "适合该样板的一组模板类型。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php:155
 msgid "The category description, in human readable format."
@@ -4297,27 +4297,27 @@ msgstr "决定该样板在插入器中是否可见。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:260
 msgid "The pattern keywords."
-msgstr "区块样板关键字。"
+msgstr "样板关键字。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:254
 msgid "The pattern category slugs."
-msgstr "区块样板的分类别名。"
+msgstr "样板的分类别名。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:266
 msgid "Block types that the pattern is intended to be used with."
-msgstr "区块样板搭配使用的区块类型。"
+msgstr "样板搭配使用的区块类型。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:242
 msgid "The pattern viewport width for inserter preview."
-msgstr "为区块插入器预览准备的区块样板视图宽度。"
+msgstr "为区块插入器预览准备的样板视图宽度。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:236
 msgid "The pattern detailed description."
-msgstr "区块样板详细描述。"
+msgstr "样板详细描述。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:218
 msgid "The pattern name."
-msgstr "区块样板名称。"
+msgstr "样板名称。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:90
 msgid "Sorry, you are not allowed to view the registered block patterns."
@@ -4572,7 +4572,7 @@ msgstr "显示一个区块样板。"
 #: wp-includes/blocks/block/block.json
 msgctxt "block title"
 msgid "Pattern"
-msgstr "区块样板"
+msgstr "样板"
 
 #: wp-includes/blocks/navigation/block.json
 msgctxt "block description"
@@ -6190,7 +6190,7 @@ msgstr "在前面显示"
 #: wp-includes/post.php:320 wp-includes/js/dist/block-editor.js:49801
 #: wp-includes/js/dist/block-editor.js:56676
 msgid "Patterns list"
-msgstr "区块样板列表"
+msgstr "样板列表"
 
 #. translators: %s: taxonomy's singular name
 #. translators: Hidden accessibility text. %s: Link name.
@@ -6610,33 +6610,33 @@ msgstr "将结果限制为与分类 ID 匹配的结果。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:286
 msgid "The preferred width of the viewport when previewing a pattern, in pixels."
-msgstr "预览区块样板时视口的首选宽度（以像素为单位）。"
+msgstr "预览样板时视口的首选宽度（以像素为单位）。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:279
 msgid "A description of the pattern."
-msgstr "区块样板的描述；"
+msgstr "样板的描述。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:271
 msgid "The pattern's keywords."
-msgstr "区块样板关键字。"
+msgstr "样板的关键词。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:263
 msgid "The pattern's category slugs."
-msgstr "区块样板的分类别名。"
+msgstr "样板的分类别名。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:230
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:256
 msgid "The pattern content."
-msgstr "区块样板的内容。"
+msgstr "样板的内容。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:224
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:249
 msgid "The pattern title, in human readable format."
-msgstr "区块样板标题，人类可读的格式。"
+msgstr "样板标题，人类可读的格式。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:242
 msgid "The pattern ID."
-msgstr "区块样板的 ID。"
+msgstr "样板的 ID。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-pattern-directory-controller.php:74
 msgid "Sorry, you are not allowed to browse the local block pattern directory."
@@ -6992,7 +6992,7 @@ msgstr "引文"
 #: wp-includes/blocks/preformatted/block.json
 msgctxt "block title"
 msgid "Preformatted"
-msgstr "预格式"
+msgstr "预格式化"
 
 #: wp-includes/blocks/nextpage/block.json
 msgctxt "block title"
@@ -7950,19 +7950,19 @@ msgstr "<strong>错误：</strong>您输入的站点 URL 已被占用。"
 #. translators: %s: Pattern name.
 #: wp-includes/class-wp-block-patterns-registry.php:149
 msgid "Pattern \"%s\" not found."
-msgstr "未找到区块样板「%s」。"
+msgstr "未找到样板「%s」。"
 
 #: wp-includes/class-wp-block-patterns-registry.php:112
 msgid "Pattern content must be a string."
-msgstr "区块样板内容必须为字符串。"
+msgstr "样板内容必须为字符串。"
 
 #: wp-includes/class-wp-block-patterns-registry.php:102
 msgid "Pattern title must be a string."
-msgstr "区块样板标题必须为字符串。"
+msgstr "样板标题必须为字符串。"
 
 #: wp-includes/class-wp-block-patterns-registry.php:93
 msgid "Pattern name must be a string."
-msgstr "区块样板名称必须为字符串。"
+msgstr "样板名称必须为字符串。"
 
 #: wp-includes/media.php:5031
 msgid "Attachment details"
@@ -19977,7 +19977,7 @@ msgstr "中等"
 
 #: wp-includes/taxonomy.php:250
 msgid "Separate pattern categories with commas"
-msgstr "用逗号分隔区块样板分类"
+msgstr "用逗号分隔样板分类"
 
 #: wp-includes/script-loader.php:1028
 msgid "moved to the Trash."

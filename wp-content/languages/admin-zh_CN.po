@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-02 22:28:03+0000\n"
+"PO-Revision-Date: 2025-12-03 08:08:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -123,7 +123,7 @@ msgstr "70 多项无障碍修复和增强功能主要集中在 WordPress 体验�
 
 #: wp-admin/about.php:125
 msgid "A new typography option for text-based blocks, starting with the Paragraph and Heading blocks, that automatically adjusts font size to fill its container perfectly. Ideal for banners, callouts, and standout moments in your design. No manual tweaks, just an instant clean design."
-msgstr "为文本区块（首先是段落和标题区块）提供了一种新的排版选项，可自动调整字体大小以完美填充容器。非常适合横幅、提示和突出时刻。无需手动调整即可获得简洁的设计效果。"
+msgstr "为基于文本的区块添加了一个新的排版选项，已应用于段落和标题区块。这个新选项会自动调整字体大小以完美填充其容器，非常适合横幅、标注和设计中的突出时刻。无需手动调整即可获得简洁的设计效果。"
 
 #: wp-admin/about.php:124
 msgid "Content that adapts."
@@ -139,7 +139,7 @@ msgstr "从您站点的任意位置访问命令面板，无论您是在撰写最
 
 #: wp-admin/about.php:104
 msgid "Your tools are always at hand."
-msgstr "您的工具随时可用。"
+msgstr "您的工具始终触手可及。"
 
 #: wp-admin/about.php:102
 msgid "Command Palette, everywhere"
@@ -163,7 +163,7 @@ msgstr "通过将批注直接附加到区块上，您的团队可以保持步调
 
 #: wp-admin/about.php:74
 msgid "Leave feedback right where you’re working."
-msgstr "在您工作的地方留下反馈。"
+msgstr "在工作位置直接留下反馈。"
 
 #: wp-admin/about.php:72
 msgctxt "about page section title"
@@ -1993,7 +1993,7 @@ msgstr "了解区块主题"
 
 #: wp-admin/includes/dashboard.php:2125
 msgid "There is a new kind of WordPress theme, called a block theme, that lets you build the site you&#8217;ve always wanted &#8212; with blocks and styles."
-msgstr "全新的 WordPress 区块主题，可让您按需使用区块和区块样板来构建站点。"
+msgstr "全新的 WordPress 区块主题，可让您按需使用区块和样板来构建站点。"
 
 #: wp-admin/includes/dashboard.php:2124
 msgid "Discover a new way to build your site."
@@ -2029,7 +2029,7 @@ msgstr "打开站点编辑器"
 
 #: wp-admin/includes/dashboard.php:2102
 msgid "Design everything on your site &#8212; from the header down to the footer, all using blocks and patterns."
-msgstr "上至页眉下至页脚，整个站点都可通过区块获区块样板进行设计。"
+msgstr "上至页眉下至页脚，整个站点都可通过区块或样板进行设计。"
 
 #: wp-admin/includes/dashboard.php:2101
 msgid "Customize your entire site with block themes"
@@ -2041,11 +2041,11 @@ msgstr "新页面"
 
 #: wp-admin/includes/dashboard.php:2090
 msgid "Block patterns are pre-configured block layouts. Use them to get inspired or create new pages in a flash."
-msgstr "区块样板是预先配置好的区块布局。通过区块样板获得灵感或在极短时间内创建新页面。"
+msgstr "区块样板是预先配置好的区块布局。通过样板获得灵感或在极短时间内创建新页面。"
 
 #: wp-admin/includes/dashboard.php:2089
 msgid "Author rich content with blocks and patterns"
-msgstr "使用区块和区块样板创作丰富的内容"
+msgstr "使用区块和样板创作丰富的内容"
 
 #. translators: %s: Current WordPress version.
 #: wp-admin/includes/dashboard.php:2077
