@@ -49,8 +49,8 @@ msgstr "on"
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
 #: wp-includes/class-wp-locale.php:453
-#: wp-includes/js/dist/block-library.js:38564
-#: wp-includes/js/dist/block-library.js:40403
+#: wp-includes/js/dist/block-library.js:38684
+#: wp-includes/js/dist/block-library.js:40523
 #: wp-includes/js/dist/editor.js:21355 wp-includes/js/dist/editor.js:21373
 #: wp-includes/js/dist/editor.js:24882 wp-includes/js/dist/editor.js:25957
 #, gp-priority: high
@@ -205,82 +205,82 @@ msgid "Sunday"
 msgstr "星期日"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:186 wp-includes/js/dist/components.js:51333
+#: wp-includes/class-wp-locale.php:186 wp-includes/js/dist/components.js:51345
 #, gp-priority: high
 msgid "December"
 msgstr "12 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:185 wp-includes/js/dist/components.js:51330
+#: wp-includes/class-wp-locale.php:185 wp-includes/js/dist/components.js:51342
 #, gp-priority: high
 msgid "November"
 msgstr "11 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:184 wp-includes/js/dist/components.js:51327
+#: wp-includes/class-wp-locale.php:184 wp-includes/js/dist/components.js:51339
 #, gp-priority: high
 msgid "October"
 msgstr "10 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:183 wp-includes/js/dist/components.js:51324
+#: wp-includes/class-wp-locale.php:183 wp-includes/js/dist/components.js:51336
 #, gp-priority: high
 msgid "September"
 msgstr "9 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:182 wp-includes/js/dist/components.js:51321
+#: wp-includes/class-wp-locale.php:182 wp-includes/js/dist/components.js:51333
 #, gp-priority: high
 msgid "August"
 msgstr "8 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:181 wp-includes/js/dist/components.js:51318
+#: wp-includes/class-wp-locale.php:181 wp-includes/js/dist/components.js:51330
 #, gp-priority: high
 msgid "July"
 msgstr "7 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:180 wp-includes/js/dist/components.js:51315
+#: wp-includes/class-wp-locale.php:180 wp-includes/js/dist/components.js:51327
 #, gp-priority: high
 msgid "June"
 msgstr "6 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:179 wp-includes/js/dist/components.js:51312
+#: wp-includes/class-wp-locale.php:179 wp-includes/js/dist/components.js:51324
 #, gp-priority: high
 msgid "May"
 msgstr "5 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:178 wp-includes/js/dist/components.js:51309
+#: wp-includes/class-wp-locale.php:178 wp-includes/js/dist/components.js:51321
 #, gp-priority: high
 msgid "April"
 msgstr "4 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:177 wp-includes/js/dist/components.js:51306
+#: wp-includes/class-wp-locale.php:177 wp-includes/js/dist/components.js:51318
 #, gp-priority: high
 msgid "March"
 msgstr "3 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:176 wp-includes/js/dist/components.js:51303
+#: wp-includes/class-wp-locale.php:176 wp-includes/js/dist/components.js:51315
 #, gp-priority: high
 msgid "February"
 msgstr "2 月"
 
 #. translators: Month name.
-#: wp-includes/class-wp-locale.php:175 wp-includes/js/dist/components.js:51300
+#: wp-includes/class-wp-locale.php:175 wp-includes/js/dist/components.js:51312
 #, gp-priority: high
 msgid "January"
 msgstr "1 月"
 
 #: wp-includes/category-template.php:162
 #: wp-includes/js/dist/block-editor.js:21596
-#: wp-includes/js/dist/block-editor.js:41608
-#: wp-includes/js/dist/block-editor.js:41615
-#: wp-includes/js/dist/block-editor.js:42793
+#: wp-includes/js/dist/block-editor.js:41641
+#: wp-includes/js/dist/block-editor.js:41648
+#: wp-includes/js/dist/block-editor.js:42826
 #: wp-includes/js/dist/edit-site.js:25678 wp-admin/includes/upgrade.php:182
 #, gp-priority: high
 msgid "Uncategorized"
@@ -462,11 +462,11 @@ msgstr "手风琴式标题"
 msgid "Allow"
 msgstr "允许"
 
-#: wp-includes/js/dist/components.js:73641 wp-admin/options-permalink.php:408
+#: wp-includes/js/dist/components.js:73653 wp-admin/options-permalink.php:408
 msgid "Optional"
 msgstr "可选"
 
-#: wp-includes/js/dist/block-editor.js:51903
+#: wp-includes/js/dist/block-editor.js:51936
 #: wp-admin/includes/class-wp-links-list-table.php:139
 #: wp-admin/includes/class-wp-links-list-table.php:151
 msgid "Visible"
@@ -636,7 +636,7 @@ msgstr "已解决/已重新开启"
 
 #. translators: %s: Note text.
 #. translators: %s: note excerpt
-#: wp-includes/pluggable.php:1907 wp-includes/js/dist/editor.js:29352
+#: wp-includes/pluggable.php:1907 wp-includes/js/dist/editor.js:29368
 msgid "Note: %s"
 msgstr "批注：%s"
 
@@ -669,19 +669,19 @@ msgid "Cannot supply a fetchpriority `%1$s` for script `%2$s` because it is an a
 msgstr "无法为脚本 `%2$s` 提供获取优先级 `%1$s`，因为它是一个别名（缺少 `src` 值）。"
 
 #. translators: %s: Invalid fetchpriority.
-#: wp-includes/class-wp-script-modules.php:214
+#: wp-includes/class-wp-script-modules.php:225
 msgid "Invalid fetchpriority: %s"
 msgstr "无效的获取优先级：%s"
 
 #. translators: 1: $fetchpriority, 2: $id
 #. translators: 1: $fetchpriority, 2: $handle
-#: wp-includes/class-wp-script-modules.php:150
+#: wp-includes/class-wp-script-modules.php:161
 #: wp-includes/class-wp-scripts.php:888
 msgid "Invalid fetchpriority `%1$s` defined for `%2$s` during script registration."
 msgstr "脚本注册过程中为 `%2$s` 定义的获取优先级 `%1$s` 无效。"
 
-#: wp-includes/class-wp-script-modules.php:113
-#: wp-includes/class-wp-script-modules.php:285
+#: wp-includes/class-wp-script-modules.php:124
+#: wp-includes/class-wp-script-modules.php:296
 msgid "Non-empty string required for id."
 msgstr "id 必须为非空字符串。"
 
@@ -698,108 +698,108 @@ msgstr "不建议使用简化地址解析器。安装 PHP IMAP 扩展，以获�
 msgid "Server does not support SMTPUTF8 needed to send to Unicode addresses"
 msgstr "服务器不支持发送至 Unicode 地址所需的 SMTPUTF8"
 
-#: wp-includes/class-wp-dependencies.php:296
+#: wp-includes/class-wp-dependencies.php:320
 msgid "IE conditional comments are ignored by all supported browsers."
 msgstr "所有支持的浏览器都会忽略 IE 条件注释。"
 
 #: wp-includes/blocks/social-link.php:333
-#: wp-includes/js/dist/block-library.js:49286
+#: wp-includes/js/dist/block-library.js:49406
 msgctxt "social link block variation name"
 msgid "YouTube"
 msgstr "YouTube"
 
 #: wp-includes/blocks/social-link.php:329
-#: wp-includes/js/dist/block-library.js:49280
+#: wp-includes/js/dist/block-library.js:49400
 msgctxt "social link block variation name"
 msgid "Yelp"
 msgstr "Yelp"
 
 #: wp-includes/blocks/social-link.php:325
-#: wp-includes/js/dist/block-library.js:49274
+#: wp-includes/js/dist/block-library.js:49394
 msgctxt "social link block variation name"
 msgid "X"
 msgstr "X"
 
 #: wp-includes/blocks/social-link.php:321
-#: wp-includes/js/dist/block-library.js:49267
+#: wp-includes/js/dist/block-library.js:49387
 msgctxt "social link block variation name"
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
 #: wp-includes/blocks/social-link.php:317
-#: wp-includes/js/dist/block-library.js:49000
+#: wp-includes/js/dist/block-library.js:49120
 msgctxt "social link block variation name"
 msgid "WordPress"
 msgstr "WordPress"
 
 #: wp-includes/blocks/social-link.php:313
-#: wp-includes/js/dist/block-library.js:49261
+#: wp-includes/js/dist/block-library.js:49381
 msgctxt "social link block variation name"
 msgid "VK"
 msgstr "VK"
 
 #: wp-includes/blocks/social-link.php:309
-#: wp-includes/js/dist/block-library.js:49255
+#: wp-includes/js/dist/block-library.js:49375
 msgctxt "social link block variation name"
 msgid "Vimeo"
 msgstr "Vimeo"
 
 #: wp-includes/blocks/social-link.php:305
-#: wp-includes/js/dist/block-library.js:49249
+#: wp-includes/js/dist/block-library.js:49369
 msgctxt "social link block variation name"
 msgid "Twitter"
 msgstr "Twitter"
 
 #: wp-includes/blocks/social-link.php:301
-#: wp-includes/js/dist/block-library.js:49243
+#: wp-includes/js/dist/block-library.js:49363
 msgctxt "social link block variation name"
 msgid "Twitch"
 msgstr "Twitch"
 
 #: wp-includes/blocks/social-link.php:297
-#: wp-includes/js/dist/block-library.js:49237
+#: wp-includes/js/dist/block-library.js:49357
 msgctxt "social link block variation name"
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #: wp-includes/blocks/social-link.php:293
-#: wp-includes/js/dist/block-library.js:49231
+#: wp-includes/js/dist/block-library.js:49351
 msgctxt "social link block variation name"
 msgid "TikTok"
 msgstr "TikTok"
 
 #: wp-includes/blocks/social-link.php:289
-#: wp-includes/js/dist/block-library.js:49225
+#: wp-includes/js/dist/block-library.js:49345
 msgctxt "social link block variation name"
 msgid "Threads"
 msgstr "Threads"
 
 #: wp-includes/blocks/social-link.php:285
-#: wp-includes/js/dist/block-library.js:49219
+#: wp-includes/js/dist/block-library.js:49339
 msgctxt "social link block variation name"
 msgid "Telegram"
 msgstr "Telegram"
 
 #: wp-includes/blocks/social-link.php:281
-#: wp-includes/js/dist/block-library.js:49213
+#: wp-includes/js/dist/block-library.js:49333
 msgctxt "social link block variation name"
 msgid "Spotify"
 msgstr "Spotify"
 
 #: wp-includes/blocks/social-link.php:277
-#: wp-includes/js/dist/block-library.js:49207
+#: wp-includes/js/dist/block-library.js:49327
 msgctxt "social link block variation name"
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
 #: wp-includes/blocks/social-link.php:273
-#: wp-includes/js/dist/block-library.js:49201
+#: wp-includes/js/dist/block-library.js:49321
 msgctxt "social link block variation name"
 msgid "Snapchat"
 msgstr "Snapchat"
 
 #: wp-includes/blocks/social-link.php:269
-#: wp-includes/js/dist/block-library.js:49193
+#: wp-includes/js/dist/block-library.js:49313
 msgctxt "social link block variation name"
 msgid "Skype"
 msgstr "Skype"
@@ -810,187 +810,187 @@ msgid "Share Icon"
 msgstr "分享图标"
 
 #: wp-includes/blocks/social-link.php:261
-#: wp-includes/js/dist/block-library.js:49187
+#: wp-includes/js/dist/block-library.js:49307
 msgctxt "social link block variation name"
 msgid "Reddit"
 msgstr "Reddit"
 
 #: wp-includes/blocks/social-link.php:257
-#: wp-includes/js/dist/block-library.js:49181
+#: wp-includes/js/dist/block-library.js:49301
 msgctxt "social link block variation name"
 msgid "Pocket"
 msgstr "Pocket"
 
 #: wp-includes/blocks/social-link.php:253
-#: wp-includes/js/dist/block-library.js:49175
+#: wp-includes/js/dist/block-library.js:49295
 msgctxt "social link block variation name"
 msgid "Pinterest"
 msgstr "Pinterest"
 
 #: wp-includes/blocks/social-link.php:249
-#: wp-includes/js/dist/block-library.js:49169
+#: wp-includes/js/dist/block-library.js:49289
 msgctxt "social link block variation name"
 msgid "Patreon"
 msgstr "Patreon"
 
 #: wp-includes/blocks/social-link.php:245
-#: wp-includes/js/dist/block-library.js:49163
+#: wp-includes/js/dist/block-library.js:49283
 msgctxt "social link block variation name"
 msgid "Medium"
 msgstr "Medium"
 
 #: wp-includes/blocks/social-link.php:241
-#: wp-includes/js/dist/block-library.js:49157
+#: wp-includes/js/dist/block-library.js:49277
 msgctxt "social link block variation name"
 msgid "Meetup"
 msgstr "Meetup"
 
 #: wp-includes/blocks/social-link.php:237
-#: wp-includes/js/dist/block-library.js:49151
+#: wp-includes/js/dist/block-library.js:49271
 msgctxt "social link block variation name"
 msgid "Mastodon"
 msgstr "Mastodon"
 
 #: wp-includes/blocks/social-link.php:233
-#: wp-includes/js/dist/block-library.js:49144
+#: wp-includes/js/dist/block-library.js:49264
 msgctxt "social link block variation name"
 msgid "Mail"
 msgstr "电子邮件"
 
 #: wp-includes/blocks/social-link.php:229
-#: wp-includes/js/dist/block-library.js:49138
+#: wp-includes/js/dist/block-library.js:49258
 msgctxt "social link block variation name"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 #: wp-includes/blocks/social-link.php:225
-#: wp-includes/js/dist/block-library.js:49132
+#: wp-includes/js/dist/block-library.js:49252
 msgctxt "social link block variation name"
 msgid "Last.fm"
 msgstr "Last.fm"
 
 #: wp-includes/blocks/social-link.php:221
-#: wp-includes/js/dist/block-library.js:49126
+#: wp-includes/js/dist/block-library.js:49246
 msgctxt "social link block variation name"
 msgid "Instagram"
 msgstr "Instagram"
 
 #: wp-includes/blocks/social-link.php:217
-#: wp-includes/js/dist/block-library.js:49120
+#: wp-includes/js/dist/block-library.js:49240
 msgctxt "social link block variation name"
 msgid "Gravatar"
 msgstr "Gravatar"
 
 #: wp-includes/blocks/social-link.php:213
-#: wp-includes/js/dist/block-library.js:49114
+#: wp-includes/js/dist/block-library.js:49234
 msgctxt "social link block variation name"
 msgid "GitHub"
 msgstr "GitHub"
 
 #: wp-includes/blocks/social-link.php:209
-#: wp-includes/js/dist/block-library.js:49108
+#: wp-includes/js/dist/block-library.js:49228
 msgctxt "social link block variation name"
 msgid "Google"
 msgstr "Google"
 
 #: wp-includes/blocks/social-link.php:205
-#: wp-includes/js/dist/block-library.js:49102
+#: wp-includes/js/dist/block-library.js:49222
 msgctxt "social link block variation name"
 msgid "Goodreads"
 msgstr "Goodreads"
 
 #: wp-includes/blocks/social-link.php:201
-#: wp-includes/js/dist/block-library.js:49096
+#: wp-includes/js/dist/block-library.js:49216
 msgctxt "social link block variation name"
 msgid "Foursquare"
 msgstr "Foursquare"
 
 #: wp-includes/blocks/social-link.php:197
-#: wp-includes/js/dist/block-library.js:49090
+#: wp-includes/js/dist/block-library.js:49210
 msgctxt "social link block variation name"
 msgid "Flickr"
 msgstr "Flickr"
 
 #: wp-includes/blocks/social-link.php:193
-#: wp-includes/js/dist/block-library.js:49084
+#: wp-includes/js/dist/block-library.js:49204
 msgctxt "social link block variation name"
 msgid "RSS Feed"
 msgstr "RSS Feed"
 
 #: wp-includes/blocks/social-link.php:189
-#: wp-includes/js/dist/block-library.js:49078
+#: wp-includes/js/dist/block-library.js:49198
 msgctxt "social link block variation name"
 msgid "Facebook"
 msgstr "Facebook"
 
 #: wp-includes/blocks/social-link.php:185
-#: wp-includes/js/dist/block-library.js:49072
+#: wp-includes/js/dist/block-library.js:49192
 msgctxt "social link block variation name"
 msgid "Etsy"
 msgstr "Etsy"
 
 #: wp-includes/blocks/social-link.php:181
-#: wp-includes/js/dist/block-library.js:49066
+#: wp-includes/js/dist/block-library.js:49186
 msgctxt "social link block variation name"
 msgid "Dropbox"
 msgstr "Dropbox"
 
 #: wp-includes/blocks/social-link.php:177
-#: wp-includes/js/dist/block-library.js:49060
+#: wp-includes/js/dist/block-library.js:49180
 msgctxt "social link block variation name"
 msgid "Dribbble"
 msgstr "Dribbble"
 
 #: wp-includes/blocks/social-link.php:173
-#: wp-includes/js/dist/block-library.js:49054
+#: wp-includes/js/dist/block-library.js:49174
 msgctxt "social link block variation name"
 msgid "Discord"
 msgstr "Discord"
 
 #: wp-includes/blocks/social-link.php:169
-#: wp-includes/js/dist/block-library.js:49048
+#: wp-includes/js/dist/block-library.js:49168
 msgctxt "social link block variation name"
 msgid "DeviantArt"
 msgstr "DeviantArt"
 
 #: wp-includes/blocks/social-link.php:165
-#: wp-includes/js/dist/block-library.js:49042
+#: wp-includes/js/dist/block-library.js:49162
 msgctxt "social link block variation name"
 msgid "CodePen"
 msgstr "CodePen"
 
 #: wp-includes/blocks/social-link.php:161
-#: wp-includes/js/dist/block-library.js:49036
+#: wp-includes/js/dist/block-library.js:49156
 msgctxt "social link block variation name"
 msgid "Link"
 msgstr "链接"
 
 #: wp-includes/blocks/social-link.php:157
-#: wp-includes/js/dist/block-library.js:49030
+#: wp-includes/js/dist/block-library.js:49150
 msgctxt "social link block variation name"
 msgid "Bluesky"
 msgstr "Bluesky"
 
 #: wp-includes/blocks/social-link.php:153
-#: wp-includes/js/dist/block-library.js:49024
+#: wp-includes/js/dist/block-library.js:49144
 msgctxt "social link block variation name"
 msgid "Behance"
 msgstr "Behance"
 
 #: wp-includes/blocks/social-link.php:149
-#: wp-includes/js/dist/block-library.js:49018
+#: wp-includes/js/dist/block-library.js:49138
 msgctxt "social link block variation name"
 msgid "Bandcamp"
 msgstr "Bandcamp"
 
 #: wp-includes/blocks/social-link.php:145
-#: wp-includes/js/dist/block-library.js:49012
+#: wp-includes/js/dist/block-library.js:49132
 msgctxt "social link block variation name"
 msgid "Amazon"
 msgstr "Amazon"
 
 #: wp-includes/blocks/social-link.php:141
-#: wp-includes/js/dist/block-library.js:49006
+#: wp-includes/js/dist/block-library.js:49126
 msgctxt "social link block variation name"
 msgid "500px"
 msgstr "500px"
@@ -998,20 +998,20 @@ msgstr "500px"
 #. translators: %s is the post type name.
 #. translators: %s: Singular post type name of the queried object
 #: wp-includes/blocks/query-title.php:69
-#: wp-includes/js/dist/block-library.js:44916
+#: wp-includes/js/dist/block-library.js:45036
 msgid "Post Type: \"%s\""
 msgstr "文章类型：“%s”"
 
 #. translators: %s: the number of characters in the post.
 #: wp-includes/blocks/post-time-to-read.php:151
-#: wp-includes/js/dist/block-library.js:40444
+#: wp-includes/js/dist/block-library.js:40564
 msgid "%s character"
 msgid_plural "%s characters"
 msgstr[0] "%s字"
 
 #. translators: 1: minimum minutes, 2: maximum minutes to read the post.
 #: wp-includes/blocks/post-time-to-read.php:128
-#: wp-includes/js/dist/block-library.js:40421
+#: wp-includes/js/dist/block-library.js:40541
 msgctxt "Range of minutes to read"
 msgid "%1$s–%2$s minutes"
 msgstr "%1$s–%2$s 分钟"
@@ -1334,9 +1334,9 @@ msgstr "上传"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/js/dist/block-editor.js:20419
-#: wp-includes/js/dist/block-editor.js:60159
-#: wp-includes/js/dist/block-editor.js:60189
-#: wp-includes/js/dist/block-library.js:56645
+#: wp-includes/js/dist/block-editor.js:60192
+#: wp-includes/js/dist/block-editor.js:60222
+#: wp-includes/js/dist/block-library.js:56765
 #: wp-includes/js/dist/editor.js:19442
 #: wp-admin/includes/class-custom-background.php:357
 #: wp-admin/includes/class-custom-image-header.php:667
@@ -1980,11 +1980,11 @@ msgstr "https://developer.wordpress.org/advanced-administration/debug/debug-netw
 #. translators: Localized tutorial, if one exists. W3C Web Accessibility
 #. Initiative link has list of existing translations.
 #: wp-includes/media-template.php:163
-#: wp-includes/js/dist/block-library.js:12924
-#: wp-includes/js/dist/block-library.js:23516
-#: wp-includes/js/dist/block-library.js:24020
-#: wp-includes/js/dist/block-library.js:29097
-#: wp-includes/js/dist/format-library.js:356 wp-admin/includes/media.php:3243
+#: wp-includes/js/dist/block-library.js:13044
+#: wp-includes/js/dist/block-library.js:23636
+#: wp-includes/js/dist/block-library.js:24140
+#: wp-includes/js/dist/block-library.js:29217
+#: wp-includes/js/dist/format-library.js:343 wp-admin/includes/media.php:3243
 msgid "https://www.w3.org/WAI/tutorials/images/decision-tree/"
 msgstr "https://www.w3.org/WAI/tutorials/images/decision-tree/"
 
@@ -2145,7 +2145,7 @@ msgid "%1$s > %2$s"
 msgstr "%1$s > %2$s"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/js/dist/block-library.js:18065
+#: wp-includes/js/dist/block-library.js:18185
 #: wp-admin/includes/template.php:593 wp-admin/includes/template.php:608
 #: wp-admin/includes/template.php:678 wp-admin/includes/template.php:743
 msgid "Value"
@@ -2592,11 +2592,11 @@ msgstr "子项目"
 msgid "Some of the %1$s %2$s values are invalid"
 msgstr "某些 %1$s %2$s 值无效"
 
-#: wp-includes/class-wp-script-modules.php:135
+#: wp-includes/class-wp-script-modules.php:146
 msgid "Entries in dependencies array must be either strings or arrays with an id key."
 msgstr "依赖关系数组中的条目必须是字符串或带有 id 键的数组。"
 
-#: wp-includes/class-wp-script-modules.php:122
+#: wp-includes/class-wp-script-modules.php:133
 msgid "Missing required id key in entry among dependencies array."
 msgstr "依赖关系数组中的条目缺少所需的 id 关键字。"
 
@@ -3050,7 +3050,7 @@ msgid "Maximum posts per page"
 msgstr "每页最多文章数"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/js/dist/block-editor.js:41858
+#: wp-includes/js/dist/block-editor.js:41891
 #: wp-includes/js/dist/edit-site.js:22764
 #: wp-admin/includes/class-wp-list-table.php:1157
 msgid "Last page"
@@ -3058,7 +3058,7 @@ msgstr "尾页"
 
 #. translators: 1: Current page number. 2: Total number of pages.
 #. translators: 1: Current page, 2: Total pages.
-#: wp-includes/js/dist/block-editor.js:41828
+#: wp-includes/js/dist/block-editor.js:41861
 #: wp-includes/js/dist/edit-site.js:22740
 #: wp-admin/includes/class-wp-list-table.php:1127
 msgctxt "paging"
@@ -3066,7 +3066,7 @@ msgid "%1$s of %2$s"
 msgstr "第 %1$s 页，共 %2$s 页"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/js/dist/block-editor.js:41803
+#: wp-includes/js/dist/block-editor.js:41836
 #: wp-includes/js/dist/edit-site.js:22720
 #: wp-admin/includes/class-wp-list-table.php:1081
 msgid "First page"
@@ -3080,13 +3080,13 @@ msgstr "继续"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/js/dist/block-editor.js:18960
-#: wp-includes/js/dist/block-library.js:4324 wp-admin/includes/nav-menu.php:548
+#: wp-includes/js/dist/block-library.js:4444 wp-admin/includes/nav-menu.php:548
 #: wp-admin/includes/nav-menu.php:920
 msgid "Page"
 msgstr "页面"
 
-#: wp-includes/js/dist/block-library.js:4243
-#: wp-includes/js/dist/block-library.js:35958
+#: wp-includes/js/dist/block-library.js:4363
+#: wp-includes/js/dist/block-library.js:36078
 #: wp-includes/js/dist/editor.js:6763 wp-includes/js/dist/editor.js:6864
 #: wp-includes/js/dist/editor.js:14339 wp-includes/js/dist/editor.js:14397
 #: wp-includes/js/dist/editor.js:14409
@@ -3096,8 +3096,8 @@ msgid "Parent"
 msgstr "父级"
 
 #: wp-includes/blocks/footnotes.php:123
-#: wp-includes/js/dist/block-library.js:57055
-#: wp-includes/js/dist/block-library.js:57067
+#: wp-includes/js/dist/block-library.js:57175
+#: wp-includes/js/dist/block-library.js:57187
 msgid "Footnotes"
 msgstr "脚注"
 
@@ -3281,7 +3281,7 @@ msgid "Search Results"
 msgstr "搜索结果"
 
 #: wp-includes/block-template-utils.php:192
-#: wp-includes/js/dist/block-library.js:19784
+#: wp-includes/js/dist/block-library.js:19904
 msgid "Attachment Pages"
 msgstr "附件页面"
 
@@ -3474,13 +3474,13 @@ msgstr "页面列表项"
 msgid "Style Variations"
 msgstr "样式变体"
 
-#: wp-includes/js/dist/block-editor.js:30491
-#: wp-includes/js/dist/block-editor.js:62763
-#: wp-includes/js/dist/block-editor.js:62770 wp-admin/widgets-form.php:302
+#: wp-includes/js/dist/block-editor.js:30524
+#: wp-includes/js/dist/block-editor.js:62777
+#: wp-includes/js/dist/block-editor.js:62784 wp-admin/widgets-form.php:302
 msgid "Position"
 msgstr "位置"
 
-#: wp-includes/js/dist/block-editor.js:30278
+#: wp-includes/js/dist/block-editor.js:30311
 #: wp-includes/js/dist/editor.js:19935
 #: wp-admin/includes/class-wp-posts-list-table.php:2033
 #: wp-admin/includes/class-wp-posts-list-table.php:2036
@@ -3734,7 +3734,7 @@ msgstr "评论下一页"
 
 #. translators: %s: Post type name.
 #. translators: %s: Name of the post type e.g: "Post".
-#: wp-includes/post.php:2148 wp-includes/js/dist/edit-site.js:44248
+#: wp-includes/post.php:2148 wp-includes/js/dist/edit-site.js:44254
 msgid "Single item: %s"
 msgstr "单个项目：%s"
 
@@ -3752,7 +3752,7 @@ msgstr "编辑模板"
 
 #. translators: %s: Number of comments
 #. translators: %s: Number of comments.
-#: wp-includes/js/dist/block-library.js:37776
+#: wp-includes/js/dist/block-library.js:37896
 #: wp-admin/includes/class-wp-list-table.php:855
 msgid "%s comment"
 msgid_plural "%s comments"
@@ -4164,37 +4164,37 @@ msgctxt "block title"
 msgid "Avatar"
 msgstr "头像"
 
-#: wp-includes/js/dist/block-library.js:8833 wp-admin/includes/upgrade.php:280
+#: wp-includes/js/dist/block-library.js:8953 wp-admin/includes/upgrade.php:280
 msgid "A WordPress Commenter"
 msgstr "一位 WordPress 评论者"
 
 #. translators: %s: Post title.
 #: wp-includes/blocks/comments-title.php:71
-#: wp-includes/js/dist/block-library.js:10639
+#: wp-includes/js/dist/block-library.js:10759
 msgid "Responses to %s"
 msgstr "%s 的回复"
 
 #. translators: %s: Post title.
 #: wp-includes/blocks/comments-title.php:68
-#: wp-includes/js/dist/block-library.js:10637
+#: wp-includes/js/dist/block-library.js:10757
 msgid "Response to %s"
 msgstr "%s 的回复"
 
-#: wp-includes/js/dist/block-library.js:9555
+#: wp-includes/js/dist/block-library.js:9675
 #: wp-includes/blocks/comment-date/block.json
 msgctxt "block title"
 msgid "Comment Date"
 msgstr "评论日期"
 
-#: wp-includes/js/dist/block-library.js:9446
+#: wp-includes/js/dist/block-library.js:9566
 #: wp-includes/blocks/comment-content/block.json
 msgctxt "block title"
 msgid "Comment Content"
 msgstr "评论内容"
 
-#: wp-includes/js/dist/block-library.js:2952
-#: wp-includes/js/dist/block-library.js:2986
-#: wp-includes/js/dist/block-library.js:37180
+#: wp-includes/js/dist/block-library.js:3072
+#: wp-includes/js/dist/block-library.js:3106
+#: wp-includes/js/dist/block-library.js:37300
 #: wp-admin/options-discussion.php:262
 msgid "Default Avatar"
 msgstr "默认头像"
@@ -4402,28 +4402,28 @@ msgid "Adding an RSS feed to this site’s homepage is not supported, as it coul
 msgstr "不支持添加 RSS 源到站点主页，因为这样会导致循环并拖慢站点运行速度。 请尝试使用其他区块，例如<strong>最新文章</strong>区块来列出此站点的文章。"
 
 #: wp-includes/blocks/comments-title.php:76
-#: wp-includes/js/dist/block-library.js:10644
+#: wp-includes/js/dist/block-library.js:10764
 msgid "Responses"
 msgstr "回复"
 
 #: wp-includes/blocks/comments-title.php:74
-#: wp-includes/js/dist/block-library.js:10642
+#: wp-includes/js/dist/block-library.js:10762
 msgid "Response"
 msgstr "回复"
 
 #: wp-includes/blocks/comments-pagination-previous.php:20
-#: wp-includes/js/dist/block-library.js:8812
-#: wp-includes/js/dist/block-library.js:8887
-#: wp-includes/js/dist/block-library.js:10154
-#: wp-includes/js/dist/block-library.js:10177
+#: wp-includes/js/dist/block-library.js:8932
+#: wp-includes/js/dist/block-library.js:9007
+#: wp-includes/js/dist/block-library.js:10274
+#: wp-includes/js/dist/block-library.js:10297
 msgid "Older Comments"
 msgstr "较旧评论"
 
 #: wp-includes/blocks/comments-pagination-next.php:27
-#: wp-includes/js/dist/block-library.js:8815
-#: wp-includes/js/dist/block-library.js:8890
-#: wp-includes/js/dist/block-library.js:10380
-#: wp-includes/js/dist/block-library.js:10410
+#: wp-includes/js/dist/block-library.js:8935
+#: wp-includes/js/dist/block-library.js:9010
+#: wp-includes/js/dist/block-library.js:10500
+#: wp-includes/js/dist/block-library.js:10530
 msgid "Newer Comments"
 msgstr "较新评论"
 
@@ -4439,8 +4439,8 @@ msgstr "（%s 的作者归档，在新标签页中打开）"
 
 #. translators: %s: Author name.
 #: wp-includes/blocks/avatar.php:50 wp-includes/blocks/avatar.php:77
-#: wp-includes/js/dist/block-library.js:2951
-#: wp-includes/js/dist/block-library.js:2985
+#: wp-includes/js/dist/block-library.js:3071
+#: wp-includes/js/dist/block-library.js:3105
 msgid "%s Avatar"
 msgstr "%s 的头像"
 
@@ -4475,8 +4475,8 @@ msgid "Hurray! Your theme supports site editing with blocks. <a href=\"%1$s\">Te
 msgstr "好耶！您的主题支持带有区块的站点编辑。<a href=\"%1$s\">了解更多</a>。 %2$s"
 
 #: wp-includes/blocks/site-logo.php:97
-#: wp-includes/js/dist/block-library.js:30702
-#: wp-includes/js/dist/block-library.js:30712
+#: wp-includes/js/dist/block-library.js:30822
+#: wp-includes/js/dist/block-library.js:30832
 msgid "Icon"
 msgstr "图标"
 
@@ -4610,14 +4610,14 @@ msgid "Display content in multiple columns, with blocks added to each column."
 msgstr "在多列中显示内容，并在每列中添加区块。"
 
 #: wp-includes/media-template.php:1363 wp-includes/media-template.php:1462
-#: wp-includes/js/dist/block-library.js:4071
-#: wp-includes/js/dist/block-library.js:56141
+#: wp-includes/js/dist/block-library.js:4191
+#: wp-includes/js/dist/block-library.js:56261
 msgctxt "Preload value"
 msgid "None"
 msgstr "无"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/js/dist/block-library.js:37772
+#: wp-includes/js/dist/block-library.js:37892
 #: wp-admin/includes/class-wp-list-table.php:876
 #: wp-admin/includes/class-wp-list-table.php:919
 #: wp-admin/includes/class-wp-list-table.php:952
@@ -4626,7 +4626,7 @@ msgstr "无评论"
 
 #: wp-includes/media-template.php:874 wp-includes/media-template.php:959
 #: wp-includes/media-template.php:1120 wp-includes/media-template.php:1243
-#: wp-includes/js/dist/block-library.js:19801
+#: wp-includes/js/dist/block-library.js:19921
 msgctxt "Media item link option"
 msgid "None"
 msgstr "无"
@@ -5229,7 +5229,7 @@ msgstr "区块样式名称不得包含任何空格。"
 
 #. translators: %s: Template part slug.
 #: wp-includes/blocks/template-part.php:122
-#: wp-includes/js/dist/block-library.js:54082
+#: wp-includes/js/dist/block-library.js:54202
 msgid "Template part has been deleted or is unavailable: %s"
 msgstr "模板组件已被删除或不可用：%s"
 
@@ -5254,12 +5254,12 @@ msgid "Next"
 msgstr "下一个标签"
 
 #: wp-includes/blocks/navigation.php:491
-#: wp-includes/js/dist/block-library.js:30359
+#: wp-includes/js/dist/block-library.js:30479
 msgid "Close menu"
 msgstr "关闭菜单"
 
 #: wp-includes/blocks/navigation.php:490
-#: wp-includes/js/dist/block-library.js:30333
+#: wp-includes/js/dist/block-library.js:30453
 msgid "Open menu"
 msgstr "打开菜单"
 
@@ -5508,32 +5508,32 @@ msgid "Small"
 msgstr "小"
 
 #: wp-includes/blocks/query-pagination-previous.php:26
-#: wp-includes/js/dist/block-library.js:44654
+#: wp-includes/js/dist/block-library.js:44774
 msgid "Previous Page"
 msgstr "上一页"
 
 #: wp-includes/blocks/query-pagination-next.php:29
-#: wp-includes/js/dist/block-library.js:44494
+#: wp-includes/js/dist/block-library.js:44614
 msgid "Next Page"
 msgstr "下一页"
 
-#: wp-includes/js/dist/block-library.js:42979
-#: wp-includes/js/dist/block-library.js:42989
+#: wp-includes/js/dist/block-library.js:43099
+#: wp-includes/js/dist/block-library.js:43109
 #: wp-admin/includes/plugin-install.php:328
 #: wp-admin/includes/theme-install.php:108
 msgid "Keyword"
 msgstr "关键字"
 
 #. translators: %s: filename.
-#: wp-includes/blocks/file.php:43 wp-includes/js/dist/block-library.js:16228
-#: wp-includes/js/dist/block-library.js:16339
-#: wp-includes/js/dist/block-library.js:16440
+#: wp-includes/blocks/file.php:43 wp-includes/js/dist/block-library.js:16348
+#: wp-includes/js/dist/block-library.js:16459
+#: wp-includes/js/dist/block-library.js:16560
 msgid "Embed of %s."
 msgstr "嵌入 %s"
 
-#: wp-includes/blocks/file.php:45 wp-includes/js/dist/block-library.js:16226
-#: wp-includes/js/dist/block-library.js:16337
-#: wp-includes/js/dist/block-library.js:16438
+#: wp-includes/blocks/file.php:45 wp-includes/js/dist/block-library.js:16346
+#: wp-includes/js/dist/block-library.js:16457
+#: wp-includes/js/dist/block-library.js:16558
 msgid "PDF embed"
 msgstr "PDF 已嵌入"
 
@@ -6187,8 +6187,8 @@ msgstr "前一页"
 msgid "Show on front"
 msgstr "在前面显示"
 
-#: wp-includes/post.php:320 wp-includes/js/dist/block-editor.js:49801
-#: wp-includes/js/dist/block-editor.js:56676
+#: wp-includes/post.php:320 wp-includes/js/dist/block-editor.js:49834
+#: wp-includes/js/dist/block-editor.js:56709
 msgid "Patterns list"
 msgstr "区块样板列表"
 
@@ -6204,7 +6204,7 @@ msgstr "区块样板列表"
 #. translators: %s: Site URL.
 #. translators: Hidden accessibility text. %s: Theme name
 #: wp-includes/blocks/categories.php:46
-#: wp-includes/js/dist/block-library.js:6766
+#: wp-includes/js/dist/block-library.js:6886
 #: wp-admin/includes/class-wp-links-list-table.php:185
 #: wp-admin/includes/class-wp-media-list-table.php:427
 #: wp-admin/includes/class-wp-plugins-list-table.php:1106
@@ -6219,13 +6219,13 @@ msgstr "区块样板列表"
 msgid "Select %s"
 msgstr "选择%s"
 
-#: wp-includes/js/dist/block-editor.js:35841
-#: wp-includes/js/dist/block-library.js:36744 wp-admin/edit-form-blocks.php:257
+#: wp-includes/js/dist/block-editor.js:35874
+#: wp-includes/js/dist/block-library.js:36864 wp-admin/edit-form-blocks.php:257
 msgid "Type / to choose a block"
 msgstr "输入 / 来选择一个区块"
 
-#: wp-includes/js/dist/block-editor.js:31902
-#: wp-includes/js/dist/block-editor.js:64257
+#: wp-includes/js/dist/block-editor.js:31935
+#: wp-includes/js/dist/block-editor.js:64285
 #: wp-includes/js/dist/edit-site.js:10683
 #: wp-includes/js/dist/edit-site.js:20776
 #: wp-includes/js/dist/edit-site.js:42080
@@ -6776,9 +6776,9 @@ msgstr "编辑模板"
 msgid "New Template"
 msgstr "新模板"
 
-#: wp-includes/post.php:379 wp-includes/js/dist/block-library.js:53991
-#: wp-includes/js/dist/edit-site.js:9977 wp-includes/js/dist/edit-site.js:43967
-#: wp-includes/js/dist/edit-site.js:46128 wp-includes/js/dist/editor.js:7134
+#: wp-includes/post.php:379 wp-includes/js/dist/block-library.js:54111
+#: wp-includes/js/dist/edit-site.js:9977 wp-includes/js/dist/edit-site.js:43973
+#: wp-includes/js/dist/edit-site.js:46134 wp-includes/js/dist/editor.js:7134
 #: wp-includes/js/dist/editor.js:15294 wp-includes/js/dist/editor.js:25508
 msgid "Templates"
 msgstr "模板"
@@ -6796,7 +6796,7 @@ msgstr "模板"
 #: wp-includes/js/dist/edit-site.js:33934
 #: wp-includes/js/dist/edit-site.js:34308
 #: wp-includes/js/dist/edit-site.js:34836
-#: wp-includes/js/dist/edit-site.js:35252 wp-includes/js/dist/editor.js:29723
+#: wp-includes/js/dist/edit-site.js:35252 wp-includes/js/dist/editor.js:29739
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
 
@@ -6902,7 +6902,7 @@ msgstr[0] "有 %s 个更新可用"
 
 #: wp-includes/blocks/latest-posts.php:172
 #: wp-includes/blocks/latest-posts.php:187
-#: wp-includes/js/dist/block-library.js:37882
+#: wp-includes/js/dist/block-library.js:38002
 msgid "This content is password protected."
 msgstr "此内容受密码保护。"
 
@@ -7385,10 +7385,10 @@ msgstr "&larr; 转到「标签」页面"
 msgid "&#8592; Go to library"
 msgstr "&#8592; 转到「媒体库」页面"
 
-#: wp-includes/js/dist/block-editor.js:25073
-#: wp-includes/js/dist/block-editor.js:25685
-#: wp-includes/js/dist/edit-site.js:42701 wp-includes/js/dist/editor.js:30489
-#: wp-includes/js/dist/editor.js:30493 wp-admin/menu.php:209
+#: wp-includes/js/dist/block-editor.js:25071
+#: wp-includes/js/dist/block-editor.js:25684
+#: wp-includes/js/dist/edit-site.js:42701 wp-includes/js/dist/editor.js:30505
+#: wp-includes/js/dist/editor.js:30509 wp-admin/menu.php:209
 msgid "Appearance"
 msgstr "外观"
 
@@ -7765,7 +7765,7 @@ msgstr "抱歉，您不能启用此插件。"
 
 #. translators: byline. %s: author.
 #: wp-includes/blocks/latest-posts.php:130 wp-includes/blocks/rss.php:86
-#: wp-includes/js/dist/block-library.js:25820
+#: wp-includes/js/dist/block-library.js:25940
 msgid "by %s"
 msgstr "作者：%s"
 
@@ -7781,9 +7781,9 @@ msgid "Menu Item"
 msgstr "菜单项"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/js/dist/block-library.js:8706
-#: wp-includes/js/dist/block-library.js:17275
-#: wp-includes/js/dist/block-library.js:17500
+#: wp-includes/js/dist/block-library.js:8826
+#: wp-includes/js/dist/block-library.js:17395
+#: wp-includes/js/dist/block-library.js:17620
 #: wp-includes/js/dist/core-data.js:3864 wp-admin/edit-form-comment.php:84
 #: wp-admin/includes/template.php:471
 msgid "Comment"
@@ -7794,13 +7794,13 @@ msgid "Site"
 msgstr "站点"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1625
-#: wp-includes/js/dist/block-library.js:23959
-#: wp-includes/js/dist/block-library.js:47696
+#: wp-includes/js/dist/block-library.js:24079
+#: wp-includes/js/dist/block-library.js:47816
 #: wp-admin/includes/image-edit.php:63
 msgid "Crop"
 msgstr "裁剪"
 
-#: wp-includes/class-wp-script-modules.php:921 wp-includes/js/dist/a11y.js:89
+#: wp-includes/class-wp-script-modules.php:947 wp-includes/js/dist/a11y.js:89
 msgid "Notifications"
 msgstr "通知"
 
@@ -7969,8 +7969,8 @@ msgid "Attachment details"
 msgstr "附件详情"
 
 #: wp-includes/media.php:4976 wp-includes/media.php:4998
-#: wp-includes/js/dist/block-library.js:13153
-#: wp-includes/js/dist/block-library.js:19807
+#: wp-includes/js/dist/block-library.js:13273
+#: wp-includes/js/dist/block-library.js:19927
 msgid "Add media"
 msgstr "添加媒体"
 
@@ -8068,7 +8068,7 @@ msgstr "%1$s「type」模式描述关键字仅可以是下列内置类型：%2$l
 #: wp-includes/block-template-utils.php:728
 #: wp-includes/block-template-utils.php:807
 #: wp-includes/block-template-utils.php:980 wp-includes/rest-api.php:769
-#: wp-includes/js/dist/block-library.js:30025
+#: wp-includes/js/dist/block-library.js:30145
 #: wp-admin/includes/class-wp-debug-data.php:1100
 #: wp-admin/includes/class-wp-debug-data.php:1119
 #: wp-admin/includes/class-wp-debug-data.php:1239
@@ -8684,12 +8684,12 @@ msgctxt "block keyword"
 msgid "links"
 msgstr "链接"
 
-#: wp-includes/media.php:5078 wp-includes/js/dist/block-library.js:12586
+#: wp-includes/media.php:5078 wp-includes/js/dist/block-library.js:12706
 msgid "Select poster image"
 msgstr "选择海报图片"
 
 #. Author of the plugin
-#: wp-includes/js/dist/block-library.js:41684 hello.php
+#: wp-includes/js/dist/block-library.js:41804 hello.php
 msgid "Matt Mullenweg"
 msgstr "Matt Mullenweg"
 
@@ -8700,7 +8700,7 @@ msgstr "查看文章"
 #. translators: Hidden accessibility text.
 #: wp-includes/js/dist/editor.js:6581 wp-includes/js/dist/editor.js:21072
 #: wp-includes/js/dist/editor.js:21109 wp-includes/js/dist/editor.js:21254
-#: wp-includes/js/dist/editor.js:31016 wp-admin/edit-tag-form.php:155
+#: wp-includes/js/dist/editor.js:31032 wp-admin/edit-tag-form.php:155
 #: wp-admin/edit-tags.php:469
 #: wp-admin/includes/class-wp-posts-list-table.php:1708
 #: wp-admin/includes/class-wp-terms-list-table.php:194
@@ -8712,8 +8712,8 @@ msgstr "别名"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
 #: wp-includes/class-wp-theme-json.php:4219
-#: wp-includes/js/dist/block-library.js:49414
-#: wp-includes/js/dist/components.js:52945
+#: wp-includes/js/dist/block-library.js:49534
+#: wp-includes/js/dist/components.js:52957
 msgid "Small"
 msgstr "小"
 
@@ -8724,7 +8724,7 @@ msgstr "此文章状态 %1$s 未被注册，所以可能无法可靠地检查该
 
 #. translators: %s: Comment link.
 #: wp-includes/comment-template.php:1042 wp-admin/comment.php:219
-#: wp-admin/includes/class-wp-comments-list-table.php:959
+#: wp-admin/includes/class-wp-comments-list-table.php:960
 msgid "In reply to %s."
 msgstr "回复给 %s。"
 
@@ -8946,14 +8946,14 @@ msgid "Filter media"
 msgstr "筛选媒体"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/media-template.php:335 wp-includes/js/dist/block-editor.js:56586
+#: wp-includes/media-template.php:335 wp-includes/js/dist/block-editor.js:56619
 #: wp-admin/includes/class-wp-media-list-table.php:44
 msgid "Grid view"
 msgstr "网格视图"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/media-template.php:327 wp-includes/js/dist/block-editor.js:56158
-#: wp-includes/js/dist/block-editor.js:56190
+#: wp-includes/media-template.php:327 wp-includes/js/dist/block-editor.js:56191
+#: wp-includes/js/dist/block-editor.js:56223
 #: wp-admin/includes/class-wp-media-list-table.php:43
 msgid "List view"
 msgstr "列表视图"
@@ -8998,8 +8998,8 @@ msgstr "https://wordpress.org/documentation/article/customize-permalinks/#choosi
 
 #: wp-includes/link-template.php:2812 wp-includes/link-template.php:2896
 #: wp-includes/js/dist/edit-site.js:21002
-#: wp-includes/js/dist/edit-site.js:48953
-#: wp-includes/js/dist/edit-site.js:48997
+#: wp-includes/js/dist/edit-site.js:48959
+#: wp-includes/js/dist/edit-site.js:49003
 msgid "Posts"
 msgstr "文章"
 
@@ -9242,7 +9242,7 @@ msgid "Caption&hellip;"
 msgstr "说明文字…"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/media-template.php:442 wp-includes/js/dist/edit-site.js:46924
+#: wp-includes/media-template.php:442 wp-includes/js/dist/edit-site.js:46930
 #: wp-includes/js/dist/editor.js:21522 wp-admin/import.php:211
 #: wp-admin/includes/class-wp-theme-install-list-table.php:381
 #: wp-admin/includes/class-wp-themes-list-table.php:273
@@ -9356,7 +9356,7 @@ msgstr "[%s] 登录详情"
 #: wp-includes/media-template.php:584 wp-includes/media-template.php:751
 #: wp-includes/media.php:5015 wp-admin/comment.php:139
 #: wp-admin/edit-form-comment.php:242
-#: wp-admin/includes/class-wp-comments-list-table.php:391
+#: wp-admin/includes/class-wp-comments-list-table.php:392
 #: wp-admin/includes/class-wp-media-list-table.php:187
 #: wp-admin/includes/class-wp-posts-list-table.php:448
 #: wp-admin/includes/media.php:1746 wp-admin/includes/meta-boxes.php:367
@@ -9740,7 +9740,7 @@ msgstr[0] "%s 秒"
 #. minutes.
 #. translators: %s: Time duration in minute or minutes.
 #: wp-includes/blocks/post-time-to-read.php:136 wp-includes/formatting.php:3900
-#: wp-includes/functions.php:561 wp-includes/js/dist/block-library.js:40433
+#: wp-includes/functions.php:561 wp-includes/js/dist/block-library.js:40553
 #: wp-includes/js/dist/editor.js:24898
 msgid "%s minute"
 msgid_plural "%s minutes"
@@ -9796,7 +9796,7 @@ msgstr "检测到不匹配的键值。请按照您收到的激活邮件中提供
 
 #. translators: %s: the number of words in the post.
 #: wp-includes/blocks/post-time-to-read.php:147
-#: wp-includes/js/dist/block-library.js:40440
+#: wp-includes/js/dist/block-library.js:40560
 #: wp-includes/js/dist/editor.js:24893
 msgid "%s word"
 msgid_plural "%s words"
@@ -9810,7 +9810,7 @@ msgstr "传统区块键盘快捷键"
 msgid "Sorry, you are not allowed to view autosaves of this post."
 msgstr "抱歉，您不能查看此文章的自动保存。"
 
-#: wp-includes/js/dist/edit-site.js:46430 wp-includes/js/dist/editor.js:6266
+#: wp-includes/js/dist/edit-site.js:46436 wp-includes/js/dist/editor.js:6266
 #: wp-includes/js/dist/editor.js:19965 wp-includes/js/dist/editor.js:19985
 #: wp-admin/includes/ajax-actions.php:2276
 #: wp-admin/includes/class-wp-posts-list-table.php:1218
@@ -9819,8 +9819,8 @@ msgstr "抱歉，您不能查看此文章的自动保存。"
 msgid "Scheduled"
 msgstr "已计划"
 
-#: wp-includes/js/dist/block-library.js:53277
-#: wp-includes/js/dist/edit-post.js:1165 wp-includes/js/dist/edit-site.js:45529
+#: wp-includes/js/dist/block-library.js:53397
+#: wp-includes/js/dist/edit-post.js:1165 wp-includes/js/dist/edit-site.js:45535
 #: wp-includes/js/dist/editor.js:14620
 #: wp-includes/js/dist/reusable-blocks.js:359 wp-admin/options-privacy.php:277
 msgid "Create"
@@ -9837,8 +9837,8 @@ msgstr "给引文提供视觉强调。「在引用其他人时我们也加强了
 msgid "Pagination"
 msgstr "分页"
 
-#: wp-includes/media.php:5054 wp-includes/js/dist/block-library.js:24525
-#: wp-includes/js/dist/block-library.js:24526
+#: wp-includes/media.php:5054 wp-includes/js/dist/block-library.js:24645
+#: wp-includes/js/dist/block-library.js:24646
 msgid "Edit image"
 msgstr "编辑图片"
 
@@ -9847,7 +9847,7 @@ msgctxt "block description"
 msgid "Introduce new sections and organize content to help visitors (and search engines) understand the structure of your content."
 msgstr "介绍新章节并组织内容，以帮助访问者和搜索引擎了解您的内容结构。"
 
-#: wp-includes/js/dist/block-library.js:16707
+#: wp-includes/js/dist/block-library.js:16827
 #: wp-admin/includes/class-wp-media-list-table.php:836
 msgid "Copy URL"
 msgstr "复制 URL"
@@ -9857,7 +9857,7 @@ msgctxt "block description"
 msgid "Add a block that displays content pulled from other sites, like Twitter or YouTube."
 msgstr "添加可显示 Twitter 、 YouTube 等站点嵌入内容的区块。"
 
-#: wp-includes/js/dist/block-library.js:15467
+#: wp-includes/js/dist/block-library.js:15587
 #: wp-includes/blocks/embed/block.json
 msgctxt "block title"
 msgid "Embed"
@@ -9868,15 +9868,15 @@ msgctxt "block title"
 msgid "Classic"
 msgstr "经典"
 
-#: wp-includes/js/dist/blocks.js:7371 wp-includes/js/dist/edit-site.js:21074
+#: wp-includes/js/dist/blocks.js:7372 wp-includes/js/dist/edit-site.js:21074
 #: wp-includes/js/dist/edit-site.js:21092 wp-admin/options-media.php:107
 msgid "Embeds"
 msgstr "嵌入"
 
-#: wp-includes/js/dist/edit-site.js:48514 wp-includes/js/dist/editor.js:6967
+#: wp-includes/js/dist/edit-site.js:48520 wp-includes/js/dist/editor.js:6967
 #: wp-includes/js/dist/editor.js:15936 wp-includes/js/dist/editor.js:16010
 #: wp-includes/js/dist/editor.js:25281 wp-includes/js/dist/editor.js:25302
-#: wp-includes/js/dist/editor.js:30451 wp-admin/includes/meta-boxes.php:1646
+#: wp-includes/js/dist/editor.js:30467 wp-admin/includes/meta-boxes.php:1646
 #: wp-admin/menu.php:406
 msgid "Discussion"
 msgstr "讨论"
@@ -9891,7 +9891,7 @@ msgid "Visibility:"
 msgstr "可见性："
 
 #: wp-includes/media-template.php:553 wp-includes/media-template.php:805
-#: wp-includes/js/dist/components.js:37108 wp-includes/js/dist/editor.js:19629
+#: wp-includes/js/dist/components.js:37120 wp-includes/js/dist/editor.js:19629
 #: wp-admin/async-upload.php:77
 #: wp-admin/includes/class-wp-media-list-table.php:837
 #: wp-admin/includes/class-wp-privacy-policy-content.php:429
@@ -9910,7 +9910,7 @@ msgstr "提交复审"
 msgid "Permalink:"
 msgstr "固定链接："
 
-#: wp-includes/media.php:5052 wp-includes/js/dist/format-library.js:429
+#: wp-includes/media.php:5052 wp-includes/js/dist/format-library.js:416
 msgid "Replace image"
 msgstr "更换图片"
 
@@ -9922,7 +9922,7 @@ msgstr "更换图片"
 msgid "Order"
 msgstr "排序"
 
-#: wp-includes/js/dist/components.js:53419
+#: wp-includes/js/dist/components.js:53431
 #: wp-admin/includes/edit-tag-messages.php:14
 msgid "Item added."
 msgstr "项目已添加。"
@@ -9935,7 +9935,7 @@ msgstr "项目已添加。"
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:58
 #: wp-includes/functions.php:8622 wp-includes/media-template.php:168
 #: wp-includes/widgets/class-wp-widget-custom-html.php:319 wp-login.php:703
-#: wp-includes/js/dist/components.js:52294
+#: wp-includes/js/dist/components.js:52306
 #: wp-includes/js/dist/customize-widgets.js:828
 #: wp-includes/js/dist/edit-site.js:7907
 #: wp-includes/js/dist/edit-widgets.js:3376 wp-includes/js/dist/editor.js:17230
@@ -10462,7 +10462,7 @@ msgstr ""
 "###SITENAME### 全体成员敬上\n"
 "###SITEURL###"
 
-#: wp-includes/js/dist/edit-site.js:46462 wp-includes/js/dist/editor.js:19963
+#: wp-includes/js/dist/edit-site.js:46468 wp-includes/js/dist/editor.js:19963
 #: wp-includes/js/dist/editor.js:19975 wp-admin/edit-form-comment.php:120
 msgid "Pending"
 msgstr "待审"
@@ -10791,8 +10791,8 @@ msgid "Displays an image gallery."
 msgstr "显示图片库。"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
-#: wp-includes/js/dist/block-library.js:20179
-#: wp-includes/js/dist/block-library.js:42443
+#: wp-includes/js/dist/block-library.js:20299
+#: wp-includes/js/dist/block-library.js:42563
 #: wp-includes/js/dist/editor.js:16655 wp-admin/includes/media.php:20
 msgid "Gallery"
 msgstr "图库"
@@ -11139,7 +11139,7 @@ msgid "Live Broadcast"
 msgstr "现场直播"
 
 #: wp-includes/script-loader.php:1106
-#: wp-includes/js/dist/block-library.js:56332
+#: wp-includes/js/dist/block-library.js:56452
 msgid "Chapters"
 msgstr "章节"
 
@@ -11386,29 +11386,29 @@ msgid "Hour"
 msgstr "时"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:175
-#: wp-includes/js/dist/components.js:51444
-#: wp-includes/js/dist/components.js:51448
+#: wp-includes/js/dist/components.js:51456
+#: wp-includes/js/dist/components.js:51460
 msgid "Time"
 msgstr "时间"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:154
-#: wp-includes/js/dist/block-library.js:2860
-#: wp-includes/js/dist/components.js:51378 wp-admin/includes/template.php:849
+#: wp-includes/js/dist/block-library.js:2980
+#: wp-includes/js/dist/components.js:51390 wp-admin/includes/template.php:849
 msgid "Day"
 msgstr "日"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:133
-#: wp-includes/js/dist/block-library.js:2858
-#: wp-includes/js/dist/components.js:51395 wp-admin/includes/template.php:836
+#: wp-includes/js/dist/block-library.js:2978
+#: wp-includes/js/dist/components.js:51407 wp-admin/includes/template.php:836
 msgid "Month"
 msgstr "月"
 
 #: wp-includes/customize/class-wp-customize-date-time-control.php:127
-#: wp-includes/js/dist/block-library.js:38121
-#: wp-includes/js/dist/components.js:51463
-#: wp-includes/js/dist/components.js:51467
+#: wp-includes/js/dist/block-library.js:38241
+#: wp-includes/js/dist/components.js:51475
+#: wp-includes/js/dist/components.js:51479
 #: wp-includes/js/dist/edit-site.js:30981 wp-includes/js/dist/editor.js:6409
 #: wp-admin/includes/ajax-actions.php:2264
 #: wp-admin/includes/class-wp-media-list-table.php:404
@@ -11633,8 +11633,8 @@ msgid "Arbitrary HTML code."
 msgstr "任意 HTML 代码。"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:199
-#: wp-includes/js/dist/block-library.js:52554
-#: wp-includes/js/dist/block-library.js:52561
+#: wp-includes/js/dist/block-library.js:52674
+#: wp-includes/js/dist/block-library.js:52681
 msgid "Show tag counts"
 msgstr "显示标签计数"
 
@@ -11644,7 +11644,7 @@ msgstr "显示标签计数"
 #. translators: %s: Number of items.
 #. translators: Number of items.
 #: wp-includes/category-template.php:878 wp-includes/category-template.php:889
-#: wp-includes/js/dist/block-editor.js:41779
+#: wp-includes/js/dist/block-editor.js:41812
 #: wp-includes/js/dist/edit-site.js:22708
 #: wp-admin/includes/ajax-actions.php:563
 #: wp-admin/includes/class-wp-list-table.php:1041
@@ -12038,7 +12038,7 @@ msgid "Insert/edit code sample"
 msgstr "插入 / 编辑代码片段"
 
 #: wp-includes/class-wp-editor.php:1236
-#: wp-includes/js/dist/block-library.js:52238
+#: wp-includes/js/dist/block-library.js:52358
 #: wp-admin/includes/privacy-tools.php:472
 msgid "Table of Contents"
 msgstr "目录"
@@ -13794,7 +13794,7 @@ msgid "Learn more about CSS"
 msgstr "了解关于 CSS 的更多内容"
 
 #: wp-includes/class-wp-customize-manager.php:5747
-#: wp-includes/js/dist/block-editor.js:64062
+#: wp-includes/js/dist/block-editor.js:64090
 #: wp-includes/js/dist/edit-site.js:21700
 #: wp-includes/js/dist/edit-site.js:22379
 #: wp-includes/js/dist/edit-site.js:22983
@@ -13939,12 +13939,12 @@ msgid "Edit selected menu"
 msgstr "编辑选中的菜单"
 
 #: wp-includes/class-wp-editor.php:1418
-#: wp-includes/js/dist/format-library.js:865
+#: wp-includes/js/dist/format-library.js:849
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "警告：此链接已被插入但可能含有错误，请测试。"
 
 #: wp-includes/blocks/query-title.php:46
-#: wp-includes/js/dist/block-library.js:44907
+#: wp-includes/js/dist/block-library.js:45027
 msgid "Search results"
 msgstr "搜索结果"
 
@@ -14167,7 +14167,7 @@ msgstr "不要传递 %1$s 标签给 %2$s。"
 msgid "Link options"
 msgstr "链接选项"
 
-#: wp-includes/script-loader.php:1271 wp-includes/js/dist/format-library.js:873
+#: wp-includes/script-loader.php:1271 wp-includes/js/dist/format-library.js:857
 msgid "Link inserted."
 msgstr "链接已插入。"
 
@@ -14229,7 +14229,7 @@ msgstr "<strong>错误：</strong>邮箱字段为空。"
 msgid "Unregistering a built-in taxonomy is not allowed."
 msgstr "不能反注册内建分类法。"
 
-#: wp-includes/script-loader.php:1323 wp-includes/js/dist/block-library.js:6729
+#: wp-includes/script-loader.php:1323 wp-includes/js/dist/block-library.js:6849
 #: wp-includes/js/dist/editor.js:19533
 msgid "(Untitled)"
 msgstr "(未命名)"
@@ -14296,9 +14296,9 @@ msgid "The called constructor method for %1$s class in %2$s is <strong>deprecate
 msgstr "%1$s 类在 %2$s 中的调用构造方法自 %3$s 版本起<strong>以弃用</strong>！请使用 %4$s 代替。"
 
 #: wp-includes/class-wp-customize-manager.php:5253
-#: wp-includes/js/dist/block-library.js:47845
-#: wp-includes/js/dist/block-library.js:47943
-#: wp-includes/js/dist/block-library.js:47973
+#: wp-includes/js/dist/block-library.js:47965
+#: wp-includes/js/dist/block-library.js:48063
+#: wp-includes/js/dist/block-library.js:48093
 msgid "Choose logo"
 msgstr "选择 logo"
 
@@ -14374,7 +14374,7 @@ msgstr "粘贴 URL 或键入来搜索"
 
 #: wp-includes/blocks/site-logo.php:77
 #: wp-includes/class-wp-customize-manager.php:5239
-#: wp-includes/js/dist/block-library.js:47931
+#: wp-includes/js/dist/block-library.js:48051
 #: wp-admin/includes/template.php:2468
 msgid "Logo"
 msgstr "Logo"
@@ -14972,10 +14972,10 @@ msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
 msgstr[0] "%s<span class=\"screen-reader-text\">条评论</span>"
 
 #: wp-includes/blocks/read-more.php:39
-#: wp-includes/js/dist/block-library.js:21490
-#: wp-includes/js/dist/block-library.js:29665
-#: wp-includes/js/dist/block-library.js:46156
-#: wp-includes/js/dist/block-library.js:46180
+#: wp-includes/js/dist/block-library.js:21610
+#: wp-includes/js/dist/block-library.js:29785
+#: wp-includes/js/dist/block-library.js:46276
+#: wp-includes/js/dist/block-library.js:46300
 msgid "Read more"
 msgstr "阅读更多"
 
@@ -15073,16 +15073,16 @@ msgstr "没有项目"
 msgid "Registration confirmation will be emailed to you."
 msgstr "注册确认信息将通过邮件发送给您。"
 
-#: wp-includes/js/dist/block-editor.js:51287
-#: wp-includes/js/dist/block-editor.js:53408 wp-admin/includes/media.php:1621
+#: wp-includes/js/dist/block-editor.js:51320
+#: wp-includes/js/dist/block-editor.js:53441 wp-admin/includes/media.php:1621
 #: wp-admin/includes/media.php:2584 wp-admin/install.php:148
 #: wp-admin/user-edit.php:700 wp-admin/user-new.php:608
 #: wp-admin/js/password-toggle.js:28 wp-admin/js/user-profile.js:97
 msgid "Hide"
 msgstr "隐藏"
 
-#: wp-includes/js/dist/block-editor.js:51287
-#: wp-includes/js/dist/block-editor.js:53408 wp-admin/includes/media.php:1620
+#: wp-includes/js/dist/block-editor.js:51320
+#: wp-includes/js/dist/block-editor.js:53441 wp-admin/includes/media.php:1620
 #: wp-admin/includes/media.php:2583 wp-admin/setup-config.php:245
 #: wp-admin/js/password-toggle.js:35 wp-admin/js/user-profile.js:97
 msgid "Show"
@@ -15653,7 +15653,7 @@ msgstr "更改"
 #. translators: 1: Number of comments, 2: Post title.
 #: wp-includes/blocks/comments-title.php:47
 #: wp-includes/theme-compat/comments.php:44
-#: wp-includes/js/dist/block-library.js:10617
+#: wp-includes/js/dist/block-library.js:10737
 msgid "%1$s response to %2$s"
 msgid_plural "%1$s responses to %2$s"
 msgstr[0] "《 %2$s 》 有 %1$s 条评论"
@@ -15959,7 +15959,7 @@ msgid "Edit Selection"
 msgstr "编辑所选"
 
 #: wp-includes/js/dist/editor.js:5777
-#: wp-admin/includes/class-wp-comments-list-table.php:823
+#: wp-admin/includes/class-wp-comments-list-table.php:824
 #: wp-admin/includes/class-wp-media-list-table.php:797
 #: wp-admin/includes/class-wp-posts-list-table.php:1529
 #: wp-admin/includes/dashboard.php:794
@@ -15968,8 +15968,8 @@ msgid "Trash"
 msgstr "移至回收站"
 
 #: wp-includes/script-loader.php:2002
-#: wp-includes/js/dist/block-library.js:39501
-#: wp-includes/js/dist/components.js:53979
+#: wp-includes/js/dist/block-library.js:39621
+#: wp-includes/js/dist/components.js:53991
 msgid "Previous"
 msgstr "上一步"
 
@@ -16105,10 +16105,10 @@ msgstr "自定义颜色"
 
 #: wp-includes/class-wp-editor.php:1277
 #: wp-includes/js/dist/block-editor.js:23777
-#: wp-includes/js/dist/block-editor.js:24292
-#: wp-includes/js/dist/block-editor.js:62825
-#: wp-includes/js/dist/block-editor.js:63169
-#: wp-includes/js/dist/block-editor.js:64254
+#: wp-includes/js/dist/block-editor.js:24290
+#: wp-includes/js/dist/block-editor.js:62839
+#: wp-includes/js/dist/block-editor.js:63183
+#: wp-includes/js/dist/block-editor.js:64282
 #: wp-includes/js/dist/edit-site.js:19831
 msgid "Color"
 msgstr "颜色"
@@ -16387,8 +16387,8 @@ msgstr "长度"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:164
-#: wp-includes/media.php:3355 wp-includes/js/dist/block-library.js:2857
-#: wp-includes/js/dist/components.js:51410 wp-admin/includes/template.php:853
+#: wp-includes/media.php:3355 wp-includes/js/dist/block-library.js:2977
+#: wp-includes/js/dist/components.js:51422 wp-admin/includes/template.php:853
 msgid "Year"
 msgstr "年"
 
@@ -16627,7 +16627,7 @@ msgid "Replace"
 msgstr "替换"
 
 #: wp-includes/class-wp-editor.php:1250
-#: wp-includes/js/dist/block-library.js:36627
+#: wp-includes/js/dist/block-library.js:36747
 msgctxt "editor button"
 msgid "Left to right"
 msgstr "从左到右"
@@ -16847,16 +16847,16 @@ msgstr "创建新的播放列表"
 #: wp-includes/class-wp-customize-widgets.php:919
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:75
 #: wp-includes/customize/class-wp-customize-themes-panel.php:72
-#: wp-includes/media.php:4983 wp-includes/js/dist/block-editor.js:42897
-#: wp-includes/js/dist/block-editor.js:42933
-#: wp-includes/js/dist/block-library.js:31684
-#: wp-includes/js/dist/components.js:54669 wp-includes/js/dist/edit-post.js:317
+#: wp-includes/media.php:4983 wp-includes/js/dist/block-editor.js:42930
+#: wp-includes/js/dist/block-editor.js:42966
+#: wp-includes/js/dist/block-library.js:31804
+#: wp-includes/js/dist/components.js:54681 wp-includes/js/dist/edit-post.js:317
 #: wp-includes/js/dist/edit-site.js:9538 wp-includes/js/dist/edit-site.js:11324
 #: wp-includes/js/dist/edit-site.js:13410
 #: wp-includes/js/dist/edit-site.js:13992
-#: wp-includes/js/dist/edit-site.js:44916
-#: wp-includes/js/dist/edit-site.js:44943
-#: wp-includes/js/dist/edit-site.js:45518 wp-includes/js/dist/editor.js:12806
+#: wp-includes/js/dist/edit-site.js:44922
+#: wp-includes/js/dist/edit-site.js:44949
+#: wp-includes/js/dist/edit-site.js:45524 wp-includes/js/dist/editor.js:12806
 #: wp-includes/js/dist/preferences.js:528 wp-admin/includes/ms.php:49
 #: wp-admin/theme-install.php:60
 msgid "Back"
@@ -16871,17 +16871,17 @@ msgid "Poster Image"
 msgstr "海报图片"
 
 #: wp-includes/media-template.php:1371 wp-includes/media-template.php:1470
-#: wp-includes/js/dist/block-library.js:4005
-#: wp-includes/js/dist/block-library.js:4015
-#: wp-includes/js/dist/block-library.js:56183
-#: wp-includes/js/dist/block-library.js:56193
+#: wp-includes/js/dist/block-library.js:4125
+#: wp-includes/js/dist/block-library.js:4135
+#: wp-includes/js/dist/block-library.js:56303
+#: wp-includes/js/dist/block-library.js:56313
 msgid "Autoplay"
 msgstr "自动播放"
 
 #: wp-includes/media-template.php:1362 wp-includes/media-template.php:1461
-#: wp-includes/js/dist/block-library.js:4068
-#: wp-includes/js/dist/block-library.js:56140
-#: wp-includes/js/dist/block-library.js:56333
+#: wp-includes/js/dist/block-library.js:4188
+#: wp-includes/js/dist/block-library.js:56260
+#: wp-includes/js/dist/block-library.js:56453
 #: wp-admin/includes/meta-boxes.php:1561
 msgid "Metadata"
 msgstr "元数据"
@@ -16915,7 +16915,7 @@ msgstr "插入「More」标签"
 msgid "Toolbar Toggle"
 msgstr "显示 / 隐藏工具栏"
 
-#: wp-includes/js/dist/block-library.js:30146
+#: wp-includes/js/dist/block-library.js:30266
 #: wp-includes/js/dist/customize-widgets.js:794
 #: wp-includes/js/dist/edit-widgets.js:3342 wp-includes/js/dist/editor.js:22379
 #: wp-admin/menu.php:387 wp-admin/tools.php:43
@@ -16935,7 +16935,7 @@ msgid "Background color"
 msgstr "背景颜色"
 
 #: wp-includes/class-wp-editor.php:1328
-#: wp-includes/js/dist/block-library.js:51366
+#: wp-includes/js/dist/block-library.js:51486
 msgid "Delete column"
 msgstr "删除列"
 
@@ -16990,11 +16990,11 @@ msgstr "查找和替换"
 
 #: wp-includes/media-template.php:1288 wp-includes/media.php:4981
 #: wp-includes/js/dist/block-editor.js:20289
-#: wp-includes/js/dist/block-library.js:12572
-#: wp-includes/js/dist/block-library.js:13153
-#: wp-includes/js/dist/block-library.js:23931
-#: wp-includes/js/dist/block-library.js:47845
-#: wp-includes/js/dist/block-library.js:53978
+#: wp-includes/js/dist/block-library.js:12692
+#: wp-includes/js/dist/block-library.js:13273
+#: wp-includes/js/dist/block-library.js:24051
+#: wp-includes/js/dist/block-library.js:47965
+#: wp-includes/js/dist/block-library.js:54098
 #: wp-includes/js/dist/editor.js:16500
 msgid "Replace"
 msgstr "替换"
@@ -17008,7 +17008,7 @@ msgid "Paste as text"
 msgstr "粘贴为文本"
 
 #: wp-includes/class-wp-editor.php:1253
-#: wp-includes/js/dist/block-library.js:35316
+#: wp-includes/js/dist/block-library.js:35436
 msgid "Page break"
 msgstr "分页符"
 
@@ -17048,7 +17048,7 @@ msgstr "插入日期、时间"
 msgid "Insert image"
 msgstr "插入图片"
 
-#: wp-includes/class-wp-editor.php:1231 wp-includes/js/dist/components.js:38955
+#: wp-includes/class-wp-editor.php:1231 wp-includes/js/dist/components.js:38967
 msgid "Style"
 msgstr "样式"
 
@@ -17146,10 +17146,10 @@ msgstr "选择将小工具移动到的区域："
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-customize-nav-menus.php:1102
 #: wp-includes/class-wp-customize-widgets.php:724
-#: wp-includes/js/dist/block-editor.js:45741
-#: wp-includes/js/dist/block-editor.js:45742
-#: wp-includes/js/dist/block-editor.js:48811
-#: wp-includes/js/dist/block-library.js:31608
+#: wp-includes/js/dist/block-editor.js:45774
+#: wp-includes/js/dist/block-editor.js:45775
+#: wp-includes/js/dist/block-editor.js:48844
+#: wp-includes/js/dist/block-library.js:31728
 #: wp-includes/js/dist/edit-site.js:24560
 #: wp-admin/includes/class-walker-nav-menu-edit.php:148
 #: wp-admin/includes/template.php:1398
@@ -17159,10 +17159,10 @@ msgstr "上移"
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-customize-nav-menus.php:1103
 #: wp-includes/class-wp-customize-widgets.php:723
-#: wp-includes/js/dist/block-editor.js:45766
-#: wp-includes/js/dist/block-editor.js:45767
-#: wp-includes/js/dist/block-editor.js:48816
-#: wp-includes/js/dist/block-library.js:31619
+#: wp-includes/js/dist/block-editor.js:45799
+#: wp-includes/js/dist/block-editor.js:45800
+#: wp-includes/js/dist/block-editor.js:48849
+#: wp-includes/js/dist/block-library.js:31739
 #: wp-includes/js/dist/edit-site.js:24571
 #: wp-admin/includes/class-walker-nav-menu-edit.php:165
 #: wp-admin/includes/template.php:1411
@@ -17217,7 +17217,7 @@ msgstr "https://cn.wordpress.org/support/forum/suggestions/"
 msgid "Change"
 msgstr "更改"
 
-#: wp-includes/js/dist/block-library.js:42448
+#: wp-includes/js/dist/block-library.js:42568
 #: wp-includes/js/dist/core-data.js:3926 wp-includes/js/dist/editor.js:6315
 #: wp-includes/js/dist/editor.js:16660 wp-includes/js/dist/editor.js:20076
 #: wp-includes/js/dist/editor.js:20121 wp-admin/includes/ajax-actions.php:2264
@@ -17364,11 +17364,11 @@ msgstr "默认"
 #: wp-includes/admin-bar.php:247 wp-includes/blocks/navigation.php:487
 #: wp-includes/blocks/navigation.php:609
 #: wp-includes/widgets/class-wp-nav-menu-widget.php:50
-#: wp-includes/js/dist/block-library.js:30324
-#: wp-includes/js/dist/block-library.js:30338
-#: wp-includes/js/dist/block-library.js:31235
-#: wp-includes/js/dist/block-library.js:32386
-#: wp-includes/js/dist/block-library.js:32921
+#: wp-includes/js/dist/block-library.js:30444
+#: wp-includes/js/dist/block-library.js:30458
+#: wp-includes/js/dist/block-library.js:31355
+#: wp-includes/js/dist/block-library.js:32506
+#: wp-includes/js/dist/block-library.js:33041
 #: wp-includes/js/dist/core-data.js:3873 wp-includes/js/dist/edit-site.js:20320
 msgid "Menu"
 msgstr "菜单"
@@ -17435,7 +17435,7 @@ msgid "Download File"
 msgstr "下载文件"
 
 #: wp-includes/script-loader.php:1307
-#: wp-includes/js/dist/block-library.js:34466
+#: wp-includes/js/dist/block-library.js:34586
 msgid "Invalid"
 msgstr "无效"
 
@@ -17493,7 +17493,7 @@ msgstr "要使用此功能，JavaScript 必须被启用。"
 #: wp-admin/edit-form-advanced.php:662 wp-admin/includes/ajax-actions.php:1643
 #: wp-admin/includes/ajax-actions.php:2892
 #: wp-admin/includes/ajax-actions.php:2895
-#: wp-admin/includes/class-wp-comments-list-table.php:1051
+#: wp-admin/includes/class-wp-comments-list-table.php:1052
 #: wp-admin/includes/class-wp-posts-list-table.php:1205
 #: wp-admin/includes/class-wp-privacy-requests-table.php:496
 #: wp-admin/includes/schema.php:438 wp-admin/options-general.php:522
@@ -17594,7 +17594,7 @@ msgstr "用户 ID 无效。"
 msgid "Random Order"
 msgstr "随机顺序"
 
-#: wp-includes/media.php:5034 wp-includes/js/dist/block-editor.js:59833
+#: wp-includes/media.php:5034 wp-includes/js/dist/block-editor.js:59866
 msgid "Insert from URL"
 msgstr "从 URL 插入"
 
@@ -17618,9 +17618,9 @@ msgstr "随机"
 msgid "No items found."
 msgstr "找不到条目。"
 
-#: wp-includes/media.php:5048 wp-includes/js/dist/block-library.js:26335
-#: wp-includes/js/dist/block-library.js:26413
-#: wp-includes/js/dist/block-library.js:26423
+#: wp-includes/media.php:5048 wp-includes/js/dist/block-library.js:26455
+#: wp-includes/js/dist/block-library.js:26533
+#: wp-includes/js/dist/block-library.js:26543
 msgid "Reverse order"
 msgstr "反转顺序"
 
@@ -17631,7 +17631,7 @@ msgstr "取消选择"
 
 #: wp-includes/media-template.php:587 wp-includes/media-template.php:754
 #: wp-includes/media.php:5017 wp-includes/js/dist/editor.js:5938
-#: wp-admin/includes/class-wp-comments-list-table.php:389
+#: wp-admin/includes/class-wp-comments-list-table.php:390
 #: wp-admin/includes/class-wp-media-list-table.php:185
 #: wp-admin/includes/class-wp-media-list-table.php:190
 #: wp-admin/includes/class-wp-posts-list-table.php:446
@@ -17666,9 +17666,9 @@ msgid "Manage Video"
 msgstr "管理视频"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
-#: wp-includes/js/dist/block-editor.js:60021
-#: wp-includes/js/dist/block-library.js:42449
-#: wp-includes/js/dist/block-library.js:56760
+#: wp-includes/js/dist/block-editor.js:60054
+#: wp-includes/js/dist/block-library.js:42569
+#: wp-includes/js/dist/block-library.js:56880
 #: wp-includes/js/dist/editor.js:16661
 msgid "Video"
 msgstr "视频"
@@ -17702,8 +17702,8 @@ msgid "Insert into page"
 msgstr "插入至页面"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
-#: wp-includes/js/dist/block-editor.js:60017
-#: wp-includes/js/dist/block-library.js:42441
+#: wp-includes/js/dist/block-editor.js:60050
+#: wp-includes/js/dist/block-library.js:42561
 #: wp-includes/js/dist/editor.js:7578 wp-includes/js/dist/editor.js:16653
 msgid "Audio"
 msgstr "音频"
@@ -17726,17 +17726,17 @@ msgstr "自定义 URL"
 #: wp-includes/js/dist/block-editor.js:17466
 #: wp-includes/js/dist/block-editor.js:17490
 #: wp-includes/js/dist/block-editor.js:17522
-#: wp-includes/js/dist/block-editor.js:26079
-#: wp-includes/js/dist/block-editor.js:26087
-#: wp-includes/js/dist/block-library.js:8154
-#: wp-includes/js/dist/block-library.js:20238
-#: wp-includes/js/dist/block-library.js:20245
-#: wp-includes/js/dist/block-library.js:20370
-#: wp-includes/js/dist/block-library.js:25622
-#: wp-includes/js/dist/block-library.js:25632
-#: wp-includes/js/dist/block-library.js:46427
-#: wp-includes/js/dist/block-library.js:46436
-#: wp-includes/js/dist/block-library.js:55746
+#: wp-includes/js/dist/block-editor.js:26091
+#: wp-includes/js/dist/block-editor.js:26099
+#: wp-includes/js/dist/block-library.js:8274
+#: wp-includes/js/dist/block-library.js:20358
+#: wp-includes/js/dist/block-library.js:20365
+#: wp-includes/js/dist/block-library.js:20490
+#: wp-includes/js/dist/block-library.js:25742
+#: wp-includes/js/dist/block-library.js:25752
+#: wp-includes/js/dist/block-library.js:46547
+#: wp-includes/js/dist/block-library.js:46556
+#: wp-includes/js/dist/block-library.js:55866
 #: wp-admin/includes/class-wp-screen.php:1162
 msgid "Columns"
 msgstr "栏目"
@@ -17753,9 +17753,9 @@ msgstr "附件详情"
 #: wp-includes/block-editor.php:173 wp-includes/class-wp-theme-json.php:4256
 #: wp-includes/media-template.php:918 wp-includes/media-template.php:998
 #: wp-includes/media-template.php:1189 wp-includes/media.php:4616
-#: wp-includes/js/dist/block-editor.js:8130
-#: wp-includes/js/dist/block-library.js:49416
-#: wp-includes/js/dist/components.js:52945
+#: wp-includes/js/dist/block-editor.js:8131
+#: wp-includes/js/dist/block-library.js:49536
+#: wp-includes/js/dist/components.js:52957
 #: wp-admin/includes/class-custom-background.php:632
 #: wp-admin/includes/media.php:1205
 msgid "Large"
@@ -17790,7 +17790,7 @@ msgid "Insert gallery"
 msgstr "插入相册"
 
 #: wp-includes/media-template.php:215 wp-includes/media-template.php:222
-#: wp-includes/media-template.php:264 wp-includes/js/dist/components.js:51939
+#: wp-includes/media-template.php:264 wp-includes/js/dist/components.js:51951
 #: wp-admin/includes/media.php:2255
 msgid "Drop files to upload"
 msgstr "拖文件至此可上传"
@@ -17799,7 +17799,7 @@ msgstr "拖文件至此可上传"
 msgid "Create gallery"
 msgstr "创建相册"
 
-#: wp-includes/media.php:4997 wp-includes/js/dist/block-editor.js:60120
+#: wp-includes/media.php:4997 wp-includes/js/dist/block-editor.js:60153
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:205
 #: wp-admin/upload.php:359
 msgid "Media Library"
@@ -17941,9 +17941,9 @@ msgid "Could not insert term relationship into the database."
 msgstr "未能将项目关系加入数据库。"
 
 #: wp-includes/media-template.php:818 wp-includes/js/dist/block-editor.js:22898
-#: wp-includes/js/dist/components.js:38294
-#: wp-includes/js/dist/components.js:42890
-#: wp-includes/js/dist/components.js:52202 wp-admin/theme-install.php:244
+#: wp-includes/js/dist/components.js:38306
+#: wp-includes/js/dist/components.js:42902
+#: wp-includes/js/dist/components.js:52214 wp-admin/theme-install.php:244
 #: wp-admin/theme-install.php:266 wp-admin/js/color-picker.js:154
 msgid "Clear"
 msgstr "清除"
@@ -18032,7 +18032,7 @@ msgid "Header Text Color"
 msgstr "页眉文字颜色"
 
 #: wp-includes/class-wp-customize-manager.php:5274
-#: wp-includes/js/dist/block-editor.js:64258
+#: wp-includes/js/dist/block-editor.js:64286
 #: wp-includes/js/dist/edit-site.js:10672
 #: wp-includes/js/dist/edit-site.js:19465
 #: wp-includes/js/dist/edit-site.js:21054
@@ -18174,8 +18174,8 @@ msgstr "允许的文件"
 #: wp-includes/media-template.php:627 wp-includes/media.php:4982
 #: wp-includes/js/dist/block-editor.js:20800
 #: wp-includes/js/dist/block-editor.js:22999
-#: wp-includes/js/dist/block-editor.js:34094
-#: wp-includes/js/dist/block-library.js:12660
+#: wp-includes/js/dist/block-editor.js:34127
+#: wp-includes/js/dist/block-library.js:12780
 #: wp-includes/js/dist/edit-site.js:19209
 #: wp-includes/js/dist/edit-site.js:19980
 #: wp-includes/js/dist/edit-site.js:41513 wp-includes/js/dist/editor.js:16514
@@ -18272,7 +18272,7 @@ msgid "Stylesheet"
 msgstr "样式表"
 
 #: wp-includes/class-wp-xmlrpc-server.php:577
-#: wp-includes/js/dist/edit-site.js:7159 wp-includes/js/dist/edit-site.js:48518
+#: wp-includes/js/dist/edit-site.js:7159 wp-includes/js/dist/edit-site.js:48524
 #: wp-includes/js/dist/editor.js:7155 wp-includes/js/dist/editor.js:7316
 #: wp-includes/js/dist/editor.js:14803 wp-includes/js/dist/editor.js:14823
 #: wp-includes/js/dist/editor.js:14880 wp-includes/js/dist/editor.js:15467
@@ -18337,11 +18337,11 @@ msgstr "文章页"
 msgid "Your latest posts"
 msgstr "您的最新文章"
 
-#: wp-includes/js/dist/block-library.js:29992
-#: wp-includes/js/dist/block-library.js:30211
+#: wp-includes/js/dist/block-library.js:30112
+#: wp-includes/js/dist/block-library.js:30331
 #: wp-includes/js/dist/edit-site.js:7162 wp-includes/js/dist/edit-site.js:8960
 #: wp-includes/js/dist/edit-site.js:9957 wp-includes/js/dist/edit-site.js:25139
-#: wp-includes/js/dist/editor.js:30557 wp-admin/index.php:57
+#: wp-includes/js/dist/editor.js:30573 wp-admin/index.php:57
 msgid "Navigation"
 msgstr "导航"
 
@@ -18711,21 +18711,21 @@ msgstr "您的账户已激活。请<a href=\"%1$s\">浏览您的站点</a>或<a 
 
 #: wp-includes/class-wp-editor.php:1266
 #: wp-includes/js/dist/block-editor.js:19399
-#: wp-includes/js/dist/block-editor.js:24309
-#: wp-includes/js/dist/block-editor.js:62392
-#: wp-includes/js/dist/block-editor.js:64245
-#: wp-includes/js/dist/block-library.js:6023
-#: wp-includes/js/dist/block-library.js:20399
-#: wp-includes/js/dist/block-library.js:20455
-#: wp-includes/js/dist/block-library.js:34001
-#: wp-includes/js/dist/block-library.js:34011
-#: wp-includes/js/dist/block-library.js:34474
-#: wp-includes/js/dist/block-library.js:35117
-#: wp-includes/js/dist/block-library.js:42445
+#: wp-includes/js/dist/block-editor.js:24307
+#: wp-includes/js/dist/block-editor.js:62406
+#: wp-includes/js/dist/block-editor.js:64273
+#: wp-includes/js/dist/block-library.js:6143
+#: wp-includes/js/dist/block-library.js:20519
+#: wp-includes/js/dist/block-library.js:20575
+#: wp-includes/js/dist/block-library.js:34121
+#: wp-includes/js/dist/block-library.js:34131
+#: wp-includes/js/dist/block-library.js:34594
+#: wp-includes/js/dist/block-library.js:35237
+#: wp-includes/js/dist/block-library.js:42565
 #: wp-includes/js/dist/editor.js:6510 wp-includes/js/dist/editor.js:16657
-#: wp-includes/js/dist/editor.js:21254 wp-includes/js/dist/editor.js:31021
-#: wp-includes/js/dist/format-library.js:974
-#: wp-includes/js/dist/format-library.js:1087
+#: wp-includes/js/dist/editor.js:21254 wp-includes/js/dist/editor.js:31037
+#: wp-includes/js/dist/format-library.js:956
+#: wp-includes/js/dist/format-library.js:1069
 msgid "Link"
 msgstr "链接"
 
@@ -18756,9 +18756,9 @@ msgstr "海报"
 #: wp-includes/media-template.php:1358 wp-includes/media-template.php:1457
 #: wp-includes/widgets/class-wp-widget-media-audio.php:72
 #: wp-includes/widgets/class-wp-widget-media-video.php:74
-#: wp-includes/js/dist/block-library.js:4046
-#: wp-includes/js/dist/block-library.js:56290
-#: wp-includes/js/dist/block-library.js:56301
+#: wp-includes/js/dist/block-library.js:4166
+#: wp-includes/js/dist/block-library.js:56410
+#: wp-includes/js/dist/block-library.js:56421
 msgid "Preload"
 msgstr "预加载"
 
@@ -18931,10 +18931,10 @@ msgstr "无需再包含这个文件。"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:240
 #: wp-includes/widgets/class-wp-widget-categories.php:210
-#: wp-includes/js/dist/block-library.js:2786
-#: wp-includes/js/dist/block-library.js:2794
-#: wp-includes/js/dist/block-library.js:6849
-#: wp-includes/js/dist/block-library.js:6856
+#: wp-includes/js/dist/block-library.js:2906
+#: wp-includes/js/dist/block-library.js:2914
+#: wp-includes/js/dist/block-library.js:6969
+#: wp-includes/js/dist/block-library.js:6976
 msgid "Display as dropdown"
 msgstr "以下拉菜单显示"
 
@@ -19040,9 +19040,9 @@ msgid "Link Category"
 msgstr "链接分类"
 
 #: wp-includes/abilities.php:31 wp-includes/user.php:4089
-#: wp-includes/js/dist/block-editor.js:42971
-#: wp-includes/js/dist/block-library.js:3038
-#: wp-includes/js/dist/block-library.js:3148
+#: wp-includes/js/dist/block-editor.js:43004
+#: wp-includes/js/dist/block-library.js:3158
+#: wp-includes/js/dist/block-library.js:3268
 #: wp-includes/js/dist/core-data.js:3849 wp-includes/js/dist/edit-site.js:22586
 msgid "User"
 msgstr "用户"
@@ -19090,13 +19090,13 @@ msgstr "&#8220;%s&#8221;"
 
 #. translators: %s: Number of comments.
 #: wp-includes/blocks/comments-title.php:61
-#: wp-includes/js/dist/block-library.js:10631
+#: wp-includes/js/dist/block-library.js:10751
 msgid "%s response"
 msgid_plural "%s responses"
 msgstr[0] "%s 条回复"
 
 #: wp-includes/blocks/comments-title.php:57
-#: wp-includes/js/dist/block-library.js:10627
+#: wp-includes/js/dist/block-library.js:10747
 msgid "One response"
 msgstr "1 条回复"
 
@@ -19583,15 +19583,15 @@ msgstr "「%s」的搜索结果"
 #. translators: %s: Post title.
 #: wp-includes/blocks/comments-title.php:43
 #: wp-includes/theme-compat/comments.php:38
-#: wp-includes/js/dist/block-library.js:8807
-#: wp-includes/js/dist/block-library.js:10613
+#: wp-includes/js/dist/block-library.js:8927
+#: wp-includes/js/dist/block-library.js:10733
 msgid "One response to %s"
 msgstr "《%s》 有 1 条评论"
 
 #: wp-includes/admin-bar.php:1107
 #: wp-includes/class-wp-customize-nav-menus.php:681
 #: wp-includes/customize/class-wp-customize-nav-menus-panel.php:113
-#: wp-includes/js/dist/block-library.js:30114 wp-admin/menu.php:248
+#: wp-includes/js/dist/block-library.js:30234 wp-admin/menu.php:248
 #: wp-admin/nav-menus.php:32 wp-admin/nav-menus.php:781
 msgid "Menus"
 msgstr "菜单"
@@ -19807,8 +19807,8 @@ msgstr "%s 是您的新用户名"
 
 #: wp-includes/class-wp-customize-nav-menus.php:1121
 #: wp-includes/script-loader.php:2001 wp-signup.php:660
-#: wp-includes/js/dist/block-library.js:39501
-#: wp-includes/js/dist/components.js:53978
+#: wp-includes/js/dist/block-library.js:39621
+#: wp-includes/js/dist/components.js:53990
 msgid "Next"
 msgstr "下一步"
 
@@ -20034,9 +20034,9 @@ msgstr "/"
 #: wp-includes/class-wp-editor.php:1222 wp-includes/script-loader.php:991
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/js/dist/block-editor.js:21168
-#: wp-includes/js/dist/block-editor.js:60019
-#: wp-includes/js/dist/block-library.js:24575
-#: wp-includes/js/dist/block-library.js:42444
+#: wp-includes/js/dist/block-editor.js:60052
+#: wp-includes/js/dist/block-library.js:24695
+#: wp-includes/js/dist/block-library.js:42564
 #: wp-includes/js/dist/editor.js:16656 wp-admin/includes/media.php:2958
 msgid "Image"
 msgstr "图片"
@@ -20154,15 +20154,15 @@ msgstr "%s [自动保存]"
 
 #. translators: 'Home' as in a website's home page.
 #: wp-includes/blocks/home-link.php:140 wp-includes/post-template.php:1471
-#: wp-includes/js/dist/block-library.js:4322
-#: wp-includes/js/dist/block-library.js:22128
-#: wp-includes/js/dist/block-library.js:33846 wp-admin/menu.php:31
+#: wp-includes/js/dist/block-library.js:4442
+#: wp-includes/js/dist/block-library.js:22248
+#: wp-includes/js/dist/block-library.js:33966 wp-admin/menu.php:31
 #: wp-admin/network/menu.php:18
 msgid "Home"
 msgstr "首页"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/post-template.php:967 wp-includes/js/dist/block-editor.js:41816
+#: wp-includes/post-template.php:967 wp-includes/js/dist/block-editor.js:41849
 #: wp-includes/js/dist/edit-site.js:14146
 #: wp-includes/js/dist/edit-site.js:22732
 #: wp-includes/js/dist/edit-site.js:41879
@@ -20172,7 +20172,7 @@ msgid "Previous page"
 msgstr "上一页"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/post-template.php:966 wp-includes/js/dist/block-editor.js:41845
+#: wp-includes/post-template.php:966 wp-includes/js/dist/block-editor.js:41878
 #: wp-includes/js/dist/edit-site.js:14159
 #: wp-includes/js/dist/edit-site.js:22752
 #: wp-includes/js/dist/edit-site.js:41892
@@ -20347,13 +20347,13 @@ msgstr "该用户不存在。"
 
 #: wp-includes/class-wp-locale.php:220
 #: wp-includes/customize/class-wp-customize-date-time-control.php:203
-#: wp-includes/js/dist/components.js:51259
+#: wp-includes/js/dist/components.js:51271
 msgid "PM"
 msgstr "下午"
 
 #: wp-includes/class-wp-locale.php:219
 #: wp-includes/customize/class-wp-customize-date-time-control.php:202
-#: wp-includes/js/dist/components.js:51256
+#: wp-includes/js/dist/components.js:51268
 msgid "AM"
 msgstr "上午"
 
@@ -20378,12 +20378,12 @@ msgid "Last Post"
 msgstr "最后一篇文章"
 
 #: wp-includes/link-template.php:2082 wp-includes/link-template.php:2358
-#: wp-includes/js/dist/block-library.js:39770
+#: wp-includes/js/dist/block-library.js:39890
 msgid "Next Post"
 msgstr "下一篇文章"
 
 #: wp-includes/link-template.php:2082 wp-includes/link-template.php:2358
-#: wp-includes/js/dist/block-library.js:39753
+#: wp-includes/js/dist/block-library.js:39873
 msgid "Previous Post"
 msgstr "上一篇文章"
 
@@ -20403,12 +20403,12 @@ msgstr "填满屏幕"
 
 #: wp-includes/class-wp-editor.php:1263
 #: wp-includes/js/dist/block-editor.js:19666
-#: wp-includes/js/dist/block-editor.js:62375
+#: wp-includes/js/dist/block-editor.js:62389
 msgid "Remove link"
 msgstr "移除链接"
 
 #: wp-includes/class-wp-editor.php:1267 wp-includes/script-loader.php:805
-#: wp-includes/js/dist/block-editor.js:62073
+#: wp-includes/js/dist/block-editor.js:62087
 msgid "Insert link"
 msgstr "插入链接"
 
@@ -20439,7 +20439,7 @@ msgid "Link Rel"
 msgstr "链接 Rel"
 
 #: wp-includes/class-wp-editor.php:1226
-#: wp-includes/js/dist/block-editor.js:43043
+#: wp-includes/js/dist/block-editor.js:43076
 msgid "Source"
 msgstr "源"
 
@@ -20483,17 +20483,17 @@ msgstr "对齐"
 #: wp-includes/media-template.php:1376 wp-includes/media-template.php:1475
 #: wp-includes/widgets/class-wp-widget-media-audio.php:77
 #: wp-includes/widgets/class-wp-widget-media-video.php:80
-#: wp-includes/js/dist/block-library.js:4026
-#: wp-includes/js/dist/block-library.js:4036
-#: wp-includes/js/dist/block-library.js:56204
-#: wp-includes/js/dist/block-library.js:56214
+#: wp-includes/js/dist/block-library.js:4146
+#: wp-includes/js/dist/block-library.js:4156
+#: wp-includes/js/dist/block-library.js:56324
+#: wp-includes/js/dist/block-library.js:56334
 msgid "Loop"
 msgstr "循环"
 
-#: wp-includes/js/dist/block-editor.js:43057
-#: wp-includes/js/dist/block-library.js:4357
-#: wp-includes/js/dist/block-library.js:4368
-#: wp-includes/js/dist/components.js:42685
+#: wp-includes/js/dist/block-editor.js:43090
+#: wp-includes/js/dist/block-library.js:4477
+#: wp-includes/js/dist/block-library.js:4488
+#: wp-includes/js/dist/components.js:42697
 #: wp-admin/includes/ajax-actions.php:2264
 msgid "Type"
 msgstr "类型"
@@ -20502,8 +20502,8 @@ msgstr "类型"
 msgid "Constrain proportions"
 msgstr "保持长宽比"
 
-#: wp-includes/class-wp-editor.php:1224 wp-includes/js/dist/editor.js:30353
-#: wp-includes/js/dist/editor.js:30628
+#: wp-includes/class-wp-editor.php:1224 wp-includes/js/dist/editor.js:30369
+#: wp-includes/js/dist/editor.js:30644
 msgid "General"
 msgstr "常规"
 
@@ -20529,7 +20529,7 @@ msgstr "中部"
 #: wp-includes/class-wp-editor.php:1344
 #: wp-includes/customize/class-wp-customize-background-position-control.php:47
 #: wp-includes/js/dist/block-editor.js:16190
-#: wp-includes/js/dist/components.js:52444
+#: wp-includes/js/dist/components.js:52456
 #: wp-admin/includes/class-custom-background.php:395
 msgid "Top"
 msgstr "顶部"
@@ -20543,9 +20543,9 @@ msgid "Vertical space"
 msgstr "垂直间隔"
 
 #: wp-includes/class-wp-editor.php:1232
-#: wp-includes/js/dist/block-editor.js:28334
-#: wp-includes/js/dist/block-editor.js:62848
-#: wp-includes/js/dist/block-editor.js:63191
+#: wp-includes/js/dist/block-editor.js:28367
+#: wp-includes/js/dist/block-editor.js:62862
+#: wp-includes/js/dist/block-editor.js:63205
 msgid "Dimensions"
 msgstr "尺寸"
 
@@ -20570,51 +20570,51 @@ msgstr "粘帖"
 
 #: wp-includes/class-wp-customize-manager.php:4392
 #: wp-includes/class-wp-editor.php:1181
-#: wp-includes/js/dist/block-editor.js:51500
-#: wp-includes/js/dist/components.js:37108 wp-includes/js/dist/editor.js:6507
+#: wp-includes/js/dist/block-editor.js:51533
+#: wp-includes/js/dist/components.js:37120 wp-includes/js/dist/editor.js:6507
 #: wp-includes/js/dist/editor.js:19629 wp-admin/user-edit.php:1005
 msgid "Copy"
 msgstr "复制"
 
 #: wp-includes/class-wp-editor.php:1180
-#: wp-includes/js/dist/block-editor.js:51668
+#: wp-includes/js/dist/block-editor.js:51701
 msgid "Cut"
 msgstr "剪切"
 
 #: wp-includes/class-wp-editor.php:1164
-#: wp-includes/js/dist/format-library.js:1582
+#: wp-includes/js/dist/format-library.js:1573
 msgid "Superscript"
 msgstr "上标"
 
 #: wp-includes/class-wp-editor.php:1163
-#: wp-includes/js/dist/format-library.js:1541
+#: wp-includes/js/dist/format-library.js:1532
 msgid "Subscript"
 msgstr "下标"
 
 #: wp-includes/class-wp-editor.php:1162
-#: wp-includes/js/dist/block-editor.js:25533
-#: wp-includes/js/dist/format-library.js:1170
+#: wp-includes/js/dist/block-editor.js:25531
+#: wp-includes/js/dist/format-library.js:1151
 msgid "Strikethrough"
 msgstr "删除线"
 
 #: wp-includes/class-wp-editor.php:1161
-#: wp-includes/js/dist/block-editor.js:25528
-#: wp-includes/js/dist/format-library.js:1211
+#: wp-includes/js/dist/block-editor.js:25526
+#: wp-includes/js/dist/format-library.js:1192
 msgid "Underline"
 msgstr "下划线"
 
 #: wp-includes/class-wp-editor.php:1167 wp-includes/script-loader.php:803
-#: wp-includes/js/dist/format-library.js:464
+#: wp-includes/js/dist/format-library.js:449
 msgid "Italic"
 msgstr "斜体"
 
 #: wp-includes/class-wp-editor.php:1166 wp-includes/script-loader.php:801
-#: wp-includes/js/dist/format-library.js:135
+#: wp-includes/js/dist/format-library.js:123
 msgid "Bold"
 msgstr "粗体"
 
 #: wp-includes/class-wp-editor.php:1168 wp-includes/script-loader.php:819
-#: wp-includes/js/dist/block-library.js:7444
+#: wp-includes/js/dist/block-library.js:7564
 msgid "Code"
 msgstr "代码"
 
@@ -20623,51 +20623,51 @@ msgid "Blockquote"
 msgstr "段落引用"
 
 #: wp-includes/class-wp-editor.php:1149
-#: wp-includes/js/dist/block-library.js:52215
+#: wp-includes/js/dist/block-library.js:52335
 #: wp-includes/js/dist/edit-site.js:18690
 msgid "Heading 6"
 msgstr "六级标题"
 
 #: wp-includes/class-wp-editor.php:1148
-#: wp-includes/js/dist/block-library.js:52214
+#: wp-includes/js/dist/block-library.js:52334
 #: wp-includes/js/dist/edit-site.js:18681
 msgid "Heading 5"
 msgstr "五级标题"
 
 #: wp-includes/class-wp-editor.php:1147
-#: wp-includes/js/dist/block-library.js:52213
+#: wp-includes/js/dist/block-library.js:52333
 #: wp-includes/js/dist/edit-site.js:18672
 msgid "Heading 4"
 msgstr "四级标题"
 
 #: wp-includes/class-wp-editor.php:1146
-#: wp-includes/js/dist/block-library.js:52212
+#: wp-includes/js/dist/block-library.js:52332
 #: wp-includes/js/dist/edit-site.js:18663
 msgid "Heading 3"
 msgstr "三级标题"
 
 #: wp-includes/class-wp-editor.php:1145
-#: wp-includes/js/dist/block-library.js:52211
+#: wp-includes/js/dist/block-library.js:52331
 #: wp-includes/js/dist/edit-site.js:18654
 msgid "Heading 2"
 msgstr "二级标题"
 
 #: wp-includes/class-wp-editor.php:1144
-#: wp-includes/js/dist/block-library.js:52210
+#: wp-includes/js/dist/block-library.js:52330
 #: wp-includes/js/dist/edit-site.js:18645
 msgid "Heading 1"
 msgstr "一级标题"
 
 #: wp-includes/class-wp-editor.php:1153
-#: wp-includes/js/dist/block-editor.js:56422
-#: wp-includes/js/dist/block-library.js:36810
+#: wp-includes/js/dist/block-editor.js:56455
+#: wp-includes/js/dist/block-library.js:36930
 msgid "Paragraph"
 msgstr "段落"
 
 #. translators: Hidden accessibility text.
 #. translators: The user language selection field label.
 #: wp-includes/class-wp-editor.php:1238 wp-login.php:384
-#: wp-includes/js/dist/format-library.js:1716 wp-admin/user-edit.php:387
+#: wp-includes/js/dist/format-library.js:1707 wp-admin/user-edit.php:387
 #: wp-admin/user-new.php:571
 msgid "Language"
 msgstr "语言"
@@ -20684,12 +20684,12 @@ msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "离开这个页面，您所做的更改将丢失。"
 
 #: wp-includes/class-wp-editor.php:1313
-#: wp-includes/js/dist/block-editor.js:28084
+#: wp-includes/js/dist/block-editor.js:28117
 msgid "Column"
 msgstr "分栏"
 
 #: wp-includes/class-wp-editor.php:1311
-#: wp-includes/js/dist/block-editor.js:28114
+#: wp-includes/js/dist/block-editor.js:28147
 msgid "Row"
 msgstr "行列"
 
@@ -20730,27 +20730,27 @@ msgid "Merge table cells"
 msgstr "合并单元格"
 
 #: wp-includes/class-wp-editor.php:1324
-#: wp-includes/js/dist/block-library.js:51360
+#: wp-includes/js/dist/block-library.js:51480
 msgid "Insert column after"
 msgstr "在后方插入列"
 
 #: wp-includes/class-wp-editor.php:1323
-#: wp-includes/js/dist/block-library.js:51354
+#: wp-includes/js/dist/block-library.js:51474
 msgid "Insert column before"
 msgstr "在前方插入列"
 
 #: wp-includes/class-wp-editor.php:1327
-#: wp-includes/js/dist/block-library.js:51348
+#: wp-includes/js/dist/block-library.js:51468
 msgid "Delete row"
 msgstr "删除行"
 
 #: wp-includes/class-wp-editor.php:1322
-#: wp-includes/js/dist/block-library.js:51342
+#: wp-includes/js/dist/block-library.js:51462
 msgid "Insert row after"
 msgstr "在下方插入行"
 
 #: wp-includes/class-wp-editor.php:1321
-#: wp-includes/js/dist/block-library.js:51336
+#: wp-includes/js/dist/block-library.js:51456
 msgid "Insert row before"
 msgstr "在上方插入行"
 
@@ -20901,7 +20901,7 @@ msgid "Remember Me"
 msgstr "记住我"
 
 #: wp-includes/general-template.php:388
-#: wp-includes/js/dist/block-library.js:27557
+#: wp-includes/js/dist/block-library.js:27677
 msgid "Log out"
 msgstr "注销"
 
@@ -20989,7 +20989,7 @@ msgstr "%s 是受保护的 WP 选项，不得修改"
 
 #. translators: Used between list items, there is a space after the comma.
 #: wp-includes/class-wp-locale.php:241 wp-includes/l10n.php:1982
-#: wp-includes/js/dist/block-editor.js:64371
+#: wp-includes/js/dist/block-editor.js:64399
 msgid ", "
 msgstr "、"
 
@@ -21098,8 +21098,8 @@ msgid "Recent Posts"
 msgstr "近期文章"
 
 #: wp-includes/widgets/class-wp-widget-categories.php:218
-#: wp-includes/js/dist/block-library.js:6942
-#: wp-includes/js/dist/block-library.js:6949
+#: wp-includes/js/dist/block-library.js:7062
+#: wp-includes/js/dist/block-library.js:7069
 msgid "Show hierarchy"
 msgstr "显示层级关系"
 
@@ -21113,36 +21113,36 @@ msgstr "自动分段"
 
 #: wp-includes/widgets/class-wp-widget-text.php:43
 #: wp-includes/js/dist/block-editor.js:20078
-#: wp-includes/js/dist/block-editor.js:24267
-#: wp-includes/js/dist/block-editor.js:24275
-#: wp-includes/js/dist/block-editor.js:24409
-#: wp-includes/js/dist/block-library.js:32546
-#: wp-includes/js/dist/block-library.js:33979
-#: wp-includes/js/dist/block-library.js:33987
-#: wp-includes/js/dist/block-library.js:48585
-#: wp-includes/js/dist/block-library.js:48594
-#: wp-includes/js/dist/block-library.js:48617
-#: wp-includes/js/dist/block-library.js:48627
-#: wp-includes/js/dist/blocks.js:7366 wp-includes/js/dist/edit-site.js:11896
+#: wp-includes/js/dist/block-editor.js:24265
+#: wp-includes/js/dist/block-editor.js:24273
+#: wp-includes/js/dist/block-editor.js:24407
+#: wp-includes/js/dist/block-library.js:32666
+#: wp-includes/js/dist/block-library.js:34099
+#: wp-includes/js/dist/block-library.js:34107
+#: wp-includes/js/dist/block-library.js:48705
+#: wp-includes/js/dist/block-library.js:48714
+#: wp-includes/js/dist/block-library.js:48737
+#: wp-includes/js/dist/block-library.js:48747
+#: wp-includes/js/dist/blocks.js:7367 wp-includes/js/dist/edit-site.js:11896
 #: wp-includes/js/dist/edit-site.js:18584
 #: wp-includes/js/dist/edit-site.js:21045
 #: wp-includes/js/dist/edit-site.js:21104
-#: wp-includes/js/dist/format-library.js:1291
+#: wp-includes/js/dist/format-library.js:1282
 msgid "Text"
 msgstr "文本"
 
 #: wp-includes/widgets/class-wp-widget-calendar.php:38
-#: wp-includes/js/dist/block-library.js:6595
-#: wp-includes/js/dist/components.js:50833
+#: wp-includes/js/dist/block-library.js:6715
+#: wp-includes/js/dist/components.js:50845
 msgid "Calendar"
 msgstr "日历"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:243
 #: wp-includes/widgets/class-wp-widget-categories.php:214
-#: wp-includes/js/dist/block-library.js:2826
-#: wp-includes/js/dist/block-library.js:2834
-#: wp-includes/js/dist/block-library.js:6886
-#: wp-includes/js/dist/block-library.js:6893
+#: wp-includes/js/dist/block-library.js:2946
+#: wp-includes/js/dist/block-library.js:2954
+#: wp-includes/js/dist/block-library.js:7006
+#: wp-includes/js/dist/block-library.js:7013
 msgid "Show post counts"
 msgstr "显示文章数目"
 
@@ -21225,8 +21225,8 @@ msgid "Unapproved"
 msgstr "驳回"
 
 #: wp-includes/comment-template.php:2664
-#: wp-includes/js/dist/block-library.js:8727
-#: wp-includes/js/dist/block-library.js:8728
+#: wp-includes/js/dist/block-library.js:8847
+#: wp-includes/js/dist/block-library.js:8848
 msgid "Post Comment"
 msgstr "发表评论"
 
@@ -21240,7 +21240,7 @@ msgid "Leave a Reply to %s"
 msgstr "回复 %s"
 
 #: wp-includes/comment-template.php:2116 wp-includes/comment-template.php:2656
-#: wp-includes/js/dist/block-library.js:8697
+#: wp-includes/js/dist/block-library.js:8817
 msgid "Leave a Reply"
 msgstr "发表回复"
 
@@ -21314,7 +21314,7 @@ msgstr "（编辑）"
 #: wp-includes/class-walker-comment.php:353
 #: wp-includes/class-walker-comment.php:453 wp-admin/comment.php:232
 #: wp-admin/edit-form-advanced.php:166 wp-admin/edit-form-comment.php:146
-#: wp-admin/includes/class-wp-comments-list-table.php:1047
+#: wp-admin/includes/class-wp-comments-list-table.php:1048
 #: wp-admin/includes/class-wp-posts-list-table.php:1201
 #: wp-admin/includes/class-wp-privacy-requests-table.php:492
 #: wp-admin/includes/meta-boxes.php:232 wp-admin/includes/meta-boxes.php:438
@@ -21369,11 +21369,11 @@ msgstr "《%s》上的评论"
 #: wp-includes/class-wp-customize-nav-menus.php:342
 #: wp-includes/script-loader.php:1269
 #: wp-includes/js/dist/block-directory.js:1446
-#: wp-includes/js/dist/block-editor.js:41509
-#: wp-includes/js/dist/block-library.js:10072
-#: wp-includes/js/dist/block-library.js:40049
-#: wp-includes/js/dist/block-library.js:53470
-#: wp-includes/js/dist/commands.js:3569 wp-includes/js/dist/components.js:55260
+#: wp-includes/js/dist/block-editor.js:41542
+#: wp-includes/js/dist/block-library.js:10192
+#: wp-includes/js/dist/block-library.js:40169
+#: wp-includes/js/dist/block-library.js:53590
+#: wp-includes/js/dist/commands.js:3569 wp-includes/js/dist/components.js:55272
 #: wp-admin/includes/nav-menu.php:737 wp-admin/includes/nav-menu.php:1113
 #: wp-admin/js/nav-menu.js:1784 wp-admin/js/tags-suggest.js:141
 msgid "No results found."
@@ -21395,7 +21395,7 @@ msgstr "抱歉，此项目的评论已关闭。"
 #: wp-includes/admin-bar.php:1096
 #: wp-includes/class-wp-customize-widgets.php:419
 #: wp-includes/class-wp-customize-widgets.php:927
-#: wp-includes/functions.php:5461 wp-includes/js/dist/blocks.js:7369
+#: wp-includes/functions.php:5461 wp-includes/js/dist/blocks.js:7370
 #: wp-includes/js/dist/core-data.js:3838
 #: wp-includes/js/dist/customize-widgets.js:1852
 #: wp-includes/js/dist/edit-site.js:21069
@@ -21438,7 +21438,7 @@ msgstr "多个标签请用英文逗号（,）分开"
 msgid "Title:"
 msgstr "标题："
 
-#: wp-includes/embed.php:1211 wp-includes/js/dist/block-library.js:22283
+#: wp-includes/embed.php:1211 wp-includes/js/dist/block-library.js:22403
 msgid "HTML"
 msgstr "HTML"
 
@@ -21449,17 +21449,17 @@ msgstr "HTML"
 #: wp-includes/customize/class-wp-customize-media-control.php:250
 #: wp-includes/customize/class-wp-customize-media-control.php:260
 #: wp-includes/js/dist/block-editor.js:22793
-#: wp-includes/js/dist/block-editor.js:24317
-#: wp-includes/js/dist/block-editor.js:25012
-#: wp-includes/js/dist/block-editor.js:25090
-#: wp-includes/js/dist/block-editor.js:27080
-#: wp-includes/js/dist/block-editor.js:30351
-#: wp-includes/js/dist/block-library.js:42768
-#: wp-includes/js/dist/block-library.js:49413
-#: wp-includes/js/dist/block-library.js:54909
-#: wp-includes/js/dist/block-library.js:56351
-#: wp-includes/js/dist/components.js:51623
-#: wp-includes/js/dist/components.js:52871
+#: wp-includes/js/dist/block-editor.js:24315
+#: wp-includes/js/dist/block-editor.js:25010
+#: wp-includes/js/dist/block-editor.js:25088
+#: wp-includes/js/dist/block-editor.js:27113
+#: wp-includes/js/dist/block-editor.js:30384
+#: wp-includes/js/dist/block-library.js:42888
+#: wp-includes/js/dist/block-library.js:49533
+#: wp-includes/js/dist/block-library.js:55029
+#: wp-includes/js/dist/block-library.js:56471
+#: wp-includes/js/dist/components.js:51635
+#: wp-includes/js/dist/components.js:52883
 #: wp-includes/js/dist/edit-site.js:12004
 #: wp-includes/js/dist/edit-site.js:12024
 #: wp-includes/js/dist/edit-site.js:19335
@@ -21472,16 +21472,16 @@ msgstr "默认"
 
 #: wp-includes/class-wp-editor.php:1334 wp-includes/media-template.php:1217
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
-#: wp-includes/js/dist/block-editor.js:27679
-#: wp-includes/js/dist/block-editor.js:27863
-#: wp-includes/js/dist/block-editor.js:27976
-#: wp-includes/js/dist/block-editor.js:59521
-#: wp-includes/js/dist/block-editor.js:67024
-#: wp-includes/js/dist/block-editor.js:67032
-#: wp-includes/js/dist/block-library.js:38866
-#: wp-includes/js/dist/block-library.js:38877
-#: wp-includes/js/dist/block-library.js:49848
-#: wp-includes/js/dist/block-library.js:49855 wp-admin/options-media.php:66
+#: wp-includes/js/dist/block-editor.js:27712
+#: wp-includes/js/dist/block-editor.js:27896
+#: wp-includes/js/dist/block-editor.js:28009
+#: wp-includes/js/dist/block-editor.js:59554
+#: wp-includes/js/dist/block-editor.js:67052
+#: wp-includes/js/dist/block-editor.js:67060
+#: wp-includes/js/dist/block-library.js:38986
+#: wp-includes/js/dist/block-library.js:38997
+#: wp-includes/js/dist/block-library.js:49968
+#: wp-includes/js/dist/block-library.js:49975 wp-admin/options-media.php:66
 msgid "Height"
 msgstr "高度"
 
@@ -21490,13 +21490,13 @@ msgid "Time Format"
 msgstr "时间格式"
 
 #: wp-includes/class-wp-xmlrpc-server.php:609
-#: wp-includes/js/dist/block-library.js:38174 wp-admin/options-general.php:462
+#: wp-includes/js/dist/block-library.js:38294 wp-admin/options-general.php:462
 msgid "Date Format"
 msgstr "日期格式"
 
 #: wp-includes/comment-template.php:2551 wp-login.php:1174
-#: wp-includes/js/dist/block-library.js:17267
-#: wp-includes/js/dist/block-library.js:17490 wp-admin/comment.php:190
+#: wp-includes/js/dist/block-library.js:17387
+#: wp-includes/js/dist/block-library.js:17610 wp-admin/comment.php:190
 #: wp-admin/edit-form-comment.php:63
 #: wp-admin/includes/class-wp-users-list-table.php:375
 #: wp-admin/includes/template.php:495 wp-admin/user-edit.php:560
@@ -21512,8 +21512,8 @@ msgstr "邮箱"
 msgid "Site Title"
 msgstr "站点标题"
 
-#: wp-includes/taxonomy.php:196 wp-includes/js/dist/block-editor.js:57875
-#: wp-includes/js/dist/blocks.js:7370 wp-includes/js/dist/edit-site.js:19319
+#: wp-includes/taxonomy.php:196 wp-includes/js/dist/block-editor.js:57908
+#: wp-includes/js/dist/blocks.js:7371 wp-includes/js/dist/edit-site.js:19319
 #: wp-includes/js/dist/edit-site.js:19650
 #: wp-includes/js/dist/edit-site.js:19761
 #: wp-includes/js/dist/edit-site.js:20012
@@ -21533,68 +21533,68 @@ msgstr "启用"
 msgid "First Post"
 msgstr "首篇文章"
 
-#: wp-includes/admin-bar.php:650 wp-includes/js/dist/block-editor.js:62652
+#: wp-includes/admin-bar.php:650 wp-includes/js/dist/block-editor.js:62666
 #: wp-includes/js/dist/block-library.js:1994
 #: wp-includes/js/dist/block-library.js:2277
-#: wp-includes/js/dist/block-library.js:2772
-#: wp-includes/js/dist/block-library.js:3072
-#: wp-includes/js/dist/block-library.js:3992
-#: wp-includes/js/dist/block-library.js:4344
-#: wp-includes/js/dist/block-library.js:5784
-#: wp-includes/js/dist/block-library.js:6802
-#: wp-includes/js/dist/block-library.js:7657
-#: wp-includes/js/dist/block-library.js:8140
-#: wp-includes/js/dist/block-library.js:9130
-#: wp-includes/js/dist/block-library.js:9268
-#: wp-includes/js/dist/block-library.js:9507
-#: wp-includes/js/dist/block-library.js:9665
-#: wp-includes/js/dist/block-library.js:10293
-#: wp-includes/js/dist/block-library.js:10560
-#: wp-includes/js/dist/block-library.js:12814
-#: wp-includes/js/dist/block-library.js:14824
-#: wp-includes/js/dist/block-library.js:16572
-#: wp-includes/js/dist/block-library.js:17312
-#: wp-includes/js/dist/block-library.js:17965
-#: wp-includes/js/dist/block-library.js:20217
-#: wp-includes/js/dist/block-library.js:20365
-#: wp-includes/js/dist/block-library.js:23840
-#: wp-includes/js/dist/block-library.js:23996
-#: wp-includes/js/dist/block-library.js:24979
-#: wp-includes/js/dist/block-library.js:26300
-#: wp-includes/js/dist/block-library.js:26348
-#: wp-includes/js/dist/block-library.js:27499
-#: wp-includes/js/dist/block-library.js:28982
-#: wp-includes/js/dist/block-library.js:29676
-#: wp-includes/js/dist/block-library.js:33963
-#: wp-includes/js/dist/block-library.js:35939
-#: wp-includes/js/dist/block-library.js:37044
-#: wp-includes/js/dist/block-library.js:37300
-#: wp-includes/js/dist/block-library.js:38160
-#: wp-includes/js/dist/block-library.js:38641
-#: wp-includes/js/dist/block-library.js:39260
-#: wp-includes/js/dist/block-library.js:39552
-#: wp-includes/js/dist/block-library.js:40473
-#: wp-includes/js/dist/block-library.js:40691
-#: wp-includes/js/dist/block-library.js:42725
-#: wp-includes/js/dist/block-library.js:44372
-#: wp-includes/js/dist/block-library.js:44563
-#: wp-includes/js/dist/block-library.js:44845
-#: wp-includes/js/dist/block-library.js:44880
-#: wp-includes/js/dist/block-library.js:44929
-#: wp-includes/js/dist/block-library.js:46125
-#: wp-includes/js/dist/block-library.js:46312
-#: wp-includes/js/dist/block-library.js:46770
-#: wp-includes/js/dist/block-library.js:47596
-#: wp-includes/js/dist/block-library.js:48259
-#: wp-includes/js/dist/block-library.js:48608
-#: wp-includes/js/dist/block-library.js:49519
-#: wp-includes/js/dist/block-library.js:49818
-#: wp-includes/js/dist/block-library.js:51436
-#: wp-includes/js/dist/block-library.js:52161
-#: wp-includes/js/dist/block-library.js:52448
-#: wp-includes/js/dist/block-library.js:54724
-#: wp-includes/js/dist/block-library.js:55156
-#: wp-includes/js/dist/block-library.js:56817
+#: wp-includes/js/dist/block-library.js:2892
+#: wp-includes/js/dist/block-library.js:3192
+#: wp-includes/js/dist/block-library.js:4112
+#: wp-includes/js/dist/block-library.js:4464
+#: wp-includes/js/dist/block-library.js:5904
+#: wp-includes/js/dist/block-library.js:6922
+#: wp-includes/js/dist/block-library.js:7777
+#: wp-includes/js/dist/block-library.js:8260
+#: wp-includes/js/dist/block-library.js:9250
+#: wp-includes/js/dist/block-library.js:9388
+#: wp-includes/js/dist/block-library.js:9627
+#: wp-includes/js/dist/block-library.js:9785
+#: wp-includes/js/dist/block-library.js:10413
+#: wp-includes/js/dist/block-library.js:10680
+#: wp-includes/js/dist/block-library.js:12934
+#: wp-includes/js/dist/block-library.js:14944
+#: wp-includes/js/dist/block-library.js:16692
+#: wp-includes/js/dist/block-library.js:17432
+#: wp-includes/js/dist/block-library.js:18085
+#: wp-includes/js/dist/block-library.js:20337
+#: wp-includes/js/dist/block-library.js:20485
+#: wp-includes/js/dist/block-library.js:23960
+#: wp-includes/js/dist/block-library.js:24116
+#: wp-includes/js/dist/block-library.js:25099
+#: wp-includes/js/dist/block-library.js:26420
+#: wp-includes/js/dist/block-library.js:26468
+#: wp-includes/js/dist/block-library.js:27619
+#: wp-includes/js/dist/block-library.js:29102
+#: wp-includes/js/dist/block-library.js:29796
+#: wp-includes/js/dist/block-library.js:34083
+#: wp-includes/js/dist/block-library.js:36059
+#: wp-includes/js/dist/block-library.js:37164
+#: wp-includes/js/dist/block-library.js:37420
+#: wp-includes/js/dist/block-library.js:38280
+#: wp-includes/js/dist/block-library.js:38761
+#: wp-includes/js/dist/block-library.js:39380
+#: wp-includes/js/dist/block-library.js:39672
+#: wp-includes/js/dist/block-library.js:40593
+#: wp-includes/js/dist/block-library.js:40811
+#: wp-includes/js/dist/block-library.js:42845
+#: wp-includes/js/dist/block-library.js:44492
+#: wp-includes/js/dist/block-library.js:44683
+#: wp-includes/js/dist/block-library.js:44965
+#: wp-includes/js/dist/block-library.js:45000
+#: wp-includes/js/dist/block-library.js:45049
+#: wp-includes/js/dist/block-library.js:46245
+#: wp-includes/js/dist/block-library.js:46432
+#: wp-includes/js/dist/block-library.js:46890
+#: wp-includes/js/dist/block-library.js:47716
+#: wp-includes/js/dist/block-library.js:48379
+#: wp-includes/js/dist/block-library.js:48728
+#: wp-includes/js/dist/block-library.js:49639
+#: wp-includes/js/dist/block-library.js:49938
+#: wp-includes/js/dist/block-library.js:51556
+#: wp-includes/js/dist/block-library.js:52281
+#: wp-includes/js/dist/block-library.js:52568
+#: wp-includes/js/dist/block-library.js:54844
+#: wp-includes/js/dist/block-library.js:55276
+#: wp-includes/js/dist/block-library.js:56937
 #: wp-includes/js/dist/edit-widgets.js:2640 wp-admin/includes/ms.php:1085
 #: wp-admin/menu.php:402 wp-admin/options.php:22 wp-admin/network/menu.php:114
 msgid "Settings"
@@ -21670,22 +21670,22 @@ msgstr "<strong>错误：</strong>请填写用户名。"
 
 #: wp-includes/class-wp-editor.php:1335 wp-includes/media-template.php:1212
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
-#: wp-includes/js/dist/block-editor.js:27863
-#: wp-includes/js/dist/block-editor.js:27976
-#: wp-includes/js/dist/block-editor.js:59511
-#: wp-includes/js/dist/block-editor.js:67001
-#: wp-includes/js/dist/block-editor.js:67009
-#: wp-includes/js/dist/block-library.js:5790
-#: wp-includes/js/dist/block-library.js:5798
-#: wp-includes/js/dist/block-library.js:7666
-#: wp-includes/js/dist/block-library.js:7672
-#: wp-includes/js/dist/block-library.js:38892
-#: wp-includes/js/dist/block-library.js:38903
-#: wp-includes/js/dist/block-library.js:46865
-#: wp-includes/js/dist/block-library.js:46878
-#: wp-includes/js/dist/block-library.js:49830
-#: wp-includes/js/dist/block-library.js:49837
-#: wp-includes/js/dist/format-library.js:333 wp-admin/options-media.php:63
+#: wp-includes/js/dist/block-editor.js:27896
+#: wp-includes/js/dist/block-editor.js:28009
+#: wp-includes/js/dist/block-editor.js:59544
+#: wp-includes/js/dist/block-editor.js:67029
+#: wp-includes/js/dist/block-editor.js:67037
+#: wp-includes/js/dist/block-library.js:5910
+#: wp-includes/js/dist/block-library.js:5918
+#: wp-includes/js/dist/block-library.js:7786
+#: wp-includes/js/dist/block-library.js:7792
+#: wp-includes/js/dist/block-library.js:39012
+#: wp-includes/js/dist/block-library.js:39023
+#: wp-includes/js/dist/block-library.js:46985
+#: wp-includes/js/dist/block-library.js:46998
+#: wp-includes/js/dist/block-library.js:49950
+#: wp-includes/js/dist/block-library.js:49957
+#: wp-includes/js/dist/format-library.js:320 wp-admin/options-media.php:63
 msgid "Width"
 msgstr "宽度"
 
@@ -21693,7 +21693,7 @@ msgstr "宽度"
 msgid "Yellow"
 msgstr "黄色"
 
-#: wp-includes/class-wp-theme.php:1082 wp-includes/js/dist/block-editor.js:8050
+#: wp-includes/class-wp-theme.php:1082 wp-includes/js/dist/block-editor.js:8051
 msgid "White"
 msgstr "白色"
 
@@ -21729,7 +21729,7 @@ msgstr "棕色"
 msgid "Blue"
 msgstr "蓝色"
 
-#: wp-includes/class-wp-theme.php:1071 wp-includes/js/dist/block-editor.js:8040
+#: wp-includes/class-wp-theme.php:1071 wp-includes/js/dist/block-editor.js:8041
 msgid "Black"
 msgstr "黑色"
 
@@ -21750,10 +21750,10 @@ msgstr "帮助"
 #: wp-includes/blocks/rss.php:52 wp-includes/media.php:4574
 #: wp-includes/script-loader.php:1268
 #: wp-includes/widgets/class-wp-widget-recent-posts.php:114
-#: wp-includes/js/dist/block-library.js:25778
-#: wp-includes/js/dist/block-library.js:25815
-#: wp-includes/js/dist/block-library.js:35850
-#: wp-includes/js/dist/block-library.js:35854
+#: wp-includes/js/dist/block-library.js:25898
+#: wp-includes/js/dist/block-library.js:25935
+#: wp-includes/js/dist/block-library.js:35970
+#: wp-includes/js/dist/block-library.js:35974
 #: wp-includes/js/dist/core-commands.js:308
 #: wp-includes/js/dist/core-commands.js:395
 #: wp-includes/js/dist/core-data.js:4877 wp-includes/js/dist/core-data.js:4901
@@ -21761,8 +21761,8 @@ msgstr "帮助"
 #: wp-includes/js/dist/edit-post.js:2376 wp-includes/js/dist/edit-site.js:24072
 #: wp-includes/js/dist/edit-site.js:32591
 #: wp-includes/js/dist/edit-site.js:35109
-#: wp-includes/js/dist/edit-site.js:45711
-#: wp-includes/js/dist/edit-site.js:46627 wp-includes/js/dist/editor.js:4580
+#: wp-includes/js/dist/edit-site.js:45717
+#: wp-includes/js/dist/edit-site.js:46633 wp-includes/js/dist/editor.js:4580
 #: wp-includes/js/dist/editor.js:7256 wp-includes/js/dist/editor.js:19671
 #: wp-admin/includes/ajax-actions.php:2267 wp-admin/includes/media.php:3346
 #: wp-admin/includes/revision.php:61 wp-admin/includes/revision.php:64
@@ -21793,15 +21793,15 @@ msgstr "选择"
 #: wp-includes/class-wp-customize-manager.php:5741
 #: wp-includes/class-wp-editor.php:1189 wp-includes/class-wp-editor.php:1886
 #: wp-includes/script-loader.php:993 wp-includes/script-loader.php:1313
-#: wp-includes/script-loader.php:1997 wp-includes/js/dist/block-editor.js:62091
-#: wp-includes/js/dist/block-editor.js:63759
-#: wp-includes/js/dist/block-library.js:30363
-#: wp-includes/js/dist/block-library.js:32922
-#: wp-includes/js/dist/components.js:34208
-#: wp-includes/js/dist/components.js:44640
-#: wp-includes/js/dist/components.js:56670
+#: wp-includes/script-loader.php:1997 wp-includes/js/dist/block-editor.js:62105
+#: wp-includes/js/dist/block-editor.js:63773
+#: wp-includes/js/dist/block-library.js:30483
+#: wp-includes/js/dist/block-library.js:33042
+#: wp-includes/js/dist/components.js:34220
+#: wp-includes/js/dist/components.js:44652
+#: wp-includes/js/dist/components.js:56682
 #: wp-includes/js/dist/edit-site.js:9355 wp-includes/js/dist/edit-site.js:21950
-#: wp-includes/js/dist/edit-site.js:47245
+#: wp-includes/js/dist/edit-site.js:47251
 #: wp-includes/js/dist/edit-widgets.js:3720 wp-includes/js/dist/editor.js:10550
 #: wp-includes/js/dist/editor.js:22057 wp-includes/js/dist/editor.js:23204
 #: wp-admin/includes/class-wp-theme-install-list-table.php:397
@@ -21812,8 +21812,8 @@ msgstr "关闭"
 #: wp-includes/post-template.php:1307 wp-includes/theme-compat/sidebar.php:119
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:44
-#: wp-includes/js/dist/edit-site.js:9967 wp-includes/js/dist/edit-site.js:48639
-#: wp-includes/js/dist/edit-site.js:48697 wp-admin/export.php:250
+#: wp-includes/js/dist/edit-site.js:9967 wp-includes/js/dist/edit-site.js:48645
+#: wp-includes/js/dist/edit-site.js:48703 wp-admin/export.php:250
 msgid "Pages"
 msgstr "页面"
 
@@ -21864,7 +21864,7 @@ msgstr "图片"
 msgid "By %s"
 msgstr "作者：%s"
 
-#: wp-includes/js/dist/block-library.js:51794
+#: wp-includes/js/dist/block-library.js:51914
 #: wp-admin/includes/class-plugin-installer-skin.php:223
 #: wp-admin/includes/class-theme-installer-skin.php:256
 #: wp-admin/includes/class-wp-debug-data.php:172
@@ -21877,22 +21877,22 @@ msgstr "版本"
 #: wp-includes/admin-bar.php:1192 wp-includes/admin-bar.php:1194
 #: wp-includes/blocks/search.php:25 wp-includes/blocks/search.php:26
 #: wp-includes/blocks/search.php:50 wp-includes/class-wp-editor.php:1909
-#: wp-includes/media.php:4977 wp-includes/js/dist/block-editor.js:41732
-#: wp-includes/js/dist/block-editor.js:41733
-#: wp-includes/js/dist/block-editor.js:43853
-#: wp-includes/js/dist/block-editor.js:44442
-#: wp-includes/js/dist/block-editor.js:44443
-#: wp-includes/js/dist/block-editor.js:44721
-#: wp-includes/js/dist/block-editor.js:44722
-#: wp-includes/js/dist/block-library.js:43205
-#: wp-includes/js/dist/block-library.js:43206
-#: wp-includes/js/dist/block-library.js:46744
-#: wp-includes/js/dist/block-library.js:47046
-#: wp-includes/js/dist/block-library.js:47063
-#: wp-includes/js/dist/block-library.js:53454
-#: wp-includes/js/dist/block-library.js:53455
-#: wp-includes/js/dist/components.js:55031
-#: wp-includes/js/dist/components.js:55032
+#: wp-includes/media.php:4977 wp-includes/js/dist/block-editor.js:41765
+#: wp-includes/js/dist/block-editor.js:41766
+#: wp-includes/js/dist/block-editor.js:43886
+#: wp-includes/js/dist/block-editor.js:44475
+#: wp-includes/js/dist/block-editor.js:44476
+#: wp-includes/js/dist/block-editor.js:44754
+#: wp-includes/js/dist/block-editor.js:44755
+#: wp-includes/js/dist/block-library.js:43325
+#: wp-includes/js/dist/block-library.js:43326
+#: wp-includes/js/dist/block-library.js:46864
+#: wp-includes/js/dist/block-library.js:47166
+#: wp-includes/js/dist/block-library.js:47183
+#: wp-includes/js/dist/block-library.js:53574
+#: wp-includes/js/dist/block-library.js:53575
+#: wp-includes/js/dist/components.js:55043
+#: wp-includes/js/dist/components.js:55044
 #: wp-includes/js/dist/edit-site.js:11468
 #: wp-includes/js/dist/edit-site.js:11469
 #: wp-includes/js/dist/edit-site.js:13925
@@ -21926,7 +21926,7 @@ msgstr "所有分类"
 #: wp-includes/class-wp-customize-control.php:650
 #: wp-includes/class-wp-customize-nav-menus.php:1247
 #: wp-includes/class-wp-post-type.php:992
-#: wp-includes/js/dist/block-library.js:20491
+#: wp-includes/js/dist/block-library.js:20611
 #: wp-includes/js/dist/editor.js:4396 wp-includes/js/dist/editor.js:22057
 #: wp-includes/js/dist/patterns.js:450 wp-admin/includes/meta-boxes.php:599
 #: wp-admin/includes/meta-boxes.php:1212
@@ -21960,7 +21960,7 @@ msgid "Public"
 msgstr "公开"
 
 #: wp-includes/post.php:1325 wp-includes/post.php:1345
-#: wp-includes/js/dist/edit-site.js:46478 wp-includes/js/dist/editor.js:6278
+#: wp-includes/js/dist/edit-site.js:46484 wp-includes/js/dist/editor.js:6278
 #: wp-includes/js/dist/editor.js:17484 wp-includes/js/dist/editor.js:19964
 #: wp-includes/js/dist/editor.js:19980
 #: wp-admin/includes/class-wp-posts-list-table.php:1795
@@ -21971,8 +21971,8 @@ msgid "Private"
 msgstr "私密"
 
 #: wp-includes/class-wp-editor.php:1187
-#: wp-includes/js/dist/block-library.js:43085
-#: wp-includes/js/dist/components.js:44718 wp-admin/includes/meta-boxes.php:165
+#: wp-includes/js/dist/block-library.js:43205
+#: wp-includes/js/dist/components.js:44730 wp-admin/includes/meta-boxes.php:165
 #: wp-admin/includes/meta-boxes.php:223 wp-admin/includes/template.php:894
 #: wp-admin/js/post.js:1012
 msgid "OK"
@@ -21988,19 +21988,19 @@ msgstr "图片 URL"
 #: wp-includes/js/dist/edit-site.js:33921
 #: wp-includes/js/dist/edit-site.js:34574
 #: wp-includes/js/dist/edit-site.js:43346 wp-includes/js/dist/editor.js:24672
-#: wp-includes/js/dist/editor.js:29660 wp-admin/includes/media.php:2597
+#: wp-includes/js/dist/editor.js:29676 wp-admin/includes/media.php:2597
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:374
 msgid "Actions"
 msgstr "操作"
 
 #. translators: Default privacy policy heading.
 #: wp-includes/class-wp-editor.php:1239 wp-includes/media.php:4974
-#: wp-includes/media.php:5665 wp-includes/js/dist/block-editor.js:44604
-#: wp-includes/js/dist/block-editor.js:60015
-#: wp-includes/js/dist/block-library.js:47909
-#: wp-includes/js/dist/blocks.js:7367 wp-includes/js/dist/core-data.js:3809
+#: wp-includes/media.php:5665 wp-includes/js/dist/block-editor.js:44637
+#: wp-includes/js/dist/block-editor.js:60048
+#: wp-includes/js/dist/block-library.js:48029
+#: wp-includes/js/dist/blocks.js:7368 wp-includes/js/dist/core-data.js:3809
 #: wp-includes/js/dist/edit-site.js:21064
-#: wp-includes/js/dist/edit-site.js:21082 wp-includes/js/dist/editor.js:30624
+#: wp-includes/js/dist/edit-site.js:21082 wp-includes/js/dist/editor.js:30640
 #: wp-admin/export.php:311
 #: wp-admin/includes/class-wp-privacy-policy-content.php:508
 #: wp-admin/includes/media.php:2595 wp-admin/menu.php:73 wp-admin/menu.php:407
@@ -22016,7 +22016,7 @@ msgstr "编辑图片"
 #: wp-includes/media-template.php:645 wp-includes/media-template.php:793
 #: wp-includes/media-template.php:1084 wp-includes/media-template.php:1147
 #: wp-includes/widgets/class-wp-widget-media-image.php:91
-#: wp-includes/js/dist/block-editor.js:64244 wp-admin/includes/media.php:1405
+#: wp-includes/js/dist/block-editor.js:64272 wp-admin/includes/media.php:1405
 #: wp-admin/includes/media.php:3257
 msgid "Caption"
 msgstr "说明文字"
@@ -22030,14 +22030,14 @@ msgstr "对齐方式"
 #: wp-includes/media-template.php:1176
 #: wp-includes/widgets/class-wp-widget-media-image.php:72
 #: wp-includes/js/dist/block-editor.js:20909
-#: wp-includes/js/dist/block-editor.js:25990
+#: wp-includes/js/dist/block-editor.js:26002
 #: wp-includes/js/dist/edit-site.js:19078 wp-admin/includes/media.php:1254
 msgid "Size"
 msgstr "尺寸"
 
 #: wp-includes/block-editor.php:174 wp-includes/media-template.php:919
 #: wp-includes/media-template.php:999 wp-includes/media-template.php:1190
-#: wp-includes/media.php:4617 wp-includes/js/dist/block-editor.js:8131
+#: wp-includes/media.php:4617 wp-includes/js/dist/block-editor.js:8132
 #: wp-admin/includes/class-custom-background.php:633
 #: wp-admin/includes/media.php:1206
 msgid "Full Size"
@@ -22046,8 +22046,8 @@ msgstr "全尺寸"
 #: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:4238
 #: wp-includes/media-template.php:917 wp-includes/media-template.php:997
 #: wp-includes/media-template.php:1188 wp-includes/media.php:4615
-#: wp-includes/js/dist/block-editor.js:8129
-#: wp-includes/js/dist/components.js:52945
+#: wp-includes/js/dist/block-editor.js:8130
+#: wp-includes/js/dist/components.js:52957
 #: wp-admin/includes/class-custom-background.php:631
 #: wp-admin/includes/media.php:1204
 msgid "Medium"
@@ -22059,7 +22059,7 @@ msgstr "中等"
 #: wp-includes/media-template.php:1164
 #: wp-includes/js/dist/block-editor.js:16193
 #: wp-includes/js/dist/block-library.js:2086
-#: wp-includes/js/dist/block-library.js:25215
+#: wp-includes/js/dist/block-library.js:25335
 #: wp-admin/includes/class-custom-background.php:413
 #: wp-admin/includes/media.php:1163 wp-admin/includes/media.php:2998
 msgid "Right"
@@ -22069,7 +22069,7 @@ msgstr "右"
 #: wp-includes/customize/class-wp-customize-background-position-control.php:61
 #: wp-includes/media-template.php:841 wp-includes/media-template.php:1097
 #: wp-includes/media-template.php:1161
-#: wp-includes/js/dist/block-library.js:25210
+#: wp-includes/js/dist/block-library.js:25330
 #: wp-includes/js/dist/components.js:15253
 #: wp-includes/js/dist/components.js:15254
 #: wp-admin/includes/class-custom-background.php:409
@@ -22083,8 +22083,8 @@ msgstr "中"
 #: wp-includes/media-template.php:1158
 #: wp-includes/js/dist/block-editor.js:16192
 #: wp-includes/js/dist/block-library.js:2079
-#: wp-includes/js/dist/block-library.js:25205
-#: wp-includes/js/dist/components.js:52438
+#: wp-includes/js/dist/block-library.js:25325
+#: wp-includes/js/dist/components.js:52450
 #: wp-admin/includes/class-custom-background.php:405
 #: wp-admin/includes/media.php:1161 wp-admin/includes/media.php:2994
 msgid "Left"
@@ -22115,14 +22115,14 @@ msgstr "文件「%s」不存在？"
 
 #: wp-includes/block-editor.php:171 wp-includes/media-template.php:916
 #: wp-includes/media-template.php:996 wp-includes/media-template.php:1187
-#: wp-includes/media.php:4614 wp-includes/js/dist/block-editor.js:8128
+#: wp-includes/media.php:4614 wp-includes/js/dist/block-editor.js:8129
 #: wp-admin/includes/class-custom-background.php:630
 #: wp-admin/includes/image-edit.php:310 wp-admin/includes/media.php:1203
 msgid "Thumbnail"
 msgstr "缩略图"
 
-#: wp-includes/js/dist/block-editor.js:64656
-#: wp-includes/js/dist/block-editor.js:64665
+#: wp-includes/js/dist/block-editor.js:64684
+#: wp-includes/js/dist/block-editor.js:64693
 #: wp-admin/includes/image-edit.php:64 wp-admin/includes/image-edit.php:161
 msgid "Scale"
 msgstr "缩放"
@@ -22196,10 +22196,10 @@ msgid "Pingback"
 msgstr "Pingback"
 
 #: wp-includes/comment-template.php:1759
-#: wp-includes/js/dist/block-library.js:8880
-#: wp-includes/js/dist/block-library.js:9756
-#: wp-includes/js/dist/editor.js:29521
-#: wp-admin/includes/class-wp-comments-list-table.php:854
+#: wp-includes/js/dist/block-library.js:9000
+#: wp-includes/js/dist/block-library.js:9876
+#: wp-includes/js/dist/editor.js:29537
+#: wp-admin/includes/class-wp-comments-list-table.php:855
 #: wp-admin/includes/dashboard.php:768 wp-admin/js/edit-comments.js:373
 #: wp-admin/js/edit-comments.js:1015
 msgid "Reply"
@@ -22217,8 +22217,8 @@ msgid "Tags"
 msgstr "标签"
 
 #. translators: accessibility text for the content landmark region.
-#: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:62664
-#: wp-includes/js/dist/block-editor.js:62935
+#: wp-includes/revision.php:33 wp-includes/js/dist/block-editor.js:62678
+#: wp-includes/js/dist/block-editor.js:62949
 #: wp-includes/js/dist/edit-widgets.js:1126 wp-includes/js/dist/editor.js:9500
 #: wp-includes/js/dist/editor.js:25668 wp-includes/js/dist/editor.js:25712
 #: wp-admin/includes/dashboard.php:598 wp-admin/index.php:104
@@ -22229,18 +22229,18 @@ msgstr "内容"
 #: wp-includes/media.php:4979 wp-includes/script-loader.php:1312
 #: wp-includes/js/dist/block-editor.js:20186
 #: wp-includes/js/dist/block-editor.js:21681
-#: wp-includes/js/dist/block-editor.js:43530
-#: wp-includes/js/dist/block-editor.js:50891
-#: wp-includes/js/dist/block-editor.js:51141
-#: wp-includes/js/dist/block-editor.js:59333
-#: wp-includes/js/dist/block-editor.js:60081
-#: wp-includes/js/dist/block-editor.js:60084
-#: wp-includes/js/dist/block-editor.js:64583
-#: wp-includes/js/dist/block-library.js:7163
-#: wp-includes/js/dist/block-library.js:31823
-#: wp-includes/js/dist/block-library.js:35688
-#: wp-includes/js/dist/block-library.js:53266
-#: wp-includes/js/dist/components.js:44717
+#: wp-includes/js/dist/block-editor.js:43563
+#: wp-includes/js/dist/block-editor.js:50924
+#: wp-includes/js/dist/block-editor.js:51174
+#: wp-includes/js/dist/block-editor.js:59366
+#: wp-includes/js/dist/block-editor.js:60114
+#: wp-includes/js/dist/block-editor.js:60117
+#: wp-includes/js/dist/block-editor.js:64611
+#: wp-includes/js/dist/block-library.js:7283
+#: wp-includes/js/dist/block-library.js:31943
+#: wp-includes/js/dist/block-library.js:35808
+#: wp-includes/js/dist/block-library.js:53386
+#: wp-includes/js/dist/components.js:44729
 #: wp-includes/js/dist/edit-site.js:13550
 #: wp-includes/js/dist/edit-site.js:18760
 #: wp-includes/js/dist/edit-site.js:18825
@@ -22249,8 +22249,8 @@ msgstr "内容"
 #: wp-includes/js/dist/edit-site.js:20408
 #: wp-includes/js/dist/edit-site.js:24323
 #: wp-includes/js/dist/edit-site.js:33063
-#: wp-includes/js/dist/edit-site.js:46669
-#: wp-includes/js/dist/edit-site.js:47829 wp-includes/js/dist/editor.js:4547
+#: wp-includes/js/dist/edit-site.js:46675
+#: wp-includes/js/dist/edit-site.js:47835 wp-includes/js/dist/editor.js:4547
 #: wp-includes/js/dist/editor.js:4781 wp-includes/js/dist/editor.js:4874
 #: wp-includes/js/dist/editor.js:5286 wp-includes/js/dist/editor.js:5508
 #: wp-includes/js/dist/editor.js:5672 wp-includes/js/dist/editor.js:5841
@@ -22278,7 +22278,7 @@ msgid "Cancel"
 msgstr "取消"
 
 #: wp-includes/admin-bar.php:443 wp-includes/admin-bar.php:639
-#: wp-includes/js/dist/block-editor.js:46295
+#: wp-includes/js/dist/block-editor.js:46328
 #: wp-includes/js/dist/core-data.js:3917 wp-admin/plugins.php:634
 #: wp-admin/update-core.php:469 wp-admin/update-core.php:488
 #: wp-admin/network/menu.php:108 wp-admin/network/settings.php:503
@@ -22293,12 +22293,12 @@ msgstr "近期评论"
 
 #: wp-includes/class-wp-customize-manager.php:4336
 #: wp-includes/class-wp-editor.php:1255
-#: wp-includes/js/dist/block-editor.js:49232
-#: wp-includes/js/dist/block-library.js:22262
+#: wp-includes/js/dist/block-editor.js:49265
+#: wp-includes/js/dist/block-library.js:22382
 #: wp-includes/js/dist/edit-site.js:42272
 #: wp-includes/js/dist/edit-site.js:42501
 #: wp-includes/js/dist/edit-site.js:43549
-#: wp-includes/js/dist/edit-site.js:45930 wp-admin/customize.php:211
+#: wp-includes/js/dist/edit-site.js:45936 wp-admin/customize.php:211
 #: wp-admin/includes/class-custom-background.php:282
 #: wp-admin/includes/class-custom-image-header.php:553
 #: wp-admin/includes/class-wp-posts-list-table.php:1553
@@ -22317,22 +22317,22 @@ msgid "RSS"
 msgstr "RSS"
 
 #: wp-includes/js/dist/block-editor.js:20236
-#: wp-includes/js/dist/block-editor.js:62105
-#: wp-includes/js/dist/block-library.js:18278
+#: wp-includes/js/dist/block-editor.js:62119
+#: wp-includes/js/dist/block-library.js:18398
 #: wp-admin/includes/dashboard.php:1402 wp-admin/setup-config.php:272
 msgid "Submit"
 msgstr "提交"
 
 #. translators: Name of a comment's author after being anonymized.
 #: wp-includes/class-wp-theme.php:1022 wp-includes/comment-template.php:40
-#: wp-includes/comment.php:3998 wp-includes/js/dist/block-library.js:9252
+#: wp-includes/comment.php:3998 wp-includes/js/dist/block-library.js:9372
 msgid "Anonymous"
 msgstr "匿名"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:57
 #: wp-includes/customize/class-wp-widget-area-customize-control.php:61
-#: wp-includes/js/dist/block-editor.js:46090
-#: wp-includes/js/dist/components.js:43576 wp-admin/includes/widgets.php:299
+#: wp-includes/js/dist/block-editor.js:46123
+#: wp-includes/js/dist/components.js:43588 wp-admin/includes/widgets.php:299
 #: wp-admin/js/set-post-thumbnail.js:21
 msgid "Done"
 msgstr "完成"
@@ -22359,12 +22359,12 @@ msgid "Edit Tag"
 msgstr "编辑标签"
 
 #: wp-includes/script-loader.php:1107 wp-includes/js/dist/block-editor.js:22786
-#: wp-includes/js/dist/block-editor.js:25451
-#: wp-includes/js/dist/block-editor.js:25523
-#: wp-includes/js/dist/block-editor.js:27070
-#: wp-includes/js/dist/block-library.js:19803
-#: wp-includes/js/dist/block-library.js:25200
-#: wp-includes/js/dist/components.js:40575 wp-includes/js/dist/editor.js:6853
+#: wp-includes/js/dist/block-editor.js:25449
+#: wp-includes/js/dist/block-editor.js:25521
+#: wp-includes/js/dist/block-editor.js:27103
+#: wp-includes/js/dist/block-library.js:19923
+#: wp-includes/js/dist/block-library.js:25320
+#: wp-includes/js/dist/components.js:40587 wp-includes/js/dist/editor.js:6853
 #: wp-includes/js/dist/editor.js:14362 wp-admin/edit-tag-form.php:189
 #: wp-admin/edit-tags.php:484 wp-admin/includes/class-wp-debug-data.php:1110
 #: wp-admin/includes/media.php:1160 wp-admin/includes/media.php:1288
@@ -22375,10 +22375,10 @@ msgstr "无"
 #: wp-includes/class-wp-editor.php:1218
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:148
 #: wp-includes/media-template.php:545 wp-includes/media-template.php:797
-#: wp-includes/js/dist/block-library.js:34102
-#: wp-includes/js/dist/block-library.js:34109
-#: wp-includes/js/dist/edit-site.js:45936 wp-includes/js/dist/editor.js:16156
-#: wp-includes/js/dist/editor.js:16205 wp-includes/js/dist/editor.js:31026
+#: wp-includes/js/dist/block-library.js:34222
+#: wp-includes/js/dist/block-library.js:34229
+#: wp-includes/js/dist/edit-site.js:45942 wp-includes/js/dist/editor.js:16156
+#: wp-includes/js/dist/editor.js:16205 wp-includes/js/dist/editor.js:31042
 #: wp-admin/edit-link-form.php:139 wp-admin/edit-tag-form.php:206
 #: wp-admin/edit-tags.php:522
 #: wp-admin/includes/class-walker-nav-menu-edit.php:237
@@ -22392,19 +22392,19 @@ msgid "Description"
 msgstr "描述"
 
 #: wp-includes/comment-template.php:2538
-#: wp-includes/js/dist/block-editor.js:51125
-#: wp-includes/js/dist/block-library.js:17259
-#: wp-includes/js/dist/block-library.js:17480
-#: wp-includes/js/dist/block-library.js:18027
-#: wp-includes/js/dist/block-library.js:44923
-#: wp-includes/js/dist/block-library.js:53248
-#: wp-includes/js/dist/block-library.js:55465
+#: wp-includes/js/dist/block-editor.js:51158
+#: wp-includes/js/dist/block-library.js:17379
+#: wp-includes/js/dist/block-library.js:17600
+#: wp-includes/js/dist/block-library.js:18147
+#: wp-includes/js/dist/block-library.js:45043
+#: wp-includes/js/dist/block-library.js:53368
+#: wp-includes/js/dist/block-library.js:55585
 #: wp-includes/js/dist/edit-post.js:1132 wp-includes/js/dist/edit-site.js:18814
 #: wp-includes/js/dist/edit-site.js:20388
 #: wp-includes/js/dist/edit-site.js:24313
-#: wp-includes/js/dist/edit-site.js:45494 wp-includes/js/dist/editor.js:4459
+#: wp-includes/js/dist/edit-site.js:45500 wp-includes/js/dist/editor.js:4459
 #: wp-includes/js/dist/editor.js:4766 wp-includes/js/dist/editor.js:14591
-#: wp-includes/js/dist/editor.js:31011 wp-includes/js/dist/patterns.js:510
+#: wp-includes/js/dist/editor.js:31027 wp-includes/js/dist/patterns.js:510
 #: wp-includes/js/dist/patterns.js:729 wp-includes/js/dist/patterns.js:1131
 #: wp-includes/js/dist/patterns.js:1230
 #: wp-includes/js/dist/reusable-blocks.js:318 wp-admin/edit-form-comment.php:59
@@ -22419,7 +22419,7 @@ msgid "Name"
 msgstr "显示名称"
 
 #: wp-includes/class-wp-editor.php:1225
-#: wp-includes/js/dist/block-editor.js:62696
+#: wp-includes/js/dist/block-editor.js:62710
 #: wp-includes/js/dist/edit-post.js:1502 wp-includes/js/dist/edit-site.js:11823
 #: wp-admin/edit-link-form.php:34
 msgid "Advanced"
@@ -22434,7 +22434,7 @@ msgstr "打开方式"
 #: wp-includes/theme-compat/sidebar.php:131
 #: wp-includes/widgets/class-wp-widget-categories.php:31
 #: wp-includes/widgets/class-wp-widget-categories.php:48
-#: wp-includes/js/dist/components.js:57261 wp-includes/js/dist/patterns.js:341
+#: wp-includes/js/dist/components.js:57273 wp-includes/js/dist/patterns.js:341
 #: wp-admin/edit-link-form.php:31
 #: wp-admin/includes/class-wp-links-list-table.php:137
 #: wp-admin/includes/upgrade.php:429
@@ -22442,9 +22442,9 @@ msgid "Categories"
 msgstr "分类"
 
 #: wp-includes/class-wp-editor.php:1257
-#: wp-includes/js/dist/block-editor.js:51152
-#: wp-includes/js/dist/block-library.js:7179
-#: wp-includes/js/dist/block-library.js:37523
+#: wp-includes/js/dist/block-editor.js:51185
+#: wp-includes/js/dist/block-library.js:7299
+#: wp-includes/js/dist/block-library.js:37643
 #: wp-includes/js/dist/edit-site.js:8619 wp-includes/js/dist/edit-site.js:18834
 #: wp-includes/js/dist/edit-site.js:20417
 #: wp-includes/js/dist/edit-site.js:24342 wp-includes/js/dist/editor.js:4790
@@ -22474,10 +22474,10 @@ msgstr "更新分类"
 msgid "Edit Link Category"
 msgstr "编辑链接分类"
 
-#: wp-includes/js/dist/block-editor.js:51755
-#: wp-includes/js/dist/block-editor.js:53397
-#: wp-includes/js/dist/block-editor.js:64592
-#: wp-includes/js/dist/block-library.js:30628
+#: wp-includes/js/dist/block-editor.js:51788
+#: wp-includes/js/dist/block-editor.js:53430
+#: wp-includes/js/dist/block-editor.js:64620
+#: wp-includes/js/dist/block-library.js:30748
 #: wp-includes/js/dist/edit-site.js:13496
 #: wp-includes/js/dist/edit-site.js:13551
 #: wp-includes/js/dist/edit-site.js:18761
@@ -22488,8 +22488,8 @@ msgstr "编辑链接分类"
 #: wp-includes/js/dist/edit-site.js:24447
 #: wp-includes/js/dist/edit-site.js:43293
 #: wp-includes/js/dist/edit-site.js:43300 wp-includes/js/dist/editor.js:5468
-#: wp-includes/js/dist/editor.js:5609 wp-includes/js/dist/editor.js:29591
-#: wp-includes/js/dist/editor.js:29738 wp-admin/edit-tag-form.php:305
+#: wp-includes/js/dist/editor.js:5609 wp-includes/js/dist/editor.js:29607
+#: wp-includes/js/dist/editor.js:29754 wp-admin/edit-tag-form.php:305
 #: wp-admin/includes/class-wp-links-list-table.php:90
 #: wp-admin/includes/class-wp-links-list-table.php:357
 #: wp-admin/includes/class-wp-plugins-list-table.php:624
@@ -22529,20 +22529,20 @@ msgid "Revisions"
 msgstr "修订版本"
 
 #. translators: Hidden accessibility text.
-#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:25345
+#: wp-includes/revision.php:34 wp-includes/js/dist/block-library.js:25465
 #: wp-includes/js/dist/editor.js:16156 wp-includes/js/dist/editor.js:16205
-#: wp-includes/js/dist/editor.js:30440 wp-admin/includes/meta-boxes.php:750
+#: wp-includes/js/dist/editor.js:30456 wp-admin/includes/meta-boxes.php:750
 #: wp-admin/includes/meta-boxes.php:1609 wp-admin/options-reading.php:187
 msgid "Excerpt"
 msgstr "摘要"
 
-#: wp-includes/js/dist/block-editor.js:46626 wp-admin/network/site-info.php:199
+#: wp-includes/js/dist/block-editor.js:46659 wp-admin/network/site-info.php:199
 msgid "Attributes"
 msgstr "属性"
 
 #. translators: accessibility text for the publish landmark region.
 #: wp-includes/class-wp-customize-manager.php:4863
-#: wp-includes/script-loader.php:1300 wp-includes/js/dist/block-editor.js:63798
+#: wp-includes/script-loader.php:1300 wp-includes/js/dist/block-editor.js:63812
 #: wp-includes/js/dist/edit-widgets.js:1132 wp-includes/js/dist/editor.js:9506
 #: wp-includes/js/dist/editor.js:17286 wp-includes/js/dist/editor.js:17294
 #: wp-includes/js/dist/editor.js:20366 wp-admin/customize.php:197
@@ -22556,7 +22556,7 @@ msgstr "发布"
 #: wp-includes/comment.php:3918 wp-includes/link-template.php:3333
 #: wp-includes/js/dist/edit-site.js:21020 wp-includes/js/dist/editor.js:6877
 #: wp-admin/edit-comments.php:199 wp-admin/edit-comments.php:260
-#: wp-admin/includes/class-wp-comments-list-table.php:512
+#: wp-admin/includes/class-wp-comments-list-table.php:513
 #: wp-admin/includes/class-wp-media-list-table.php:373
 #: wp-admin/includes/class-wp-media-list-table.php:375
 #: wp-admin/includes/class-wp-media-list-table.php:403
@@ -22575,25 +22575,25 @@ msgstr "评论"
 #: wp-includes/class-wp-editor.php:1396 wp-includes/media.php:5019
 #: wp-includes/js/dist/block-editor.js:20197
 #: wp-includes/js/dist/block-editor.js:21690
-#: wp-includes/js/dist/block-editor.js:50900
-#: wp-includes/js/dist/block-editor.js:59332
-#: wp-includes/js/dist/block-editor.js:59659
-#: wp-includes/js/dist/block-editor.js:59797
-#: wp-includes/js/dist/block-library.js:46271
-#: wp-includes/js/dist/block-library.js:48504
-#: wp-includes/js/dist/block-library.js:56486
+#: wp-includes/js/dist/block-editor.js:50933
+#: wp-includes/js/dist/block-editor.js:59365
+#: wp-includes/js/dist/block-editor.js:59692
+#: wp-includes/js/dist/block-editor.js:59830
+#: wp-includes/js/dist/block-library.js:46391
+#: wp-includes/js/dist/block-library.js:48624
+#: wp-includes/js/dist/block-library.js:56606
 #: wp-includes/js/dist/edit-site.js:22662
 #: wp-includes/js/dist/edit-site.js:22910
-#: wp-includes/js/dist/edit-site.js:47838
-#: wp-includes/js/dist/format-library.js:378
-#: wp-includes/js/dist/format-library.js:1830
+#: wp-includes/js/dist/edit-site.js:47844
+#: wp-includes/js/dist/format-library.js:365
+#: wp-includes/js/dist/format-library.js:1821
 #: wp-admin/includes/class-wp-list-table.php:628
 #: wp-admin/includes/class-wp-screen.php:1097
 msgid "Apply"
 msgstr "应用"
 
 #: wp-includes/class-wp-editor.php:1184
-#: wp-includes/js/dist/block-editor.js:57600
+#: wp-includes/js/dist/block-editor.js:57633
 #: wp-includes/js/dist/customize-widgets.js:912
 #: wp-includes/js/dist/edit-post.js:771 wp-includes/js/dist/edit-post.js:1779
 #: wp-includes/js/dist/edit-site.js:6988
@@ -22639,8 +22639,8 @@ msgid "View"
 msgstr "查看"
 
 #: wp-includes/js/dist/editor.js:4982
-#: wp-admin/includes/class-wp-comments-list-table.php:383
-#: wp-admin/includes/class-wp-comments-list-table.php:805
+#: wp-admin/includes/class-wp-comments-list-table.php:384
+#: wp-admin/includes/class-wp-comments-list-table.php:806
 #: wp-admin/includes/class-wp-media-list-table.php:184
 #: wp-admin/includes/class-wp-media-list-table.php:789
 #: wp-admin/includes/class-wp-posts-list-table.php:438
@@ -22653,23 +22653,23 @@ msgstr "恢复"
 #: wp-includes/class-walker-comment.php:260
 #: wp-includes/class-walker-comment.php:459
 #: wp-includes/class-wp-editor.php:1394
-#: wp-includes/js/dist/block-editor.js:59613
-#: wp-includes/js/dist/block-library.js:7130
-#: wp-includes/js/dist/block-library.js:8848
-#: wp-includes/js/dist/block-library.js:9702
-#: wp-includes/js/dist/block-library.js:35699
-#: wp-includes/js/dist/block-library.js:35981
-#: wp-includes/js/dist/block-library.js:35992
-#: wp-includes/js/dist/block-library.js:35994
-#: wp-includes/js/dist/block-library.js:54100
-#: wp-includes/js/dist/block-library.js:56363
+#: wp-includes/js/dist/block-editor.js:59646
+#: wp-includes/js/dist/block-library.js:7250
+#: wp-includes/js/dist/block-library.js:8968
+#: wp-includes/js/dist/block-library.js:9822
+#: wp-includes/js/dist/block-library.js:35819
+#: wp-includes/js/dist/block-library.js:36101
+#: wp-includes/js/dist/block-library.js:36112
+#: wp-includes/js/dist/block-library.js:36114
+#: wp-includes/js/dist/block-library.js:54220
+#: wp-includes/js/dist/block-library.js:56483
 #: wp-includes/js/dist/edit-post.js:2383 wp-includes/js/dist/edit-site.js:23588
 #: wp-includes/js/dist/edit-site.js:24079
 #: wp-includes/js/dist/edit-site.js:24426
-#: wp-includes/js/dist/edit-site.js:43392 wp-includes/js/dist/editor.js:29575
+#: wp-includes/js/dist/edit-site.js:43392 wp-includes/js/dist/editor.js:29591
 #: wp-admin/comment.php:251 wp-admin/edit-form-comment.php:159
 #: wp-admin/includes/class-walker-nav-menu-edit.php:187
-#: wp-admin/includes/class-wp-comments-list-table.php:832
+#: wp-admin/includes/class-wp-comments-list-table.php:833
 #: wp-admin/includes/class-wp-links-list-table.php:351
 #: wp-admin/includes/class-wp-media-list-table.php:778
 #: wp-admin/includes/class-wp-posts-list-table.php:440
@@ -22718,8 +22718,8 @@ msgstr "评论"
 #: wp-includes/sitemaps/class-wp-sitemaps-stylesheet.php:176
 #: wp-includes/widgets/class-wp-widget-media-image.php:113
 #: wp-includes/js/dist/block-editor.js:18725
-#: wp-includes/js/dist/block-editor.js:59786
-#: wp-includes/js/dist/block-library.js:16503 wp-admin/comment.php:196
+#: wp-includes/js/dist/block-editor.js:59819
+#: wp-includes/js/dist/block-library.js:16623 wp-admin/comment.php:196
 #: wp-admin/edit-form-comment.php:69
 #: wp-admin/includes/class-walker-nav-menu-edit.php:198
 #: wp-admin/includes/class-wp-links-list-table.php:136
@@ -22732,18 +22732,18 @@ msgstr "网址"
 
 #. translators: Hidden accessibility text.
 #: wp-includes/class-wp-editor.php:1219 wp-includes/theme-compat/sidebar.php:29
-#: wp-includes/js/dist/block-library.js:36966
-#: wp-includes/js/dist/components.js:57276
+#: wp-includes/js/dist/block-library.js:37086
+#: wp-includes/js/dist/components.js:57288
 #: wp-includes/js/dist/edit-site.js:43613
-#: wp-includes/js/dist/edit-site.js:44527
-#: wp-includes/js/dist/edit-site.js:45969 wp-includes/js/dist/editor.js:6160
+#: wp-includes/js/dist/edit-site.js:44533
+#: wp-includes/js/dist/edit-site.js:45975 wp-includes/js/dist/editor.js:6160
 #: wp-includes/js/dist/editor.js:15671 wp-includes/js/dist/editor.js:15704
 #: wp-includes/js/dist/editor.js:15806 wp-includes/js/dist/editor.js:15823
 #: wp-admin/comment.php:185 wp-admin/edit-form-comment.php:48
 #: wp-admin/includes/class-plugin-installer-skin.php:224
 #: wp-admin/includes/class-theme-installer-skin.php:257
-#: wp-admin/includes/class-wp-comments-list-table.php:480
-#: wp-admin/includes/class-wp-comments-list-table.php:554
+#: wp-admin/includes/class-wp-comments-list-table.php:481
+#: wp-admin/includes/class-wp-comments-list-table.php:555
 #: wp-admin/includes/class-wp-debug-data.php:1130
 #: wp-admin/includes/class-wp-debug-data.php:1250
 #: wp-admin/includes/class-wp-media-list-table.php:338
@@ -22776,7 +22776,7 @@ msgstr "查看站点"
 #. https://www.php.net/manual/en/datetime.format.php
 #: wp-includes/class-wp-editor.php:1823 wp-admin/comment.php:234
 #: wp-admin/includes/ajax-actions.php:2290
-#: wp-admin/includes/class-wp-comments-list-table.php:1049
+#: wp-admin/includes/class-wp-comments-list-table.php:1050
 #: wp-admin/includes/class-wp-media-list-table.php:556
 #: wp-admin/includes/class-wp-posts-list-table.php:1203
 #: wp-admin/includes/class-wp-privacy-requests-table.php:494
@@ -22787,7 +22787,7 @@ msgid "Y/m/d"
 msgstr "Y-m-d"
 
 #: wp-includes/post.php:1323 wp-includes/post.php:1344
-#: wp-includes/js/dist/block-library.js:34466
+#: wp-includes/js/dist/block-library.js:34586
 #: wp-includes/js/dist/editor.js:6260 wp-includes/js/dist/editor.js:19961
 #: wp-includes/js/dist/editor.js:19962 wp-includes/js/dist/editor.js:19970
 #: wp-admin/includes/ajax-actions.php:2282
@@ -22805,7 +22805,7 @@ msgid "Pending Review"
 msgstr "等待复审"
 
 #: wp-includes/post.php:1326 wp-includes/post.php:1346
-#: wp-includes/script-loader.php:1301 wp-includes/js/dist/edit-site.js:46414
+#: wp-includes/script-loader.php:1301 wp-includes/js/dist/edit-site.js:46420
 #: wp-includes/js/dist/editor.js:6284 wp-includes/js/dist/editor.js:19966
 #: wp-includes/js/dist/editor.js:19990 wp-admin/includes/ajax-actions.php:2273
 #: wp-admin/includes/class-wp-posts-list-table.php:1213
@@ -22817,10 +22817,10 @@ msgstr "已发布"
 
 #: wp-includes/class-wp-editor.php:1215 wp-includes/media-template.php:523
 #: wp-includes/media-template.php:775 wp-includes/option.php:2752
-#: wp-includes/revision.php:32 wp-includes/js/dist/block-library.js:31795
-#: wp-includes/js/dist/block-library.js:40619
-#: wp-includes/js/dist/block-library.js:53733
-#: wp-includes/js/dist/edit-site.js:46656 wp-includes/js/dist/editor.js:7299
+#: wp-includes/revision.php:32 wp-includes/js/dist/block-library.js:31915
+#: wp-includes/js/dist/block-library.js:40739
+#: wp-includes/js/dist/block-library.js:53853
+#: wp-includes/js/dist/edit-site.js:46662 wp-includes/js/dist/editor.js:7299
 #: wp-includes/js/dist/editor.js:7383 wp-includes/js/dist/editor.js:7401
 #: wp-includes/js/dist/editor.js:13059 wp-includes/js/dist/widgets.js:1170
 #: wp-admin/includes/ajax-actions.php:2264
@@ -22833,7 +22833,7 @@ msgid "Title"
 msgstr "标题"
 
 #: wp-includes/class-wp-post-type.php:999
-#: wp-includes/js/dist/block-library.js:25723
+#: wp-includes/js/dist/block-library.js:25843
 msgid "No posts found."
 msgstr "未找到文章。"
 

@@ -37,7 +37,7 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Asia/Shanghai"
 
-#: wp-admin/about.php:141
+#: wp-admin/about.php:172
 msgid "WordPress 6.9 includes a broad set of performance enhancements. A better <abbr>LCP</abbr> (Largest Contentful Paint) metric is achieved through improved loading of conditional and inlined stylesheets, script loading with fetchpriority support, and additional core optimizations. Editor advances include fixes for layout shifts caused by the Video block and faster loading of the terms selector."
 msgstr "WordPress 6.9 包含一系列性能增强功能。通过改进条件样式表和内联样式表的加载、支持按优先级的脚本加载以及额外的核心优化，显著提升了 <abbr>LCP</abbr>（最大内容绘制）指标。编辑器方面的改进包括修复视频模块导致的布局偏移问题 ，以及加快术语选择器的加载速度。"
 
@@ -117,60 +117,60 @@ msgstr "未定义格式转换"
 msgid "%s has failed to upload."
 msgstr "%s 上传失败。"
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:181
 msgid "70+ accessibility fixes and enhancements focus on central areas of the WordPress experience. From globally hiding CSS-generated content from assistive technology and improvements to screen reader announcements and user experience, to fixing cursor position and keeping typing focus when clicking on an autocomplete suggestion item."
 msgstr "70 多项无障碍修复和增强功能主要集中在 WordPress 体验的核心领域。从全局隐藏 CSS 生成的辅助技术内容、改进屏幕阅读器提示和用户体验，到修复光标位置以及在点击自动完成建议项时保持输入焦点。"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:156
 msgid "A new typography option for text-based blocks, starting with the Paragraph and Heading blocks, that automatically adjusts font size to fill its container perfectly. Ideal for banners, callouts, and standout moments in your design. No manual tweaks, just an instant clean design."
 msgstr "为基于文本的区块添加了一个新的排版选项，已应用于段落和标题区块。这个新选项会自动调整字体大小以完美填充其容器，非常适合横幅、标注和设计中的突出时刻。无需手动调整即可获得简洁的设计效果。"
 
-#: wp-admin/about.php:124
+#: wp-admin/about.php:155
 msgid "Content that adapts."
 msgstr "内容自动调整。"
 
-#: wp-admin/about.php:122
+#: wp-admin/about.php:153
 msgid "Fit text to container"
 msgstr "文本适应容器"
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:136
 msgid "Access the Command Palette from any part of your site, whether you&#8217;re writing your latest post, deep in design in the Site Editor, or browsing your plugins. Everything you need, just a few keystrokes away."
 msgstr "从您站点的任意位置访问命令面板，无论您是在撰写最新文章还是在网站编辑器中深入设计，或是在浏览插件。只需敲击几下键盘，就能获得所需的一切。"
 
-#: wp-admin/about.php:104
+#: wp-admin/about.php:135
 msgid "Your tools are always at hand."
 msgstr "您的工具始终触手可及。"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:133
 msgid "Command Palette, everywhere"
 msgstr "命令面板，无处不在"
 
-#: wp-admin/about.php:95
+#: wp-admin/about.php:126
 msgid "Building layouts is now more intuitive and flexible with clear drag handles and a live preview that shows exactly what you&#8217;re moving—a faster way to build pages."
 msgstr "现在，通过清晰的拖动手柄和实时预览，您可以更直观、更灵活地构建布局，实时预览可以准确显示您正在移动的内容，从而更快地构建页面。"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:125
 msgid "Design flows naturally."
 msgstr "设计更自然流畅。"
 
-#: wp-admin/about.php:92
+#: wp-admin/about.php:123
 msgid "Visual drag and drop"
 msgstr "可视化拖放"
 
-#: wp-admin/about.php:75
+#: wp-admin/about.php:106
 msgid "With notes attached directly to blocks, your team can stay aligned, track changes, and turn feedback into action all in one place. Whether you&#8217;re working on copy or refining design, collaboration happens seamlessly on the canvas itself."
 msgstr "通过将批注直接附加到区块上，您的团队可以保持步调一致、跟踪修改并将反馈转化为行动，所有操作都可以在同一个地方完成。无论您是在撰写文案还是完善设计，协作都可以在画布上无缝进行。"
 
-#: wp-admin/about.php:74
+#: wp-admin/about.php:105
 msgid "Leave feedback right where you’re working."
 msgstr "在工作位置直接留下反馈。"
 
-#: wp-admin/about.php:72
+#: wp-admin/about.php:103
 msgctxt "about page section title"
 msgid "Notes"
 msgstr "批注"
 
-#: wp-admin/about.php:66
+#: wp-admin/about.php:97
 msgid "WordPress 6.9 introduces a more intuitive way to create content, together. Every detail is designed to fit your creative flow, from Notes that let you collaborate directly in the editor to a powerful Command Palette that helps you reach every part of your site."
 msgstr "WordPress 6.9 引入了一种更直观的方式来共同创建内容。从允许您在编辑器中直接协作的「批注」功能到帮助您轻松访问站点各个部分的强大命令面板，每个细节都旨在契合您的创作流程。"
 
@@ -451,12 +451,12 @@ msgid "Skip to Editor"
 msgstr "跳转到编辑器"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:245
+#: wp-admin/about.php:276
 msgid "WordPress %s Field Guide"
 msgstr "WordPress %s 技术指南"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:218
+#: wp-admin/about.php:249
 msgid "WordPress %s Release Notes"
 msgstr "WordPress %s 发布说明"
 
@@ -615,7 +615,7 @@ msgstr "如果您是插件作者，可以了解更多有关<a href=\"https://dev
 msgid "If you are a plugin author, you can learn more about <a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">how to add the Personal Data Eraser to a plugin</a>."
 msgstr "如果您是插件作者，可以了解更多有关<a href=\"https://developer.wordpress.org/plugins/privacy/adding-the-personal-data-eraser-to-your-plugin/\">如何将个人数据抹除器添加到插件</a>的信息。"
 
-#: wp-admin/about.php:171
+#: wp-admin/about.php:202
 msgid "See everything new"
 msgstr "查看所有新内容"
 
@@ -625,11 +625,11 @@ msgid "https://wordpress.org/download/releases/%s/"
 msgstr "https://wordpress.org/download/releases/%s/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:163
+#: wp-admin/about.php:194
 msgid "For a comprehensive overview of all the new features and enhancements in WordPress %s, please visit the feature-showcase website."
 msgstr "要全面了解 WordPress %s 的所有新功能和改进项目，请访问功能展示网站。"
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:188
 msgid "And much more"
 msgstr "还有更多"
 
@@ -771,11 +771,11 @@ msgstr "立即安装"
 msgid "Created by a worldwide team of passionate individuals"
 msgstr "由全球热心人士组成的团队打造"
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:180
 msgid "Accessibility improvements"
 msgstr "无障碍改进"
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:171
 msgid "Performance updates"
 msgstr "性能更新"
 
@@ -839,12 +839,12 @@ msgid "When using Bulk Edit, you can change the metadata (categories, author, et
 msgstr "使用批量编辑时，您可以一次性更改所有选定文章的元数据（类别、作者等）。要从分组中移除一篇文章，只需点击批量编辑区域中其名称旁边的 %s<span class=\"screen-reader-text\">移除</span>按钮即可。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:228
+#: wp-admin/about.php:259
 msgid "Read the WordPress %s Release Notes for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
 msgstr "请阅读 WordPress %s 发行说明，了解有关安装、增强功能、修复问题、发行贡献者、学习资源和文件更改列表的信息。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:255
+#: wp-admin/about.php:286
 msgid "Explore the WordPress %s Field Guide. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
 msgstr "探索 WordPress %s 技术指南。 通过详细的开发人员说明了解此版本中的更改，以帮助您使用 WordPress 进行构建。"
 
@@ -863,6 +863,11 @@ msgstr "服务器上的 PHP 版本是 %1$s，但新插件版本需要 %2$s。"
 #: wp-admin/includes/class-plugin-upgrader.php:353
 msgid "Your WordPress version is %1$s, however the new plugin version requires %2$s."
 msgstr "您的 WordPress 版本是 %1$s，但新插件版本需要 %2$s。"
+
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:85
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/contribute.php:112 wp-admin/credits.php:66 wp-admin/credits.php:74
 msgid "https://make.wordpress.org/contribute/"
@@ -1186,15 +1191,15 @@ msgid "Current time"
 msgstr "当前时间"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/class-wp-comments-list-table.php:599
+#: wp-admin/includes/class-wp-comments-list-table.php:600
 msgid "Ordered by Comment Date, descending."
 msgstr "按评论日期降序排列。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:555
+#: wp-admin/includes/class-wp-comments-list-table.php:556
 msgid "Table ordered by Post Replied To."
 msgstr "表格按回复文章排序。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:554
+#: wp-admin/includes/class-wp-comments-list-table.php:555
 msgid "Table ordered by Comment Author."
 msgstr "表格按评论作者排序。"
 
@@ -1327,7 +1332,7 @@ msgid "Be the future of WordPress"
 msgstr "成为 WordPress 的未来"
 
 #. translators: 1: Learn WordPress link, 2: Workshops link.
-#: wp-admin/about.php:196
+#: wp-admin/about.php:227
 msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 msgstr "<a href=\"%1$s\">学习 WordPress</a> 是为 WordPress 新用户和经验丰富的用户提供的免费资源。学习包含有关使用 WordPress 中的各种功能的操作视频、用于深入探索主题的<a href=\"%2$s\">互动活动</a>以及用于深入了解 WordPress 特定领域的课程计划。"
 
@@ -1473,12 +1478,12 @@ msgid "<a href=\"https://wordpress.org/documentation/article/customizer/\">Docum
 msgstr "<a href=\"https://wordpress.org/documentation/article/customizer/\">定制器文档</a>"
 
 #. translators: The localized WordPress download URL.
-#: wp-admin/about.php:336
+#: wp-admin/about.php:367
 msgid "https://wordpress.org/download/"
 msgstr "https://cn.wordpress.org/download/"
 
 #. translators: %s: The major version of WordPress for this branch.
-#: wp-admin/about.php:333
+#: wp-admin/about.php:364
 msgid "This is the final release of WordPress %s"
 msgstr "这是 WordPress %s 的最终版本"
 
@@ -1797,12 +1802,12 @@ msgid "Reach out to WordPress Core developers to ensure you'll never have this p
 msgstr "联系 WordPress 核心开发人员以确保您不会再遇到这个问题。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:330
+#: wp-admin/about.php:361
 msgid "Important! Your version of WordPress (%1$s) will stop receiving security updates in the near future. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）即将停止接收安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
 #. translators: 1: WordPress version number, 2: Link to update WordPress
-#: wp-admin/about.php:327
+#: wp-admin/about.php:358
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "重要！您使用的 WordPress 版本（%1$s）已不再受到支持，您的站点将不会再接收到任何的安全更新。 为了确保您站点的安全，请尽快 <a href=\"%2$s\">更新到最新的 WordPress 版本</a>。"
 
@@ -1812,7 +1817,7 @@ msgid "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 msgstr "https://make.wordpress.org/core/wordpress-%s-field-guide/"
 
 #. translators: %s: Version number.
-#: wp-admin/about.php:187
+#: wp-admin/about.php:218
 msgid "Learn more about WordPress %s"
 msgstr "了解 WordPress %s"
 
@@ -2712,7 +2717,7 @@ msgstr "添加应用程序密码"
 msgid "Required to create an Application Password, but not to update the user."
 msgstr "此功能需要创建应用程序密码，但不需要更新用户信息。"
 
-#: wp-admin/about.php:271
+#: wp-admin/about.php:302
 msgid "Go to Updates"
 msgstr "转到「更新」页面"
 
@@ -3463,7 +3468,7 @@ msgstr "将 %s 模块下移一位"
 msgid "Move %s box up"
 msgstr "将 %s 模块上移一位"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:385
+#: wp-admin/includes/class-wp-comments-list-table.php:386
 msgctxt "comment"
 msgid "Not spam"
 msgstr "不是垃圾评论"
@@ -3830,7 +3835,7 @@ msgstr "尚无信息…"
 msgid "The uploaded file exceeds the %1$s directive in %2$s."
 msgstr "上传的文件大小超过 %2$s 文件中定义的 %1$s 值。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:227
+#: wp-admin/includes/class-wp-comments-list-table.php:228
 msgid "No comments found in Trash."
 msgstr "回收站中没有评论。"
 
@@ -8047,16 +8052,16 @@ msgctxt "attachment filter"
 msgid "Trash"
 msgstr "回收站"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:843
+#: wp-admin/includes/class-wp-comments-list-table.php:844
 msgid "Quick edit this comment inline"
 msgstr "快速编辑此评论"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:831
+#: wp-admin/includes/class-wp-comments-list-table.php:832
 #: wp-admin/includes/dashboard.php:759
 msgid "Edit this comment"
 msgstr "编辑此评论"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:794
+#: wp-admin/includes/class-wp-comments-list-table.php:795
 msgid "Restore this comment from the spam"
 msgstr "从垃圾评论中恢复此评论"
 
@@ -8120,7 +8125,7 @@ msgid "(Currently set to: %s)"
 msgstr "（当前设置为：%s）"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:301
+#: wp-admin/about.php:332
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>版本 %s</strong>修正了一个安全问题。"
 
@@ -8133,15 +8138,15 @@ msgstr "https://cn.gravatar.com/"
 msgid "Profile Picture"
 msgstr "资料图片"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:329
 msgid "Maintenance and Security Releases"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:295
+#: wp-admin/about.php:326
 msgid "Security Releases"
 msgstr "安全更新"
 
-#: wp-admin/about.php:292
+#: wp-admin/about.php:323
 msgid "Maintenance Releases"
 msgstr "维护更新"
 
@@ -8538,41 +8543,41 @@ msgstr "无待审评论"
 msgid "Failed to initialize a SFTP subsystem session with the SSH2 Server %s"
 msgstr "无法通过 SSH2 服务器 %s 发起 SFTP 子系统会话"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:488
+#: wp-admin/includes/class-wp-comments-list-table.php:489
 msgctxt "column name"
 msgid "Submitted on"
 msgstr "提交于"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:281
+#: wp-admin/includes/class-wp-comments-list-table.php:282
 msgctxt "comments"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "回收站<span class=\"count\">（%s）</span>"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:274
+#: wp-admin/includes/class-wp-comments-list-table.php:275
 msgctxt "comments"
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
 msgstr[0] "垃圾<span class=\"count\">（%s）</span>"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:267
+#: wp-admin/includes/class-wp-comments-list-table.php:268
 msgctxt "comments"
 msgid "Approved <span class=\"count\">(%s)</span>"
 msgid_plural "Approved <span class=\"count\">(%s)</span>"
 msgstr[0] "已批准<span class=\"count\">（%s）</span>"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:260
+#: wp-admin/includes/class-wp-comments-list-table.php:261
 msgctxt "comments"
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
 msgstr[0] "待审<span class=\"count\">（%s）</span>"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:246
+#: wp-admin/includes/class-wp-comments-list-table.php:247
 msgctxt "comments"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
@@ -8772,7 +8777,7 @@ msgstr "选择一个站点图标"
 
 #. translators: Hidden accessibility text.
 #: wp-admin/includes/class-wp-application-passwords-list-table.php:258
-#: wp-admin/includes/class-wp-comments-list-table.php:913
+#: wp-admin/includes/class-wp-comments-list-table.php:914
 #: wp-admin/includes/class-wp-list-table.php:689
 #: wp-admin/includes/class-wp-list-table.php:1822
 #: wp-admin/includes/update.php:933
@@ -9081,7 +9086,7 @@ msgstr "提交在"
 
 #. translators: Column name or table row header.
 #: wp-admin/comment.php:201
-#: wp-admin/includes/class-wp-comments-list-table.php:485
+#: wp-admin/includes/class-wp-comments-list-table.php:486
 msgid "In response to"
 msgstr "回复至"
 
@@ -9181,7 +9186,7 @@ msgid "All categories"
 msgstr "所有分类"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/class-wp-comments-list-table.php:521
+#: wp-admin/includes/class-wp-comments-list-table.php:522
 msgid "Filter by comment type"
 msgstr "按评论类型筛选"
 
@@ -9428,7 +9433,7 @@ msgstr "致键盘用户：在使用可视化编辑器时，可以使用 %s 访�
 msgid "A red bar on the left means the comment is waiting for you to moderate it."
 msgstr "评论左侧的红条提示代表着该条评论正等待您的审核。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:526
+#: wp-admin/includes/class-wp-comments-list-table.php:527
 msgid "All comment types"
 msgstr "全部评论类型"
 
@@ -10775,7 +10780,7 @@ msgid "Contextual Help Tab"
 msgstr "「上下文帮助」选项卡"
 
 #. translators: Hidden accessibility text.
-#: wp-admin/includes/class-wp-comments-list-table.php:935
+#: wp-admin/includes/class-wp-comments-list-table.php:936
 msgid "Select comment"
 msgstr "选择评论"
 
@@ -11297,7 +11302,7 @@ msgstr "抱歉，我需要 %s 文件才能工作。请重新上传该文件到�
 msgid "To allow use of this page to automatically repair database problems, please add the following line to your %s file. Once this line is added to your config, reload this page."
 msgstr "要允许本页面自动修复数据库问题，请将下面一行加入您的 %s 文件。完成后请刷新本页面。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:225
+#: wp-admin/includes/class-wp-comments-list-table.php:226
 msgid "No comments awaiting moderation."
 msgstr "尚无评论待审。"
 
@@ -11408,45 +11413,46 @@ msgstr "输入此站点网络中已存在用户的邮箱地址以邀请他们加
 msgid "Show Toolbar when viewing site"
 msgstr "在浏览站点时显示工具栏"
 
+#. translators: %s: HelpHub URL.
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:324
+#: wp-admin/about.php:82 wp-admin/about.php:355
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "欲了解更多，参见<a href=\"%s\">发行注记</a>。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:318
+#: wp-admin/about.php:349
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:312
+#: wp-admin/about.php:343
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修补了安全漏洞、修正了 %2$s 个问题。"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:306
+#: wp-admin/about.php:70 wp-admin/about.php:337
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s 版本</strong>修复了 %2$s 个问题。"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:303
+#: wp-admin/about.php:334
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>版本 %s</strong> 修正了一些安全问题。"
 
-#: wp-admin/about.php:297
+#: wp-admin/about.php:65 wp-admin/about.php:328
 msgid "Maintenance and Security Release"
 msgstr "维护和安全更新"
 
-#: wp-admin/about.php:294
+#: wp-admin/about.php:325
 msgid "Security Release"
 msgstr "安全更新"
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:322
 msgid "Maintenance Release"
 msgstr "维护更新"
 
@@ -11719,15 +11725,15 @@ msgstr "点击<strong>编辑</strong>可在编辑器中编辑该文章。直接�
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "由于当前多站点功能已经开启，您可以直接通过输入用户名或邮箱地址的方式将站点网络中的现有用户添加到站点中，然后为其指定用户角色。如需修改密码等其他信息，您需要拥有网络管理员的权限，访问「管理网络」>「所有用户」，然后将鼠标放置在用户名上方，点击出现的「编辑」链接。"
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:96
 msgid "Welcome to WordPress 6.9"
 msgstr "欢迎使用 WordPress 6.9"
 
-#: wp-admin/about.php:278
+#: wp-admin/about.php:309
 msgid "Go to Dashboard &rarr; Home"
 msgstr "转到「仪表盘」 &rarr; 「首页」页面"
 
-#: wp-admin/about.php:271
+#: wp-admin/about.php:302
 msgid "Go to Dashboard &rarr; Updates"
 msgstr "转到「仪表盘」 &rarr; 「更新」页面"
 
@@ -12410,7 +12416,7 @@ msgid "Choose what to export"
 msgstr "选择导出的内容"
 
 #. translators: %s: Number of comments.
-#: wp-admin/includes/class-wp-comments-list-table.php:253
+#: wp-admin/includes/class-wp-comments-list-table.php:254
 msgctxt "comments"
 msgid "Mine <span class=\"count\">(%s)</span>"
 msgid_plural "Mine <span class=\"count\">(%s)</span>"
@@ -12421,7 +12427,7 @@ msgstr[0] "我的<span class=\"count\">（%s）</span>"
 msgid "%s &#8212; WordPress"
 msgstr "%s &#8212; WordPress"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:555
+#: wp-admin/includes/class-wp-comments-list-table.php:556
 msgctxt "column name"
 msgid "In Response To"
 msgstr "回应给"
@@ -12948,12 +12954,12 @@ msgstr "这将移除页眉图片。之后，您将无法还原任何自定义元
 msgid "Default Images"
 msgstr "默认图片"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:814
+#: wp-admin/includes/class-wp-comments-list-table.php:815
 #: wp-admin/includes/dashboard.php:785
 msgid "Delete this comment permanently"
 msgstr "永久删除此评论"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:804
+#: wp-admin/includes/class-wp-comments-list-table.php:805
 msgid "Restore this comment from the Trash"
 msgstr "从回收站中恢复此评论"
 
@@ -13030,7 +13036,7 @@ msgid "Clear"
 msgstr "不排序"
 
 #: wp-admin/comment.php:135
-#: wp-admin/includes/class-wp-comments-list-table.php:379
+#: wp-admin/includes/class-wp-comments-list-table.php:380
 msgctxt "comment"
 msgid "Mark as spam"
 msgstr "标记为垃圾评论"
@@ -13069,7 +13075,7 @@ msgstr "您正在使用的是版本 %1$s。升级至 %2$s。"
 msgid "Enabled"
 msgstr "启用"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:795
+#: wp-admin/includes/class-wp-comments-list-table.php:796
 msgctxt "comment"
 msgid "Not Spam"
 msgstr "不是垃圾评论"
@@ -13413,7 +13419,7 @@ msgstr "WordPress 更新"
 msgid "Edit menu item"
 msgstr "编辑菜单项"
 
-#: wp-admin/about.php:278
+#: wp-admin/about.php:309
 msgid "Go to Dashboard"
 msgstr "转到「仪表盘」页面"
 
@@ -14755,7 +14761,7 @@ msgstr "批量编辑"
 msgid "Relationship"
 msgstr "关系"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:481
+#: wp-admin/includes/class-wp-comments-list-table.php:482
 #: wp-admin/includes/class-wp-post-comments-list-table.php:26
 msgctxt "column name"
 msgid "Comment"
@@ -14780,7 +14786,7 @@ msgctxt "column name"
 msgid "Title"
 msgstr "标题"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:844
+#: wp-admin/includes/class-wp-comments-list-table.php:845
 #: wp-admin/includes/class-wp-posts-list-table.php:1509
 #: wp-admin/includes/class-wp-terms-list-table.php:510
 msgid "Quick&nbsp;Edit"
@@ -15570,36 +15576,36 @@ msgstr "[待审]"
 msgid "From %1$s on %2$s %3$s"
 msgstr "由 %1$s 发表在《%2$s》%3$s"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:822
+#: wp-admin/includes/class-wp-comments-list-table.php:823
 #: wp-admin/includes/dashboard.php:793
 msgid "Move this comment to the Trash"
 msgstr "将此评论移至回收站"
 
 #. translators: "Mark as spam" link.
-#: wp-admin/includes/class-wp-comments-list-table.php:787
+#: wp-admin/includes/class-wp-comments-list-table.php:788
 #: wp-admin/includes/dashboard.php:777
 msgctxt "verb"
 msgid "Spam"
 msgstr "标记为垃圾"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:785
+#: wp-admin/includes/class-wp-comments-list-table.php:786
 #: wp-admin/includes/dashboard.php:775
 msgid "Mark this comment as spam"
 msgstr "将此评论标记为垃圾"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:853
+#: wp-admin/includes/class-wp-comments-list-table.php:854
 #: wp-admin/includes/dashboard.php:767
 msgid "Reply to this comment"
 msgstr "回复此评论"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:750
-#: wp-admin/includes/class-wp-comments-list-table.php:775
+#: wp-admin/includes/class-wp-comments-list-table.php:751
+#: wp-admin/includes/class-wp-comments-list-table.php:776
 #: wp-admin/includes/dashboard.php:752
 msgid "Unapprove this comment"
 msgstr "驳回此评论"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:758
-#: wp-admin/includes/class-wp-comments-list-table.php:767
+#: wp-admin/includes/class-wp-comments-list-table.php:759
+#: wp-admin/includes/class-wp-comments-list-table.php:768
 #: wp-admin/includes/dashboard.php:744
 msgid "Approve this comment"
 msgstr "批准此评论"
@@ -16046,21 +16052,21 @@ msgstr "已删除自定义字段。"
 msgid "Custom field updated."
 msgstr "已更新自定义字段。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:229
+#: wp-admin/includes/class-wp-comments-list-table.php:230
 msgid "No comments found."
 msgstr "无评论。"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:437
+#: wp-admin/includes/class-wp-comments-list-table.php:438
 #: wp-admin/includes/class-wp-media-list-table.php:222
 #: wp-admin/includes/class-wp-posts-list-table.php:606
 msgid "Empty Trash"
 msgstr "清空回收站"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:437
+#: wp-admin/includes/class-wp-comments-list-table.php:438
 msgid "Empty Spam"
 msgstr "清空垃圾"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:429
+#: wp-admin/includes/class-wp-comments-list-table.php:430
 #: wp-admin/includes/class-wp-links-list-table.php:123
 #: wp-admin/includes/class-wp-media-list-table.php:217
 #: wp-admin/includes/class-wp-posts-list-table.php:599
@@ -16068,21 +16074,21 @@ msgstr "清空垃圾"
 msgid "Filter"
 msgstr "筛选"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:513
+#: wp-admin/includes/class-wp-comments-list-table.php:514
 #: wp-admin/includes/class-wp-posts-list-table.php:1944
 msgid "Pings"
 msgstr "Ping 通告"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:375
-#: wp-admin/includes/class-wp-comments-list-table.php:759
-#: wp-admin/includes/class-wp-comments-list-table.php:768
+#: wp-admin/includes/class-wp-comments-list-table.php:376
+#: wp-admin/includes/class-wp-comments-list-table.php:760
+#: wp-admin/includes/class-wp-comments-list-table.php:769
 #: wp-admin/includes/dashboard.php:745
 msgid "Approve"
 msgstr "批准"
 
-#: wp-admin/includes/class-wp-comments-list-table.php:371
-#: wp-admin/includes/class-wp-comments-list-table.php:751
-#: wp-admin/includes/class-wp-comments-list-table.php:776
+#: wp-admin/includes/class-wp-comments-list-table.php:372
+#: wp-admin/includes/class-wp-comments-list-table.php:752
+#: wp-admin/includes/class-wp-comments-list-table.php:777
 #: wp-admin/includes/dashboard.php:753
 msgid "Unapprove"
 msgstr "驳回"
@@ -16152,7 +16158,7 @@ msgid "View &#8220;%s&#8221;"
 msgstr "查看「%s」"
 
 #: wp-admin/edit-form-comment.php:242
-#: wp-admin/includes/class-wp-comments-list-table.php:815
+#: wp-admin/includes/class-wp-comments-list-table.php:816
 #: wp-admin/includes/class-wp-media-list-table.php:810
 #: wp-admin/includes/class-wp-posts-list-table.php:1539
 #: wp-admin/includes/dashboard.php:786 wp-admin/includes/media.php:1736
