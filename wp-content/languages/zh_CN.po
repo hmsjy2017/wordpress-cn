@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 7.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-05-08 22:13:53+0000\n"
+"PO-Revision-Date: 2026-05-21 05:44:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -285,6 +285,23 @@ msgstr "1 月"
 msgid "Uncategorized"
 msgstr "未分类"
 
+#. translators: 1: 'module_dependencies', 2: Script handle, 3: 'in_footer', 4:
+#. 'strategy', 5: 'defer'.
+#: wp-includes/functions.wp-scripts.php:138
+msgid "When the %1$s arg is provided, the \"%2$s\" script must either be printed in the footer (%3$s set to true) or use a deferred loading %4$s (%5$s) so that the import map is printed before the script is evaluated."
+msgstr "当提供 %1$s 参数时，「%2$s」脚本必须在页脚中输出（%3$s 设为 true），或使用延迟加载 %4$s（%5$s），以确保在脚本执行之前先打印导入映射。"
+
+#: wp-includes/class-wp-customize-manager.php:4336
+#: wp-includes/class-wp-editor.php:1255
+#: wp-admin/includes/class-wp-posts-list-table.php:1551
+#: wp-admin/includes/class-wp-theme-install-list-table.php:348
+#: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1903
+#: wp-admin/theme-install.php:425 wp-admin/theme-install.php:438
+#: wp-admin/theme-install.php:448 wp-admin/theme-install.php:455
+msgctxt "verb"
+msgid "Preview"
+msgstr "预览"
+
 #: wp-includes/blocks/image.php:209 wp-includes/blocks/image.php:327
 msgctxt "next image in lightbox"
 msgid "Next"
@@ -313,6 +330,11 @@ msgstr "保护您的站点免遭垃圾评论侵扰。"
 #: wp-includes/connectors.php:225
 msgid "Akismet Anti-spam"
 msgstr "Akismet 反垃圾评论"
+
+#. translators: %s: Connector ID.
+#: wp-includes/class-wp-connector-registry.php:279
+msgid "Connector \"%s\" plugin is_active must be callable."
+msgstr "连接器「%s」插件 is_active 必须可调用。"
 
 #: wp-includes/collaboration/class-wp-http-polling-sync-server.php:269
 msgid "Request body is too large."

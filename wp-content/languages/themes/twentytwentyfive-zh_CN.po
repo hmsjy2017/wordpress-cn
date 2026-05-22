@@ -129,7 +129,7 @@ msgstr "侧边栏"
 msgid "About"
 msgstr "关于"
 
-#: functions.php:84
+#: functions.php:80
 msgid "Checkmark"
 msgstr "复选标记"
 
@@ -200,7 +200,7 @@ msgctxt "Pattern title"
 msgid "Sidebar"
 msgstr "侧边栏"
 
-#: functions.php:114
+#: functions.php:109
 msgid "A collection of full page layouts."
 msgstr "全部页面布局集合"
 
@@ -209,15 +209,15 @@ msgctxt "Custom template name"
 msgid "Page No Title"
 msgstr "无标题页面"
 
-#: functions.php:113
+#: functions.php:108
 msgid "Pages"
 msgstr "页面"
 
-#: functions.php:122
+#: functions.php:117
 msgid "A collection of post format patterns."
 msgstr "文章格式样板集。"
 
-#: functions.php:142
+#: functions.php:136
 msgctxt "Label for the block binding placeholder in the editor"
 msgid "Post format name"
 msgstr "文章格式名称"
@@ -2338,7 +2338,7 @@ msgctxt "Button text"
 msgid "YouTube"
 msgstr "YouTube"
 
-#: functions.php:121
+#: functions.php:116
 msgid "Post formats"
 msgstr "文章格式"
 

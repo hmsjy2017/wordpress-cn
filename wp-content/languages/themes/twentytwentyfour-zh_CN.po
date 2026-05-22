@@ -246,11 +246,11 @@ msgstr "团队"
 msgid "Twitter/X"
 msgstr "Twitter / X"
 
-#: functions.php:200
+#: functions.php:188
 msgid "A collection of full page layouts."
 msgstr "全部页面布局集合"
 
-#: functions.php:199
+#: functions.php:187
 msgctxt "Block pattern category"
 msgid "Pages"
 msgstr "页面"
@@ -483,7 +483,7 @@ msgstr "关于作者"
 msgid "An empty staircase under an angular roof in Darling Harbour, Sydney, Australia"
 msgstr "澳大利亚悉尼达令港角形屋顶下的空楼梯"
 
-#: functions.php:28
+#: functions.php:24
 msgid "Arrow icon"
 msgstr "箭头图标"
 
@@ -530,7 +530,7 @@ msgctxt "Call to action button text for the reservation button"
 msgid "Reserve your spot"
 msgstr "预订您的位置"
 
-#: functions.php:74
+#: functions.php:70
 msgid "Checkmark"
 msgstr "复选标记"
 
@@ -1179,7 +1179,7 @@ msgctxt "Pattern title"
 msgid "Title text and button on left with image on right"
 msgstr "标题文字和按钮在左侧，图片在右侧"
 
-#: functions.php:51
+#: functions.php:47
 msgid "Pill"
 msgstr "椭圆"
 
@@ -1499,11 +1499,11 @@ msgstr "来自德国德累斯顿的白色抽象几何艺术品"
 msgid "Windows of a building in Nuremberg, Germany"
 msgstr "德国纽伦堡一座建筑的窗户"
 
-#: functions.php:93
+#: functions.php:89
 msgid "With arrow"
 msgstr "带箭头"
 
-#: functions.php:111
+#: functions.php:107
 msgid "With asterisk"
 msgstr "带星号"
 
