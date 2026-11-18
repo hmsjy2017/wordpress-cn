@@ -1,16 +1,16 @@
 <?php
 /**
- * The base configuration for WordPress
+ * WordPress 基础配置
  *
- * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the website, you can copy this file to "wp-config.php"
- * and fill in the values.
+ * 安装过程中，wp-config.php 创建脚本会使用本文件。
+ * 您也可以直接将本文件复制为「wp-config.php」并填写各项配置值，
+ * 无需通过网页完成配置。
  *
- * This file contains the following configurations:
+ * 本文件包含以下配置：
  *
- * * Database settings
- * * Secret keys
- * * Database table prefix
+ * * 数据库设置
+ * * 密钥
+ * * 数据表前缀
  * * ABSPATH
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
@@ -18,33 +18,33 @@
  * @package WordPress
  */
 
-// ** Database settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+// ** 数据库设置 - 您可以从主机服务商处获取这些信息 ** //
+/** WordPress 使用的数据库名称 */
 define( 'DB_NAME', 'database_name_here' );
 
-/** Database username */
+/** 数据库用户名 */
 define( 'DB_USER', 'username_here' );
 
-/** Database password */
+/** 数据库密码 */
 define( 'DB_PASSWORD', 'password_here' );
 
-/** Database hostname */
+/** 数据库主机名 */
 define( 'DB_HOST', 'localhost' );
 
-/** Database charset to use in creating database tables. */
+/** 创建数据表时使用的数据库字符集。 */
 define( 'DB_CHARSET', 'utf8mb4' );
 
-/** The database collate type. Don't change this if in doubt. */
+/** 数据库排序规则。如不确定，请勿更改。 */
 define( 'DB_COLLATE', '' );
 
 /**#@+
- * Authentication unique keys and salts.
+ * 身份验证唯一密钥与盐值。
  *
- * Change these to different unique phrases! You can generate these using
- * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ * 请将以下值替换为各不相同的独特字符串！您可以使用
+ * {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org 密钥服务}生成这些值。
  *
- * You can change these at any point in time to invalidate all existing cookies.
- * This will force all users to have to log in again.
+ * 您可以随时更改这些值，使所有现有的 Cookie 失效。
+ * 这将要求所有用户重新登录。
  *
  * @since 2.6.0
  */
@@ -60,43 +60,43 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
 /**#@-*/
 
 /**
- * WordPress database table prefix.
+ * WordPress 数据表前缀。
  *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
+ * 为每个 WordPress 站点设置唯一的数据表前缀，即可让多个站点共用一个数据库。
+ * 前缀只能包含数字、字母和下划线！
  *
- * At the installation time, database tables are created with the specified prefix.
- * Changing this value after WordPress is installed will make your site think
- * it has not been installed.
+ * 安装时，系统会使用指定的前缀创建数据表。
+ * 安装 WordPress 后更改此值，会导致您的站点认为
+ * WordPress 尚未安装。
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
 $table_prefix = 'wp_';
 
 /**
- * For developers: WordPress debugging mode.
+ * 开发者专用：WordPress 调试模式。
  *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
+ * 将此值设为 true，可在开发过程中显示程序通知。
+ * 强烈建议插件和主题开发者在开发环境中
+ * 启用 WP_DEBUG。
  *
- * For information on other constants that can be used for debugging,
- * visit the documentation.
+ * 有关其他调试常量的信息，
+ * 请参阅文档。
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
 define( 'WP_DEBUG', false );
 
-/* Add any custom values between this line and the "stop editing" line. */
+/* 请在本行与「停止编辑」行之间添加自定义配置。 */
 
 
 
-/* That's all, stop editing! Happy publishing. */
+/* 好了，请停止编辑！祝您发布愉快。 */
 
-/** Absolute path to the WordPress directory. */
+/** WordPress 目录的绝对路径。 */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-/** Sets up WordPress vars and included files. */
+/** 设置 WordPress 变量并加载所需文件。 */
 require_once ABSPATH . 'wp-settings.php';

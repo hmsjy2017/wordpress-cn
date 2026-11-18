@@ -1,38 +1,28 @@
-WordPress - Web publishing software
+WordPress - 网络发布软件
 
-Copyright 2011-2026 by the contributors
+2011-2026 年版权所有，归贡献者所有
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+本程序是自由软件；您可以遵照自由软件基金会发布的 GNU 通用公共许可证第 2 版，或（由您选择）任何后续版本的条款，重新分发和/或修改本程序。
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+发布本程序是希望它能发挥作用，但不提供任何保证，甚至不包含适销性或适用于特定用途的隐含保证。详情请参阅 GNU 通用公共许可证。
 
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+您应该已经随本程序收到一份 GNU 通用公共许可证；如果没有，请写信给自由软件基金会，地址为：51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-This program incorporates work covered by the following copyright and
-permission notices:
+本程序包含受以下版权和许可声明保护的作品：
 
-  b2 is (c) 2001, 2002 Michel Valdrighi - Cafelog
+  b2 版权所有 (c) 2001, 2002 Michel Valdrighi - Cafelog
 
-  Wherever third party code has been used, credit has been given in the code's
-  comments.
+  凡是使用第三方代码的地方，均已在代码注释中注明来源。
 
-  b2 is released under the GPL
+  b2 遵照 GPL 发布
 
-and
+以及
 
-  WordPress - Web publishing software
+  WordPress - 网络发布软件
 
-  Copyright 2003-2010 by the contributors
+  2003-2010 年版权所有，归贡献者所有
 
-  WordPress is released under the GPL
+  WordPress 遵照 GPL 发布
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
